@@ -1,8 +1,29 @@
+/**************** Fonts ****************/
+
+@font-face {
+  font-family: "Museo Sans";
+  src: url("fonts/museosans-500.otf");
+}
+
+@font-face {
+  font-family: 'Rift Soft';
+  src: url('fonts/riftsoft-regular-webfont.woff2') format('woff2'),
+       url('fonts/riftsoft-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/**************** End fonts ****************/
+
 body {
   position: relative;
   padding-top: 65px;
+  color: #fff;
+  font-family: "Museo Sans";
   background:url('img/assembly.jpg') no-repeat;
 }
+
+/**************** Navbar ****************/
 
 .navbar {
   background: transparent;
@@ -12,7 +33,7 @@ body {
   color: #fff;
 }
 
-.nav-link {
+.navbar-inverse .navbar-nav .nav-link {
   color: #fff;
 }
 
@@ -42,8 +63,11 @@ body {
   color: #000;
 }
 
+/**************** End Navbar ****************/
+
+/**************** Sections ****************/
+
 .kleros {
-  background-color: red;
   height: 100vh;
 }
 
@@ -51,6 +75,19 @@ body {
   background-color: green;
   height: 100vh;
 }
+
+/**************** End Sections ****************/
+
+/**************** Kleros section ****************/
+
+.img-phone-pinakion {
+  padding-top: 8vh;
+  width: 70vh;
+}
+
+/**************** End Kleros section ****************/
+
+/**************** Footer ****************/
 
 .footer-logo {
   display: inline;
@@ -60,3 +97,5 @@ body {
 .footer-right {
   line-height: 48px;
 }
+
+/**************** End Footer ****************/
