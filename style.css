@@ -72,7 +72,6 @@ body {
 }
 
 .protocol {
-  background-color: green;
   height: 100vh;
 }
 
@@ -85,7 +84,27 @@ body {
   width: 70vh;
 }
 
+.kleros-wording {
+  padding-top: 30vh;
+}
+
 /**************** End Kleros section ****************/
+
+/**************** Protocol section ****************/
+#protocol {
+  padding-top: 130px;
+}
+
+.iMac {
+  overflow-x: hidden;
+}
+
+.img-iMac {
+  width: 90vh;
+}
+
+/**************** End Protocol section ****************/
+
 
 /**************** Footer ****************/
 
