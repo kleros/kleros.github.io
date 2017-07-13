@@ -8,14 +8,55 @@ body {
   background: transparent;
 }
 
-.navbar-light .navbar-brand {
+.navbar-brand {
   color: #fff;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.nav-link {
   color: #fff;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.nav-link:hover {
   color: #777;
+}
+
+.nav-link:visited {
+  color: #fff;
+}
+
+.navbar-fixed-top.scrolled .navbar-brand {
+  color: #000;
+}
+
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color: #000;
+}
+
+.navbar-fixed-top.scrolled .nav-link:visited {
+  color: #000;
+}
+
+.kleros {
+  background-color: red;
+  height: 100vh;
+}
+
+.protocol {
+  background-color: green;
+  height: 100vh;
+}
+
+.footer-logo {
+  display: inline;
+  width: 50px;
+}
+
+.footer-right {
+  line-height: 48px;
 }
