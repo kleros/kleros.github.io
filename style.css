@@ -20,7 +20,7 @@ body {
   padding-top: 65px;
   color: #fff;
   font-family: "Museo Sans";
-  background:url('img/assembly.jpg') no-repeat;
+  background: url('img/assembly.jpg') no-repeat #1a1b23;
 }
 
 /**************** Navbar ****************/
