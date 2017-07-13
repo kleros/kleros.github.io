@@ -91,6 +91,7 @@ body {
 /**************** End Kleros section ****************/
 
 /**************** Protocol section ****************/
+
 #protocol {
   padding-top: 130px;
 }
@@ -101,6 +102,23 @@ body {
 
 .img-iMac {
   width: 90vh;
+}
+
+/**************** End Protocol section ****************/
+
+
+/**************** Protocol section ****************/
+
+#how-it-works {
+  padding-top: 130px;
+}
+
+.how-it-works-items {
+  margin-top: 10vh;
+}
+
+.how-it-works-img {
+  height: 130px;
 }
 
 /**************** End Protocol section ****************/
