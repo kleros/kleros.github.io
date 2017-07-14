@@ -136,7 +136,6 @@ body {
 .applications-title {
   padding-top: 50px;
   font-family: "Rift Soft";
-  color: rgb(255, 255, 255);
   font-size: 100px;
 }
 
@@ -153,7 +152,6 @@ body {
 }
 
 .applications-content-text-2 {
-  color: rgb(255, 255, 255);
 }
 
 /**************** End Applications section ****************/
@@ -193,6 +191,20 @@ body {
 }
 
 /**************** End Uses cases section ****************/
+
+/**************** Team section ****************/
+
+#team {
+  padding-top: 60px;
+}
+
+.team-title {
+  padding-top: 50px;
+  font-family: "Rift Soft";
+  font-size: 50px;
+}
+
+/**************** End Team section ****************/
 
 
 /**************** Footer ****************/
