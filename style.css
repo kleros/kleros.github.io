@@ -158,6 +158,42 @@ body {
 
 /**************** End Applications section ****************/
 
+/**************** Uses cases section ****************/
+
+#uses-cases {
+  padding-top: 130px;
+}
+
+.uses-cases-col-left {
+  padding-right: 5vh;
+}
+
+.uses-cases-col-right {
+  padding-right: 5vh;
+}
+
+.uses-cases-border {
+  border-style: solid;
+  border-width: 0.05em 0 0 0;
+  border-color: rgb(219, 180, 113);
+  background-color: rgba(217, 217, 217, 0);
+  opacity: 0.2;
+}
+
+.uses-cases-item {
+  margin-bottom: 20px 40px 15px 20px;
+}
+
+.uses-cases-img {
+  margin-right: 10px;
+}
+
+.uses-cases-p {
+  padding: 20px;
+}
+
+/**************** End Uses cases section ****************/
+
 
 /**************** Footer ****************/
 
