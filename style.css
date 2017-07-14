@@ -107,7 +107,7 @@ body {
 /**************** End Protocol section ****************/
 
 
-/**************** Protocol section ****************/
+/**************** How it works section ****************/
 
 #how-it-works {
   padding-top: 130px;
@@ -121,7 +121,42 @@ body {
   height: 130px;
 }
 
-/**************** End Protocol section ****************/
+/**************** End How it works section ****************/
+
+
+/**************** Applications section ****************/
+
+#applications {
+  padding-top: 200px;
+  min-height: 70vw;
+  background: url("img/ipad.png");
+  background-size: cover;
+}
+
+.applications-title {
+  padding-top: 50px;
+  font-family: "Rift Soft";
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+}
+
+.applications-introduction-text {
+  width: 410px;
+  color: rgb(127, 131, 163);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.applications-content-text-1 {
+  color: gray;
+  width: 400px;
+}
+
+.applications-content-text-2 {
+  color: rgb(255, 255, 255);
+}
+
+/**************** End Applications section ****************/
 
 
 /**************** Footer ****************/
