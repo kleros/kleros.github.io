@@ -232,6 +232,55 @@ body {
 
 /**************** End FAQ section ****************/
 
+/**************** Contact section ****************/
+
+#contact {
+  padding-top: 60px;
+}
+
+.contact-title-section {
+  padding: 40px 0;
+  font-family: "Rift Soft";
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+.contact-slack-icon {
+  padding-right: 40px;
+}
+
+.form-input {
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  border-bottom: solid 1px rgb(127, 131, 163);
+}
+
+.form-input:hover {
+  border-radius: 0;
+  border: none;
+  border-bottom: solid 1px rgb(127, 131, 163);
+}
+
+.form-control:focus {border-color:rgba(100,100,100,1)!important;
+  -webkit-box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  box-shadow: none!important;
+}
+
+.submit {
+  margin-top: 1rem;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(131, 137, 177);
+  font-size: 1.5rem;
+}
+
+
+
+/**************** End Contact section ****************/
+
 
 /**************** Footer ****************/
 
