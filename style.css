@@ -26,11 +26,19 @@ body {
 /**************** Navbar ****************/
 
 .navbar {
+  padding: 1vh 16vh 1vh 16vh;
   background: transparent;
 }
 
 .navbar-brand {
-  color: #fff;
+  color: #777 !important;
+}
+
+.navbar-brand sup {
+  position: relative;
+  top: -12px;
+  left: 4px;
+  color: rgb(78, 81, 104);
 }
 
 .navbar-inverse .navbar-nav .nav-link {
@@ -45,10 +53,13 @@ body {
   color: #fff;
 }
 
+.navbar-fixed-top {
+  top: 30px;
+}
+
 .navbar-fixed-top.scrolled .navbar-brand {
   color: #000;
 }
-
 
 .navbar-fixed-top.scrolled {
   background-color: #fff !important;
@@ -61,6 +72,16 @@ body {
 
 .navbar-fixed-top.scrolled .nav-link:visited {
   color: #000;
+}
+
+.navbar-fixed-top.scrolled {
+  top: 0;
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 1vh;
+  }
 }
 
 /**************** End Navbar ****************/
