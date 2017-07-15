@@ -126,7 +126,7 @@ body {
 
 /**************** Applications section ****************/
 
-#applications {
+#section-applications {
   padding-top: 200px;
   min-height: 70vw;
   background: url("img/ipad.png");
@@ -204,7 +204,33 @@ body {
   font-size: 50px;
 }
 
+.team-advisors-title {
+  font-family: "Rift Soft";
+  font-size: 40px;
+}
+
 /**************** End Team section ****************/
+
+/**************** FAQ section ****************/
+
+#FAQ {
+  padding-top: 60px;
+}
+
+.faq-title-section {
+  padding: 30px 0;
+  font-family: "Rift Soft";
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+
+.card, .card-header {
+  padding: 5px 0 5px 0;
+  background: transparent;
+  border: none;
+}
+
+/**************** End FAQ section ****************/
 
 
 /**************** Footer ****************/
