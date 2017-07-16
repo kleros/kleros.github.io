@@ -125,26 +125,17 @@ body {
   font-size: 20px;
 }
 
-.btn-how {
+.btn-how-it-works {
   color: rgb(49, 56, 68);
+  background-color: #fff;
   font-weight: bold;
-  border-color: transparent;
 }
 
-.btn {
-  color: rgb(255, 255, 255);
+.btn-wp {
+  margin-left: 20px;
   font-weight: bold;
-  background: rgb(78, 81, 104) !important;
+  background-color: rgb(78, 81, 104);
   border-color: transparent;
-}
-
-.btn-primary,
-.btn-primary:hover,
-.btn-primary:active,
-.btn-primary:visited,
-.btn-primary:focus {
-    background-color: #8064A2;
-    border-color: #8064A2;
 }
 
 /**************** End Kleros section ****************/
