@@ -23,6 +23,10 @@ body {
   background: url('img/assembly.jpg') no-repeat #1a1b23;
 }
 
+.no-padding {
+  padding: 0;
+}
+
 /**************** Navbar ****************/
 
 .navbar {
@@ -80,7 +84,17 @@ body {
 
 @media (max-width: 576px) {
   .navbar {
-    padding: 1vh;
+    padding: 0;
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+  }
+
+  .btn {
+    margin: 0;
+    padding: 20px 0;
+    border-radius: 0;
   }
 }
 
@@ -136,6 +150,34 @@ body {
   font-weight: bold;
   background-color: rgb(78, 81, 104);
   border-color: transparent;
+}
+
+@media (max-width: 576px) {
+  .kleros-wording {
+    padding: 0;
+  }
+
+  .kleros-based {
+    display: none;
+  }
+
+  .kleros-title {
+    padding-top: 10vh;
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .kleros-description {
+    text-align: center;
+  }
+
+  .btn-how-it-works {
+    margin-top: 10vh;
+  }
+
+  .btn-wp {
+    margin-left: 0px;
+  }
 }
 
 /**************** End Kleros section ****************/
@@ -202,6 +244,12 @@ body {
 }
 
 .applications-content-text-2 {
+}
+
+@media (max-width: 576px) {
+  .applications-title {
+    font-size: 40px;
+  }
 }
 
 /**************** End Applications section ****************/
