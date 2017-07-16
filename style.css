@@ -105,8 +105,46 @@ body {
   width: 70vh;
 }
 
+.kleros-based {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.kleros-title {
+  position: relative;
+  font-size: 70px;
+  font-family: "Rift Soft";
+  color: rgb(161, 166, 203);
+}
+
 .kleros-wording {
   padding-top: 30vh;
+}
+
+.kleros-description {
+  font-size: 20px;
+}
+
+.btn-how {
+  color: rgb(49, 56, 68);
+  font-weight: bold;
+  border-color: transparent;
+}
+
+.btn {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  background: rgb(78, 81, 104) !important;
+  border-color: transparent;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #8064A2;
+    border-color: #8064A2;
 }
 
 /**************** End Kleros section ****************/
