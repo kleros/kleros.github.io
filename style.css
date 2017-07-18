@@ -84,11 +84,15 @@ body {
 
 @media (max-width: 576px) {
   .navbar {
-    padding: 0;
+    padding: 10px;;
   }
 
   .navbar-fixed-top {
     top: 0;
+  }
+
+  .navbar-fixed-top.scrolled .navbar-toggler {
+    background: lightgray;
   }
 
   .btn {
@@ -188,12 +192,66 @@ body {
   padding-top: 130px;
 }
 
+.protocol-title {
+  font-family: "Rift Soft";
+  color: rgb(161, 166, 203);
+  font-size: 70px;
+}
+
+.protocol-subtitle {
+  font-family: "Rift Soft";
+  color: rgb(161, 166, 203);
+  font-size: 100px;
+}
+
+.protocol-introduction {
+  font-size: 30px;
+}
+
+.protocol-smart-contract {
+  color: rgb(161, 166, 203);
+}
+
+.protocol-btn-how-it-works {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(124, 127, 150);
+  border-radius: 3px;
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+}
+
+.protocol-btn-how-it-works:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(217, 217, 217, 0);
+}
+
 .iMac {
   overflow-x: hidden;
 }
 
 .img-iMac {
   width: 90vh;
+}
+
+@media (max-width: 576px) {
+  .protocol-title {
+    font-family: "Rift Soft";
+    color: rgb(161, 166, 203);
+    font-size: 30px;
+  }
+
+  .protocol-subtitle {
+    font-family: "Rift Soft";
+    color: rgb(161, 166, 203);
+    font-size: 50px;
+  }
+
+  .protocol-introduction {
+    font-size: 18px;
+  }
 }
 
 /**************** End Protocol section ****************/
@@ -250,6 +308,14 @@ body {
   .applications-title {
     font-size: 40px;
   }
+
+  .applications-introduction-text {
+    width: 100%;
+  }
+
+  .applications-content-text-1 {
+    width: 100%;
+  }
 }
 
 /**************** End Applications section ****************/
@@ -287,6 +353,61 @@ body {
 .uses-cases-p {
   padding: 20px;
 }
+
+@media (max-width: 576px) {
+  .uses-cases-item-arbitration::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: -1;
+    background: url("img/arbitration.png") no-repeat top right;
+    background-position-x: 95%;
+  }
+
+  .uses-cases-item-crowdfunding::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: -1;
+    background: url("img/crowdfunding.png") no-repeat top right;
+    background-position-x: 95%;
+  }
+
+  .uses-cases-item-copyright::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: -1;
+    background: url("img/copyright.png") no-repeat top right;
+    background-position-x: 95%;
+  }
+
+  .uses-cases-item-social::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    z-index: -1;
+    background: url("img/social_media.png") no-repeat top right;
+    background-position-x: 95%;
+  }
+}
+
 
 /**************** End Uses cases section ****************/
 

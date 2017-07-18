@@ -15,6 +15,7 @@ $("#navbar-top ul li a[href^='#']").on('click', function(e) {
   });
 });
 $(document).scroll(function () {
+  console.log('scroll');
   var $nav = $(".navbar-fixed-top");
   $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 });
