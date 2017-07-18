@@ -89,6 +89,10 @@ body {
   top: 0;
 }
 
+.navbar-fixed-top.scrolled .active {
+  color: #000;
+}
+
 @media (max-width: 576px) {
   .navbar {
     padding: 10px;;
