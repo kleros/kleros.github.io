@@ -357,6 +357,10 @@ body {
 .applications-content-text-2 {
 }
 
+.applications-kleroterion {
+  font-size: 11px;
+}
+
 @media (max-width: 576px) {
   #section-applications {
     padding-top: 30px;
