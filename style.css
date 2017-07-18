@@ -237,6 +237,10 @@ body {
 }
 
 @media (max-width: 576px) {
+  #protocol {
+    padding-top: 0px;
+  }
+
   .protocol-title {
     font-family: "Rift Soft";
     color: rgb(161, 166, 203);
@@ -260,7 +264,14 @@ body {
 /**************** How it works section ****************/
 
 #how-it-works {
-  padding-top: 130px;
+  padding: 130px 0;
+}
+
+.how-it-works-title {
+  padding: 10px 0;
+  font-family: "Rift Soft";
+  color: rgb(255, 255, 255);
+  font-size: 60px;
 }
 
 .how-it-works-items {
@@ -268,8 +279,51 @@ body {
 }
 
 .how-it-works-img {
-  height: 130px;
+  height: 150px;
 }
+
+.how-it-works-img-jury, .how-it-works-img-decision {
+  padding-top: 17px;
+}
+
+.how-it-works-content {
+  padding: 0 30px;
+  opacity: 0.5;
+  font-size: 16px;
+}
+
+.how-it-works-btn-applications {
+  margin-top: 8vh;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(124, 127, 150);
+  border-radius: 3px;
+  color: #fff;
+  background-color: #000;
+  font-weight: bold;
+}
+
+.how-it-works-btn-applications:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(217, 217, 217, 0);
+}
+
+@media (max-width: 576px) {
+  #how-it-works {
+    padding: 20px 0;
+  }
+
+  .how-it-works-content {
+    padding: 0;
+  }
+
+  .how-it-works-title {
+    padding: 5px 0;
+    font-size: 50px;
+  }
+}
+
 
 /**************** End How it works section ****************/
 
@@ -277,7 +331,6 @@ body {
 /**************** Applications section ****************/
 
 #section-applications {
-  padding-top: 200px;
   min-height: 70vw;
   background: url("img/ipad.png");
   background-size: cover;
@@ -305,6 +358,10 @@ body {
 }
 
 @media (max-width: 576px) {
+  #section-applications {
+    padding-top: 30px;
+  }
+
   .applications-title {
     font-size: 40px;
   }
