@@ -89,8 +89,8 @@ body {
   top: 0;
 }
 
-.navbar-fixed-top.scrolled .nav-link .active {
-  color: gray;
+.active {
+  color: gray !important;
 }
 
 @media (max-width: 576px) {
