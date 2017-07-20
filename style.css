@@ -606,7 +606,9 @@ body {
 /**************** Footer ****************/
 
 footer {
-  padding-top: 3vh;
+  padding: 3vh 15vh 2vh 10vh;
+  font-size: 14px;
+  color: #ccc;
 }
 
 .footer-logo {
@@ -616,6 +618,11 @@ footer {
 
 .footer-right {
   line-height: 48px;
+}
+
+footer-right a {
+  color: gray;
+  text-decoration: underline;
 }
 
 @media (max-width: 576px) {
