@@ -500,9 +500,58 @@ body {
   font-size: 40px;
 }
 
+.team-join {
+  line-height: 46px;
+  font-size: 4vh;
+  text-align: right;
+}
+
+.team-name {
+  margin: 0;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contributor {
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.status {
+  font-variant: small-caps;
+  color: #bca161;
+}
+
+.team-img-federico {
+
+}
+
+.team-img-lesaege {
+  padding-top: 3px;
+}
+
+.team-img-wagner {
+  padding-top: 7px;
+}
+
 @media (max-width: 576px) {
   #team {
     padding-top: 0;
+  }
+
+  .team-name {
+    font-size: 17px;
+  }
+
+  .team-join {
+    text-align: center;
+  }
+
+  .float-left, .float-right {
+    float: none !important
   }
 }
 
