@@ -501,8 +501,8 @@ body {
 }
 
 .team-join {
-  line-height: 46px;
-  font-size: 4vh;
+  line-height: 53px;
+  font-size: 30px;
   text-align: right;
 }
 
@@ -625,12 +625,22 @@ body {
 }
 
 .submit {
+  text-decoration: none;
+  color: #000;
   margin-top: 1rem;
   padding: 8px 12px;
   border: none;
   border-radius: 3px;
   background-color: rgb(131, 137, 177);
   font-size: 14px;
+}
+
+.submit:hover {
+  text-decoration: none;
+}
+
+.jobs {
+  padding-top: 10px;
 }
 
 @media (max-width: 576px) {
