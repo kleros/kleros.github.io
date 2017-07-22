@@ -1,2 +1,2 @@
-# kleroterion.github.io
-http://kleroterion.github.io
+# Kleros.github.io
+https://kleros.io
