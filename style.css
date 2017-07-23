@@ -549,10 +549,6 @@ body {
   .team-join {
     text-align: center;
   }
-
-  .float-left, .float-right {
-    float: none !important
-  }
 }
 
 /**************** End Team section ****************/
@@ -688,5 +684,10 @@ footer-right a {
   footer {
     text-align: center;
   }
+
+  footer-right {
+    position: relative;
+  }
+}
 
 /**************** End Footer ****************/
