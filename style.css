@@ -167,6 +167,26 @@ body {
   border-color: transparent;
 }
 
+.powered {
+  font-size: 14px;
+  padding-top: 1vh;
+  color: rgb(219, 180, 113);
+  text-align: center;
+  opacity: 0.5;
+}
+
+.powered img {
+  padding: 0 3px 0 7px;
+}
+
+.powered a {
+  color: red;
+}
+
+.powered_crossjury {
+  width: 40px;
+}
+
 @media (max-width: 576px) {
   .kleros-wording {
     padding: 0;
