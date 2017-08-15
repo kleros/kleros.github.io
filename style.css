@@ -363,8 +363,10 @@ body {
 
 #section-applications {
   min-height: 70vw;
-  background: url("img/ipad.png");
+  background: url("img/ipad.png") no-repeat;
+
   background-size: cover;
+  background-position: -300px -300px, top;
 }
 
 .applications-title {
@@ -416,6 +418,13 @@ body {
 
 #uses-cases {
   padding-top: 130px;
+}
+
+.uses-cases-title {
+  padding: 100px 40px;
+  font-family: "Rift Soft";
+  color: rgb(255, 255, 255);
+  font-size: 60px;
 }
 
 .uses-cases-col-left {
