@@ -81,6 +81,10 @@ body {
   color: #000;
 }
 
+.navbar-fixed-top.scrolled .nav-link:hover {
+  color: #777;
+}
+
 .navbar-fixed-top.scrolled .nav-link:visited {
   color: #000;
 }
