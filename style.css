@@ -368,9 +368,8 @@ body {
 #section-applications {
   min-height: 70vw;
   background: url("img/ipad.png") no-repeat;
-
   background-size: cover;
-  background-position: -300px -300px, top;
+  background-position: -500px -200px, top;
 }
 
 .applications-title {
