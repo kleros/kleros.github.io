@@ -633,6 +633,11 @@ body {
   width: 70px;
 }
 
+.contact-github-icon {
+  padding-top: 20px;
+  width: 70px;
+}
+
 .form-input {
   background: transparent;
   border-radius: 0;
