@@ -638,6 +638,13 @@ body {
   width: 70px;
 }
 
+.contact-medium-icon {
+  position: relative;
+  top: 12px;
+  left: 34px;
+  width: 70px;
+}
+
 .form-input {
   background: transparent;
   border-radius: 0;
