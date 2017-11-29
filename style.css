@@ -677,6 +677,7 @@ body {
 
 .submit:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 
 .jobs {
