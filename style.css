@@ -45,13 +45,6 @@ body {
   color: #777 !important;
 }
 
-.navbar-brand sup {
-  position: relative;
-  top: -12px;
-  left: 4px;
-  color: rgb(78, 81, 104);
-}
-
 .navbar-inverse .navbar-nav .nav-link {
   color: #fff;
 }
