@@ -612,29 +612,33 @@ body {
   font-size: 40px;
 }
 
+.contact-icon-bottom {
+  padding-top: 30px;
+}
+
 .contact-slack-icon {
-  width: 100px;
-  padding-right: 40px;
-}
-
-.contact-twitter-icon {
-  width: 120px;
-  padding-right: 40px;
-}
-
-.contact-fb-icon {
   width: 70px;
 }
 
+.contact-twitter-icon {
+  position: relative;
+  top: -10px;
+  width: 80px;
+}
+
+.contact-fb-icon {
+  width: 65px;
+}
+
 .contact-github-icon {
-  padding-top: 20px;
   width: 70px;
 }
 
 .contact-medium-icon {
-  position: relative;
-  top: 12px;
-  left: 34px;
+  width: 70px;
+}
+
+.contact-telegram-icon {
   width: 70px;
 }
 
@@ -678,18 +682,8 @@ body {
 }
 
 @media (max-width: 576px) {
-  .contact-slack-icon {
-    padding: 0 30px 0 40px;
-    width: 120px;
-  }
-
   .contact-twitter-icon {
-    padding-right: 30px;
-    width: 80px;
-  }
-
-  .contact-fb-icon {
-    width: 57px;
+    padding-top: 17px;
   }
 }
 
