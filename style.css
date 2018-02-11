@@ -642,6 +642,12 @@ body {
   width: 70px;
 }
 
+.contact-reddit-icon {
+  width: 70px;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
 .form-input {
   background: transparent;
   border-radius: 0;
@@ -723,3 +729,17 @@ footer-right a {
 }
 
 /**************** End Footer ****************/
+
+/**************** Telegram ****************/
+
+.telegram-button {
+  position: fixed;
+  bottom: 52px;
+  right: 30px;
+}
+
+.telegram-button img {
+  width: 200px;
+}
+
+/**************** End Telegram ****************/
