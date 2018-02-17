@@ -726,6 +726,10 @@ footer-right a {
   footer-right {
     position: relative;
   }
+
+  .telegram-button {
+    display: none;
+  }
 }
 
 /**************** End Footer ****************/
