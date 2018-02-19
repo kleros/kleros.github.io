@@ -730,16 +730,4 @@ footer-right a {
 
 /**************** End Footer ****************/
 
-/**************** Telegram ****************/
 
-.telegram-button {
-  position: fixed;
-  bottom: 52px;
-  right: 30px;
-}
-
-.telegram-button img {
-  width: 200px;
-}
-
-/**************** End Telegram ****************/
