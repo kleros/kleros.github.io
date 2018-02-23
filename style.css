@@ -211,7 +211,9 @@ body {
   .btn-how-it-works {
     margin-top: 10vh;
   }
+}
 
+@media (max-width: 991px) {
   .btn-wp {
     margin-left: 0px;
   }
