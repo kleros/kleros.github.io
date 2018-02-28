@@ -184,6 +184,11 @@ body {
   width: 40px;
 }
 
+.btn-telegram {
+  width: 52px;
+  margin-left: 12px;
+}
+
 @media (max-width: 576px) {
   .kleros-wording {
     padding: 0;
@@ -206,9 +211,17 @@ body {
   .btn-how-it-works {
     margin-top: 10vh;
   }
+}
 
+@media (max-width: 991px) {
   .btn-wp {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .btn-telegram {
+    display: none;
   }
 }
 
@@ -726,8 +739,10 @@ footer-right a {
   footer-right {
     position: relative;
   }
+
+  .telegram-button {
+    display: none;
+  }
 }
 
 /**************** End Footer ****************/
-
-
