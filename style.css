@@ -1,748 +1,714 @@
 /**************** Fonts ****************/
 
 @font-face {
-  font-family: "Museo Sans";
-  src: url("fonts/museosans-500.otf");
-}
-
-@font-face {
-  font-family: 'Rift Soft';
-  src: url('fonts/riftsoft-regular-webfont.woff2') format('woff2'),
-       url('fonts/riftsoft-regular-webfont.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Metropolis';
+  src: url('fonts/metropolis-bold-webfont.woff2') format('woff2'),
+    url('fonts/metropolis-bold-webfont.woff') format('woff');
+  font-weight: 700;
   font-style: normal;
 }
 
-/**************** End fonts ****************/
+@font-face {
+  font-family: 'Metropolis';
+  src: url('fonts/metropolis-semibold-webfont.woff2') format('woff2'),
+    url('fonts/metropolis-semibold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('fonts/metropolis-medium-webfont.woff2') format('woff2'),
+    url('fonts/metropolis-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('fonts/metropolis-regular-webfont.woff2') format('woff2'),
+    url('fonts/metropolis-regular-webfont.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('fonts/metropolis-light-webfont.woff2') format('woff2'),
+    url('fonts/metropolis-light-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/**************** End Fonts ****************/
+
+/**************** Global ****************/
+
+* {
+  font-family: 'Metropolis', sans-serif !important;
+  scroll-behavior: smooth !important;
+}
+
+html {
+  border: 0;
+  height: 100%;
+  margin: 0;
+  padding: 84px 0 0;
+  width: 100%;
+}
 
 body {
   position: relative;
-  padding-top: 65px;
-  color: #fff;
-  font-family: "Museo Sans";
-  background: url('img/assembly.jpg') no-repeat #1a1b23;
 }
 
-.no-padding {
-  padding: 0;
-}
-
-@media (max-width: 576px) {
-  h2, h3 {
-    text-align: center;
-  }
-}
-
-
-/**************** Navbar ****************/
-
-.navbar {
-  padding: 1vh 16vh 1vh 16vh;
-  background: transparent;
-}
-
-.navbar-brand {
-  color: #777 !important;
-}
-
-.navbar-inverse .navbar-nav .nav-link {
+a {
   color: #fff;
 }
 
-.navbar-inverse .navbar-nav .nav-link:hover {
-  color: #777;
-}
-
-.navbar-inverse .navbar-nav .nav-link:visited {
+a:hover {
   color: #fff;
+  text-decoration: underline !important;
 }
 
-.navbar-fixed-top {
-  top: 30px;
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 63px;
 }
 
-.navbar-fixed-top.scrolled .navbar-brand {
-  color: #000;
+h2 {
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 49px;
 }
 
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
+h3 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
 }
 
-.navbar-fixed-top.scrolled .nav-link {
-  color: #000;
-}
-
-.navbar-fixed-top.scrolled .nav-link:hover {
-  color: #777;
-}
-
-.navbar-fixed-top.scrolled .nav-link:visited {
-  color: #000;
-}
-
-.navbar-fixed-top.scrolled {
-  top: 0;
-}
-
-.active {
-  color: gray !important;
-}
-
-@media (max-width: 576px) {
-  .navbar {
-    padding: 10px;;
-  }
-
-  .navbar-fixed-top {
-    top: 0;
-  }
-
-  .navbar-fixed-top.scrolled .navbar-toggler {
-    background: lightgray;
-  }
-
-  .btn {
-    margin: 0;
-    padding: 20px 0;
-    border-radius: 0;
-  }
-}
-
-/**************** End Navbar ****************/
-
-/**************** Sections ****************/
-
-.kleros {
-  height: 100vh;
-}
-
-.protocol {
-  height: 100vh;
-}
-
-/**************** End Sections ****************/
-
-/**************** Kleros section ****************/
-
-.img-phone-pinakion {
-  padding-top: 8vh;
-  width: 60vh;
-}
-
-.kleros-based {
-  font-weight: bold;
-  font-size: 16px;
-}
-
-.kleros-title {
-  position: relative;
-  font-size: 70px;
-  font-family: "Rift Soft";
-  color: rgb(161, 166, 203);
-}
-
-.kleros-wording {
-  padding-top: 30vh;
-}
-
-.kleros-description {
+h4 {
   font-size: 20px;
+  line-height: 32px;
 }
 
-.btn-how-it-works {
-  color: rgb(49, 56, 68);
-  background-color: #fff;
-  font-weight: bold;
+h5 {
+  font-size: 18px;
+  line-height: 30px;
 }
 
-.btn-wp {
-  margin-left: 20px;
-  font-weight: bold;
-  background-color: rgb(78, 81, 104);
-  border-color: transparent;
+h6 {
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.powered {
+p {
   font-size: 14px;
-  padding-top: 1vh;
-  color: rgb(219, 180, 113);
-  text-align: center;
-  opacity: 0.5;
+  line-height: 24px;
 }
 
-.powered img {
-  padding: 0 3px 0 7px;
-}
-
-.powered a {
-  color: red;
-}
-
-.powered_crossjury {
-  width: 40px;
-}
-
-.btn-telegram {
-  width: 52px;
-  margin-left: 12px;
-}
-
-@media (max-width: 576px) {
-  .kleros-wording {
-    padding: 0;
-  }
-
-  .kleros-based {
-    display: none;
-  }
-
-  .kleros-title {
-    padding-top: 10vh;
-    font-size: 40px;
-    text-align: center;
-  }
-
-  .kleros-description {
-    text-align: center;
-  }
-
-  .btn-how-it-works {
-    margin-top: 10vh;
-  }
-}
-
-@media (max-width: 991px) {
-  .btn-wp {
-    margin-left: 0px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .btn-telegram {
-    display: none;
-  }
-}
-
-/**************** End Kleros section ****************/
-
-/**************** Protocol section ****************/
-
-#protocol {
-  padding-top: 130px;
-}
-
-.protocol-title {
-  font-family: "Rift Soft";
-  color: rgb(161, 166, 203);
-  font-size: 70px;
-}
-
-.protocol-subtitle {
-  font-family: "Rift Soft";
-  color: rgb(161, 166, 203);
-  font-size: 100px;
-}
-
-.protocol-introduction {
-  font-size: 30px;
-}
-
-.protocol-smart-contract {
-  color: rgb(161, 166, 203);
-}
-
-.protocol-btn-how-it-works {
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(124, 127, 150);
-  border-radius: 3px;
-  color: #fff;
-  background-color: #000;
-  font-weight: bold;
-}
-
-.protocol-btn-how-it-works:hover {
-  cursor: pointer;
-  color: #fff;
-  background-color: rgba(217, 217, 217, 0);
-}
-
-.iMac {
-  overflow-x: hidden;
-}
-
-.img-iMac {
-  width: 90vh;
-}
-
-@media (max-width: 576px) {
-  #protocol {
-    padding-top: 0px;
-  }
-
-  .protocol-title {
-    font-family: "Rift Soft";
-    color: rgb(161, 166, 203);
-    font-size: 30px;
-  }
-
-  .protocol-subtitle {
-    font-family: "Rift Soft";
-    color: rgb(161, 166, 203);
-    font-size: 50px;
-  }
-
-  .protocol-introduction {
-    font-size: 18px;
-  }
-}
-
-/**************** End Protocol section ****************/
-
-
-/**************** How it works section ****************/
-
-#how-it-works {
-  padding: 130px 0;
-}
-
-.how-it-works-title {
-  padding: 10px 0;
-  font-family: "Rift Soft";
-  color: rgb(255, 255, 255);
-  font-size: 60px;
-}
-
-.how-it-works-items {
-  margin-top: 10vh;
-}
-
-.how-it-works-img {
-  height: 150px;
-}
-
-.how-it-works-img-jury, .how-it-works-img-decision {
-  padding-top: 17px;
-}
-
-.how-it-works-content {
-  padding: 0 30px;
-  opacity: 0.5;
-  font-size: 16px;
-}
-
-.how-it-works-btn-applications {
-  margin-top: 8vh;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(124, 127, 150);
-  border-radius: 3px;
-  color: #fff;
-  background-color: #000;
-  font-weight: bold;
-}
-
-.how-it-works-btn-applications:hover {
-  cursor: pointer;
-  color: #fff;
-  background-color: rgba(217, 217, 217, 0);
-}
-
-@media (max-width: 576px) {
-  #how-it-works {
-    padding: 20px 0;
-  }
-
-  .how-it-works-content {
-    padding: 0;
-  }
-
-  .how-it-works-title {
-    padding: 5px 0;
-    font-size: 50px;
-  }
-}
-
-
-/**************** End How it works section ****************/
-
-
-/**************** Applications section ****************/
-
-#section-applications {
-  min-height: 70vw;
-  background: url("img/ipad.png") no-repeat;
-  background-size: cover;
-  background-position: -500px -200px, top;
-}
-
-.applications-title {
-  padding-top: 50px;
-  font-family: "Rift Soft";
-  font-size: 100px;
-}
-
-.applications-introduction-text {
-  width: 410px;
-  color: rgb(127, 131, 163);
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.applications-content-text-1 {
-  color: gray;
-  width: 400px;
-}
-
-.applications-content-text-2 {
-}
-
-.applications-kleroterion {
-  font-size: 11px;
-}
-
-@media (max-width: 576px) {
-  #section-applications {
-    padding-top: 30px;
-  }
-
-  .applications-title {
-    font-size: 40px;
-  }
-
-  .applications-introduction-text {
-    width: 100%;
-  }
-
-  .applications-content-text-1 {
-    width: 100%;
-  }
-}
-
-/**************** End Applications section ****************/
-
-/**************** Uses cases section ****************/
-
-#uses-cases {
-  padding-top: 130px;
-}
-
-.uses-cases-title {
-  padding: 100px 40px;
-  font-family: "Rift Soft";
-  color: rgb(255, 255, 255);
-  font-size: 60px;
-}
-
-.uses-cases-col-left {
-  padding-right: 5vh;
-}
-
-.uses-cases-col-right {
-  padding-right: 5vh;
-}
-
-.uses-cases-border {
-  border-style: solid;
-  border-width: 0.05em 0 0 0;
-  border-color: rgb(219, 180, 113);
-  background-color: rgba(217, 217, 217, 0);
-  opacity: 0.2;
-}
-
-.uses-cases-item {
-  margin-bottom: 20px 40px 15px 20px;
-}
-
-.uses-cases-img {
-  margin-right: 10px;
-}
-
-.uses-cases-p {
-  padding: 20px;
-}
-
-@media (max-width: 576px) {
-  .uses-cases-item-arbitration::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .4;
-    z-index: -1;
-    background: url("img/arbitration.png") no-repeat top right;
-    background-position-x: 95%;
-  }
-
-  .uses-cases-item-crowdfunding::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .4;
-    z-index: -1;
-    background: url("img/crowdfunding.png") no-repeat top right;
-    background-position-x: 95%;
-  }
-
-  .uses-cases-item-copyright::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .4;
-    z-index: -1;
-    background: url("img/copyright.png") no-repeat top right;
-    background-position-x: 95%;
-  }
-
-  .uses-cases-item-social::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .4;
-    z-index: -1;
-    background: url("img/social_media.png") no-repeat top right;
-    background-position-x: 95%;
-  }
-}
-
-
-/**************** End Uses cases section ****************/
-
-/**************** Team section ****************/
-
-#team {
-  padding-top: 60px;
-}
-
-.team-title {
-  padding-top: 50px;
-  font-family: "Rift Soft";
-  font-size: 50px;
-}
-
-.team-advisors-title {
-  font-family: "Rift Soft";
-  font-size: 40px;
-}
-
-.team-join {
-  line-height: 53px;
-  font-size: 30px;
-  text-align: right;
-}
-
-.team-name {
-  margin: 0;
-  padding: 5px;
+.btn.btn-lg {
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
+  height: 60px;
+  padding: 17px 1.5rem;
+  width: 241px;
 }
 
-.contributor {
-  margin: 0;
-  padding: 0;
-  padding-top: 5px;
+.btn.btn-secondary {
+  color: #1b1b1b;
   font-size: 15px;
+  font-weight: 700;
 }
 
-.status {
-  font-variant: small-caps;
-  color: #bca161;
+/**************** End Global ****************/
+
+/**************** Header ****************/
+
+.Header {
+  background-image: url('img/header.svg');
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  padding-bottom: 278px;
+  padding-top: 122px;
 }
 
-.team-img-federico {
-
+.Header-navbar {
+  background: #1a1b23;
+  height: 84px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
 
-.team-img-lesaege {
-  padding-top: 3px;
+.Header-navbarToggler {
+  background: #fff;
+  text-align: center;
+  line-height: 9px;
+  z-index: 101;
 }
 
-.team-img-wagner {
-  padding-top: 7px;
+.Header-navbarBrand {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  font-size: 13px;
+  font-weight: 300;
+  justify-content: center;
+  letter-spacing: 5px;
 }
 
-@media (max-width: 576px) {
-  #team {
-    padding-top: 0;
-  }
-
-  .team-name {
-    font-size: 17px;
-  }
-
-  .team-join {
-    text-align: center;
-  }
+.Header-navbarBrand:hover {
+  text-decoration: none !important;
 }
 
-/**************** End Team section ****************/
-
-/**************** FAQ section ****************/
-
-#FAQ {
-  padding-top: 60px;
+.Header-logo {
+  margin-right: 8px;
 }
 
-.faq-title-section {
-  padding: 30px 0;
-  font-family: "Rift Soft";
-  color: rgb(255, 255, 255);
-  font-size: 50px;
+.Header-navbarContent {
+  background: #1a1b23;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: auto;
+  width: initial !important;
 }
 
-.card, .card-header {
-  padding: 5px 0 5px 0;
-  background: transparent;
-  border: none;
+.Header-navbarContent.show {
+  margin: 0 -16px;
+  padding: 13px 16px;
+  position: fixed;
+  top: 0;
+  width: 100% !important;
 }
 
-/**************** End FAQ section ****************/
-
-/**************** Contact section ****************/
-
-#contact {
-  padding-top: 60px;
+.Header-navbarContent.show .Header-btn-readTheWhitepaper {
+  margin-left: 0;
 }
 
-.contact-title-section {
-  padding: 40px 0;
-  font-family: "Rift Soft";
-  color: rgb(255, 255, 255);
-  font-size: 40px;
+.Header-btn-readTheWhitepaper {
+  margin-left: 61px;
 }
 
-.contact-icon-bottom {
-  padding-top: 30px;
+.Header-banner {
+  color: #fff;
 }
 
-.contact-slack-icon {
-  width: 70px;
+.Header-title {
+  margin-bottom: 5px;
 }
 
-.contact-twitter-icon {
+.Header-tagline {
+  color: #a3a2a5;
+  margin-bottom: 34px;
+}
+
+.Header-btn-learnMore {
+  margin-bottom: 73px;
+}
+
+.Header-social {
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.Header-socialIcon {
+  cursor: pointer;
+  margin-left: 27px;
+}
+
+/**************** End Header ****************/
+
+/**************** CountDown ****************/
+
+.CountDown {
+  padding-bottom: 92px;
+}
+
+.CountDown-title {
+  color: #1a1b23;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.CountDown-blocks {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 31px;
+}
+
+.CountDown-block {
+  align-items: center;
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.09);
+  display: flex;
+  flex-direction: column;
+  height: 110px;
+  justify-content: center;
+  width: 120px;
+}
+
+.CountDown-amount {
+  color: #1a1b23;
+  font-size: 32px;
+}
+
+.CountDown-unit {
+  font-size: 14px;
+}
+
+/**************** End CountDown ****************/
+
+/**************** Video ****************/
+
+.Video {
+  justify-content: center;
+}
+
+.Video-container {
+  height: 0;
+  padding-bottom: 37.5%;
   position: relative;
-  top: -10px;
+}
+
+.Video-iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+/**************** End Video ****************/
+
+/**************** Challenge ****************/
+
+.Challenge {
+  align-content: flex-start;
+  background: linear-gradient(#fff, transparent 50%), url('img/video.svg');
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  padding-bottom: 223px;
+  padding-top: 397px;
+  text-align: center;
+}
+
+.Challenge-text {
+  margin-top: 26px;
+}
+
+/**************** End Challenge ****************/
+
+/**************** Solution ****************/
+
+.Solution {
+  align-content: flex-start;
+  justify-content: center;
+  padding-bottom: 205px;
+  padding-top: 68px;
+  text-align: center;
+}
+
+.Solution-text {
+  margin-top: 31px;
+}
+
+.Solution-image {
+  width: 87.5%;
+}
+
+/**************** End Solution ****************/
+
+/**************** HowKlerosWorks ****************/
+
+.HowKlerosWorks {
+  justify-content: center;
+  padding-bottom: 175px;
+  text-align: center;
+}
+
+.HowKlerosWorks-steps {
+  margin-top: 86px;
+  text-align: left;
+}
+
+.HowKlerosWorks-step {
+  padding: 0 10%;
+}
+
+@media (min-width: 768px) {
+  .HowKlerosWorks-step:nth-child(even) {
+    margin-top: 186px !important;
+  }
+}
+
+.HowKlerosWorks-number {
+  color: #f2f5fa;
+  font-size: 70px;
+  font-weight: 700;
+  left: 175px;
+  position: absolute;
+  top: -60px;
+  z-index: -1;
+}
+
+.HowKlerosWorks-icon {
+  float: left;
+  height: 100%;
   width: 80px;
 }
 
-.contact-fb-icon {
-  width: 65px;
+.HowKlerosWorks-title {
+  font-weight: 700;
 }
 
-.contact-github-icon {
-  width: 70px;
+.HowKlerosWorks-description {
+  overflow: hidden;
 }
 
-.contact-medium-icon {
-  width: 70px;
+.HowKlerosWorks-crowdsourcing {
+  margin-top: 170px;
 }
 
-.contact-telegram-icon {
-  width: 70px;
+.HowKlerosWorks-courtsDiagram {
+  margin-top: 135px;
 }
 
-.contact-reddit-icon {
-  width: 70px;
-  opacity: 0.9;
-  filter: alpha(opacity=90);
+/**************** End HowKlerosWorks ****************/
+
+/**************** UseCases ****************/
+
+.UseCases {
+  background: #052e69;
+  color: #fff;
+  justify-content: center;
+  padding-bottom: 250px;
+  padding-top: 118px;
+  text-align: center;
 }
 
-.form-input {
-  background: transparent;
-  border-radius: 0;
-  border: none;
-  border-bottom: solid 1px rgb(127, 131, 163);
+.UseCases-useCases {
+  justify-content: center;
+  padding: 0 40px;
 }
 
-.form-input:hover {
-  border-radius: 0;
-  border: none;
-  border-bottom: solid 1px rgb(127, 131, 163);
+.UseCases-useCase {
+  margin-top: 101px;
 }
 
-.form-control:focus {border-color:rgba(100,100,100,1) !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
-  box-shadow: none !important;
+.UseCases-icon {
+  float: left;
+  height: 100%;
+  width: 60px;
 }
 
-.submit {
-  text-decoration: none;
+.UseCases-description {
+  overflow: hidden;
+}
+
+/**************** End UseCases ****************/
+
+/**************** Pinakion ****************/
+
+.Pinakion {
+  justify-content: center;
+  padding-bottom: 161px;
+  padding-top: 150px;
+  text-align: center;
+}
+
+.Pinakion-description {
+  margin-top: 44px;
+}
+
+.Pinakion-features {
+  justify-content: center;
+  margin-top: 125px;
+}
+
+/**************** End Pinakion ****************/
+
+/**************** Security ****************/
+
+.Security {
+  align-content: flex-start;
+  background: #f2f5fa;
+  height: 950px;
+  justify-content: center;
+  padding-top: 119px;
+  text-align: center;
+}
+
+.Security-description {
+  margin-top: 27px;
+}
+
+/**************** End Security ****************/
+
+/**************** Roadmap ****************/
+
+.Roadmap {
+  justify-content: center;
+  padding-bottom: 217px;
+  padding-top: 165px;
+  text-align: center;
+}
+
+.Roadmap-roadmap {
+  justify-content: center;
+  margin-top: 140px;
+}
+
+.Roadmap-date {
+  background: #799dc9;
+  border-radius: 33px;
+  color: #fff;
+  font-weight: 600;
+  height: 66px;
+  line-height: 66px;
+  margin: auto;
+  position: relative;
+  width: 66px;
+}
+
+.Roadmap-date:hover {
+  background: #052e69;
+}
+
+.Roadmap-date:hover .Roadmap-tooltip {
+  display: block;
+}
+
+.Roadmap-tooltip {
+  background: #fff;
+  border: 1px solid rgba(127, 130, 166, 0.03);
+  box-shadow: 0 0 6px 0 rgba(71, 82, 93, 0.09), 0 0 1px 0 rgba(77, 78, 90, 0.08),
+    0 2px 0 0 rgba(71, 82, 93, 0.09);
   color: #000;
-  margin-top: 1rem;
-  padding: 8px 12px;
-  border: none;
-  border-radius: 3px;
-  background-color: rgb(131, 137, 177);
-  font-size: 14px;
+  display: none;
+  font-weight: 400;
+  left: -104.5px;
+  padding: 12.5px 25px 5px;
+  position: absolute;
+  top: 90px;
+  width: 275px;
+  z-index: 99;
 }
 
-.submit:hover {
-  text-decoration: none;
-  cursor: pointer;
+.Roadmap-tooltip::after {
+  border-bottom: 10px solid rgba(127, 130, 166, 0.5);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: '';
+  left: 127.5px;
+  position: absolute;
+  top: -10px;
 }
 
-.jobs {
-  padding-top: 10px;
+.Roadmap-tooltip--inverse {
+  bottom: 90px;
+  top: initial;
 }
 
-@media (max-width: 576px) {
-  .contact-twitter-icon {
-    padding-top: 17px;
-  }
+.Roadmap-tooltip--inverse::after {
+  bottom: -12px;
+  border-bottom: none;
+  border-top: 10px solid rgba(127, 130, 166, 0.5);
+  top: initial;
 }
 
-/**************** End Contact section ****************/
+/**************** End Roadmap ****************/
 
+/**************** Team ****************/
+
+.Team {
+  justify-content: center;
+  padding-bottom: 182px;
+  text-align: center;
+}
+
+.Team-members {
+  margin-top: 144px;
+}
+
+.Team-member {
+  margin-top: 60px;
+}
+
+.Team-memberPortrait {
+  background: #f5f6f8;
+  border-radius: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+.Team-memberName {
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.Team-memberRole {
+  color: #47525d;
+}
+
+/**************** End Team ****************/
+
+/**************** Media ****************/
+
+.Media {
+  justify-content: center;
+  padding-bottom: 475px;
+  text-align: center;
+}
+
+.Media-cards {
+  justify-content: center;
+  margin-top: 68px;
+  text-align: left;
+}
+
+.Media-card {
+  border: 1px solid #f2f5fa;
+  border-radius: 4px;
+  box-shadow: 0 2px 1px 0 #d2d1ce;
+  margin: 0 15px;
+  padding: 40px 30px 20px;
+}
+
+.Media-date {
+  color: #9b9b9b;
+  font-weight: normal;
+}
+
+.Media-readMore {
+  color: #0059ab;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 60px;
+  text-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.27);
+}
+
+.Media-outlets {
+  margin-top: 38px;
+}
+
+/**************** End Media ****************/
 
 /**************** Footer ****************/
 
-footer {
-  padding: 3vh 15vh 2vh 10vh;
-  font-size: 14px;
-  color: #ccc;
+.Footer {
+  text-align: center;
 }
 
-.footer-logo {
-  display: inline;
-  width: 50px;
+.Footer-callToAction {
+  background: #1a1b23;
+  color: #fff;
+  justify-content: center;
+  padding: 84px 0 64px 0;
 }
 
-.footer-right {
-  line-height: 48px;
+.Footer-signUpMessage {
+  font-size: 30px;
+  font-weight: 700;
 }
 
-footer-right a {
-  color: gray;
-  text-decoration: underline;
+.Footer-quote {
+  font-weight: 300;
+  margin-top: 16px;
+  text-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.27);
 }
 
-@media (max-width: 576px) {
-  footer {
-    text-align: center;
-  }
+.Footer-signUpInput {
+  margin-top: 28.5px;
+}
 
-  footer-right {
-    position: relative;
-  }
+.Footer-inputGroup {
+  height: 65px;
+}
 
-  .telegram-button {
-    display: none;
-  }
+.Footer-formControl {
+  background: #ffffff;
+  border: 1px solid rgba(151, 151, 151, 0.21);
+  border-radius: 3px;
+  box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.05);
+  padding-left: 29.5px;
+}
+
+.btn-signUpButton {
+  background: #dd042b;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.1),
+    0 2px 9px 0 rgba(0, 0, 0, 0.17);
+  color: #fff !important;
+  cursor: pointer;
+  width: 160px;
+}
+
+.btn-signUpButton:hover {
+  background: #000;
+}
+
+.Footer-signUpPrivacy {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 13px;
+  font-weight: 300;
+  margin-top: 23.5px;
+  text-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.27);
+}
+
+.Footer-separator {
+  background: #fff;
+  height: 2px;
+  margin-bottom: 80px;
+  margin-top: 59px;
+  opacity: 0.11;
+}
+
+.Footer-links {
+  text-align: left;
+}
+
+.Footer-linksList {
+  font-weight: 300;
+}
+
+.Footer-end {
+  color: #1a1b23;
+  justify-content: space-around;
+  padding-bottom: 65px;
+  padding-top: 35px;
+}
+
+.Footer-brand {
+  align-items: center;
+  color: #1a1b23;
+  display: flex;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.Footer-brand:hover {
+  color: #1a1b23;
+  text-decoration: none !important;
+}
+
+.Footer-logo {
+  margin-right: 8px;
+}
+
+.Footer-copyright {
+  text-align: right;
 }
 
 /**************** End Footer ****************/
