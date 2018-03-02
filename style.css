@@ -207,6 +207,7 @@ p {
 .Header-btn-readTheWhitepaper {
   border: none;
   margin-left: 61px;
+  margin-right: 60px;
 }
 
 .Header-banner {
@@ -762,6 +763,10 @@ p {
 
 .Footer-linksList {
   font-weight: 300;
+}
+
+.Footer-socialLink:hover {
+  text-decoration: none;
 }
 
 .Footer-socialIcon {
