@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="60px" viewBox="0 0 47 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>features/insurance</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M52.6666667,8.88888889 C37.1111111,8.88888889 29.3333333,0 29.3333333,0 C29.3333333,0 21.5555556,8.88888889 6,8.88888889 L6,29.0144444 C6,37.3377778 9.88555556,45.1833333 16.5055556,50.2266667 L29.3333333,60 L42.1611111,50.2266667 C48.7811111,45.1833333 52.6666667,37.3377778 52.6666667,29.0144444 L52.6666667,8.88888889 Z" id="path-1"></path>
+    </defs>
+    <g id="Webpage-Official-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1001.000000, -5445.000000)">
+        <g id="Use-Cases-bg" transform="translate(-4.000000, 5172.000000)">
+            <g id="feature" transform="translate(999.000000, 243.000000)">
+                <g id="features/icon1" transform="translate(0.000000, 30.000000)">
+                    <g id="features/insurance">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Fill-1" fill="#4E6B9C" xlink:href="#path-1"></use>
+                        <rect id="features/icon1-copy-2" fill="#799DC9" mask="url(#mask-2)" x="28" y="0" width="59" height="59" rx="3"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

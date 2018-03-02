@@ -122,13 +122,26 @@ p {
   font-weight: 700;
 }
 
+.anchor {
+  height: 0;
+  position: relative;
+  top: -168px;
+  visibility: hidden;
+  width: 0;
+}
+
+.rightArrow {
+  width: 30px;
+  margin-left: 10px;
+}
+
 /**************** End Global ****************/
 
 /**************** Header ****************/
 
 .Header {
   background-image: url('img/header.svg');
-  background-position: 50% 0px;
+  background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -172,9 +185,10 @@ p {
 
 .Header-navbarContent {
   background: #1a1b23;
+  flex: 2;
   font-size: 14px;
   font-weight: 700;
-  margin-left: auto;
+  justify-content: flex-end;
   width: initial !important;
 }
 
@@ -191,6 +205,7 @@ p {
 }
 
 .Header-btn-readTheWhitepaper {
+  border: none;
   margin-left: 61px;
 }
 
@@ -293,17 +308,30 @@ p {
 .Challenge {
   align-content: flex-start;
   background: linear-gradient(#fff, transparent 50%), url('img/video.svg');
-  background-position: 50% 0px;
+  background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   padding-bottom: 223px;
   padding-top: 397px;
+  position: relative;
   text-align: center;
 }
 
 .Challenge-text {
   margin-top: 26px;
+}
+
+.Challenge-arrow {
+  bottom: 65px;
+  cursor: pointer;
+  display: block;
+  position: absolute;
+}
+
+.Challenge-arrowImage {
+  height: 72px;
+  width: 72px;
 }
 
 /**************** End Challenge ****************/
@@ -331,6 +359,10 @@ p {
 /**************** HowKlerosWorks ****************/
 
 .HowKlerosWorks {
+  background-image: url('img/how-kleros-works.svg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
   padding-bottom: 175px;
   text-align: center;
@@ -355,7 +387,7 @@ p {
   color: #f2f5fa;
   font-size: 70px;
   font-weight: 700;
-  left: 175px;
+  left: 200px;
   position: absolute;
   top: -60px;
   z-index: -1;
@@ -363,8 +395,8 @@ p {
 
 .HowKlerosWorks-icon {
   float: left;
-  height: 100%;
-  width: 80px;
+  height: 80px;
+  margin-right: 40px;
 }
 
 .HowKlerosWorks-title {
@@ -381,6 +413,7 @@ p {
 
 .HowKlerosWorks-courtsDiagram {
   margin-top: 135px;
+  width: 100%;
 }
 
 /**************** End HowKlerosWorks ****************/
@@ -388,10 +421,13 @@ p {
 /**************** UseCases ****************/
 
 .UseCases {
-  background: #052e69;
+  background-image: url('img/use-cases.png');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   justify-content: center;
-  padding-bottom: 250px;
+  padding-bottom: 318px;
   padding-top: 118px;
   text-align: center;
 }
@@ -399,6 +435,7 @@ p {
 .UseCases-useCases {
   justify-content: center;
   padding: 0 40px;
+  text-align: left;
 }
 
 .UseCases-useCase {
@@ -408,10 +445,12 @@ p {
 .UseCases-icon {
   float: left;
   height: 100%;
+  margin-right: 18px;
   width: 60px;
 }
 
 .UseCases-description {
+  font-weight: 300;
   overflow: hidden;
 }
 
@@ -422,7 +461,7 @@ p {
 .Pinakion {
   justify-content: center;
   padding-bottom: 161px;
-  padding-top: 150px;
+  padding-top: 82px;
   text-align: center;
 }
 
@@ -432,7 +471,20 @@ p {
 
 .Pinakion-features {
   justify-content: center;
+  text-align: left;
+}
+
+.Pinakion-featureImage {
+  margin-bottom: 40px;
   margin-top: 125px;
+}
+
+.Pinakion-findOutMore {
+  color: #0059ab;
+}
+
+.Pinakion-findOutMore:hover {
+  color: #0059ab;
 }
 
 /**************** End Pinakion ****************/
@@ -440,10 +492,12 @@ p {
 /**************** Security ****************/
 
 .Security {
-  align-content: flex-start;
-  background: #f2f5fa;
-  height: 950px;
+  background-image: url('img/security.png');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
   justify-content: center;
+  padding-bottom: 715px;
   padding-top: 119px;
   text-align: center;
 }
@@ -458,8 +512,8 @@ p {
 
 .Roadmap {
   justify-content: center;
-  padding-bottom: 217px;
-  padding-top: 165px;
+  padding-bottom: 215px;
+  padding-top: 100px;
   text-align: center;
 }
 
@@ -499,6 +553,7 @@ p {
   left: -104.5px;
   padding: 12.5px 25px 5px;
   position: absolute;
+  text-align: left;
   top: 90px;
   width: 275px;
   z-index: 99;
@@ -526,6 +581,10 @@ p {
   top: initial;
 }
 
+.Roadmap-tooltipTitle {
+  font-weight: 700;
+}
+
 /**************** End Roadmap ****************/
 
 /**************** Team ****************/
@@ -542,6 +601,7 @@ p {
 
 .Team-member {
   margin-top: 60px;
+  min-width: 230px;
 }
 
 .Team-memberPortrait {
@@ -553,11 +613,19 @@ p {
 
 .Team-memberName {
   font-weight: 700;
-  margin-top: 5px;
+  margin-top: 21px;
 }
 
 .Team-memberRole {
   color: #47525d;
+}
+
+.Team-jobsLink {
+  color: #0059ab;
+}
+
+.Team-jobsLink:hover {
+  color: #0059ab;
 }
 
 /**************** End Team ****************/
@@ -566,7 +634,6 @@ p {
 
 .Media {
   justify-content: center;
-  padding-bottom: 475px;
   text-align: center;
 }
 
@@ -580,8 +647,13 @@ p {
   border: 1px solid #f2f5fa;
   border-radius: 4px;
   box-shadow: 0 2px 1px 0 #d2d1ce;
-  margin: 0 15px;
+  margin: 38px 15px;
   padding: 40px 30px 20px;
+}
+
+.Media-titleImage {
+  height: 23px;
+  margin-bottom: 35px;
 }
 
 .Media-date {
@@ -598,7 +670,14 @@ p {
 }
 
 .Media-outlets {
-  margin-top: 38px;
+  height: 59px;
+}
+
+.Media-ship {
+  height: 288px;
+  margin-top: 200px;
+  position: relative;
+  top: 13px;
 }
 
 /**************** End Media ****************/
@@ -610,7 +689,10 @@ p {
 }
 
 .Footer-callToAction {
-  background: #1a1b23;
+  background-image: url('img/footer.svg');
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
   justify-content: center;
   padding: 84px 0 64px 0;
@@ -680,6 +762,13 @@ p {
 
 .Footer-linksList {
   font-weight: 300;
+}
+
+.Footer-socialIcon {
+  height: 37px;
+  margin-right: 8px;
+  margin-top: 6px;
+  width: 37px;
 }
 
 .Footer-end {

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="866px" height="937px" viewBox="0 0 866 937" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48 (47235) - http://www.bohemiancoding.com/sketch -->
+    <title>bg how kleros works</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="51.9517812%" y1="36.1852349%" x2="65.5247918%" y2="96.452617%" id="linearGradient-1">
+            <stop stop-color="#F2F5FA" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F2F5FA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Webpage-Official-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-734.000000, -3537.000000)">
+        <path d="M653.759087,4087.75581 L925.479923,4744.16491 C926.953786,4747.72539 930.342319,4750.12222 934.190399,4750.32614 L1607.11395,4785.98581 C1610.56733,4786.16881 1613.87016,4784.55455 1615.84741,4781.71732 L1998.20559,4233.05597 C2000.22057,4230.1646 2000.56482,4226.42606 1999.11174,4223.21534 L1726.85624,3621.64151 C1725.30568,3618.21542 1721.96408,3615.94891 1718.20747,3615.7753 L1052.52339,3585.01086 C1049.31743,3584.86269 1046.23517,3586.26227 1044.23682,3588.77358 L655.173829,4077.70444 C652.910484,4080.54876 652.368806,4084.39724 653.759087,4087.75581 Z" id="bg-how-kleros-works" fill="url(#linearGradient-1)" transform="translate(1326.499997, 4185.500015) rotate(-142.000000) translate(-1326.499997, -4185.500015) "></path>
+    </g>
+</svg>

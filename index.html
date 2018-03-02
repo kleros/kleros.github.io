@@ -51,7 +51,7 @@
   <!-- End CSS -->
 </head>
 
-<body class="container-fluid" data-spy="scroll" data-target="#Navbar">
+<body class="container-fluid" data-spy="scroll" data-target="#navbarContent" data-offset="168">
   <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJD57HL" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
@@ -60,7 +60,7 @@
 
   <!-- Header -->
   <div class="Header row">
-    <div class="Header-navbar navbar navbar-toggleable-md col-12">
+    <nav id="#navbar" class="Header-navbar navbar navbar-toggleable-md col-12">
       <button class="Header-navbarToggler navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent"
         aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
@@ -71,49 +71,43 @@
         </span>
       </button>
       <a class="Header-navbarBrand navbar-brand" href="#">
-        <img class="Header-logo" src="favicon-32x32.png" alt="Kleros Logo"> KLEROS
+        <img class="Header-logo" src="favicon-32x32.png" alt="Kleros Logo">KLEROS
       </a>
 
       <div id="navbarContent" class="Header-navbarContent collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#video">Protocol</a>
+            <a class="Header-navLink nav-link" href="#team">Team</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">How it works</a>
+            <a class="Header-navLink nav-link" href="https://medium.com/kleros/faq/home" target="_blank">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Applications</a>
+            <a class="Header-navLink nav-link" href="https://github.com/kleros" target="_blank">Github</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Use cases</a>
+            <a class="Header-navLink nav-link" href="https://t.me/kleros" target="_blank">Telegram</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <a href="assets/whitepaper.pdf" target="_blank" class="Header-btn-readTheWhitepaper btn btn-secondary">Read The Whitepaper</a>
+          <a href="assets/whitepaper.pdf" target="_blank" class="Header-btn-readTheWhitepaper btn btn-secondary">Read the Whitepaper</a>
         </ul>
       </div>
-    </div>
+    </nav>
 
     <div class="Header-banner col-10">
       <h1 class="Header-title">The Blockchain
         <br>Dispute Resolution Layer</h1>
-      <h4 class="Header-tagline">Kleros provides fast, secure and affordable arbitration for virtually anything.</h4>
+      <h4 class="Header-tagline">Kleros provides fast, secure and affordable arbitration for virtually everything.</h4>
       <a href="#" target="_blank" class="Header-btn-learnMore btn btn-primary btn-lg">Learn More</a>
       <div class="Header-social flex-column flex-sm-row hidden-md-down">
-        Let's connect
+        Let's connect.
         <a href="https://www.reddit.com/r/Kleros" target="_blank">
           <img class="Header-socialIcon" src="img/reddit.svg" alt="Reddit">
         </a>
         <a href="https://twitter.com/kleros_io" target="_blank">
           <img class="Header-socialIcon" src="img/twitter.svg" alt="Twitter">
         </a>
-        <a href="https://medium.com/kleros" target="_blank">
-          <img class="Header-socialIcon" src="img/medium.svg" alt="Medium">
+        <a href="https://t.me/kleros" target="_blank">
+          <img class="Header-socialIcon" src="img/telegram.svg" alt="Telegram">
         </a>
       </div>
     </div>
@@ -122,7 +116,7 @@
 
   <!-- CountDown -->
   <div class="CountDown row">
-    <h3 class="CountDown-title col-12">Presale starts on March 20th, 2018</h3>
+    <h3 class="CountDown-title col-12">Presale starts on March 20th, 2018.</h3>
     <div class="CountDown-blocks col-12 flex-column flex-sm-row">
       <div class="CountDown-block">
         <div class="CountDown-amount CountDown-amount--days">-</div>
@@ -145,7 +139,7 @@
   <!-- End CountDown -->
 
   <!-- Video -->
-  <div id="video" class="Video row">
+  <div class="Video row">
     <div class="Video-container col-10">
       <iframe class="Video-iframe" src="https://www.youtube.com/embed/8RCUZV6Wgm4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
         allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -155,17 +149,21 @@
 
   <!-- Challenge -->
   <div class="Challenge row">
-    <h2 class="col-12">The challenge</h2>
-    <h4 class="Challenge-text col-8">Disputes in the global, digital and decentralized economy occur in areas that cannot be solved by state courts and existing
-      dispute resolution methods.</h4>
+    <h2 class="col-12">The Challenge</h2>
+    <h4 class="Challenge-text col-8">Disputes in the global, digital, and decentralized economy occur in areas where they cannot be solved by state courts
+      and existing dispute resolution methods.</h4>
+    <a class="Challenge-arrow col-12" href="#solution">
+      <img class="Challenge-arrowImage" src="img/arrow-down.svg" alt="Arrow Pointing Down">
+    </a>
   </div>
   <!-- End Challenge -->
 
   <!-- Solution -->
   <div class="Solution row">
-    <h2 class="col-12">The solution</h2>
+    <div id="solution" class="anchor col-12"></div>
+    <h2 class="col-12">The Solution</h2>
     <h4 class="Solution-text col-8">Kleros connects users who need to solve disputes with jurors who have the skills to fairly settle them. Our resolution
-      layer uses blockchain technology and crowdsourced jurors to adjudicate disputes in a fast, secure and affordable manner.</h4>
+      layer uses blockchain technology and crowdsourced jurors to adjudicate disputes in a fast, secure, and affordable manner.</h4>
     <div class="col-12">
       <img class="Solution-image" src="img/solution.png" alt="The Solution">
     </div>
@@ -174,46 +172,40 @@
 
   <!-- HowKlerosWorks -->
   <div class="HowKlerosWorks row">
-    <h2 class="col-12">How Kleros works?</h2>
+    <h2 class="col-12">How Does Kleros Work?</h2>
     <div class="col-12">
       <div class="HowKlerosWorks-steps row">
         <div class="HowKlerosWorks-step col-12 col-md-6 my-4">
           <div class="HowKlerosWorks-number">1</div>
-          <div class="HowKlerosWorks-icon">
-            <img src="#" alt="Contract">
-          </div>
+          <img class="HowKlerosWorks-icon" src="img/contract.svg" alt="Contract">
           <h3 class="HowKlerosWorks-title">Contract</h3>
           <h4 class="HowKlerosWorks-description">The relevant information is securely sent to Kleros.</h4>
         </div>
         <div class="HowKlerosWorks-step col-12 col-md-6 my-4">
           <div class="HowKlerosWorks-number">2</div>
-          <div class="HowKlerosWorks-icon">
-            <img src="#" alt="Dispute">
-          </div>
+          <img class="HowKlerosWorks-icon" src="img/dispute.svg" alt="Dispute">
           <h3 class="HowKlerosWorks-title">Dispute</h3>
           <h4 class="HowKlerosWorks-description">The relevant information is securely sent to Kleros.</h4>
         </div>
         <div class="HowKlerosWorks-step col-12 col-md-6 my-4">
           <div class="HowKlerosWorks-number">3</div>
-          <div class="HowKlerosWorks-icon">
-            <img src="#" alt="Selection">
-          </div>
+          <img class="HowKlerosWorks-icon" src="img/selection.svg" alt="Selection">
           <h3 class="HowKlerosWorks-title">Selection</h3>
           <h4 class="HowKlerosWorks-description">A tribunal is drawn from the crowd. Jurors evaluate evidence and cast their vote.</h4>
         </div>
         <div class="HowKlerosWorks-step col-12 col-md-6 my-4">
           <div class="HowKlerosWorks-number">4</div>
-          <div class="HowKlerosWorks-icon">
-            <img src="#" alt="Enforcement">
-          </div>
+          <img class="HowKlerosWorks-icon" src="img/enforcement.svg" alt="Enforcement">
           <h3 class="HowKlerosWorks-title">Enforcement</h3>
           <h4 class="HowKlerosWorks-description">The decision is enforced by the smart contract.</h4>
         </div>
       </div>
     </div>
-    <h4 class="HowKlerosWorks-crowdsourcing col-8">Crowdsourcing taps into a global pool of jurors, while the blockchain guarantees evidential integrity, transparency in
-      jury selection and incentives for honest rulings.</h4>
-    <img class="HowKlerosWorks-courtsDiagram col-10" src="#" alt="Courts Diagram">
+    <h4 class="HowKlerosWorks-crowdsourcing col-8">Crowdsourcing taps into a global pool of jurors, while the blockchain guarantees evidential integrity and transparency
+      in jury selection, and incentives for honest rulings.</h4>
+    <div class="col-10">
+      <img class="HowKlerosWorks-courtsDiagram" src="img/courts-diagram.png" alt="Courts Diagram">
+    </div>
   </div>
   <!-- End HowKlerosWorks -->
 
@@ -224,42 +216,42 @@
       <div class="UseCases-useCases row">
         <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
           <div class="UseCases-icon">
-            <img src="#" alt="Escrow">
+            <img src="img/escrow.svg" alt="Escrow">
           </div>
           <h4>Escrow</h4>
           <h6 class="UseCases-description">Lorem ipsum dolor sit ametum alet anemet umetus aleti treminxi adipising oremetum ases tes ruas.</h6>
         </div>
         <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
           <div class="UseCases-icon">
-            <img src="#" alt="Social Media">
+            <img src="img/social-media.svg" alt="Social Media">
           </div>
           <h4>Social Media</h4>
           <h6 class="UseCases-description">Lorem ipsum dolor sit ametum alet anemet umetus aleti treminxi adipising oremetum ases tes ruas.</h6>
         </div>
         <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
           <div class="UseCases-icon">
-            <img src="#" alt="Insurance">
+            <img src="img/insurance.svg" alt="Insurance">
           </div>
           <h4>Insurance</h4>
           <h6 class="UseCases-description">Lorem ipsum dolor sit ametum alet anemet umetus aleti treminxi adipising oremetum ases tes ruas.</h6>
         </div>
         <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
           <div class="UseCases-icon">
-            <img src="#" alt="Crowdfunding">
+            <img src="img/crowd-funding.svg" alt="Crowdfunding">
           </div>
           <h4>Crowdfunding</h4>
           <h6 class="UseCases-description">Lorem ipsum dolor sit ametum alet anemet umetus aleti treminxi adipising oremetum ases tes ruas.</h6>
         </div>
         <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
           <div class="UseCases-icon">
-            <img src="#" alt="Curated Lists">
+            <img src="img/curated-lists.svg" alt="Curated Lists">
           </div>
           <h4>Curated Lists</h4>
           <h6 class="UseCases-description">Lorem ipsum dolor sit ametum alet anemet umetus aleti treminxi adipising oremetum ases tes ruas.</h6>
         </div>
         <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
           <div class="UseCases-icon">
-            <img src="#" alt="Oracles">
+            <img src="img/oracles.svg" alt="Oracles">
           </div>
           <h4>Oracles</h4>
           <h6 class="UseCases-description">Lorem ipsum dolor sit ametum alet anemet umetus aleti treminxi adipising oremetum ases tes ruas.</h6>
@@ -272,20 +264,26 @@
   <!-- Pinakion -->
   <div class="Pinakion row">
     <h2 class="col-12">Pinakion Token (PNK)</h2>
-    <h4 class="Pinakion-description col-8">Users have an economic interest in serving as jurors in Kleros: collecting the arbitration fee that every juror receives
-      for their work.</h4>
+    <h4 class="Pinakion-description col-8">Users have an economic interest in serving as jurors in Kleros; They want to collect the arbitration fee that every juror
+      receives for their work.</h4>
     <div class="col-12">
       <div class="Pinakion-features row">
         <div class="col-12 col-sm-5">
-          <img src="#" alt="Pinakion Feature">
+          <img class="Pinakion-featureImage" src="img/pnk-cluster.svg" alt="Pinakion Feature">
           <h4>First, they protect the system against sybil attacks.</h4>
-          <a href="#">Find out more --></a>
+          <a href="#" target="_blank" class="Pinakion-findOutMore">
+            Find out more
+            <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+          </a>
         </div>
         <div class="col-12 col-sm-5">
-          <img src="#" alt="Pinakion Feature">
+          <img class="Pinakion-featureImage" src="img/pnk-cluster.svg" alt="Pinakion Feature">
           <h4>Second, PNK provides jurors the incentive to vote honestly by making incoherent jurors pay part of their deposit
             to coherent ones.</h4>
-          <a href="#">Find out more --></a>
+          <a href="#" target="_blank" class="Pinakion-findOutMore">
+            Find out more
+            <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+          </a>
         </div>
       </div>
     </div>
@@ -294,7 +292,7 @@
 
   <!-- Security -->
   <div class="Security row">
-    <h2 class="col-12">Security for users and jurors alike</h2>
+    <h2 class="col-12">Security for Users and Jurors Alike</h2>
     <h4 class="Security-description col-8">Bribe and attack resistant whilst offering user privacy through intelligent design.</h4>
   </div>
   <!-- End Security -->
@@ -308,7 +306,7 @@
           <div class="Roadmap-date">
             DATE
             <div class="Roadmap-tooltip">
-              <h6>Registration Period</h6>
+              <h6 class="Roadmap-tooltipTitle">Registration Period</h6>
               <p>Lorem ipsum dolor sit ametum alet anemet umetus.</p>
             </div>
           </div>
@@ -317,7 +315,7 @@
           <div class="Roadmap-date">
             DATE
             <div class="Roadmap-tooltip Roadmap-tooltip--inverse">
-              <h6>Registration Period</h6>
+              <h6 class="Roadmap-tooltipTitle">Registration Period</h6>
               <p>Lorem ipsum dolor sit ametum alet anemet umetus.</p>
             </div>
           </div>
@@ -326,7 +324,7 @@
           <div class="Roadmap-date">
             DATE
             <div class="Roadmap-tooltip">
-              <h6>Registration Period</h6>
+              <h6 class="Roadmap-tooltipTitle">Registration Period</h6>
               <p>Lorem ipsum dolor sit ametum alet anemet umetus.</p>
             </div>
           </div>
@@ -335,7 +333,7 @@
           <div class="Roadmap-date">
             DATE
             <div class="Roadmap-tooltip Roadmap-tooltip--inverse">
-              <h6>Registration Period</h6>
+              <h6 class="Roadmap-tooltipTitle">Registration Period</h6>
               <p>Lorem ipsum dolor sit ametum alet anemet umetus.</p>
             </div>
           </div>
@@ -347,66 +345,68 @@
 
   <!-- Team -->
   <div class="Team row">
+    <div id="team" class="anchor col-12"></div>
     <h2 class="col-12">Team</h2>
     <div class="col-12">
       <div class="Team-members row">
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-2">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/federico-ast.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Federico Ast</h5>
+          <p class="Team-memberRole">CEO</p>
         </div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-1">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/clesaege.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Clément Lesaege</h5>
+          <p class="Team-memberRole">CTO</p>
         </div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-1">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/profile.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Nicolas Wagner</h5>
+          <p class="Team-memberRole">WEB3 DEVELOPER</p>
         </div>
         <div class="col-12 hidden-md-down"></div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-2">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/satello.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Sam Vitello</h5>
+          <p class="Team-memberRole">DAPP DEVELOPER</p>
         </div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-1">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/romina.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Romina Kavcic</h5>
+          <p class="Team-memberRole">DESIGN LEAD</p>
         </div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-1">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/profile.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Maria T. Vidal</h5>
+          <p class="Team-memberRole">COMMUNICATIONS LEAD</p>
         </div>
         <div class="col-12 hidden-md-down"></div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-2">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/epiqueras.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Enrique Piqueras</h5>
+          <p class="Team-memberRole">DAPP DEVELOPER</p>
         </div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-1">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/w-george.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">William George</h5>
+          <p class="Team-memberRole">CRYPTO-ECONOMIC RESEARCHER</p>
         </div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-1">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/addison.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Addison Huegel</h5>
+          <p class="Team-memberRole">PR</p>
         </div>
         <div class="col-12 hidden-md-down"></div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-2">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/sjj.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Stuart James</h5>
+          <p class="Team-memberRole">COMMUNITY MANAGER</p>
         </div>
         <div class="Team-member col-12 col-sm-6 col-md-2 offset-md-1">
-          <img class="Team-memberPortrait" src="#" alt="Team Member Portrait">
-          <h5 class="Team-memberName">Member</h5>
-          <p class="Team-memberRole">Role</p>
+          <img class="Team-memberPortrait" src="img/profile.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">
+            <a href="#" target="_blank" class="Team-jobsLink">You?</a>
+          </h5>
         </div>
       </div>
     </div>
@@ -416,45 +416,53 @@
   <!-- Media -->
 
   <div class="Media row">
-    <h2 class="col-12">Kleros in media</h2>
+    <h2 class="col-12">Kleros in the Media</h2>
     <div class="col-12">
       <div class="Media-cards row">
         <div class="Media-card col-12 col-sm-6 col-md-3">
-          <img class="Media-titleImage" src="#" alt="Media Title Image">
+          <img class="Media-titleImage" src="img/the-guardian.png" alt="Media Title Image">
           <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
             start submitting free ads to newsletters and free advertising classifieds sites"</p>
           <h6 class="Media-date">April 28, 2018</h6>
           <a href="#" target="_blank">
             <h6 class="Media-readMore">
-              Read more -->
+              Read more
+              <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
             </h6>
           </a>
         </div>
         <div class="Media-card col-12 col-sm-6 col-md-3">
-          <img class="Media-titleImage" src="#" alt="Media Title Image">
+          <img class="Media-titleImage" src="img/the-verge.png" alt="Media Title Image">
           <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
             start submitting free ads to newsletters and free advertising classifieds sites"</p>
           <h6 class="Media-date">April 28, 2018</h6>
           <a href="#" target="_blank">
             <h6 class="Media-readMore">
-              Read more -->
+              Read more
+              <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
             </h6>
           </a>
         </div>
         <div class="Media-card col-12 col-sm-6 col-md-3">
-          <img class="Media-titleImage" src="#" alt="Media Title Image">
+          <img class="Media-titleImage" src="img/the-guardian.png" alt="Media Title Image">
           <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
             start submitting free ads to newsletters and free advertising classifieds sites"</p>
           <h6 class="Media-date">April 28, 2018</h6>
           <a href="#" target="_blank">
             <h6 class="Media-readMore">
-              Read more -->
+              Read more
+              <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
             </h6>
           </a>
         </div>
       </div>
     </div>
-    <img src="#" alt="Media Outlets" class="Media-outlets col-12">
+    <div class="col-12">
+      <img src="img/the-verge.png" alt="Media Outlets" class="Media-outlets">
+    </div>
+    <div class="col-12">
+      <img src="img/ship.svg" alt="Media Ship" class="Media-ship">
+    </div>
   </div>
 
   <!-- End Media -->
@@ -464,38 +472,56 @@
   <div class="Footer row">
     <div class="col-12">
       <div class="Footer-callToAction row">
-        <div class="Footer-signUpMessage col-12">Sign up to receive our latest updates.</div>
+        <div class="Footer-signUpMessage col-12">Sign up to Receive Our Latest Updates</div>
         <h5 class="Footer-quote col-12">"Whoever controls the courts, controls the state”. Aristotle.</h5>
-        <div class="Footer-signUpInput col-6">
+        <div class="Footer-signUpInput col-10 col-sm-8 col-md-6">
           <div class="Footer-inputGroup input-group">
-            <input type="text" class="Footer-formControl form-control" placeholder="Enter your email">
+            <input type="text" class="Footer-formControl form-control" placeholder="Enter your email.">
             <span class="input-group-btn">
               <button class="btn-signUpButton btn btn-secondary" type="button">Sign Up</button>
             </span>
           </div>
         </div>
-        <div class="Footer-signUpPrivacy col-12">We value your privacy and will never share your details with another parties.</div>
+        <div class="Footer-signUpPrivacy col-12">We value your privacy and will never share your email with third parties.</div>
         <hr class="Footer-separator col-8">
-        <div class="Footer-links col-6">
-          <h5 class="Footer-findOutMore row">Find out more</h5>
-          <p class="Footer-linksList row">Protocol&nbsp;&nbsp;&nbsp;How it works&nbsp;&nbsp;&nbsp;Applications&nbsp;&nbsp;&nbsp;Uses cases&nbsp;&nbsp;&nbsp;Team&nbsp;&nbsp;&nbsp;FAQ&nbsp;&nbsp;&nbsp;Contact</p>
+        <div class="Footer-links col-5">
+          <h5 class="Footer-findOutMore row">Find out more.</h5>
+          <p class="Footer-linksList row">
+            <a class="Header-navLink nav-link" href="https://medium.com/kleros/faq/home" target="_blank">FAQ</a>&nbsp;&nbsp;&nbsp;
+            <a class="Header-navLink nav-link" href="https://github.com/kleros" target="_blank">Github</a>&nbsp;&nbsp;&nbsp;
+            <a class="Header-navLink nav-link" href="https://t.me/kleros" target="_blank">Telegram</a>
+          </p>
         </div>
-        <div class="Footer-social col-2">
-          <h5 class="Footer-letsConnect row">Let's connect</h5>
-          <div class="Footer-socialIcons row">
-            <img src="#" alt="Twitter" class="Footer-socialIcon col-1">
-            <img src="#" alt="Facebook" class="Footer-socialIcon col-1">
-            <img src="#" alt="LinkedIn" class="Footer-socialIcon col-1">
-            <img src="#" alt="Medium" class="Footer-socialIcon col-1">
-            <img src="#" alt="Telegram" class="Footer-socialIcon col-1">
-            <img src="#" alt="Reddit" class="Footer-socialIcon col-1">
+        <div class="col-3">
+          <h5 class="row">Let's connect.</h5>
+          <div class="row">
+            <div>
+              <a href="https://twitter.com/kleros_io" target="_blank">
+                <img src="img/twitter.svg" alt="Twitter" class="Footer-socialIcon">
+              </a>
+              <a href="https://www.facebook.com/kleros.io" target="_blank">
+                <img src="img/facebook.svg" alt="Facebook" class="Footer-socialIcon">
+              </a>
+              <a href="https://www.linkedin.com/company/kleros" target="_blank">
+                <img src="img/linked-in.svg" alt="LinkedIn" class="Footer-socialIcon">
+              </a>
+              <a href="https://medium.com/kleros" target="_blank">
+                <img src="img/medium.svg" alt="Medium" class="Footer-socialIcon">
+              </a>
+              <a href="https://t.me/kleros" target="_blank">
+                <img src="img/telegram.svg" alt="Telegram" class="Footer-socialIcon">
+              </a>
+              <a href="https://www.reddit.com/r/Kleros" target="_blank">
+                <img src="img/reddit.svg" alt="Reddit" class="Footer-socialIcon">
+              </a>
+            </div>
           </div>
         </div>
       </div>
       <div class="Footer-end row">
         <div class="col-3">
           <a class="Footer-brand" href="#">
-            <img class="Footer-logo" src="favicon-32x32.png" alt="Kleros Logo"> KLEROS
+            <img class="Footer-logo" src="favicon-32x32.png" alt="Kleros Logo">KLEROS
           </a>
         </div>
         <p class="Footer-copyright col-3">Copyright 2018 © Kleros.io</p>
@@ -513,7 +539,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
   <script>
-    var $nav = $('.Header-navbar');
+    var $nav = $('#navbar');
     $(document).scroll(function () {
       $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
     });
