@@ -53,6 +53,7 @@ html {
   border: 0;
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
   padding: 84px 0 0;
   width: 100%;
 }
@@ -145,6 +146,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 278px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -175,6 +178,7 @@ p {
   font-weight: 300;
   justify-content: flex-start;
   letter-spacing: 5px;
+  margin-left: -40px;
   padding-left: 12.75%;
 }
 
@@ -254,6 +258,8 @@ p {
 /**************** CountDown ****************/
 
 .CountDown {
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 92px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -298,6 +304,8 @@ p {
 
 .Video {
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-left: 12.75%;
   padding-right: 12.75%;
 }
@@ -327,6 +335,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 223px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -358,6 +368,8 @@ p {
 .Solution {
   align-content: flex-start;
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 205px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -383,6 +395,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 175px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -408,7 +422,7 @@ p {
   color: #f2f5fa;
   font-size: 70px;
   font-weight: 700;
-  left: 200px;
+  left: 35%;
   position: absolute;
   top: -60px;
   z-index: -1;
@@ -417,7 +431,6 @@ p {
 .HowKlerosWorks-icon {
   float: left;
   height: 80px;
-  margin-right: 40px;
 }
 
 .HowKlerosWorks-title {
@@ -443,6 +456,8 @@ p {
   background-size: cover;
   color: #fff;
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 318px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -452,6 +467,8 @@ p {
 
 .UseCases-useCases {
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding: 0 40px;
   text-align: left;
 }
@@ -478,6 +495,8 @@ p {
 
 .Pinakion {
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 161px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -497,6 +516,7 @@ p {
 .Pinakion-featureImage {
   margin-bottom: 40px;
   margin-top: 125px;
+  width: 100%;
 }
 
 .Pinakion-findOutMore {
@@ -517,6 +537,8 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 715px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -534,6 +556,8 @@ p {
 
 .Team {
   justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
   padding-bottom: 182px;
   padding-left: 12.75%;
   padding-right: 12.75%;
@@ -542,7 +566,7 @@ p {
 
 .Team-members {
   justify-content: space-between;
-  margin-top: 144px;
+  margin-top: 15%;
 }
 
 .Team-member {
@@ -624,6 +648,7 @@ p {
 
 .Media-outlets {
   height: 59px;
+  max-width: 100%;
 }
 
 .Media-ship {
@@ -686,7 +711,7 @@ p {
     0 2px 9px 0 rgba(0, 0, 0, 0.17);
   color: #fff !important;
   cursor: pointer;
-  width: 160px;
+  width: 100%;
 }
 
 .btn-signUpButton:hover {
