@@ -412,7 +412,7 @@ p {
   padding: 0 10%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .HowKlerosWorks-step:nth-child(even) {
     margin-top: 186px !important;
   }
