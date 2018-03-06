@@ -186,6 +186,7 @@ p {
   text-decoration: none !important;
 }
 
+/* < medium */
 @media (max-width: 767px) {
   .Header-navbarBrand {
     justify-content: center;
@@ -412,6 +413,7 @@ p {
   padding: 0 10%;
 }
 
+/* >= large */
 @media (min-width: 992px) {
   .HowKlerosWorks-step:nth-child(even) {
     margin-top: 186px !important;
