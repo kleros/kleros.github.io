@@ -146,6 +146,8 @@ p {
   background-size: cover;
   justify-content: center;
   padding-bottom: 278px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   padding-top: 122px;
 }
 
@@ -171,12 +173,20 @@ p {
   flex: 1;
   font-size: 13px;
   font-weight: 300;
-  justify-content: center;
+  justify-content: flex-start;
   letter-spacing: 5px;
+  padding-left: 12.75%;
 }
 
 .Header-navbarBrand:hover {
   text-decoration: none !important;
+}
+
+@media (max-width: 767px) {
+  .Header-navbarBrand {
+    justify-content: center;
+    padding-left: 0;
+  }
 }
 
 .Header-logo {
@@ -245,6 +255,8 @@ p {
 
 .CountDown {
   padding-bottom: 92px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
 }
 
 .CountDown-title {
@@ -286,6 +298,8 @@ p {
 
 .Video {
   justify-content: center;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
 }
 
 .Video-container {
@@ -314,6 +328,8 @@ p {
   background-size: cover;
   justify-content: center;
   padding-bottom: 223px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   padding-top: 397px;
   position: relative;
   text-align: center;
@@ -343,6 +359,8 @@ p {
   align-content: flex-start;
   justify-content: center;
   padding-bottom: 205px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   padding-top: 68px;
   text-align: center;
 }
@@ -366,6 +384,8 @@ p {
   background-size: cover;
   justify-content: center;
   padding-bottom: 175px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   text-align: center;
 }
 
@@ -424,6 +444,8 @@ p {
   color: #fff;
   justify-content: center;
   padding-bottom: 318px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   padding-top: 118px;
   text-align: center;
 }
@@ -457,6 +479,8 @@ p {
 .Pinakion {
   justify-content: center;
   padding-bottom: 161px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   padding-top: 82px;
   text-align: center;
 }
@@ -494,6 +518,8 @@ p {
   background-size: cover;
   justify-content: center;
   padding-bottom: 715px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   padding-top: 119px;
   text-align: center;
 }
@@ -509,16 +535,25 @@ p {
 .Team {
   justify-content: center;
   padding-bottom: 182px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   text-align: center;
 }
 
 .Team-members {
+  justify-content: space-between;
   margin-top: 144px;
 }
 
 .Team-member {
   margin-top: 60px;
   min-width: 230px;
+  position: relative;
+}
+
+.Team-member--you {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Team-memberPortrait {
