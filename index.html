@@ -1,1025 +1,519 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	  <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-103362452-1">
-    </script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'UA-103362452-1');
-    </script>
-    <!-- End Global Site Tag (gtag.js) - Google Analytics -->
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103362452-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-103362452-1');
+  </script>
+  <!-- End Global Site Tag (gtag.js) - Google Analytics -->
 
-    <!-- Google Tag Manager -->
-    <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-NJD57HL');
-    </script>
-    <!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
 
-    <title>The Blockchain Dispute Resolution Layer</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Kleros provides fast, secure and affordable arbitration for virtually anything. An ethereum project." />
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJD57HL');
+  </script>
+  <!-- End Google Tag Manager -->
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+  <!-- Meta -->
+  <title>The Blockchain Dispute Resolution Layer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=0, minimum-scale=1, maximum-scale=1, initial-scale=1, width=device-width">
+  <meta name="description" content="Kleros provides fast, secure and affordable arbitration for virtually everything. An ethereum project.">
+  <!-- End Meta -->
 
-  <body data-spy="scroll" data-target="#navbar-top" id="kleros">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-NJD57HL"
-        height="0"
-        width="0"
-        style="display:none;visibility:hidden">
-      </iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <!-- End Favicon -->
 
-    <div class="container-fluid">
-      <nav id="navbar-top" class="navbar fixed-top navbar-inverse navbar-toggleable-md navbar-light bg-faded navbar-fixed-top" role="navigation">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#kleros">
-          <img src="img/logo_kleroterion.png" width="35" class="d-inline-block align-top" alt="Kleros">
-          Kleros
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- End CSS -->
+</head>
+
+<body class="container-fluid" data-spy="scroll" data-target="#navbarContent" data-offset="168">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJD57HL" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Header -->
+  <div class="Header row">
+    <nav id="#navbar" class="Header-navbar navbar navbar-toggleable-md col-12">
+      <button class="Header-navbarToggler navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          .---
+          <br> .---
+          <br> .---
+          <br>
+        </span>
+      </button>
+      <a class="Header-navbarBrand navbar-brand" href="#">
+        <img class="Header-logo" src="favicon-32x32.png" alt="Kleros Logo">KLEROS
+      </a>
+
+      <div id="navbarContent" class="Header-navbarContent collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="Header-navLink nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="Header-navLink nav-link" href="https://medium.com/kleros/faq/home" target="_blank">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="Header-navLink nav-link" href="https://github.com/kleros" target="_blank">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="Header-navLink nav-link" href="https://t.me/kleros" target="_blank">Telegram</a>
+          </li>
+          <a href="assets/whitepaper.pdf" target="_blank" class="Header-btn-readTheWhitepaper btn btn-secondary">Read the Whitepaper</a>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="Header-banner col-12">
+      <h1 class="Header-title">The Blockchain
+        <br>Dispute Resolution Layer</h1>
+      <h4 class="Header-tagline">Kleros provides fast, secure and affordable arbitration for virtually everything.</h4>
+      <a href="assets/one-pager.pdf" target="_blank" class="Header-btn-learnMore btn btn-primary btn-lg">Learn More</a>
+      <div class="Header-social flex-column flex-sm-row hidden-md-down">
+        Let's connect.
+        <a href="https://www.reddit.com/r/Kleros" target="_blank">
+          <img class="Header-socialIcon" src="img/reddit.svg" alt="Reddit">
         </a>
+        <a href="https://twitter.com/kleros_io" target="_blank">
+          <img class="Header-socialIcon" src="img/twitter.svg" alt="Twitter">
+        </a>
+        <a href="https://t.me/kleros" target="_blank">
+          <img class="Header-socialIcon" src="img/telegram.svg" alt="Telegram">
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- End Header -->
 
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav ml-auto mt-2 mt-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#protocol">Protocol</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#how-it-works">How it works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#applications">Applications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#uses-cases">Uses cases</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#team">Team&amp;Advisors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#FAQ">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <!-- CountDown -->
+  <div class="CountDown row">
+    <h3 class="CountDown-title col-12">Token sale starts on May 15th, 2018.</h3>
+    <div class="CountDown-blocks col-12 flex-column flex-sm-row">
+      <div class="CountDown-block">
+        <div class="CountDown-amount CountDown-amount--days">-</div>
+        <div class="CountDown-unit">DAYS</div>
+      </div>
+      <div class="CountDown-block">
+        <div class="CountDown-amount CountDown-amount--hours">-</div>
+        <div class="CountDown-unit">HOURS</div>
+      </div>
+      <div class="CountDown-block">
+        <div class="CountDown-amount CountDown-amount--min">-</div>
+        <div class="CountDown-unit">MIN</div>
+      </div>
+    </div>
+  </div>
+  <!-- End CountDown -->
 
-      <section class="kleros">
-        <div class="row">
-          <div class="col-lg-6 hidden-md-down">
-            <div class="float-right">
-              <img
-                alt="pinakion"
-                src="img/phone_pinakion.png"
-                class="img-phone-pinakion" />
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="kleros-wording">
-              <h2 class="kleros-based">Based on Ethereum <img alt="ethereum logo" class="logo-ethereum" src="img/ethereum_logo.png" /> Blockchain</h2>
-              <h1 class="kleros-title">The Blockchain Dispute Resolution Layer</h1>
-              <p class="kleros-description">
-               Fast, secure and affordable arbitration for virtually anything.
+  <!-- Video -->
+  <div class="Video row">
+    <!-- <div class="Video-container col-10">
+      <iframe class="Video-iframe" src="https://www.youtube.com/embed/8RCUZV6Wgm4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div> -->
+  </div>
+  <!-- End Video -->
 
-              </p>
-              <div class="hidden-md-down">
-                <a class="btn btn-lg btn-how-it-works" href="#how-it-works">How it works?</a>
-                <a class="btn btn-lg btn-primary btn-wp" href="assets/whitepaper.pdf">Read the white paper</a>
-                <a href="https://t.me/kleros">
-                  <img class="btn-telegram" src="img/Telegram-icon-sq.png" alt="kleros telegram" />
-                </a>
-              </div>
-              <div class="hidden-lg-up">
-                <div class="row">
-                  <div class="col-lg-12 no-padding">
-                    <a class="btn btn-lg btn-how-it-works btn-block" href="#how-it-works">How it works?</a>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 no-padding">
-                    <a class="btn btn-lg btn-primary btn-wp btn-block" href="assets/whitepaper.pdf">Download the white paper</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <!-- Challenge -->
+  <div class="Challenge row">
+    <h2 class="col-12">The Challenge</h2>
+    <h4 class="Challenge-text col-12 col-sm-8">Disputes in the global, digital, and decentralized economy occur in areas where they cannot be solved by state courts
+      and existing dispute resolution methods.</h4>
+    <a class="Challenge-arrow col-12" href="#solution">
+      <img class="Challenge-arrowImage" src="img/arrow-down.svg" alt="Arrow Pointing Down">
+    </a>
+  </div>
+  <!-- End Challenge -->
 
-      <section class="protocol" id="protocol">
-        <div class="row">
-          <div class="offset-lg-1 col-lg-5 col-md-10">
-            <h2 class="protocol-title">TRIBUNALS<br /><span class="protocol-subtitle">ON DEMAND</span></h2>
-            <p class="protocol-smart-contract">
-              Smart contracts are designed to self-execute, but not to evaluate
-              subjective information or to interpret complex evidence.
-            </p>
-            <p class="protocol-introduction">
-              Kleros uses blockchain and crowdsourcing for evaluating complex
-              evidence and adjudicating claims in a fast, transparent and
-              decentralized way.
-            </p>
-            <a class="btn btn-default protocol-btn-how-it-works hidden-md-down" href="#how-it-works">How it works?</a>
-          </div>
-          <div class="col-lg-6 hidden-md-down iMac">
-            <div class="text-right">
-              <img alt="screen mac kleros" src="img/iMac.png" class="img-iMac" />
-            </div>
-          </div>
-        </div>
-      </section>
+  <!-- Solution -->
+  <div class="Solution row">
+    <div id="solution" class="anchor col-12"></div>
+    <h2 class="col-12">The Solution</h2>
+    <h4 class="Solution-text col-12 col-sm-8">Kleros connects users who need to solve disputes with jurors who have the skills to fairly settle them. Our resolution
+      layer uses blockchain technology and crowdsourced jurors to adjudicate disputes in a fast, secure, and affordable manner.</h4>
+    <div class="col-12">
+      <img class="Solution-image" src="img/solution.png" alt="The Solution">
+    </div>
+  </div>
+  <!-- End Solution -->
 
-      <section id="how-it-works">
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="text-center how-it-works-title">HOW IT WORKS?</h2>
-          </div>
+  <!-- HowKlerosWorks -->
+  <div class="HowKlerosWorks row">
+    <h2 class="col-12">How Does Kleros Work?</h2>
+    <div class="col-12">
+      <div class="HowKlerosWorks-steps row">
+        <div class="HowKlerosWorks-step col-12 col-lg-6 my-4">
+          <div class="HowKlerosWorks-number">1</div>
+          <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="img/contract.svg" alt="Contract">
+          <h3 class="HowKlerosWorks-title">Contract</h3>
+          <h4 class="HowKlerosWorks-description">Users create a smart contract and choose Kleros as its adjudication protocol.</h4>
         </div>
-        <div class="row how-it-works-items">
-          <div class="col-md-3">
-            <div class="text-center how-it-works-img align-bottom">
-              <span class="align-bottom"><img alt="contract kleros" src="img/contract.png" /></span>
-            </div>
-            <h3  class="text-center">Contract</h3>
-            <p class="text-center how-it-works-content">
-              Users create a smart contract and choose Kleros as adjudication
-              protocol.
-          </p>
-          </div>
-          <div class="col-md-3">
-            <div class="text-center how-it-works-img">
-              <img alt="dispute kleros" src="img/dispute.png" class="how-it-works-img-dispute" />
-            </div>
-            <h3 class="text-center">Dispute</h3>
-            <p class="text-center how-it-works-content">
-              The relevant information is securely sent to Kleros.
-            </p>
-          </div>
-          <div class="col-md-3">
-            <div class="text-center how-it-works-img">
-              <img alt="jury kleros" src="img/jury.png" class="how-it-works-img-jury" />
-            </div>
-            <h3 class="text-center">Selection</h3>
-            <p class="text-center how-it-works-content">
-              A tribunal is drawn from the crowd. Jurors evaluate evidence and
-              cast their vote.
-          </p>
-          </div>
-          <div class="col-md-3">
-            <div class="text-center how-it-works-img">
-              <img alt="decision kleros" src="img/decision.png" class="how-it-works-img-decision"/>
-            </div>
-            <h3 class="text-center">Enforcement</h3>
-            <p class="text-center how-it-works-content">
-              The decision is enforced by the smart contract.
-            </p>
-          </div>
+        <div class="HowKlerosWorks-step col-12 col-lg-6 my-4">
+          <div class="HowKlerosWorks-number">2</div>
+          <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="img/dispute.svg" alt="Dispute">
+          <h3 class="HowKlerosWorks-title">Dispute</h3>
+          <h4 class="HowKlerosWorks-description">The relevant information is securely sent to Kleros.</h4>
         </div>
-        <div class="row hidden-md-down">
-          <div class="col-md-12">
-            <div class="text-center">
-              <a class="btn btn-default how-it-works-btn-applications hidden-md-down" href="#section-applications">Applications concept</a>
-            </div>
-          </div>
+        <div class="HowKlerosWorks-step col-12 col-lg-6 my-4">
+          <div class="HowKlerosWorks-number">3</div>
+          <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="img/selection.svg" alt="Selection">
+          <h3 class="HowKlerosWorks-title">Selection</h3>
+          <h4 class="HowKlerosWorks-description">A tribunal is drawn from the crowd. Jurors evaluate evidence and cast their vote.</h4>
         </div>
-      </section>
-
-      <section id="section-applications">
-        <div class="row">
-          <div class="offset-md-1 col-md-11">
-            <h2 class="applications-title" id="applications">TRANSPARENT DECISIONS</h2>
-            <p class="applications-introduction-text">
-              Kleros can be used for dispute resolution and in a large number of
-              situations where a decision has to be made transparently because
-              it affects the interest of parties.
-            </p>
-            <p class="applications-content-text-1">
-              An entrepreneur hires a freelancer
-              for a software development gig.
-              <br />
-              A dispute arises about the scope of the contract.
-            </p>
-            <p class="applications-content-text-2">
-              Should the freelancer give the money back to his client?
-            </p>
-            <p class="applications-content-text-1">
-              A jury of software experts analyze the evidence and votes a
-              verdict.
-              <br />
-              A smart contract transfers the money to the winning party.
-            </p>
-          </div>
-        </div>
-        <div class="row hidden-md-down">
-          <div class="col-md-2 offset-md-1">
-            <img alt="kleroterion kleros" src="img/kleroterion.png" />
-          </div>
-          <div class="col-md-2">
-            <p class="applications-kleroterion">
-              <span class="">
-                The Kleroterion was an allotment machine used by the Athenian
-                polis to select citizens to court juries.
-              </span>
-              <br />
-              <br />
-              On trial days, citizen wishing to serve as jurors went to the
-              courthouse and inserted their pinakion (a bronze ID token) into a
-              slot of the Kleroterion. A justice official threw white and black
-              dice on a tube attached on a side of the machine. Candidates
-              having a black ball on their row were dismissed. Candidates with a
-              white ball were selected for paid jury duty.
-              <br />
-              <br />
-              <a href="https://en.wikipedia.org/wiki/Kleroterion">https://en.wikipedia.org/wiki/Kleroterion</a>
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-12">
-            <h2 class="text-center uses-cases-title" id="uses-cases">USES CASES</h2>
-          </div>
-        </div>
-        <div class="row hidden-xs-down">
-          <div class="offset-md-1 col-md-5 uses-cases-col-left">
-            <div class="uses-cases-border">&nbsp;</div>
-          </div>
-          <div class="col-md-5 uses-cases-col-right">
-            <div class="uses-cases-border">&nbsp;</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="offset-md-1 col-md-5 uses-cases-col-left">
-            <div class="media uses-cases-item uses-cases-item-arbitration">
-              <div class="media-body uses-cases-p">
-                <h3 class="mt-0">Arbitration</h3>
-                <p class="mb-0">
-                  An entrepreneur hires a freelancer for a software development
-                  gig. A dispute arises about the scope of the contract. A jury
-                  of software experts analyze the evidence and votes a verdict.
-                  A smart contract transfers the money to the winning party.
-                </p>
-              </div>
-              <img
-                class="d-flex align-self-center ml-3 uses-cases-img hidden-md-down"
-                src="img/arbitration.png"
-                alt="Arbitration"
-              />
-            </div>
-          </div>
-          <div class="col-md-5 uses-cases-col-right">
-            <div class="media uses-cases-item">
-              <div class="media-body uses-cases-p uses-cases-item-crowdfunding">
-                <h3 class="mt-0">Crowdfunding</h3>
-                <p class="mb-0">
-                  A startup raises money with a crowdfunding campaign. Funds
-                  will be released after the company presents a working
-                  prototype. The company presents a prototype and requests that
-                  the funds be disbursed. Kleros jurors vote that the prototype
-                  does not meet the requirements. The payment is withheld.
-                </p>
-              </div>
-              <img
-                src="img/crowdfunding.png"
-                class="-flex align-self-center ml-3 uses-cases-img hidden-md-down"
-                alt="Crowdfunding"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="row hidden-xs-down">
-          <div class="offset-md-1 col-md-5 uses-cases-col-left">
-            <div class="uses-cases-border">&nbsp;</div>
-          </div>
-          <div class="col-md-5 uses-cases-col-right">
-            <div class="uses-cases-border">&nbsp;</div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="offset-md-1 col-md-5 uses-cases-col-left">
-            <div class="media uses-cases-item uses-cases-item-copyright">
-              <div class="media-body uses-cases-p">
-                <h3 class="mt-0">Copyright</h3>
-                <p class="mb-0">
-                  A song is flagged for plagiarism on a decentralized music
-                  platform. The jury determines that the song was indeed
-                  plagiarized. All payments are redirected to the copyright
-                  owner.
-                </p>
-              </div>
-              <img
-                class="d-flex align-self-center ml-3 uses-cases-img hidden-md-down"
-                src="img/copyright.png"
-                alt="Copyright"
-              />
-            </div>
-          </div>
-          <div class="col-md-5 uses-cases-col-right">
-            <div class="media uses-cases-item uses-cases-item-social">
-              <div class="media-body uses-cases-p">
-                <h3 class="mt-0">Social media</h3>
-                <p class="mb-0">
-                  A user is flagged for an inappropriate comment in a
-                  decentralized social media platform. The jury decides that the
-                  comment has violated the terms and conditions. The post is
-                  deleted and the user loses reputation points.
-                </p>
-              </div>
-              <img
-                src="img/social_media.png"
-                class="-flex align-self-center ml-3 uses-cases-img hidden-md-down"
-                alt="Social media"
-              />
-            </div>
-          </div>
-        </div>
-        <div class="row hidden-xs-down">
-          <div class="offset-md-1 col-md-5 uses-cases-col-left">
-            <div class="uses-cases-border">&nbsp;</div>
-          </div>
-          <div class="col-md-5 uses-cases-col-right">
-            <div class="uses-cases-border">&nbsp;</div>
-          </div>
-        </div>
-      </section>
-
-      <section id="team">
-        <div class="row">
-          <div class="offset-md-1 col-md-8">
-            <h2 class="team-title">TEAM</h2>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img alt="Federico Ast" src="img/federico_ast.png" class="team-img-federico" />
-                    <p class="team-name">Federico Ast</p>
-                    <p>
-                      <span class="status">CEO</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/federicoast/'"/>
-                      <img src="img/twitter_icon.png" width="33px" style="cursor:pointer;" onclick="location.href='https://twitter.com/federicoast'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img src="img/lesaege.png" class="team-img-lesaege" />
-                    <p class="team-name">Clément Lesaege</p>
-                    <p>
-                      <span class="status">CTO</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/cl%C3%A9ment-lesaege-a326b9ab/'"/>
-                      <img alt="github icon" src="img/github_icon.png" width="33px" style="cursor:pointer;" onclick="location.href='https://github.com/clesaege'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img alt="Sam Vitello"src="img/nico.png" class="team-img-wagner" />
-                    <p class="team-name">Nicolas Wagner</p>
-                    <p>
-                      <span class="status">WEB3 DEVELOPER</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/nicolas-wagner-ab59249a/'"/>
-                      <img alt="github icon" src="img/github_icon.png" width="33px" style="cursor:pointer;" onclick="location.href='https://github.com/n1c01a5'"/>
-                      <img alt="twitter icon" src="img/twitter_icon.png" width="40px" style="cursor:pointer; padding-left:7px;" onclick="location.href='https://twitter.com/w_n1c01a5'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-offset-1 col-md-2">
-            <h2 class="team-title team-join">JOIN OUR TEAM</h2>
-            <div class="float-md-right">
-              <div class="text-center">
-                <img alt="Anomymous" src="img/anonymous_rh.png" />
-                <p class="contributor jobs">
-                  Want to contribute to<br />the justice revolution?
-                </p>
-                <p class="jobs">
-                  <a href="https://angel.co/kleroterion/jobs/" class="submit team-jobs">Jobs</a>
-                  or
-                  <a href="#contact" class="join-team-contact-us page-scroll">Contact us</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="offset-md-1 col-md-8">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img alt="Sam Vitello" src="img/sam.png" class="team-img-federico" />
-                    <p class="team-name">Sam Vitello</p>
-                    <p>
-                      <span class="status">DAPP DEVELOPER</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/samvitello/'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img alt="Romina" src="img/Romina-team-photo.png" class="team-img-federico" />
-                    <p class="team-name">Romina Kavcic</p>
-                    <p>
-                      <span class="status">UI/UX DESIGNER</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/rominakavcic/'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img alt="Maria T. Vidal" src="img/Tete.png" class="team-img-federico" />
-                    <p class="team-name">Maria T. Vidal</p>
-                    <p>
-                      <span class="status">COMMUNICATIONS<br />LEAD</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/mariatvidal/'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="offset-md-1 col-md-8">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img alt="Sam Vitello" src="img/team-enrique.png" class="team-img-federico" />
-                    <p class="team-name">Enrique Piqueras</p>
-                    <p>
-                      <span class="status">FRONT DEVELOPER</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/enrique-piqueras-2a9b65120/'"/>
-                      <img alt="github icon" src="img/github_icon.png" width="33px" style="cursor:pointer;" onclick="location.href='https://github.com/epiqueras'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img alt="William George" src="img/william.png" class="team-img-federico" />
-                    <p class="team-name">William George</p>
-                    <p>
-                      <span class="status">CRYPTO-ECONOMIC<br />RESEARCHER</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/william-george-128bab148/'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-4">
-                <div class="float-md-left">
-                  <div class="text-center">
-                    <img alt="Romina" src="img/team-addison.png" class="team-img-federico" />
-                    <p class="team-name">Addison Huegel</p>
-                    <p>
-                      <span class="status">PUBLIC RELATIONS</span>
-                      <br />
-                      <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/addisonhuegel/'"/>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="offset-md-1 col-md-3">
-            <div class="float-md-left">
-              <div class="text-center">
-                <img alt="Stuart" src="img/team-SJJ.png" />
-                <p class="team-name">Stuart James</p>
-                <p>
-                  <span class="status">
-                    COMMUNITY MANAGER
-                  </span>
-                  <br />
-                  <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/stuart-james-588086158/'"/>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="offset-md-1 col-md-3">
-            <h3 class="team-title">ADVISORS</h3>
-            <div class="float-md-left">
-              <div class="text-center">
-                <img alt="Ryan Polychain" src="img/ryan.png" />
-                <p class="team-name">Ryan Zurrer</p>
-                <p>
-                  <span class="status">
-                    PRINCIPAL
-                    <br />
-                    POLYCHAIN CAPITAL
-                  </span>
-                  <br />
-                  <img alt="linkedin icon" src="img/linkedIn_icon.png" width="40px" style="position:relative; left:-5px; cursor:pointer;" onclick="location.href='https://www.linkedin.com/in/ryan-zurrer-7a5a9a2/?ppe=1'"/>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="FAQ">
-        <div class="row" >
-          <div class="col-md-10 offset-md-1">
-            <h2 class="faq-title-section">FREQUENTLY ASKED QUESTIONS</h2>
-            <div id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="card">
-                <div class="card-header" role="tab" id="heading1">
-                  <h5 class="mb-0">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                      What is a decision protocol?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse1" class="collapse show" role="tabpanel" aria-labelledby="heading1">
-                  <div class="card-block">
-                    A decision protocol is a procedure that follows a number of
-                    steps to reach a result. Kleros is a protocol that selects,
-                    organizes, and incentivizes a tribunal of experts to make
-                    transparent decisions. The tribunal is dissolved after the
-                    decision is made.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading2">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                      Why is the protocol called Kleros?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse2" class="collapse" role="tabpanel" aria-labelledby="heading2">
-                  <div class="card-block">
-                    In Ancient Athens, all citizens had the right to opt-in for
-                    paid jury duty for court and public office. In order to
-                    avoid corruption and collusion, the Greek developed a
-                    sophisticated selection procedure. Citizens were drawn by
-                    sortition (kleros) using an allotment machine called
-                    kleroterion (sortition machine). Kleros is inspired by the
-                    sortition principle used in Greek democracy. Hence, the
-                    name.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading3">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                      What is sortition and why should we care?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse3" class="collapse" role="tabpanel" aria-labelledby="heading3">
-                  <div class="card-block">
-                    Sortition is the random selection of political officials
-                    from a pool of eligible candidates. Throughout history,
-                    political systems have used sortition in order to avoid
-                    corruption, collusion and factions. In Classical Athens,
-                    randomly selected citizens carried out most administrative
-                    duties. Florence and Venice, the most prosperous city states
-                    of the Renaissance, mixed random selection with voting. The
-                    founding fathers of the United States discussed sortition
-                    for selecting the President and decided to use it for jury
-                    selection in the justice system. Modern political theorists
-                    believe that sortition has the potential of correcting many
-                    of the flaws of representative democracy. To know more about
-                    the potential of sortition for improving governance, take a
-                    look at these books: The Principles of Representative
-                    Government, The Political Potential of Sortition: A study of
-                    the random selection of citizens for public office and
-                    Sortition: Theory and Practice.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading4">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                      What are the key applications of Kleros?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse4" class="collapse" role="tabpanel" aria-labelledby="heading4">
-                  <div class="card-block">
-                    Kleros’ early applications are connected to small claim
-                    arbitration, such as freelance software development. Over
-                    time, the protocol will be used for a wide range of
-                    decisions requiring technical expertise for the allocation
-                    of resources (real or symbolic) between parties.
-                    For example:
-                    <ul>
-                      <li>
-                        Doctors evaluating if a patient is eligible for
-                        receiving an organ for a transplant.
-                      </li>
-                      <li>
-                        Scholars deciding if a paper should be accepted for
-                        publication.
-                      </li>
-                      <li>
-                        Recruiters evaluating a candidate for a government
-                        position.
-                      </li>
-                      <li>
-                        Moderators deciding if a user violated terms and
-                        conditions in a social media platform.
-                      </li>
-                      <li>
-                        Technical experts evaluating if a song infringed copyright.
-                      </li>
-                      <li>
-                        Analysts deciding if a user cheated in an e-gaming tournament.
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading5">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                      How are jurors selected and how do you make sure they do
-                      honest work?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse5" class="collapse" role="tabpanel" aria-labelledby="heading5">
-                  <div class="card-block">
-                    Kleros relies on concepts from game theory, cryptography and
-                    blockchain for securing evidence, selecting jurors and
-                    providing incentives to make honest decisions. The protocol
-                    token (the pinakion, PNK) is used for jurors deposits.
-                    Jurors voting incoherently loose some tokens to coherent
-                    jurors. Incentives are based on a game
-                    theoretical concept known as focal point. The fundamental
-                    insight is that jurors voting coherently with the majority
-                    should be rewarded. Jurors voting incoherently should be
-                    punished. Users doing high quality and honest work will make
-                    money. Users doing poor quality or dishonest work will lose
-                    money. To learn more about the incentive structure, read our
-                    <a href="assets/whitepaper.pdf">white paper</a>.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading6">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                      How is the number of jurors decided?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse6" class="collapse" role="tabpanel" aria-labelledby="heading6">
-                  <div class="card-block">
-                    The number of jurors is decided by the parties. They may
-                    agree to have one, three, five or any number of jurors. If,
-                    after a decision is made, one of the parties is not
-                    satisfied, it can appeal and have the decision reviewed. The
-                    case will be sent to a new tribunal with twice as many
-                    jurors.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading7">
-                  <h5 class="mb-0">
-                    <a
-                      class="collapsed"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                      href="#collapse7"
-                      aria-expanded="false"
-                      aria-controls="collapse7">
-                      Is the identity of jurors revealed?
-                    </a>
-                  </h5>
-                </div>
-                <div
-                  id="collapse7"
-                  class="collapse"
-                  role="tabpanel"
-                  aria-labelledby="heading7">
-                  <div class="card-block">
-                    Since decisions affect the allocation of resources, parties
-                    may try to intimidate or bribe the tribunal. Jurors are
-                    anonymous in order to protect them from intimidation and
-                    retaliation.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading8">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
-                      How can you trust a decision made by a bunch of anonymous
-                      people on the Internet?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse8" class="collapse" role="tabpanel" aria-labelledby="heading8">
-                  <div class="card-block">
-                    Satoshi Nakamoto taught us that a number of anonymous
-                    computers who do not trust each can still reach consensus,
-                    provided incentives are correctly structured. Kleros extends
-                    this principle to human decision making. A number of
-                    anonymous jurors who do not trust each other can reach
-                    consensus on a right decision, provided incentives are
-                    correctly structured. To learn more, read our
-                    <a href="assets/whitepaper.pdf">white paper</a>.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading9">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
-                      How does the enforcement work? What if the loser does not
-                      want to abide by the decision?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse9" class="collapse" role="tabpanel" aria-labelledby="heading9">
-                  <div class="card-block">
-                    Kleros is an opt-in system, which means that parties have to
-                    accept it beforehand. Enforcement mechanisms will depend on
-                    the use case. In arbitration applications (e.g., small
-                    claims), enforcement could be made by the government as in
-                    any private arbitration court. In financial applications,
-                    funds could stay in escrow to be enforced by a smart
-                    contract when the decision is made. In other cases, Kleros
-                    decisions could be enforced by the partner. Imagine a
-                    decentralized social media platform using Kleros to punish
-                    abuse. Kleros jury will decide whether abuse existed in a
-                    specific case. Then, the social media platform enforces the
-                    decision by taking reputation points away from the abuser.
-                    In this case, the use of the platform automatically implies
-                    accepting Kleros as dispute resolution mechanism.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading10">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
-                      Can I provide my service as juror in Kleros?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse10" class="collapse" role="tabpanel" aria-labelledby="heading10">
-                  <div class="card-block">
-                    Anyone can earn money as a juror in the Kleros network. The
-                    better the quality of your work, the more money you can make
-                    as a juror. We are starting a number of pilots. If you would
-                    like to participate, please contact us.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading11">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
-                      In my organization we have to deal with disputes. Can I
-                      use Kleros?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse11" class="collapse" role="tabpanel" aria-labelledby="heading11">
-                  <div class="card-block">
-                    Yes. We are starting to run pilots in a number of use cases.
-                    Please <a href="#contact">contact us</a> to see if your case
-                    is eligible for a pilot.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading12">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
-                      I am a student/scholar and want to do research about
-                      Kleros. Can I do it?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse12" class="collapse" role="tabpanel" aria-labelledby="heading12">
-                  <div class="card-block">
-                    Kleros is an emerging technology involving blockchain, game
-                    theory, collective intelligence, business, political science
-                    and law. We are actively looking for Masters and PhD
-                    students as well as senior scholars wishing to study Kleros.
-                    Scholarly contributions will help improve our technology and
-                    have a meaningful impact in the world. If you want to do
-                    research about Kleros, please
-                    <a href="#contact">contact us</a>.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading13">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
-                      Can I join Kleros team?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse13" class="collapse" role="tabpanel" aria-labelledby="heading13">
-                  <div class="card-block">
-                    Yes, we are actively seeking technical talent. Please
-                    <a href="#contact">contact us</a>.
-                  </div>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card-header" role="tab" id="heading14">
-                  <h5 class="mb-0">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
-                      Who owns Kleros?
-                    </a>
-                  </h5>
-                </div>
-                <div id="collapse14" class="collapse" role="tabpanel" aria-labelledby="heading14">
-                  <div class="card-block">
-                    Kleros is an open source project that works as a
-                    decentralized autonomous organization on Ethereum. The
-                    community is the owner of Kleros and decide the evolution of
-                    the protocol with a liquid democracy mechanism.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact">
-      <div class="row">
-        <div class="col-md-3 offset-md-1">
-          <h2 class="contact-title-section">STAY TUNED</h2>
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <a target="_blank" href="https://slack.kleros.io/">
-                <img
-                  alt="slack icon"
-                  class="contact-slack-icon"
-                  src="img/slack.svg" />
-              </a>
-            </div>
-            <div class="col-md-4 text-center">
-              <a target="_blank" href="https://twitter.com/kleros_io">
-                <img
-                  alt="twitter icon"
-                  class="contact-twitter-icon"
-                  src="img/twitter.png" />
-              </a>
-            </div>
-            <div class="col-md-4 text-center">
-              <a target="_blank" href="https://www.facebook.com/kleros.io/">
-                <img
-                  alt="facebook icon"
-                  class="contact-fb-icon"
-                  src="img/fb.png" />
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 text-center contact-icon-bottom">
-              <a target="_blank" href="https://github.com/kleros">
-                <img
-                  alt="github icon"
-                  class="contact-github-icon"
-                  src="img/github.svg" />
-              </a>
-            </div>
-            <div class="col-md-4 text-center contact-icon-bottom">
-              <a target="_blank" href="https://medium.com/kleros">
-                <img
-                  alt="medium icon"
-                  class="contact-medium-icon"
-                  src="img/medium.svg" />
-              </a>
-            </div>
-            <div class="col-md-4 text-center contact-icon-bottom">
-              <a
-                target="_blank"
-                href="https://t.me/kleros"
-                onclick="trackOutboundLink('https://t.me/kleros'); return false;">
-                <img
-                  alt="telegram icon"
-                  class="contact-telegram-icon"
-                  src="img/telegram.png" />
-              </a>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 text-center contact-icon-bottom">
-              <a target="_blank" href="https://www.reddit.com/r/Kleros/">
-                <img
-                  alt="reddit icon"
-                  class="contact-reddit-icon"
-                  src="img/reddit.png" />
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="offset-md-1 col-md-2">
-          <!-- Begin MailChimp Signup Form -->
-          <h2 class="contact-title-section">NEWSLETTER</h2>
-          <form action="//kleros.us16.list-manage.com/subscribe/post?u=bc4fd8a6129d3e3aec704aefd&amp;id=dbad57fc86" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	          <input type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Email" class="form-control form-input" required>
-            <input type="hidden" name="b_bc4fd8a6129d3e3aec704aefd_dbad57fc86">
-            <input type="submit" value="Subscribe" name="subscribe" class="submit float-right">
-          </form>
-        </div>
-        <div class="offset-md-1 col-md-3">
-          <h2 class="contact-title-section">CONTACT</h2>
-          <form action="https://formspree.io/contact@kleros.io"
-      method="POST">
-            <input type="text" class="form-control form-input" name="name" placeholder="Name" required>
-            <input type="text" class="form-control form-input" name="_replyto" placeholder="Email" required />
-            <textarea class="form-control form-input" name="content" rows="3" placeholder="Text"></textarea>
-            <input type="submit" class="submit float-right" value="Submit">
-          </form>
+        <div class="HowKlerosWorks-step col-12 col-lg-6 my-4">
+          <div class="HowKlerosWorks-number">4</div>
+          <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="img/enforcement.svg" alt="Enforcement">
+          <h3 class="HowKlerosWorks-title">Enforcement</h3>
+          <h4 class="HowKlerosWorks-description">The decision is enforced by the smart contract.</h4>
         </div>
       </div>
-    </section>
+    </div>
+    <h4 class="HowKlerosWorks-crowdsourcing col-12 col-sm-8">Crowdsourcing taps into a global pool of jurors, while the blockchain guarantees evidential integrity and transparency
+      in jury selection, and incentives for honest rulings.</h4>
+  </div>
+  <!-- End HowKlerosWorks -->
 
-      <footer>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="float-md-left">
-              <img
-                alt="kleros icon"
-                src="img/logo_footer.png"
-                class="footer-logo" />
-                  Kleros <span class="hidden-md-up">© 2017</span>
-            </div>
-            <div class="float-right footer-right hidden-sm-down">
-              <a class="footer-mail-to" href="assets/Kleros_One_Pager.pdf">Kleros One Pager</a>
-              |
-              Kleros © 2018  <a href="mailto:info@kleros.io" class="footer-mail-to">info@kleros.io</a>
+  <!-- UseCases -->
+  <div class="UseCases row">
+    <h2 class="col-12">Use Cases</h2>
+    <div class="col-12">
+      <div class="UseCases-useCases row">
+        <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
+          <div class="UseCases-icon">
+            <img src="img/escrow.svg" alt="Escrow">
+          </div>
+          <h4>Arbitration</h4>
+          <h6 class="UseCases-description">A freelance job is contracted between two people working cross continent. The service is not rendered to a satisfactory
+            standard and a jury of experts analyze the evidence, vote, and find a verdict.</h6>
+        </div>
+        <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
+          <div class="UseCases-icon">
+            <img src="img/social-media.svg" alt="Social Media">
+          </div>
+          <h4>Social Media</h4>
+          <h6 class="UseCases-description">An unsavoury comment posted in a decentralized social media platform is deemed to have broken terms and conditions.
+            Kleros jurors rule to deduct reputation points from the user.</h6>
+        </div>
+        <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
+          <div class="UseCases-icon">
+            <img src="img/insurance.svg" alt="Insurance">
+          </div>
+          <h4>Gaming</h4>
+          <h6 class="UseCases-description">Online gaming is a huge market which now has superstar players. With expected exponential growth in the professional
+            market, a highly skilled group of jurors will be needed both to arbitrate disputes, and the provision of safe
+            spaces to play in.</h6>
+        </div>
+        <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
+          <div class="UseCases-icon">
+            <img src="img/crowd-funding.svg" alt="Crowdfunding">
+          </div>
+          <h4>Crowdfunding</h4>
+          <h6 class="UseCases-description">A startup backed by crowdfunders never materialises a viable product. The funds have been locked in a smart contract
+            escrow adjudicated by Kleros jurors and are returned to the investors.</h6>
+        </div>
+        <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
+          <div class="UseCases-icon">
+            <img src="img/curated-lists.svg" alt="Curated Lists">
+          </div>
+          <h4>E-Commerce</h4>
+          <h6 class="UseCases-description">A product purchased online does not meet the advertised standard. Kleros adjudicates in favour of the buyer and
+            a smart contract returns the funds.</h6>
+        </div>
+        <div class="UseCases-useCase col-12 col-sm-6 col-lg-4">
+          <div class="UseCases-icon">
+            <img src="img/oracles.svg" alt="Oracles">
+          </div>
+          <h4>Oracles</h4>
+          <h6 class="UseCases-description">“Did it rain in Ulaanbaatar today?” An oracle bridges the gap between the outside world and blockchain allowing
+            smart contracts to use real world data in their outcomes.</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End UseCases -->
+
+  <!-- Pinakion -->
+  <div class="Pinakion row">
+    <h2 class="col-12">Pinakion Token (PNK)</h2>
+    <h4 class="Pinakion-description col-12 col-sm-8">Users have an economic interest in serving as jurors in Kleros; They want to collect the arbitration fee that every juror
+      receives for their work.</h4>
+    <div class="col-12">
+      <div class="Pinakion-features row">
+        <div class="col-12 col-md-5">
+          <img class="Pinakion-featureImage" src="img/pnk-cluster.svg" alt="Pinakion Feature">
+          <h4>First, they protect the system against sybil attacks.</h4>
+          <a href="assets/whitepaper.pdf" target="_blank" class="Pinakion-findOutMore">
+            Find out more
+            <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+          </a>
+        </div>
+        <div class="col-12 col-md-5">
+          <img class="Pinakion-featureImage" src="img/pnk-cluster.svg" alt="Pinakion Feature">
+          <h4>Second, PNK provides jurors the incentive to vote honestly by making incoherent jurors pay part of their deposit
+            to coherent ones.</h4>
+          <a href="assets/whitepaper.pdf" target="_blank" class="Pinakion-findOutMore">
+            Find out more
+            <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Pinakion -->
+
+  <!-- Security -->
+  <div class="Security row">
+    <h2 class="col-12">Security for Users and Jurors Alike</h2>
+    <h4 class="Security-description col-12 col-sm-8">Bribe and attack resistant whilst offering user privacy through intelligent design.</h4>
+  </div>
+  <!-- End Security -->
+
+  <!-- Team -->
+  <div class="Team row">
+    <div id="team" class="anchor col-12"></div>
+    <h2 class="col-12">Team</h2>
+    <div class="col-12">
+      <div class="Team-members row">
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/federico-ast.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Federico Ast</h5>
+          <p class="Team-memberRole">CEO</p>
+        </div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/clesaege.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Clément Lesaege</h5>
+          <p class="Team-memberRole">CTO</p>
+        </div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/n1c0.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Nicolas Wagner</h5>
+          <p class="Team-memberRole">WEB3 DEVELOPER</p>
+        </div>
+        <div class="col-12 hidden-md-down"></div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/satello.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Sam Vitello</h5>
+          <p class="Team-memberRole">DAPP DEVELOPER</p>
+        </div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/romina.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Romina Kavcic</h5>
+          <p class="Team-memberRole">DESIGN LEAD</p>
+        </div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/tete.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Maria T. Vidal</h5>
+          <p class="Team-memberRole">COMMUNICATIONS LEAD</p>
+        </div>
+        <div class="col-12 hidden-md-down"></div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/epiqueras.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Enrique Piqueras</h5>
+          <p class="Team-memberRole">DAPP DEVELOPER</p>
+        </div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/w-george.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">William George</h5>
+          <p class="Team-memberRole">CRYPTO-ECONOMIC RESEARCHER</p>
+        </div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/addison.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Addison Huegel</h5>
+          <p class="Team-memberRole">PR</p>
+        </div>
+        <div class="col-12 hidden-md-down"></div>
+        <div class="Team-member col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/sjj.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">Stuart James</h5>
+          <p class="Team-memberRole">COMMUNITY MANAGER</p>
+        </div>
+        <div class="Team-member Team-member--you col-12 col-sm-6 col-md-2">
+          <img class="Team-memberPortrait" src="img/profile.png" alt="Team Member Portrait">
+          <h5 class="Team-memberName">
+            <a href="https://angel.co/kleros/jobs" target="_blank" class="Team-jobsLink">You?</a>
+          </h5>
+          <p class="Team-memberRole">JOIN THE KLEROS TEAM!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Team -->
+
+  <!-- Media -->
+
+  <div class="Media row">
+    <!-- <h2 class="col-12">Kleros in the Media</h2>
+    <div class="col-12">
+      <div class="Media-cards row">
+        <div class="Media-card col-12 col-sm-6 col-md-3">
+          <img class="Media-titleImage" src="img/the-guardian.png" alt="Media Title Image">
+          <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
+            start submitting free ads to newsletters and free advertising classifieds sites"</p>
+          <h6 class="Media-date">April 28, 2018</h6>
+          <a href="#" target="_blank">
+            <h6 class="Media-readMore">
+              Read more
+              <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+            </h6>
+          </a>
+        </div>
+        <div class="Media-card col-12 col-sm-6 col-md-3">
+          <img class="Media-titleImage" src="img/the-verge.png" alt="Media Title Image">
+          <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
+            start submitting free ads to newsletters and free advertising classifieds sites"</p>
+          <h6 class="Media-date">April 28, 2018</h6>
+          <a href="#" target="_blank">
+            <h6 class="Media-readMore">
+              Read more
+              <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+            </h6>
+          </a>
+        </div>
+        <div class="Media-card col-12 col-sm-6 col-md-3">
+          <img class="Media-titleImage" src="img/the-guardian.png" alt="Media Title Image">
+          <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
+            start submitting free ads to newsletters and free advertising classifieds sites"</p>
+          <h6 class="Media-date">April 28, 2018</h6>
+          <a href="#" target="_blank">
+            <h6 class="Media-readMore">
+              Read more
+              <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+            </h6>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <img src="img/the-verge.png" alt="Media Outlets" class="Media-outlets">
+    </div> -->
+    <div class="col-12">
+      <img src="img/ship.svg" alt="Media Ship" class="Media-ship">
+    </div>
+  </div>
+
+  <!-- End Media -->
+
+  <!-- Footer -->
+
+  <div class="Footer row">
+    <div class="col-12">
+      <div class="Footer-callToAction row">
+        <div class="Footer-signUpMessage col-12">Sign up to Receive Our Latest Updates</div>
+        <h5 class="Footer-quote col-12">"Whoever controls the courts, controls the state". Aristotle.</h5>
+        <div class="Footer-signUpInput col-10 col-sm-8 col-md-6">
+          <div class="Footer-inputGroup input-group">
+            <input type="text" class="Footer-formControl form-control" placeholder="Enter your email.">
+            <span class="input-group-btn">
+              <button class="btn-signUpButton btn btn-secondary" type="button">Sign Up</button>
+            </span>
+          </div>
+        </div>
+        <div class="Footer-signUpPrivacy col-12">We value your privacy and will never share your email with third parties.</div>
+        <hr class="Footer-separator col-8">
+        <div class="Footer-links col-10 col-sm-5">
+          <h5 class="Footer-findOutMore row">
+            <div class="col-12">Find out more.</div>
+          </h5>
+          <div class="Footer-linksList row">
+            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="httdivs://medium.com/kleros/faq/home" target="_blank">FAQ</a>
+            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://github.com/kleros" target="_blank">Github</a>
+            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://t.me/kleros" target="_blank">Telegram</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 mt-5 mt-sm-0">
+          <h5 class="row">
+            <div class="col-12">Let's connect.</div>
+          </h5>
+          <div class="row">
+            <div class="col-12">
+              <a class="Footer-socialLink" href="https://twitter.com/kleros_io" target="_blank">
+                <img src="img/twitter.svg" alt="Twitter" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://www.facebook.com/kleros.io" target="_blank">
+                <img src="img/facebook.svg" alt="Facebook" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://www.linkedin.com/company/kleros" target="_blank">
+                <img src="img/linked-in.svg" alt="LinkedIn" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://medium.com/kleros" target="_blank">
+                <img src="img/medium.svg" alt="Medium" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://t.me/kleros" target="_blank">
+                <img src="img/telegram.svg" alt="Telegram" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://www.reddit.com/r/Kleros" target="_blank">
+                <img src="img/reddit.svg" alt="Reddit" class="Footer-socialIcon">
+              </a>
             </div>
           </div>
         </div>
-      </footer>
+      </div>
+      <div class="Footer-end row">
+        <div class="col-3">
+          <a class="Footer-brand" href="#">
+            <img class="Footer-logo" src="favicon-32x32.png" alt="Kleros Logo">KLEROS
+          </a>
+        </div>
+        <p class="Footer-copyright col-3">Copyright 2018 © Kleros.io</p>
+      </div>
     </div>
+  </div>
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-    <!-- ScrollSpy -->
-    <script src="./js/scrollSpy.js"></script>
-  </body>
+  <!-- End Footer -->
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+  <script>
+    var $nav = $('#navbar');
+    $(document).scroll(function () {
+      $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+    });
+
+    var $days = $('.CountDown-amount--days');
+    var $hours = $('.CountDown-amount--hours');
+    var $min = $('.CountDown-amount--min');
+    window.setInterval(function () {
+      var time = 1527206400609 - Date.now();
+      $days.text(Math.floor(time / 8.64e+7).toString())
+      $hours.text(Math.floor((time % 8.64e+7) / 3.6e+6).toString())
+      $min.text(Math.floor((time % 3.6e+6) / 60000).toString())
+    }, 1000);
+  </script>
+  <!-- End Scripts -->
+</body>
+
 </html>
