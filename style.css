@@ -542,7 +542,7 @@ p {
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
-  padding-bottom: 715px;
+  padding-bottom: 517px;
   padding-left: 12.75%;
   padding-right: 12.75%;
   padding-top: 119px;
@@ -551,6 +551,10 @@ p {
 
 .Security-description {
   margin-top: 27px;
+}
+
+.Security-text {
+  margin-top: 71px;
 }
 
 /**************** End Security ****************/
@@ -628,11 +632,11 @@ p {
   border-radius: 4px;
   box-shadow: 0 2px 1px 0 #d2d1ce;
   margin: 38px 15px;
-  padding: 40px 30px 20px;
+  padding: 40px 30px 112px;
 }
 
 .Media-titleImage {
-  height: 23px;
+  height: 45px;
   margin-bottom: 35px;
 }
 
@@ -642,10 +646,11 @@ p {
 }
 
 .Media-readMore {
+  bottom: 28px;
   color: #0059ab;
   font-size: 16px;
   font-weight: 500;
-  margin-top: 60px;
+  position: absolute;
   text-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.27);
 }
 

@@ -264,24 +264,16 @@
   <!-- Pinakion -->
   <div class="Pinakion row">
     <h2 class="col-12">Pinakion Token (PNK)</h2>
-    <h4 class="Pinakion-description col-12 col-sm-8">Users have an economic interest in serving as jurors in Kleros; They want to collect the arbitration fee that every juror
-      receives for their work.</h4>
+    <h4 class="Pinakion-description col-12 col-sm-8">Users have an economic interest in serving as Kleros jurors by collecting the arbitration fee that every juror receives
+      for their work.</h4>
     <div class="col-12">
       <div class="Pinakion-features row">
-        <div class="col-12 col-md-5">
+        <div class="col-12 col-md-6">
           <img class="Pinakion-featureImage" src="img/pnk-cluster.svg" alt="Pinakion Feature">
-          <h4>First, they protect the system against sybil attacks.</h4>
+          <h4>Pinakion protects the system from sybil attacks, whilst also providing jurors an incentive to vote honestly by
+            making incoherent jurors pay part of their deposit to coherent jurors.</h4>
           <a href="assets/whitepaper.pdf" target="_blank" class="Pinakion-findOutMore">
-            Find out more
-            <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
-          </a>
-        </div>
-        <div class="col-12 col-md-5">
-          <img class="Pinakion-featureImage" src="img/pnk-cluster.svg" alt="Pinakion Feature">
-          <h4>Second, PNK provides jurors the incentive to vote honestly by making incoherent jurors pay part of their deposit
-            to coherent ones.</h4>
-          <a href="assets/whitepaper.pdf" target="_blank" class="Pinakion-findOutMore">
-            Find out more
+            How? Read the white paper
             <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
           </a>
         </div>
@@ -294,6 +286,8 @@
   <div class="Security row">
     <h2 class="col-12">Security for Users and Jurors Alike</h2>
     <h4 class="Security-description col-12 col-sm-8">Bribe and attack resistant whilst offering user privacy through intelligent design.</h4>
+    <h4 class="Security-text col-12 col-sm-6">We have a dedicated team conducting cryptoeconomic experiments to ensure the safety of our protocol. Any potential attacker
+      would cause more economic harm to themselves as to make the attack unviable.</h4>
   </div>
   <!-- End Security -->
 
@@ -371,15 +365,14 @@
   <!-- Media -->
 
   <div class="Media row">
-    <!-- <h2 class="col-12">Kleros in the Media</h2>
+    <h2 class="col-12">Kleros in the Media</h2>
     <div class="col-12">
       <div class="Media-cards row">
         <div class="Media-card col-12 col-sm-6 col-md-3">
-          <img class="Media-titleImage" src="img/the-guardian.png" alt="Media Title Image">
-          <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
-            start submitting free ads to newsletters and free advertising classifieds sites"</p>
+          <img class="Media-titleImage" src="img/banking-tech.png" alt="Media Title Image">
+          <p>Featuring Kleros taking a chance, BitFlyer landing in Europe, and Nordea in the mood for banning.</p>
           <h6 class="Media-date">April 28, 2018</h6>
-          <a href="#" target="_blank">
+          <a href="https://www.bankingtech.com/2018/01/blockchain-and-bitcoin-round-up-23-january-2018" target="_blank">
             <h6 class="Media-readMore">
               Read more
               <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
@@ -387,11 +380,11 @@
           </a>
         </div>
         <div class="Media-card col-12 col-sm-6 col-md-3">
-          <img class="Media-titleImage" src="img/the-verge.png" alt="Media Title Image">
-          <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
-            start submitting free ads to newsletters and free advertising classifieds sites"</p>
+          <img class="Media-titleImage" src="img/international-business-times.jpg" alt="Media Title Image">
+          <p>Kleros borrows from the way the ancient Greeks resolved disputes in a democratic manner, and adds game theoretical
+            incentives via a blockchain token.</p>
           <h6 class="Media-date">April 28, 2018</h6>
-          <a href="#" target="_blank">
+          <a href="https://www.ibtimes.co.uk/kleros-ethereum-smart-contracts-meet-ancient-greek-legal-democracy-1665300" target="_blank">
             <h6 class="Media-readMore">
               Read more
               <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
@@ -399,11 +392,11 @@
           </a>
         </div>
         <div class="Media-card col-12 col-sm-6 col-md-3">
-          <img class="Media-titleImage" src="img/the-guardian.png" alt="Media Title Image">
-          <p>"Okay, you’ve decided you want to make money with Affiliate Marketing. So, you join some affiliate programs and
-            start submitting free ads to newsletters and free advertising classifieds sites"</p>
+          <img class="Media-titleImage" src="img/bitcoin-news.png" alt="Media Title Image">
+          <p>Get your popcorn at the ready as we prepare to chew over the highlights from This Week in Bitcoin, where courtroom
+            drama held sway.</p>
           <h6 class="Media-date">April 28, 2018</h6>
-          <a href="#" target="_blank">
+          <a href="https://news.bitcoin.com/this-week-in-bitcoin-courtroom-drama" target="_blank">
             <h6 class="Media-readMore">
               Read more
               <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
@@ -412,7 +405,7 @@
         </div>
       </div>
     </div>
-    <div class="col-12">
+    <!-- <div class="col-12">
       <img src="img/the-verge.png" alt="Media Outlets" class="Media-outlets">
     </div> -->
     <div class="col-12">
@@ -507,7 +500,7 @@
     var $hours = $('.CountDown-amount--hours');
     var $min = $('.CountDown-amount--min');
     window.setInterval(function () {
-      var time = 1527206400609 - Date.now();
+      var time = 1526342400671 - Date.now();
       $days.text(Math.floor(time / 8.64e+7).toString())
       $hours.text(Math.floor((time % 8.64e+7) / 3.6e+6).toString())
       $min.text(Math.floor((time % 3.6e+6) / 60000).toString())
