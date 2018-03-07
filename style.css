@@ -124,6 +124,7 @@ p {
   font-weight: 700;
 }
 
+/* For smooth scroll-to */
 .anchor {
   height: 0;
   position: relative;
