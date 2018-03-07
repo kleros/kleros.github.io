@@ -143,10 +143,10 @@ p {
 /**************** Header ****************/
 
 .Header {
-  background-image: url('img/header.svg');
-  background-position: 50% 0;
+  background-image: url('img/header.png');
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
@@ -332,10 +332,10 @@ p {
 
 .Challenge {
   align-content: flex-start;
-  background: linear-gradient(#fff, transparent 50%), url('img/video.svg');
-  background-position: 50% 0;
+  background: linear-gradient(#fff, transparent 50%), url('img/video.png');
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
@@ -392,10 +392,10 @@ p {
 /**************** HowKlerosWorks ****************/
 
 .HowKlerosWorks {
-  background-image: url('img/how-kleros-works.svg');
-  background-position: 50% 0;
+  background-image: url('img/how-kleros-works.png');
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
@@ -454,9 +454,9 @@ p {
 
 .UseCases {
   background-image: url('img/use-cases.png');
-  background-position: 50% 0;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color: #fff;
   justify-content: center;
   margin-left: -40px;
@@ -524,7 +524,7 @@ p {
 .Pinakion-featureImage {
   align-self: center;
   margin-bottom: 40px;
-  margin-top: 125px;
+  margin-top: 108px;
   width: 301px;
 }
 
@@ -542,9 +542,9 @@ p {
 
 .Security {
   background-image: url('img/security-2.png');
-  background-position: 50% 0;
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
@@ -688,10 +688,10 @@ p {
 }
 
 .Footer-callToAction {
-  background-image: url('img/footer.svg');
-  background-position: 50% 0;
+  background-image: url('img/footer.png');
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color: #fff;
   justify-content: center;
   padding: 84px 0 64px 0;
