@@ -516,10 +516,16 @@ p {
   text-align: left;
 }
 
+.Pinakion-feature {
+  display: flex;
+  flex-direction: column;
+}
+
 .Pinakion-featureImage {
+  align-self: center;
   margin-bottom: 40px;
   margin-top: 125px;
-  width: 100%;
+  width: 301px;
 }
 
 .Pinakion-findOutMore {
