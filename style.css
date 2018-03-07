@@ -588,9 +588,16 @@ p {
   position: relative;
 }
 
-.Team-member--you {
-  margin-left: auto;
-  margin-right: auto;
+.Team-member--last {
+  opacity: 0;
+  visibility: hidden;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .Team-member--last {
+    display: none;
+  }
 }
 
 .Team-memberPortrait {
