@@ -169,6 +169,7 @@ p {
   background: #fff;
   text-align: center;
   line-height: 9px;
+  outline: none !important;
   z-index: 101;
 }
 
@@ -433,7 +434,7 @@ p {
 
 .HowKlerosWorks-icon {
   float: left;
-  height: 80px;
+  width: 60px;
 }
 
 .HowKlerosWorks-title {
