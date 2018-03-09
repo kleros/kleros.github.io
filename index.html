@@ -58,6 +58,15 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+  <!-- Telegram Button -->
+  <div id="telegramButton" class="TelegramButton">
+    <button id="telegramCloseButton" class="TelegramButton-closeButton">x</button>
+    <a href="https://t.me/kleros" target="_blank">
+      <img class="TelegramButton-image" src="img/telegram-button.png" alt="Telegram Button">
+    </a>
+  </div>
+  <!-- End Telegram Button -->
+
   <!-- Header -->
   <div class="Header row">
     <nav id="#navbar" class="Header-navbar navbar navbar-toggleable-md col-12">
@@ -120,16 +129,16 @@
     <h3 class="CountDown-title col-12">Token sale starts on May 15th, 2018.</h3>
     <div class="CountDown-blocks col-12 flex-column flex-sm-row">
       <div class="CountDown-block">
-        <div class="CountDown-amount CountDown-amount--days">-</div>
-        <div class="CountDown-unit">DAYS</div>
+        <div id="countDownDays" class="CountDown-amount">-</div>
+        <div id="countDownDaysUnit" class="CountDown-unit">-</div>
       </div>
       <div class="CountDown-block">
-        <div class="CountDown-amount CountDown-amount--hours">-</div>
-        <div class="CountDown-unit">HOURS</div>
+        <div id="countDownHours" class="CountDown-amount">-</div>
+        <div id="countDownHoursUnit" class="CountDown-unit">-</div>
       </div>
       <div class="CountDown-block">
-        <div class="CountDown-amount CountDown-amount--min">-</div>
-        <div class="CountDown-unit">MIN</div>
+        <div id="countDownMins" class="CountDown-amount">-</div>
+        <div id="countDownMinsUnit" class="CountDown-unit">-</div>
       </div>
     </div>
   </div>
@@ -503,14 +512,36 @@
       $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
     });
 
-    var $days = $('.CountDown-amount--days');
-    var $hours = $('.CountDown-amount--hours');
-    var $min = $('.CountDown-amount--min');
+    $('#telegramCloseButton').click(function () {
+      $('#telegramButton').hide()
+    });
+
+    var $days = $('#countDownDays');
+    var $daysUnit = $('#countDownDaysUnit');
+
+    var $hours = $('#countDownHours');
+    var $hoursUnit = $('#countDownHoursUnit');
+
+    var $mins = $('#countDownMins');
+    var $minsUnit = $('#countDownMinsUnit');
+
     window.setInterval(function () {
       var time = 1526342400671 - Date.now();
-      $days.text(Math.floor(time / 8.64e+7).toString())
-      $hours.text(Math.floor((time % 8.64e+7) / 3.6e+6).toString())
-      $min.text(Math.floor((time % 3.6e+6) / 60000).toString())
+
+      var days = Math.floor(time / 8.64e+7).toString();
+      $days.text(days);
+      if (days === '1') $daysUnit.text('DAY');
+      else $daysUnit.text('DAYS');
+
+      var hours = Math.floor((time % 8.64e+7) / 3.6e+6).toString();
+      $hours.text(hours);
+      if (hours === '1') $hoursUnit.text('HOUR');
+      else $hoursUnit.text('HOURS');
+
+      var mins = Math.floor((time % 3.6e+6) / 60000).toString();
+      $mins.text(mins);
+      if (mins === '1') $minsUnit.text('MIN');
+      else $minsUnit.text('MINS');
     }, 1000);
   </script>
   <!-- End Scripts -->

@@ -140,6 +140,49 @@ p {
 
 /**************** End Global ****************/
 
+/**************** Telegram Button ****************/
+
+.TelegramButton {
+  bottom: 10px;
+  height: 80px;
+  position: fixed;
+  right: 10px;
+  width: 80px;
+  z-index: 200;
+}
+
+.TelegramButton-image {
+  height: 80px;
+  width: 80px;
+}
+
+.TelegramButton-closeButton {
+  background: #9b9b9b;
+  border: 1px solid #fff;
+  border-radius: 7.5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  height: 15px;
+  line-height: 13px;
+  outline: none !important;
+  padding: 0;
+  position: absolute;
+  right: 7px;
+  text-align: center;
+  top: 3px;
+  width: 15px;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .TelegramButton {
+    display: none;
+  }
+}
+
+/**************** Telegram Button ****************/
+
 /**************** Header ****************/
 
 .Header {
