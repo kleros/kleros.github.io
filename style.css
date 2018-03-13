@@ -618,7 +618,7 @@ p {
 }
 
 .Team-members {
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 15%;
 }
 
@@ -645,6 +645,15 @@ p {
   border-radius: 100px;
   height: 200px;
   width: 200px;
+}
+
+.Team-memberlinkedIn {
+  display: block;
+  height: 50px;
+  left: 158px;
+  position: absolute;
+  top: 150px;
+  width: 50px;
 }
 
 .Team-memberName {
