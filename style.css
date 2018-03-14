@@ -640,6 +640,10 @@ p {
   }
 }
 
+.Team-memberPortraitContainer {
+  position: relative;
+}
+
 .Team-memberPortrait {
   background: #f5f6f8;
   border-radius: 100px;
@@ -648,12 +652,12 @@ p {
 }
 
 .Team-memberlinkedIn {
+  bottom: 30px;
   display: block;
-  height: 50px;
-  left: 65%;
+  height: 30px;
+  right: 0;
   position: absolute;
-  top: 150px;
-  width: 50px;
+  width: 30px;
 }
 
 .Team-memberName {
