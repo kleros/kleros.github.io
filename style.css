@@ -641,7 +641,10 @@ p {
 }
 
 .Team-memberPortraitContainer {
+  height: 200px;
+  margin: auto;
   position: relative;
+  width: 200px;
 }
 
 .Team-memberPortrait {
@@ -656,6 +659,15 @@ p {
   display: block;
   height: 30px;
   right: 0;
+  position: absolute;
+  width: 30px;
+}
+
+.Team-memberTwitter {
+  bottom: 0;
+  display: block;
+  height: 30px;
+  right: 30px;
   position: absolute;
   width: 30px;
 }
