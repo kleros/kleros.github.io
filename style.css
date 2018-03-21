@@ -151,6 +151,35 @@ p {
     margin-top: 5px;
 }
 
+.progressBar {
+  height: 15px;
+  border-radius: 3px;
+  background-color: rgba(242, 245, 250, 0.13);
+  width: 100%;
+  margin-top: 18px;
+  position: relative;
+  margin-bottom: 51px;
+}
+
+.progressBar-progress {
+  background: #fff;
+  width: 100px;
+  height: 15px;
+  border-radius: 3px 0 0 3px;
+}
+
+.progressBar-start {
+  position: absolute;
+  left: 0;
+  bottom: -51px;
+}
+
+.progressBar-end {
+  position: absolute;
+  right: 0;
+  bottom: -51px;
+}
+
 /**************** End Global ****************/
 
 /**************** Telegram Button ****************/
@@ -902,3 +931,491 @@ p {
 }
 
 /**************** End Footer ****************/
+
+/**************** TokenSaleHeader ****************/
+
+.TokenSaleHeader-btn-announcement {
+  background-color: #fff;
+  border: none;
+  color: #012c6b !important;
+  margin-top: 29px;
+  margin-right: 10.5px;
+}
+
+.TokenSaleHeader-btn-buyTokens {
+  background: transparent;
+  border: 1px solid #fff;
+  margin-top: 29px;
+}
+
+.TokenSaleHeader-separator {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.75),
+    rgba(255, 255, 255, 0)
+  );
+  border: none;
+  width: 100%;
+  height: 2px;
+  opacity: 0.42;
+  margin-top: 50px;
+  margin-bottom: 44px;
+}
+
+.TokenSaleHeader-countDownBlocks {
+  justify-content: start;
+  padding: 0;
+}
+
+.TokenSaleHeader-countDownBlock {
+  background: #fff;
+  height: 91.67px;
+  color: #1a1b23;
+  width: 100px;
+}
+
+.TokenSaleHeader-totalDistribution {
+  padding-right: 50px;
+}
+
+/**************** End TokenSaleHeader ****************/
+
+/**************** IICOInfo ****************/
+
+.IICOInfo {
+  padding-bottom: 121px;
+}
+
+.IICOInfo-steps {
+  margin-top: 0;
+}
+
+.IICOInfo-readTheWhitepaper {
+  background-color: #012c6b;
+  width: 285px !important;
+}
+
+.IICOInfo-step {
+  padding: 0;
+  margin-bottom: 140px;
+}
+
+.IICOInfo-lastStep {
+  margin-bottom: 56px;
+}
+
+.IICOInfo-findOutMore {
+  display: inline-block;
+  margin-top: 18px;
+  color: #0059ab;
+}
+
+.IICOInfo-findOutMore:hover {
+  color: #0059ab;
+}
+
+/**************** End IICOInfo ****************/
+
+/**************** IICOVideo ****************/
+
+.IICOVideo {
+  background-image: url('img/header.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+  justify-content: center;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-bottom: 145px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.IICOVideo-title {
+  font-size: 36px;
+  margin-bottom: 37px;
+}
+
+.IICOVideo-description {
+  margin-top: 24px;
+}
+
+/**************** End IICOVideo ****************/
+
+/**************** TokenSalePinakion ****************/
+
+.IICOPinakion {
+  padding-bottom: 134px;
+}
+
+/**************** End TokenSalePinakion ****************/
+
+/**************** TokenSaleStats ****************/
+
+.TokenSaleStats {
+  justify-content: center;
+  text-align: center;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-bottom: 185px;
+}
+
+.TokenSaleStats-title {
+  margin-bottom: 95px;
+}
+
+.TokenSaleStats-logoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.TokenSaleStats-logo {
+  height: 175px;
+  width: 175px;
+}
+
+.TokenSaleStats-getTokens {
+  background-color: #012c6b;
+  width: 208px !important;
+  margin-top: 40px;
+}
+
+.TokenSaleStats-stats {
+  text-align: left;
+}
+
+.TokenSaleStats-subtitle {
+  font-size: 36px;
+}
+
+.TokenSaleStats-currentPeriod {
+  margin-bottom: 38px;
+  color: #47525d;
+}
+
+.TokenSaleStats-totalDistribution {
+  margin-bottom: 125px;
+}
+
+.TokenSaleStats-totalDistributionText {
+  color: #47525d;
+  margin-bottom: 26px;
+  font-weight: 300;
+}
+
+.TokenSaleStats-progressBar {
+  background-color: #f2f5fa;
+}
+
+.TokenSaleStats-progressBarProgress {
+  background-color: #012c6b;
+}
+
+.TokenSaleStats-totalDistributionProgressBarText {
+  color: #47525d;
+}
+
+.TokenSaleStats-currentDistribution {
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.TokenSaleStats-currentDistributionText {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 15px;
+  color: #47525d;
+}
+
+.TokenSaleStats-currentDistributionNumber {
+  font-size: 32px;
+  color: #1a1b23;
+}
+
+.TokenSaleStats-countDownText {
+  margin-bottom: 26px;
+  font-size: 18px;
+  color: #47525d;
+}
+
+.TokenSaleStats-countDownBlocks {
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+}
+
+.TokenSaleStats-countDownBlock {
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+  width: 120px;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
+}
+
+/**************** End TokenSaleStats ****************/
+
+/**************** TokenDistribution ****************/
+
+.TokenDistribution {
+  justify-content: center;
+  text-align: center;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-bottom: 194px;
+}
+
+.TokenDistribution-totalTokenSupply {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 300;
+  margin-bottom: 65px;
+}
+
+.TokenDistribution-totalTokenSupplyNumber {
+  font-weight: 600;
+}
+
+.TokenDistribution-percentTag {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.TokenDistribution-percentTagTag {
+  margin-right: 14px;
+  height: 41.6px;
+  line-height: 41.6px;
+  width: 72.8px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.TokenDistribution-percentTagTag--1 {
+  background-color: #052e69;
+  color: #ffffff;
+}
+
+.TokenDistribution-percentTagTag--2 {
+  background-color: #a4d0f2;
+  color: #000000;
+}
+
+.TokenDistribution-percentTagTag--3 {
+  background-color: #dd042b;
+  color: #ffffff;
+}
+
+.TokenDistribution-percentTagTag--4 {
+  background-color: #d2d1ce;
+  color: #000000;
+}
+
+.TokenDistribution-percentTagTag--5 {
+  background-color: #fdc1b1;
+  color: #000000;
+}
+
+.TokenDistribution-percentTagText {
+  font-size: 18px;
+  font-weight: 300;
+  color: #47525d;
+}
+
+.TokenDistribution-infoText {
+  color: #a3a2a5;
+  font-size: 16px;
+  text-align: justify;
+  line-height: 26px;
+}
+
+/**************** End TokenDistribution ****************/
+
+/**************** Roadmap ****************/
+
+.Roadmap {
+  justify-content: center;
+  text-align: center;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-bottom: 115px;
+}
+
+.Roadmap-title {
+  margin-bottom: 76px;
+}
+
+.Roadmap-subtitle {
+  margin-bottom: 35px;
+  font-size: 36px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.Roadmap-paragraph {
+  color: #000000;
+  font-size: 20px;
+  line-height: 36px;
+  margin-bottom: 100px;
+  text-align: justify;
+}
+
+.Roadmap-bonusParagraph {
+  margin-bottom: 192px;
+}
+
+.Roadmap-roundsParagraph {
+  margin-bottom: 125px;
+}
+
+.Roadmap-legalParagraph {
+  margin-bottom: 111px;
+}
+
+.Roadmap-githubLink {
+  color: #1a1b23;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 153px;
+  margin-top: 15px;
+}
+
+.Roadmap-rounds {
+  margin-top: 13px;
+  margin: 33px;
+}
+
+.Roadmap-milestonesTitle {
+  margin-bottom: 127px;
+}
+
+.Roadmap-timelineImage {
+  margin-bottom: 174px;
+}
+
+.Roadmap-legalTitle {
+  margin-bottom: 37px;
+}
+
+.Roadmap-expensesBlock {
+  margin-top: 63px;
+}
+
+/**************** End Roadmap ****************/
+
+/**************** FAQ ****************/
+
+.FAQ {
+  justify-content: center;
+  text-align: center;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-bottom: 143px;
+}
+
+.FAQ-title {
+  margin-bottom: 80px;
+}
+
+.FAQ-block {
+  margin-bottom: 43px;
+}
+
+.FAQ-question {
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+  font-weight: 600;
+  text-align: justify;
+  margin-bottom: 11px;
+}
+
+.FAQ-answer {
+  font-size: 16px;
+  line-height: 26px;
+  color: #47525d;
+  font-weight: 300;
+  text-align: justify;
+}
+
+/**************** End FAQ ****************/
+
+/**************** CallToAction ****************/
+
+.CallToAction {
+  justify-content: center;
+  text-align: center;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
+  margin-left: -40px;
+  margin-right: -40px;
+  padding-bottom: 180px;
+  padding-top: 104px;
+}
+
+.CallToAction-getTokens {
+  background-color: #0059ab;
+  width: initial !important;
+  margin-top: 29px;
+}
+
+/**************** End CallToAction ****************/
+
+/**************** GetToKnowTeam ****************/
+
+.GetToKnowTeam {
+  justify-content: center;
+  padding-top: 51px;
+  text-align: center;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
+  margin-left: -40px;
+  margin-right: -40px;
+}
+
+.GetToKnowTeam-section {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.GetToKnowTeam-socialSection {
+  align-items: center;
+}
+
+.GetToKnowTeam-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.GetToKnowTeam-description {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  text-align: left;
+}
+
+.GetToKnowTeam-ship {
+  margin-top: 115px;
+}
+
+/**************** End GetToKnowTeam ****************/
