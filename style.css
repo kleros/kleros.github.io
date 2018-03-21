@@ -138,6 +138,19 @@ p {
   margin-left: 10px;
 }
 
+.short-hline {
+    background: #1d1d1b;
+    display: block;
+    width: 20px;
+    height: 4px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.short-hline:first-child {
+    margin-top: 5px;
+}
+
 .progressBar {
   height: 15px;
   border-radius: 3px;
@@ -228,6 +241,13 @@ p {
   padding-top: 122px;
 }
 
+/* < small */
+@media (max-width: 576px) {
+  .Header {
+    padding-top: 12px;
+  }
+}
+
 .Header-navbar {
   background: #1a1b23;
   height: 84px;
@@ -280,6 +300,7 @@ p {
   font-weight: 700;
   justify-content: flex-end;
   width: initial !important;
+  flex-wrap: nowrap;
 }
 
 .Header-navbarContent.show {
@@ -296,7 +317,7 @@ p {
 
 .Header-btn-readTheWhitepaper {
   border: none;
-  margin-left: 61px;
+  margin-left: 30px;
   margin-right: 60px;
 }
 
@@ -326,6 +347,14 @@ p {
 
 .Header-socialIcon {
   cursor: pointer;
+}
+
+.Header-navLink-language {
+  width: 120px;
+}
+
+.dropdown-menu {
+  float: right;
 }
 
 /**************** End Header ****************/
@@ -862,7 +891,7 @@ p {
 }
 
 .Footer-socialLink:hover {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .Footer-socialIcon {
