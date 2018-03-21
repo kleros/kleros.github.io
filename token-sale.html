@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103362452-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-103362452-1');
+  </script>
+  <!-- End Global Site Tag (gtag.js) - Google Analytics -->
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NJD57HL');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Meta -->
+  <title>Kleros - Token Sale - The Blockchain Dispute Resolution Layer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="user-scalable=0, minimum-scale=1, maximum-scale=1, initial-scale=1, width=device-width">
+  <meta name="description" content="Kleros provides fast, secure and affordable arbitration for virtually everything. An ethereum project.">
+  <!-- End Meta -->
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+  <!-- End Favicon -->
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!-- End CSS -->
+</head>
+
+<body class="container-fluid" data-spy="scroll" data-target="#navbarContent" data-offset="168">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJD57HL" height="0" width="0" style="display: none; visibility: hidden;"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- Telegram Button -->
+  <div id="telegramButton" class="TelegramButton">
+    <button id="telegramCloseButton" class="TelegramButton-closeButton">x</button>
+    <a href="https://t.me/kleros" target="_blank" rel="noopener noreferrer">
+      <img class="TelegramButton-image" src="img/telegram-button.png" alt="Telegram Button">
+    </a>
+  </div>
+  <!-- End Telegram Button -->
+
+  <!-- Header -->
+  <div class="Header row">
+    <nav id="#navbar" class="Header-navbar navbar navbar-toggleable-md col-12">
+      <button class="Header-navbarToggler navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          .---
+          <br> .---
+          <br> .---
+          <br>
+        </span>
+      </button>
+      <a class="Header-navbarBrand navbar-brand" href="#">
+        <img class="Header-logo" src="favicon-32x32.png" alt="Kleros Logo">KLEROS
+      </a>
+
+      <div id="navbarContent" class="Header-navbarContent collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="Header-navLink nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="Header-navLink nav-link" href="https://medium.com/kleros/kleros-frequently-asked-questions-about-peer-to-peer-justice-5a921cb76abe"
+              target="_blank" rel="noopener noreferrer">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="Header-navLink nav-link" href="https://github.com/kleros" target="_blank" rel="noopener noreferrer">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="Header-navLink nav-link" href="https://t.me/kleros" target="_blank" rel="noopener noreferrer">Telegram</a>
+          </li>
+          <a href="assets/whitepaper.pdf" target="_blank" rel="noopener noreferrer" class="Header-btn-readTheWhitepaper btn btn-secondary">Read the Whitepaper</a>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="Header-banner col-12">
+      <h1 class="Header-title">Welcome to the
+        <br>Kleros Token Sale!</h1>
+      <a href="#" target="_blank" rel="noopener noreferrer" class="TokenSaleHeader-btn-announcement btn btn-lg">Announcement</a>
+      <a href="#" target="_blank" rel="noopener noreferrer" class="TokenSaleHeader-btn-buyTokens btn btn-lg">Buy tokens</a>
+      <hr class="TokenSaleHeader-separator">
+      <div class="row">
+        <div class="TokenSaleHeader-totalDistribution col-12 col-sm-6">
+          <h5>Total Distribution:</h5>
+          <div class="progressBar">
+            <div class="progressBar-progress"></div>
+            <div class="progressBar-start">
+              <p>0 ETH</p>
+            </div>
+            <div class="progressBar-end">
+              <p>24,000,000 ETH</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6">
+          <h5>Round 1 starts in:</h5>
+          <div class="TokenSaleHeader-countDownBlocks CountDown-blocks col-12 flex-column flex-sm-row">
+            <div class="TokenSaleHeader-countDownBlock CountDown-block col-4 col-sm-3">
+              <div class="countDownDays CountDown-amount">-</div>
+              <div class="countDownDaysUnit CountDown-unit">-</div>
+            </div>
+            <div class="TokenSaleHeader-countDownBlock CountDown-block col-4 col-sm-3">
+              <div class="countDownHours CountDown-amount">-</div>
+              <div class="countDownHoursUnit CountDown-unit">-</div>
+            </div>
+            <div class="TokenSaleHeader-countDownBlock CountDown-block col-4 col-sm-3">
+              <div class="countDownMins CountDown-amount">-</div>
+              <div class="countDownMinsUnit CountDown-unit">-</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Header -->
+
+  <!-- IICOInfo -->
+  <div class="IICOInfo HowKlerosWorks row">
+    <div class="col-12">
+      <div class="IICOInfo-steps HowKlerosWorks-steps row">
+        <div class="IICOInfo-step col-12 col-lg-8">
+          <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="img/contract.svg" alt="Contract">
+          <h3 class="HowKlerosWorks-title">Interactive Coin Offering</h3>
+          <h4 class="HowKlerosWorks-description">We are using the Interactive Coin offering created by Jason Teutsh (Truebit), Vitalik Buterin (Ethereum Foundation)
+            and Christopher Brown (Modular) as a better way to distribute our tokens over a longer time period ensuring better
+            network security throughout and a balanced spread of PNK.
+            <a href="#" target="_blank" rel="noopener noreferrer" class="IICOInfo-findOutMore">
+              Learn more about IICOs here
+              <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+            </a>
+          </h4>
+        </div>
+        <div class="IICOInfo-step col-12 col-lg-8 offset-lg-4">
+          <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="img/dispute.svg" alt="Dispute">
+          <h3 class="HowKlerosWorks-title">Distribution</h3>
+          <h4 class="HowKlerosWorks-description">1 billion PNK will be created and distributed in a fair manner using the IICO. They will be distributed fairly
+            between the participants according to the personal limits they choose.</h4>
+        </div>
+        <div class="IICOInfo-step IICOInfo-lastStep col-12 col-lg-8">
+          <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="img/selection.svg" alt="Selection">
+          <h3 class="HowKlerosWorks-title">KYC</h3>
+          <h4 class="HowKlerosWorks-description">We’ve partnered with Consensys to provide a secure, stable and efficient KYC process. It is essential we abide
+            by this regulation to work within the boundaries of our legal framework and co-operative entity. Certain rules
+            apply.
+            <a href="#" target="_blank" rel="noopener noreferrer" class="IICOInfo-findOutMore">
+              Read more
+              <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+            </a>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <a href="assets/whitepaper.pdf" target="_blank" rel="noopener noreferrer" class="IICOInfo-readTheWhitepaper btn btn-lg">Read the Whitepaper</a>
+  </div>
+  <!-- End IICOInfo -->
+
+  <!-- IICOVideo -->
+  <div class="IICOVideo Video row">
+    <h2 class="IICOVideo-title col-12">Click below to watch a working demo of our arbitration protocol.</h2>
+    <div class="Video-container col-11">
+      <iframe class="Video-iframe" src="https://www.youtube.com/embed/8RCUZV6Wgm4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <h3 class="IICOVideo-description col-12 col-sm-8">As you can see by our video we’re already well on our way to a working system which will be scalable, secure and fair
+      for all.</h3>
+  </div>
+  <!-- End IICOVideo -->
+
+  <!-- Pinakion -->
+  <div class="TokenSalePinakion Pinakion row">
+    <h2 class="col-12">Pinakion Token (PNK)</h2>
+    <h4 class="Pinakion-description col-12 col-sm-8">Users have an economic interest in serving as Kleros jurors by collecting the arbitration fee that every juror receives
+      for their work.</h4>
+    <div class="col-12">
+      <div class="Pinakion-features row">
+        <div class="Pinakion-feature col-12 col-md-6">
+          <img class="Pinakion-featureImage" src="img/pnk-cluster.svg" alt="Pinakion Feature">
+          <h4>Pinakion protects the system from sybil attacks, while also providing jurors an incentive to vote honestly by making
+            incoherent jurors pay part of their deposit to coherent jurors.</h4>
+          <a href="assets/whitepaper.pdf" target="_blank" rel="noopener noreferrer" class="Pinakion-findOutMore">
+            How? Read the white paper
+            <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Pinakion -->
+
+  <!-- TokenSaleStats -->
+  <div class="TokenSaleStats row">
+    <h2 class="TokenSaleStats-title col-12">Token Sale Stats</h2>
+    <div class="TokenSaleStats-logoContainer col-12 col-sm-6">
+      <img class="TokenSaleStats-logo" src="favicon-32x32.png" alt="Kleros Logo">
+      <a href="#" target="_blank" rel="noopener noreferrer" class="TokenSaleStats-getTokens btn btn-lg">Get tokens</a>
+    </div>
+    <div class="TokenSaleStats-stats col-12 col-sm-6">
+      <div class="TokenSaleStats-subtitle">Token Distribution</div>
+      <p class="TokenSaleStats-currentPeriod">Current Period:
+        <span id="currentPeriod">1</span>/350</p>
+      <div class="TokenSaleStats-totalDistribution">
+        <h5 class="TokenSaleStats-totalDistributionText">Total distribution:</h5>
+        <div class="TokenSaleStats-progressBar progressBar">
+          <div class="TokenSaleStats-progressBarProgress progressBar-progress"></div>
+          <div class="TokenSaleStats-totalDistributionProgressBarText progressBar-start">
+            <p>0 ETH</p>
+          </div>
+          <div class="TokenSaleStats-totalDistributionProgressBarText progressBar-end">
+            <p>24,000,000 ETH</p>
+          </div>
+        </div>
+      </div>
+      <div class="TokenSaleStats-currentDistribution row">
+        <div class="col-6">
+          <div class="TokenSaleStats-currentDistributionText">Current distribution:</div>
+          <div class="TokenSaleStats-currentDistributionNumber">1,000,000</div>
+        </div>
+        <div class="col-6">
+          <div class="TokenSaleStats-currentDistributionText">ETH Received:</div>
+          <div class="TokenSaleStats-currentDistributionNumber">0</div>
+        </div>
+      </div>
+      <div class="TokenSaleStats-countDown">
+        <div class="TokenSaleStats-countDownText">Current distribution starts in:</div>
+        <div class="TokenSaleStats-countDownBlocks CountDown-blocks col-12 flex-column flex-sm-row">
+          <div class="TokenSaleStats-countDownBlock CountDown-block col-4 col-sm-3">
+            <div class="countDownDays CountDown-amount">-</div>
+            <div class="countDownDaysUnit CountDown-unit">-</div>
+          </div>
+          <div class="TokenSaleStats-countDownBlock CountDown-block col-4 col-sm-3">
+            <div class="countDownHours CountDown-amount">-</div>
+            <div class="countDownHoursUnit CountDown-unit">-</div>
+          </div>
+          <div class="TokenSaleStats-countDownBlock CountDown-block col-4 col-sm-3">
+            <div class="countDownMins CountDown-amount">-</div>
+            <div class="countDownMinsUnit CountDown-unit">-</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End TokenSaleStats -->
+
+  <!-- TokenDistribution -->
+  <div class="TokenDistribution row">
+    <h2 class="TokenDistribution-totalTokenSupply col-12">Total token supply:
+      <span class="TokenDistribution-totalTokenSupplyNumber">1,000,000,000 PNK</span>
+    </h2>
+    <div class="TokenDistribution-info col-6">
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--1">66%</div>
+        <div class="TokenDistribution-percentTagText">Distributed to the Public</div>
+      </div>
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--2">15%</div>
+        <div class="TokenDistribution-percentTagText">Company Reserve Tokens</div>
+      </div>
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--3">14%</div>
+        <div class="TokenDistribution-percentTagText">Founders Tokens</div>
+      </div>
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--4">5%</div>
+        <div class="TokenDistribution-percentTagText">Airdrop</div>
+      </div>
+      <div class="TokenDistribution-infoText">Founders and early team members have tokens vested over 3 years with a one year cliff.
+        <br>
+        <br>In the first token distribution event, 16% of tokens will be sold to the public. The other 50% will be sold in the
+        future as the team reaches milestones in project development.</div>
+    </div>
+    <div class="TokenDistribution-pie col-6">
+      <img class="TokenDistribution-pieImage" src="#" alt="Token Distribution Pie Chart">
+    </div>
+  </div>
+  <!-- End TokenDistribution -->
+
+  <!-- Roadmap -->
+  <div class="Roadmap row">
+    <h2 class="Roadmap-title col-12">Interactive Coin Offering</h2>
+    <div class="Roadmap-subtitle col-12">Why an IICO?</div>
+    <div class="Roadmap-paragraph col-10">The interactive initial coin offering protocol allows participants to submit an ETH payment for tokens along with a personal
+      valuation cap.
+      <br>
+      <br>There is no personal cap required but instead a Personal valuation cap. An indication by each participant that they
+      are willing to leave their token purchase in the sale as long as the maximum total sale valuation does not exceed their
+      personal valuation cap.
+      <br>
+      <br>If, at the very end of the sale, the total sale valuation is greater than their personal valuation cap, the participant’s
+      bid is refunded. If this is still a little confusing take a look at our explainer video below.
+    </div>
+    <div class="Roadmap-subtitle col-12">How does it work?</div>
+    <div class="Video-container col-8">
+      <iframe class="Video-iframe" src="https://www.youtube.com/embed/8RCUZV6Wgm4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div class="Roadmap-githubLink col-12">
+      Github
+      <img class="rightArrow" src="img/arrow-right.svg" alt="Right Arrow">
+    </div>
+    <div class="Roadmap-subtitle col-12">How can I get a bonus?</div>
+    <div class="Roadmap-paragraph Roadmap-bonusParagraph col-10">
+      Kleros has not done a token pre-sale. The way to get discounted tokens is to participate early in the token sale. This mechanism
+      allows universal participation but at the same time rewards those who look to maximize their contribution to the sale.
+    </div>
+    <div class="Roadmap-subtitle col-12">Why multiple rounds?</div>
+    <img src="#" alt="Roadmap Rounds Timeline" class="Roadmap-rounds">
+    <div class="Roadmap-paragraph Roadmap-roundsParagraph col-10">
+      Our method is inspired by the old method of funding startups through a number of rounds (series A, series B, etc.). Startup
+      teams get access to more resources as they prove they are making progress with their product.
+      <br>
+      <br>We're trying to bring this old, proven method into the crazy world of token models. We hope this brings peace of mind
+      to our participants that we will deliver the protocol in a timely fashion without the need to ask for huge amounts
+      of investment up front.
+    </div>
+    <h2 class="Roadmap-milestonesTitle col-12">Roadmap and Token Sale Milestones</h2>
+    <img class="Roadmap-timelineImage" src="#" alt="Roadmap Image">
+    <h2 class="col-12 Roadmap-legalTitle">Legal</h2>
+    <div class="Roadmap-paragraph Roadmap-legalParagraph col-10">
+      Our method is inspired by the old method of funding startups through a number of rounds (series A, series B, etc.). Startup
+      teams get access to more resources as they prove they are making progress with their product.
+      <br>
+      <br>We're trying to bring this old, proven method into the crazy world of token models. We hope this brings peace of mind
+      to our participants that we will deliver the protocol in a timely fashion without the need to ask for huge amounts
+      of investment up front.
+    </div>
+    <h2 class="col-12">Expenses</h2>
+    <div class="Roadmap-expensesBlock TokenDistribution-info col-6">
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--1">50%</div>
+        <div class="TokenDistribution-percentTagText">Product Development</div>
+      </div>
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--2">20%</div>
+        <div class="TokenDistribution-percentTagText">Research</div>
+      </div>
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--3">10%</div>
+        <div class="TokenDistribution-percentTagText">Ecosystem Development</div>
+      </div>
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--4">10%</div>
+        <div class="TokenDistribution-percentTagText">Communication</div>
+      </div>
+      <div class="TokenDistribution-percentTag">
+        <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--5">10%</div>
+        <div class="TokenDistribution-percentTagText">Operations and Legal</div>
+      </div>
+    </div>
+    <div class="Roadmap-expensesBlock TokenDistribution-pie col-6">
+      <img class="TokenDistribution-pieImage" src="#" alt="Expenses Pie Chart">
+    </div>
+  </div>
+  <!-- End Roadmap -->
+
+  <!-- FAQ -->
+  <div class="FAQ row">
+    <h2 class="FAQ-title col-12">F.A.Q</h2>
+    <div class="FAQ-block col-12 col-sm-5">
+      <div class="FAQ-question">What happen with unsold tokens, if any, after the Token Sale?</div>
+      <div class="FAQ-answer">There can't be unsold tokens with an interactive coin offering. Tokens are given in proportion of contribution (and
+        taking a potential bonus into account).</div>
+    </div>
+    <div class="FAQ-block col-12 col-sm-5">
+      <div class="FAQ-question">Are US citizens allow to participate? If so, how are you fully compliant with US regulation?</div>
+      <div class="FAQ-answer">US citizens are not allowed to participate.</div>
+    </div>
+    <div class="FAQ-block col-12 col-sm-5">
+      <div class="FAQ-question">Who is advising you on the legal side? Who is your legal advisor or group of legal advisors?</div>
+      <div class="FAQ-answer">We are advised by William O'Rorke, a french lawyer specialized in cryptos and ICOs. He's in charge of the project compliance
+        regarding french and European regulations.</div>
+    </div>
+    <div class="FAQ-block col-12 col-sm-5">
+      <div class="FAQ-question">Is there a lock up period for the tokens after the token sale is over?</div>
+      <div class="FAQ-answer">Not for buyers. Tokens will be usable as soon as the sale ends.</div>
+    </div>
+    <div class="FAQ-block col-12 col-sm-5">
+      <div class="FAQ-question">What jurisdiction you will incorporate the organization? What kind of Legal Entity you will use for the Organization?</div>
+      <div class="FAQ-answer">We will be incorporated in France as a Cooperative.</div>
+    </div>
+    <div class="FAQ-block col-12 col-sm-5">
+      <div class="FAQ-question">Do you have a structure where funds are lock up and released upon completion of project milestones?</div>
+      <div class="FAQ-answer">No, we would have loved to but there isn’t currently a decentralized dispute resolution system which would be able
+        to solve disputes about milestone completion (we are working on it ;) ). The token sale will be in multiple rounds.
+        Would we fail to deliver what is promised, buyers would probably not buy in the next rounds.</div>
+    </div>
+  </div>
+  <!-- End FAQ -->
+
+  <!-- CallToAction -->
+  <div class="CallToAction row">
+    <h2 class="CallToAction-title col-12">Kleros — The Blockchain Dispute Resolution Layer</h2>
+    <a href="#" target="_blank" rel="noopener noreferrer" class="CallToAction-getTokens btn btn-lg">Just let me buy some tokens</a>
+  </div>
+  <!-- End CallToAction -->
+
+  <!-- GetToKnowTeam -->
+  <div class="GetToKnowTeam row">
+    <div class="GetToKnowTeam-section col-12 col-sm-6">
+      <div class="GetToKnowTeam-title">Get to know our team.</div>
+      <div class="GetToKnowTeam-description">Ask questions and contribute to the development of Kleros.</div>
+    </div>
+    <div class="GetToKnowTeam-section GetToKnowTeam-socialSection col-12 col-sm-6">
+      <div class="row">
+        <div class="col-12">
+          <a class="Footer-socialLink" href="https://twitter.com/kleros_io" target="_blank" rel="noopener noreferrer">
+            <img src="img/twitter.svg" alt="Twitter" class="Footer-socialIcon">
+          </a>
+          <a class="Footer-socialLink" href="https://www.facebook.com/kleros.io" target="_blank" rel="noopener noreferrer">
+            <img src="img/facebook.svg" alt="Facebook" class="Footer-socialIcon">
+          </a>
+          <a class="Footer-socialLink" href="https://www.linkedin.com/company/kleros" target="_blank" rel="noopener noreferrer">
+            <img src="img/linked-in.svg" alt="LinkedIn" class="Footer-socialIcon">
+          </a>
+          <a class="Footer-socialLink" href="https://medium.com/kleros" target="_blank" rel="noopener noreferrer">
+            <img src="img/medium.svg" alt="Medium" class="Footer-socialIcon">
+          </a>
+          <a class="Footer-socialLink" href="https://t.me/kleros" target="_blank" rel="noopener noreferrer">
+            <img src="img/telegram.svg" alt="Telegram" class="Footer-socialIcon">
+          </a>
+          <a class="Footer-socialLink" href="https://www.reddit.com/r/Kleros" target="_blank" rel="noopener noreferrer">
+            <img src="img/reddit.svg" alt="Reddit" class="Footer-socialIcon">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <img src="img/ship.svg" alt="GetToKnowTeam Ship" class="GetToKnowTeam-ship Media-ship">
+    </div>
+  </div>
+  <!-- End GetToKnowTeam -->
+
+  <!-- Footer -->
+  <div class="Footer row">
+    <div class="col-12">
+      <div class="Footer-callToAction row">
+        <div class="Footer-signUpMessage col-12">Sign up to Receive Our Latest Updates</div>
+        <h5 class="Footer-quote col-12">"Whoever controls the courts, controls the state". Aristotle.</h5>
+        <div class="Footer-signUpInput col-10 col-sm-8 col-md-6">
+          <form action="https://kleros.us16.list-manage.com/subscribe/post?u=bc4fd8a6129d3e3aec704aefd&amp;id=dbad57fc86" method="post"
+            name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener noreferrer" novalidate>
+            <div class="Footer-inputGroup input-group">
+              <input name="EMAIL" id="mce-EMAIL" required class="Footer-formControl form-control" type="email" placeholder="email">
+              <span class="input-group-btn">
+                <button class="btn-signUpButton btn btn-secondary" type="submit">Sign Up</button>
+              </span>
+            </div>
+            <input type="hidden" name="b_bc4fd8a6129d3e3aec704aefd_dbad57fc86">
+          </form>
+        </div>
+        <div class="Footer-signUpPrivacy col-12">We value your privacy and will never share your email with third parties.</div>
+        <hr class="Footer-separator col-8">
+        <div class="Footer-links col-10 col-sm-5">
+          <h5 class="Footer-findOutMore row">
+            <div class="col-12">Find out more.</div>
+          </h5>
+          <div class="Footer-linksList row">
+            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://medium.com/kleros/kleros-frequently-asked-questions-about-peer-to-peer-justice-5a921cb76abe"
+              target="_blank" rel="noopener noreferrer">FAQ</a>
+            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://github.com/kleros" target="_blank" rel="noopener noreferrer">Github</a>
+            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://t.me/kleros" target="_blank" rel="noopener noreferrer">Telegram</a>
+          </div>
+        </div>
+        <div class="col-12 col-sm-3 mt-5 mt-sm-0">
+          <h5 class="row">
+            <div class="col-12">Let's connect.</div>
+          </h5>
+          <div class="row">
+            <div class="col-12">
+              <a class="Footer-socialLink" href="https://twitter.com/kleros_io" target="_blank" rel="noopener noreferrer">
+                <img src="img/twitter.svg" alt="Twitter" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://www.facebook.com/kleros.io" target="_blank" rel="noopener noreferrer">
+                <img src="img/facebook.svg" alt="Facebook" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://www.linkedin.com/company/kleros" target="_blank" rel="noopener noreferrer">
+                <img src="img/linked-in.svg" alt="LinkedIn" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://medium.com/kleros" target="_blank" rel="noopener noreferrer">
+                <img src="img/medium.svg" alt="Medium" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://t.me/kleros" target="_blank" rel="noopener noreferrer">
+                <img src="img/telegram.svg" alt="Telegram" class="Footer-socialIcon">
+              </a>
+              <a class="Footer-socialLink" href="https://www.reddit.com/r/Kleros" target="_blank" rel="noopener noreferrer">
+                <img src="img/reddit.svg" alt="Reddit" class="Footer-socialIcon">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Footer-end row">
+        <div class="col-3">
+          <a class="Footer-brand" href="#">
+            <img class="Footer-logo" src="favicon-32x32.png" alt="Kleros Logo">KLEROS
+          </a>
+        </div>
+        <p class="Footer-copyright col-3">Copyright 2018 © Kleros.io</p>
+      </div>
+    </div>
+  </div>
+  <!-- End Footer -->
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+  <script>
+    var $nav = $('#navbar');
+    $(document).scroll(function () {
+      $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+    });
+
+    $('#telegramCloseButton').click(function () {
+      $('#telegramButton').hide()
+    });
+
+    var $days = $('.countDownDays');
+    var $daysUnit = $('.countDownDaysUnit');
+
+    var $hours = $('.countDownHours');
+    var $hoursUnit = $('.countDownHoursUnit');
+
+    var $mins = $('.countDownMins');
+    var $minsUnit = $('.countDownMinsUnit');
+
+    window.setInterval(function () {
+      var time = 1526342400671 - Date.now();
+
+      var days = Math.floor(time / 8.64e+7).toString();
+      $days[0].textContent = (days);
+      $days[1].textContent = (days);
+      if (days === '1') {
+        $daysUnit[0].textContent = ('DAY');
+        $daysUnit[1].textContent = ('DAY');
+      }
+      else {
+        $daysUnit[0].textContent = ('DAYS');
+        $daysUnit[1].textContent = ('DAYS');
+      }
+
+      var hours = Math.floor((time % 8.64e+7) / 3.6e+6).toString();
+      $hours[0].textContent = (hours);
+      $hours[1].textContent = (hours);
+      if (hours === '1') {
+        $hoursUnit[0].textContent = ('HOUR');
+        $hoursUnit[1].textContent = ('HOUR');
+      }
+      else {
+        $hoursUnit[0].textContent = ('HOURS');
+        $hoursUnit[1].textContent = ('HOURS');
+      }
+
+      var mins = Math.floor((time % 3.6e+6) / 60000).toString();
+      $mins[0].textContent = (mins);
+      $mins[1].textContent = (mins);
+      if (mins === '1') {
+        $minsUnit[0].textContent = ('MIN');
+        $minsUnit[1].textContent = ('MIN');
+      }
+      else {
+        $minsUnit[0].textContent = ('MINS');
+        $minsUnit[1].textContent = ('MINS');
+      }
+    }, 1000);
+  </script>
+  <!-- End Scripts -->
+</body>
+
+</html>
