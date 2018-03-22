@@ -1,0 +1,112 @@
+{
+  "tagline": "The Blockchain Dispute Resolution Layer",
+
+  "NavBar.team": "Team",
+  "NavBar.FAQ": "FAQ",
+  "NavBar.github": "Github",
+  "NavBar.documentation": "Documentation",
+  "NavBar.telegram": "Telegram",
+  "NavBar.language": "Language",
+  "NavBar.english": "English",
+  "NavBar.spanish": "Spanish",
+
+  "Header.klerosProvides":
+    "Kleros provides fast, secure and affordable arbitration for virtually everything.",
+  "Header.letsConnect": "Let's connect.",
+
+  "CountDown.title": "Token sale starts on May 15th, 2018.",
+
+  "Challenge.title": "The Challenge",
+  "Challenge.description":
+    "Disputes in the global, digital, and decentralized economy occur in areas where they cannot be solved by state courts and existing dispute resolution methods.",
+
+  "Solution.title": "The Solution",
+  "Solution.description":
+    "Kleros connects users who need to solve disputes with jurors who have the skills to fairly settle them. Our resolution layer uses blockchain technology and crowdsourced jurors to adjudicate disputes in a fast, secure, and affordable manner.",
+
+  "HowKlerosWorks.title": "How Does Kleros Work?",
+  "HowKlerosWorks.contract.title": "Contract",
+  "HowKlerosWorks.contract.description":
+    "Users create a smart contract and choose Kleros as its adjudication protocol.",
+  "HowKlerosWorks.dispute.title": "Dispute",
+  "HowKlerosWorks.dispute.description":
+    "The relevant information is securely sent to Kleros.",
+  "HowKlerosWorks.selection.title": "Selection",
+  "HowKlerosWorks.selection.description":
+    "A tribunal is drawn from the crowd. Jurors evaluate evidence and cast their vote.",
+  "HowKlerosWorks.enforcement.title": "Enforcement",
+  "HowKlerosWorks.enforcement.description":
+    "The decision is enforced by the smart contract.",
+  "HowKlerosWorks.crowdsourcing":
+    "Crowdsourcing taps into a global pool of jurors. Blockchain guarantees evidence integrity and transparency in jury selection. Game theory provides incentives for honest rulings.",
+
+  "UseCases.title": "Use Cases",
+  "UseCases.arbitration.title": "Arbitration",
+  "UseCases.arbitration.description":
+    "A freelance job is contracted between two people working cross continent. The service is not rendered to a satisfactory standard and a jury of experts analyze the evidence, vote, and find a verdict.",
+  "UseCases.socialMedia.title": "Social Media",
+  "UseCases.socialMedia.description":
+    "An unpleasant comment posted in a decentralized social media platform is deemed to have broken terms and conditions. Kleros jurors rule to deduct reputation points from the user.",
+  "UseCases.gaming.title": "Gaming",
+  "UseCases.gaming.description":
+    "Online gaming is a growing market with superstar players. Professionals will require a highly skilled group of jurors to arbitrate disputes, and for the provision of safe spaces to play in.",
+  "UseCases.crowdfunding.title": "Crowdfunding",
+  "UseCases.crowdfunding.description":
+    "A startup backed by crowdfunders never materialises a viable product. The funds have been locked in a smart contract escrow adjudicated by Kleros jurors and are returned to the investors.",
+  "UseCases.eCommerce.title": "E-Commerce",
+  "UseCases.eCommerce.description":
+    "A product purchased online does not meet the advertised standard. Kleros adjudicates in favour of the buyer and a smart contract returns the funds.",
+  "UseCases.oracles.title": "Oracles",
+  "UseCases.oracles.description":
+    "“Did it rain in Ulaanbaatar today?” An oracle bridges the gap between the outside world and blockchain allowing smart contracts to use real world data in their outcomes.",
+
+  "Pinakion.title": "Pinakion Token (PNK)",
+  "Pinakion.description":
+    "Users have an economic interest in serving as Kleros jurors by collecting the arbitration fee that every juror receives for their work.",
+  "Pinakion.info":
+    "Pinakion protects the system from sybil attacks, while also providing jurors an incentive to vote honestly by making incoherent jurors pay part of their deposit to coherent jurors.",
+  "Pinakion.readMore": "How? Read the white paper",
+
+  "Security.title": "Security for Users and Jurors Alike",
+  "Security.description":
+    "Bribe and attack resistant whilst offering user privacy through intelligent design. We have a dedicated team conducting cryptoeconomic experiments to ensure the safety of our protocol.",
+
+  "Team.title": "Team",
+  "Team.CEO": "CEO",
+  "Team.CTO": "CTO",
+  "Team.web3Developer": "WEB3 DEVELOPER",
+  "Team.DAPPDeveloper": "DAPP DEVELOPER",
+  "Team.designLead": "DESIGN LEAD",
+  "Team.communicationsLead": "COMMUNICATIONS LEAD",
+  "Team.cryptoEconomicsResearcher": "CRYPTOECONOMICS RESEARCHER",
+  "Team.PR": "PR",
+  "Team.communityManager": "COMMUNITY MANAGER",
+  "Team.join": "JOIN THE KLEROS TEAM!",
+  "Team.advisors": "Advisors",
+  "Team.legalAdvisor": "LEGAL ADVISOR",
+
+  "Media.title": "Kleros in the Media",
+  "Media.date1": "January 23, 2018",
+  "Media.date2": "March 6, 2018",
+  "Media.date3": "March 5, 2018",
+  "Media.readMore": "Read more",
+
+  "Footer.signUp": "Sign up to Receive Our Latest Updates",
+  "Footer.quote":
+    "“Whoever controls the courts, controls the state”. Aristotle.",
+  "Footer.signUpButton": "Sign Up",
+  "Footer.privacy":
+    "We value your privacy and will never share your email with third parties.",
+  "Footer.findOutMore": "Find out more.",
+  "Footer.FAQ": "FAQ",
+  "Footer.github": "Github",
+  "Footer.telegram": "Telegram",
+  "Footer.letsConnect": "Let's connect.",
+
+  "Clock.day": "DAY",
+  "Clock.days": "DAYS",
+  "Clock.hour": "HOUR",
+  "Clock.hours": "HOURS",
+  "Clock.min": "MIN",
+  "Clock.mins": "MINS"
+}

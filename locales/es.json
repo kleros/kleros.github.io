@@ -1,0 +1,112 @@
+{
+  "tagline": "El Protocolo de Resolución de Conflictos en Blockchain",
+
+  "NavBar.team": "Equipo",
+  "NavBar.FAQ": "FAQ",
+  "NavBar.github": "Github",
+  "NavBar.documentation": "Documentación",
+  "NavBar.telegram": "Telegram",
+  "NavBar.language": "Lenguaje",
+  "NavBar.english": "English",
+  "NavBar.spanish": "Spanish",
+
+  "Header.klerosProvides":
+    "Kleros ofrece arbitraje rápido, seguro y accesible para virtualmente cualquier situación.",
+  "Header.letsConnect": "En las redes.",
+
+  "CountDown.title": "La venta de tokens comienza el 15 de Mayo del 2018.",
+
+  "Challenge.title": "El Desafío",
+  "Challenge.description":
+    "Las disputas en una economía global, digital y descentralizada ocurren en áreas en las que ni los tribunales estatales ni los métodos tradicionales de resolución de conflictos pueden actuar.",
+
+  "Solution.title": "La Solución",
+  "Solution.description":
+    "Kleros conecta a los usuarios que necesiten resolver sus disputas y los jurados con las habilidades necesarias para solucionarlas de forma justa. Nuestro protocolo de resolución utiliza la tecnología de blockchain y jurados en colaboración abierta y distribuida para adjudicar cada caso de forma rápida, segura y accesible.",
+
+  "HowKlerosWorks.title": "¿Cómo funciona Kleros?",
+  "HowKlerosWorks.contract.title": "Contrato",
+  "HowKlerosWorks.contract.description":
+    "Los usuarios crean un smart contract y eligen a Kleros como protocolo de resolución de conflictos.",
+  "HowKlerosWorks.dispute.title": "Disputa",
+  "HowKlerosWorks.dispute.description":
+    "Toda la información relevante es enviada de forma segura a Kleros.",
+  "HowKlerosWorks.selection.title": "Selección",
+  "HowKlerosWorks.selection.description":
+    "El tribunal se forma a partir de jurados dispuestos a colaborar. Éstos evalúan la evidencia y emiten su voto.",
+  "HowKlerosWorks.enforcement.title": "Sentencia",
+  "HowKlerosWorks.enforcement.description":
+    "La decisión tomada por el tribunal es ejecutada por el smart contract.",
+  "HowKlerosWorks.crowdsourcing":
+    "La colaboración abierta permite acceder a una comunidad global de jurados. La tecnología de blockchain garantiza la integridad y transparencia a la hora de seleccionar a los jurados. La teoría de juego proporciona incentivos para una participación honesta.",
+
+  "UseCases.title": "Casos Prácticos",
+  "UseCases.arbitration.title": "Arbitraje",
+  "UseCases.arbitration.description":
+    "Un contrato freelance se crea entre dos personas trabajando en distintos continentes. El servicio no resulta satisfactorio y el tribunal de expertos analiza las pruebas, vota y emite un veredicto.",
+  "UseCases.socialMedia.title": "Redes Sociales",
+  "UseCases.socialMedia.description":
+    "Un comentario desafortunado en una red social descentralizada puede haber incumplido las bases y condiciones de la misma red. Los jurados en Kleros dictaminan una reducción de puntos de reputación del usuario.",
+  "UseCases.gaming.title": "Juegos en Línea",
+  "UseCases.gaming.description":
+    "Los juegos en línea es un mercado en crecimiento en el que están surgiendo jugadores superestrellas. Estos profesionales necesitan un tribunal altamente calificado para arbitrar entre disputas y en la creación de plataformas justas donde jugar.",
+  "UseCases.crowdfunding.title": "Crowdfunding",
+  "UseCases.crowdfunding.description":
+    "Un producto nunca llega a materializarse incluso tras haber sido financiado. Los fondos bloqueados en un smart contract gestionado por Kleros son devueltos a los inversores.",
+  "UseCases.eCommerce.title": "E-Commerce",
+  "UseCases.eCommerce.description":
+    "Un producto comprado on-line no reúne las características anunciadas. Kleros sentencia a favor del comprador y el smart contract devuelve los fondos.",
+  "UseCases.oracles.title": "Oráculos",
+  "UseCases.oracles.description":
+    "“¿Llovió hoy en Ulán Bator?” Un oráculo hace de puente entre el mundo exterior y la tecnología de blockchain permitiendo que los smart contracts usen información del mundo real en sus decisiones.",
+
+  "Pinakion.title": "Token Pinakion (PNK)",
+  "Pinakion.description":
+    "Los usuarios tienen incentivos económicos en actuar como jurados en Kleros al recibir los honorarios de arbitraje correspondientes a esta tarea.",
+  "Pinakion.info":
+    "Pinakion protege el sistema de ataques Sybil proporcionando a los jurados un incentivo para votar de forma honesta. Jurados que voten incoherentemente perderán su depósito que pasará a manos de los jurados honestos.",
+  "Pinakion.readMore": "¿Cómo? Lee el documento técnico",
+
+  "Security.title": "Seguridad Tanto Para Usuarios Como Para Jurados",
+  "Security.description":
+    "Resistente a ataques y sobornos a la misma vez que ofrece privacidad a los usuarios gracias a un diseño innovador. Contamos con un equipo capaz dirigiendo experimentos criptoeconómicos que aseguren que nuestro protocolo sea lo más seguro posible.",
+
+  "Team.title": "Equipo",
+  "Team.CEO": "DIRECTOR EJECUTIVO (CEO)",
+  "Team.CTO": "DIRECTOR TÉCNICO (CTO)",
+  "Team.web3Developer": "DESARROLLADOR DE WEB3",
+  "Team.DAPPDeveloper": "DESARROLLADOR DE DAPPS",
+  "Team.designLead": "JEFA DE DISEÑO",
+  "Team.communicationsLead": "JEFA DE COMUNICACIÓN",
+  "Team.cryptoEconomicsResearcher": "INVESTIGADOR EN CRIPTOECONOMÍA",
+  "Team.PR": "RELACIONES PÚBLICAS (PR)",
+  "Team.communityManager": "COMMUNITY MANAGER",
+  "Team.join": "¡ÚNETE AL EQUIPO DE KLEROS!",
+  "Team.advisors": "Advisors",
+  "Team.legalAdvisor": "CONSEJERO LEGAL",
+
+  "Media.title": "Kleros en la Prensa",
+  "Media.date1": "Enero 23, 2018",
+  "Media.date2": "Marzo 6, 2018",
+  "Media.date3": "Marzo 5, 2018",
+  "Media.readMore": "Leer más",
+
+  "Footer.signUp": "Suscríbete Para Recibir las Últimas Novedades",
+  "Footer.quote":
+    "“Aquél que controle los tribunales, controlará el estado”. Aristóteles.",
+  "Footer.signUpButton": "Suscribete",
+  "Footer.privacy":
+    "Valoramos tu privacidad y nunca compartiremos tu email con terceros.",
+  "Footer.findOutMore": "Descubre más.",
+  "Footer.FAQ": "FAQ",
+  "Footer.github": "Github",
+  "Footer.telegram": "Telegram",
+  "Footer.letsConnect": "Conéctate",
+
+  "Clock.day": "DÍA",
+  "Clock.days": "DÍAS",
+  "Clock.hour": "HORA",
+  "Clock.hours": "HORAS",
+  "Clock.min": "MIN",
+  "Clock.mins": "MINS"
+}
