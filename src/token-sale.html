@@ -115,10 +115,10 @@
           <div class="progressBar">
             <div class="progressBar-progress"></div>
             <div class="progressBar-start">
-              <p>0 ETH</p>
+              <p>0 PNK</p>
             </div>
             <div class="progressBar-end">
-              <p>1,000,000,000 ETH</p>
+              <p>1,000,000,000 PNK</p>
             </div>
           </div>
         </div>
@@ -229,27 +229,27 @@
     <div class="TokenSaleStats-stats col-12 col-sm-6">
       <div class="TokenSaleStats-subtitle">Token Distribution</div>
       <p class="TokenSaleStats-currentPeriod">Current period:
-        <span id="currentPeriod">1</span>/350</p>
+        <span id="currentPeriod">0</span>/350</p>
       <div class="TokenSaleStats-totalDistribution">
         <h5 class="TokenSaleStats-totalDistributionText">Total distribution:</h5>
         <div class="TokenSaleStats-progressBar progressBar">
           <div class="TokenSaleStats-progressBarProgress progressBar-progress"></div>
           <div class="TokenSaleStats-totalDistributionProgressBarText progressBar-start">
-            <p>0 ETH</p>
+            <p>0 PNK</p>
           </div>
           <div class="TokenSaleStats-totalDistributionProgressBarText progressBar-end">
-            <p>1,000,000,000 ETH</p>
+            <p>1,000,000,000 PNK</p>
           </div>
         </div>
       </div>
       <div class="TokenSaleStats-currentDistribution row">
         <div class="col-12 col-md-6">
-          <div class="TokenSaleStats-currentDistributionText">Current distribution:</div>
-          <div class="TokenSaleStats-currentDistributionNumber">1,000,000</div>
+          <div class="TokenSaleStats-currentDistributionText">Current PNK distribution:</div>
+          <div class="TokenSaleStats-currentDistributionNumber">160,000,000</div>
         </div>
         <div class="col-12 col-md-6 mt-3 mt-md-0">
           <div class="TokenSaleStats-currentDistributionText">ETH received:</div>
-          <div class="TokenSaleStats-currentDistributionNumber">0</div>
+          <div id="ethReceived" class="TokenSaleStats-currentDistributionNumber">0</div>
         </div>
       </div>
       <div class="TokenSaleStats-countDown">
@@ -567,49 +567,30 @@
       var time = 1526342400671 - Date.now();
 
       var days = Math.floor(time / 8.64e+7).toString();
-      $days[0].textContent = (days);
-      $days[1].textContent = (days);
-      if (days === '1') {
-        $daysUnit[0].textContent = ('DAY');
-        $daysUnit[1].textContent = ('DAY');
-      }
-      else {
-        $daysUnit[0].textContent = ('DAYS');
-        $daysUnit[1].textContent = ('DAYS');
-      }
+      $days.text(days);
+      if (days === '1') $daysUnit.text('DAY');
+      else $daysUnit.text('DAYS');
 
       var hours = Math.floor((time % 8.64e+7) / 3.6e+6).toString();
-      $hours[0].textContent = (hours);
-      $hours[1].textContent = (hours);
-      if (hours === '1') {
-        $hoursUnit[0].textContent = ('HOUR');
-        $hoursUnit[1].textContent = ('HOUR');
-      }
-      else {
-        $hoursUnit[0].textContent = ('HOURS');
-        $hoursUnit[1].textContent = ('HOURS');
-      }
+      $hours.text(hours);
+      if (hours === '1') $hoursUnit.text('HOUR');
+      else $hoursUnit.text('HOURS');
 
       var mins = Math.floor((time % 3.6e+6) / 60000).toString();
-      $mins[0].textContent = (mins);
-      $mins[1].textContent = (mins);
-      if (mins === '1') {
-        $minsUnit[0].textContent = ('MIN');
-        $minsUnit[1].textContent = ('MIN');
-      }
-      else {
-        $minsUnit[0].textContent = ('MINS');
-        $minsUnit[1].textContent = ('MINS');
-      }
+      $mins.text(mins);
+      if (mins === '1') $minsUnit.text('MIN');
+      else $minsUnit.text('MINS');
     }
 
     updateClocks()
     window.setInterval(updateClocks, 1000);
 
     // Progress bars
+    var $ethReceived = $('#ethReceived');
     var $progressBars = $('.progressBar-progress');
 
     function updateProgressBars() {
+      $ethReceived.text(0);
       $progressBars[0].style.width = '0%';
       $progressBars[1].style.width = '0%';
     }
