@@ -1262,6 +1262,12 @@ p {
   line-height: 26px;
 }
 
+.TokenDistribution-pieImage {
+  width: 100%;
+  max-height: 400px;
+  margin-top: 25px;
+}
+
 /**************** End TokenDistribution ****************/
 
 /**************** TokenSaleRoadmap ****************/
@@ -1308,16 +1314,25 @@ p {
 }
 
 .TokenSaleRoadmap-githubLink {
-  color: #1a1b23;
+  display: inline-block;
+  color: #0059ab;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 153px;
   margin-top: 15px;
 }
 
+.TokenSaleRoadmap-githubLink:hover {
+  color: #0059ab;
+}
+
 .TokenSaleRoadmap-rounds {
+  max-height: 102px;
+  width: 100%;
   margin-top: 13px;
-  margin: 33px;
+  margin-bottom: 33px;
+  margin-left: -40px;
+  margin-right: -40px;
 }
 
 .TokenSaleRoadmap-milestonesTitle {
@@ -1326,6 +1341,8 @@ p {
 
 .TokenSaleRoadmap-timelineImage {
   margin-bottom: 174px;
+  max-height: 240px;
+  width: 100%;
 }
 
 .TokenSaleRoadmap-legalTitle {
@@ -1334,6 +1351,11 @@ p {
 
 .TokenSaleRoadmap-expensesBlock {
   margin-top: 63px;
+}
+
+.TokenSaleRoadmap-pieImage {
+  width: 100%;
+  max-height: 400px;
 }
 
 /**************** End TokenSaleRoadmap ****************/
@@ -1417,10 +1439,6 @@ p {
   flex-direction: column;
 }
 
-.GetToKnowTeam-socialSection {
-  align-items: center;
-}
-
 .GetToKnowTeam-title {
   font-size: 30px;
   font-weight: 600;
@@ -1433,6 +1451,16 @@ p {
   font-weight: 300;
   line-height: 32px;
   text-align: left;
+}
+
+.GetToKnowTeam-socialSection {
+  align-items: center;
+}
+
+.Footer-socialIcon {
+  height: 56px;
+  width: 56px;
+  margin-right: 0;
 }
 
 .GetToKnowTeam-ship {

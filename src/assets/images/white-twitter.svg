@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="70px" viewBox="0 0 68 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>tw</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.0232856266" width="56" height="56" rx="9"></rect>
+        <filter x="-25.9%" y="-22.3%" width="151.8%" height="151.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="TOKEN-SALE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Token-Sale" transform="translate(-927.000000, -11271.000000)">
+            <g id="Social-block" transform="translate(330.000000, 11243.000000)">
+                <g id="tw" transform="translate(603.000000, 33.000000)">
+                    <g id="Rectangle-13">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M36.5163283,21.7170758 C37.4060018,21.1892385 38.0917917,20.3337781 38.4254192,19.3509088 C37.5913504,19.8423434 36.6646072,20.1881679 35.6822595,20.388382 C34.9037952,19.5511229 33.7731686,19.0232856 32.5313327,19.0232856 C30.1588703,19.0232856 28.2312445,20.9526218 28.2312445,23.3187888 C28.2312445,23.646412 28.2683142,23.9740351 28.3424537,24.3016582 C24.7652251,24.1196454 21.5772286,22.4087246 19.4642542,19.8059409 C19.0935569,20.4429858 18.8711386,21.1892385 18.8711386,21.9718938 C18.8711386,23.4643991 19.631068,24.7748916 20.7987643,25.5393456 C20.0944395,25.5211443 19.4271845,25.3209302 18.8340688,25.0115083 C18.8340688,27.1410586 20.3168579,28.8701807 22.3000883,29.270609 C21.929391,29.3616154 21.5586937,29.4162192 21.1694616,29.4162192 C20.8914387,29.4162192 20.6134157,29.3798167 20.3539276,29.3434141 C20.8914387,31.0361336 22.4854369,32.273821 24.3759929,32.3102235 C22.8932039,33.4569045 21.0397176,34.1485533 19.0194175,34.1485533 C18.6857899,34.1485533 18.3336275,34.130352 18,34.0939494 C19.9090909,35.3134355 22.1703442,36.0232856 24.5984113,36.0232856 C32.5313327,36.0232856 36.8684907,29.4890244 36.8684907,23.8102235 C36.8684907,23.6282107 36.8499559,23.4461978 36.8499559,23.264185 C37.6840247,22.6635426 38.4254192,21.8990886 39,21.0436282 C38.2215357,21.3894527 37.3874669,21.6078681 36.5163283,21.7170758 Z" id="Twitter-icon" fill="#1A1B23"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

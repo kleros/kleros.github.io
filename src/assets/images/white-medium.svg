@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="70px" viewBox="0 0 67 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>medium</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.0232856266" width="55" height="56" rx="9"></rect>
+        <filter x="-26.4%" y="-22.3%" width="152.7%" height="151.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="TOKEN-SALE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Token-Sale" transform="translate(-1068.000000, -11271.000000)">
+            <g id="Social-block" transform="translate(330.000000, 11243.000000)">
+                <g id="medium" transform="translate(744.000000, 33.000000)">
+                    <g id="Rectangle-13-Copy">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M13.4984378,16.0781531 C13.4266471,16.0408664 13.3582085,16.0232856 13.296381,16.0232856 C13.2082954,16.0232856 13.1338044,16.05922 13.0813814,16.1248099 C13.0300757,16.1889508 13,16.2816846 13,16.3976985 L13,35.0822143 C13,35.4002141 13.224311,35.7766555 13.4984378,35.9188474 L21.2523899,39.9408877 C21.3601225,39.9968178 21.4627338,40.0232856 21.5554751,40.0232856 C21.8167522,40.0232856 22,39.8135719 22,39.4615697 L22,20.6167017 C22,20.5378779 21.9570746,20.4657194 21.8891016,20.4304612 L13.4984378,16.0781531 Z" id="Fill-51" fill="#1A1B23"></path>
+                    <path d="M41.187604,36.940752 C41.6344269,37.1546005 42,36.9383307 42,36.460077 L42,19.0232856 L33,33.0222293 L41.187604,36.940752 Z" id="Fill-50" fill="#1A1B23"></path>
+                    <polygon id="Fill-48" fill="#1A1B23" points="23 30.7155858 32 35.0232856 23 21.0232856"></polygon>
+                    <path d="M31.9310724,14.0540895 C31.8904332,14.0338526 31.8461882,14.0244603 31.8019432,14.0232984 C31.6844113,14.0223301 31.5760403,14.0766503 31.5173718,14.1712509 L26,23.0792892 L32.1590219,33.0232856 L40.9684561,18.8002859 C41.0337515,18.6947438 40.994087,18.5563772 40.8825973,18.5009919 L31.9310724,14.0540895 Z" id="Fill-47" fill="#1A1B23"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="70px" viewBox="0 0 67 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>telegram</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0.0232856266" width="55" height="56" rx="9"></rect>
+        <filter x="-26.4%" y="-22.3%" width="152.7%" height="151.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.05 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.02 0" type="matrix" in="shadowBlurOuter2" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="TOKEN-SALE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Token-Sale" transform="translate(-1137.000000, -11271.000000)">
+            <g id="Social-block" transform="translate(330.000000, 11243.000000)">
+                <g id="telegram" transform="translate(813.000000, 33.000000)">
+                    <g id="Group-6">
+                        <g id="Rectangle-13-Copy">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                    <path d="M20.3976634,28.8729431 L35.9740755,19.0677108 C36.2539017,18.8920092 36.5419139,19.2788826 36.3015194,19.506788 L23.4465808,31.7198744 C22.9947313,32.1497599 22.7032601,32.7250618 22.6207074,33.3495036 L22.1828089,36.6662686 C22.1248144,37.1091168 21.5161609,37.1530716 21.3965977,36.7244823 L19.7124525,30.6762706 C19.5195604,29.9864269 19.8006548,29.2495644 20.3976634,28.8729431 M9.61820404,27.4081766 L17.6829146,30.3714229 L20.804452,40.2543086 C21.0041856,40.8872718 21.7904033,41.1212304 22.312254,40.7012075 L26.8076599,37.0933978 C27.2788772,36.7154116 27.9500614,36.6965754 28.442512,37.0484896 L36.5506226,42.8437035 C37.1087567,43.2431674 37.8997577,42.9420189 38.0397579,42.2779302 L43.9793824,14.1510952 C44.1322159,13.4256742 43.4081816,12.8205058 42.7065474,13.0876574 L9.60875403,25.6574494 C8.79196962,25.9675566 8.7990863,27.1059944 9.61820404,27.4081766" id="Telegram" fill="#1A1B23"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
