@@ -1,6 +1,7 @@
 const { resolve } = require('path')
 const CleanWebpackPlugin = require('clean-webpack-plugin')
 const I18nPlugin = require('i18n-webpack-plugin')
+const autoprefixer = require('autoprefixer')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const OpenBrowserPlugin = require('open-browser-webpack-plugin')
@@ -41,7 +42,15 @@ module.exports = [
           },
           {
             test: /\.css$/,
-            use: ['file-loader', 'extract-loader', 'css-loader']
+            use: [
+              'file-loader',
+              'extract-loader',
+              'css-loader',
+              {
+                loader: 'postcss-loader',
+                options: { plugins: [autoprefixer] }
+              }
+            ]
           },
           {
             test: /\.(png|jpg|svg|woff|woff2)$/,
