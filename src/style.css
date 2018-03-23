@@ -1006,7 +1006,23 @@ p {
 /**************** IICOInfo ****************/
 
 .IICOInfo {
+  background: none;
   padding-bottom: 121px;
+  position: relative;
+  overflow: hidden;
+}
+
+.IICOInfo:before {
+  content: '';
+  position: absolute;
+  background-image: url('assets/images/hexagon.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  transform: rotate(195deg) translate(25%, -15%);
+  z-index: -1;
 }
 
 .IICOInfo-steps {
@@ -1072,6 +1088,20 @@ p {
 
 .TokenSalePinakion {
   padding-bottom: 134px;
+  position: relative;
+}
+
+.TokenSalePinakion:before {
+  content: '';
+  position: absolute;
+  background-image: url('assets/images/hexagon.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  transform: rotate(350deg) translate(-26%, 5%);
+  z-index: -1;
 }
 
 /**************** End TokenSalePinakion ****************/
@@ -1196,6 +1226,20 @@ p {
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 194px;
+  position: relative;
+}
+
+.TokenDistribution:before {
+  content: '';
+  position: absolute;
+  background-image: url('assets/images/hexagon.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  transform: rotate(190deg) translate(-18%, -25%);
+  z-index: -1;
 }
 
 .TokenDistribution-totalTokenSupply {
@@ -1351,6 +1395,20 @@ p {
 
 .TokenSaleRoadmap-expensesBlock {
   margin-top: 63px;
+  position: relative;
+}
+
+.TokenSaleRoadmap-expensesBlockTags:before {
+  content: '';
+  position: absolute;
+  background-image: url('assets/images/hexagon.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  transform: rotate(94deg) translate(46%, 135%);
+  z-index: -1;
 }
 
 .TokenSaleRoadmap-pieImage {
