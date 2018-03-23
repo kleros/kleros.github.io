@@ -66,8 +66,12 @@ module.exports = [
         new CleanWebpackPlugin(['./build/']),
         new I18nPlugin(languages[language]),
         new ExtractTextPlugin('[name].html'),
-        ...(isEnglish ? [new CopyWebpackPlugin(['./public/'])] : []),
-        new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+        ...(isEnglish
+          ? [
+              new CopyWebpackPlugin(['./public/']),
+              new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+            ]
+          : [])
       ]
     }
   })

@@ -607,15 +607,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
   <script>
+    // Sticky scroll
     var $nav = $('#navbar');
+
     $(document).scroll(function () {
       $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
     });
 
+    // Telegram button
     $('#telegramCloseButton').click(function () {
       $('#telegramButton').hide()
     });
 
+    // Clock
     var $days = $('#countDownDays');
     var $daysUnit = $('#countDownDaysUnit');
 
@@ -625,7 +629,7 @@
     var $mins = $('#countDownMins');
     var $minsUnit = $('#countDownMinsUnit');
 
-    window.setInterval(function () {
+    function updateClock() {
       var time = 1526342400671 - Date.now();
 
       var days = Math.floor(time / 8.64e+7).toString();
@@ -642,7 +646,10 @@
       $mins.text(mins);
       if (mins === '1') $minsUnit.text('${__("Clock.min")}');
       else $minsUnit.text('${__("Clock.mins")}');
-    }, 1000);
+    }
+
+    updateClock()
+    window.setInterval(updateClock, 1000);
   </script>
   <!-- End Scripts -->
 </body>

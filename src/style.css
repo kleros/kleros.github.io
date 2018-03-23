@@ -922,9 +922,9 @@ p {
 
 .progressBar-progress {
   background: #fff;
-  width: 100px;
+  width: 100%;
   height: 15px;
-  border-radius: 3px 0 0 3px;
+  border-radius: 3px;
 }
 
 .progressBar-start {
@@ -1087,6 +1087,7 @@ p {
 /**************** TokenSalePinakion ****************/
 
 .TokenSalePinakion {
+  padding-top: 0;
   padding-bottom: 134px;
   position: relative;
 }
@@ -1297,6 +1298,7 @@ p {
   font-size: 18px;
   font-weight: 300;
   color: #47525d;
+  text-align: left;
 }
 
 .TokenDistribution-infoText {
@@ -1354,7 +1356,12 @@ p {
 }
 
 .TokenSaleRoadmap-legalParagraph {
+  margin-bottom: 50px;
+}
+
+.TokenSaleRoadmap-legalStructure {
   margin-bottom: 111px;
+  background-color: #012c6b;
 }
 
 .TokenSaleRoadmap-githubLink {
@@ -1463,7 +1470,7 @@ p {
   background-image: url('assets/images/call-to-action.svg');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   justify-content: center;
   text-align: center;
   padding-left: 12.75%;
