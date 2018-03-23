@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="467px" viewBox="0 0 1600 467" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>bottom bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0232856266 1600 0.0232856266 1600 467.023286 1385 433.924492 0 394.511941"></polygon>
+        <linearGradient x1="43.6501642%" y1="45.2862299%" x2="102.143797%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F2F5FA" offset="0%"></stop>
+            <stop stop-color="#E7ECF4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="TOKEN-SALE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Token-Sale" transform="translate(0.000000, -10725.000000)">
+            <g id="CTA" transform="translate(0.000000, 10725.000000)">
+                <g id="bottom-bg">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="use-cases-bg" fill="#F2F5FA" xlink:href="#path-1"></use>
+                    <polygon id="Path-4" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="830 356.142421 1607 468.023286 1607 214.023286"></polygon>
+                    <polygon id="Path-3" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="3 402.135042 266.462823 276.023286 1392 437.023286"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

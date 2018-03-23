@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1206px" height="1291px" viewBox="0 0 1206 1291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>hexagon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="31.3284712%" y1="0.818142037%" x2="80.3527718%" y2="54.2682509%" id="linearGradient-1">
+            <stop stop-color="#F2F5FA" offset="0%"></stop>
+            <stop stop-color="#F2F5FA" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="TOKEN-SALE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.6">
+        <g id="Token-Sale" transform="translate(-146.000000, -3101.000000)" fill="url(#linearGradient-1)">
+            <path d="M73.757289,3605.5118 L350.810669,4276.37423 C352.282554,4279.93828 355.672476,4282.33852 359.523069,4282.54305 L1045.61471,4318.98588 C1049.07242,4319.16954 1052.37908,4317.55141 1054.35569,4314.70844 L1444.21051,3753.97654 C1446.21828,3751.08875 1446.56136,3747.35852 1445.11401,3744.15296 L1167.51156,3129.32455 C1165.96288,3125.89456 1162.61962,3123.62451 1158.86025,3123.45037 L480.159751,3092.01074 C476.949408,3091.86202 473.863221,3093.26531 471.864994,3095.78235 L75.1680872,3595.47702 C72.9123793,3598.31839 72.3724816,3602.1586 73.757289,3605.5118 Z" id="hexagon" transform="translate(759.500000, 3705.500000) rotate(-90.000000) translate(-759.500000, -3705.500000) "></path>
+        </g>
+    </g>
+</svg>

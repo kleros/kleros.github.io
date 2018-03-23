@@ -1402,13 +1402,17 @@ p {
 /**************** CallToAction ****************/
 
 .CallToAction {
+  background-image: url('assets/images/call-to-action.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   justify-content: center;
   text-align: center;
   padding-left: 12.75%;
   padding-right: 12.75%;
   margin-left: -40px;
   margin-right: -40px;
-  padding-bottom: 180px;
+  padding-bottom: 168px;
   padding-top: 104px;
 }
 
