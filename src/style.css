@@ -151,35 +151,6 @@ p {
   margin-top: 5px;
 }
 
-.progressBar {
-  height: 15px;
-  border-radius: 3px;
-  background-color: rgba(242, 245, 250, 0.13);
-  width: 100%;
-  margin-top: 18px;
-  position: relative;
-  margin-bottom: 51px;
-}
-
-.progressBar-progress {
-  background: #fff;
-  width: 100px;
-  height: 15px;
-  border-radius: 3px 0 0 3px;
-}
-
-.progressBar-start {
-  position: absolute;
-  left: 0;
-  bottom: -51px;
-}
-
-.progressBar-end {
-  position: absolute;
-  right: 0;
-  bottom: -51px;
-}
-
 /**************** End Global ****************/
 
 /**************** Telegram Button ****************/
@@ -933,7 +904,57 @@ p {
 
 /**************** End Footer ****************/
 
+/********************************************/
+/**************** Token Sale ****************/
+/********************************************/
+
+/**************** Global ****************/
+
+.progressBar {
+  height: 15px;
+  border-radius: 3px;
+  background-color: rgba(242, 245, 250, 0.13);
+  width: 100%;
+  margin-top: 18px;
+  position: relative;
+  margin-bottom: 51px;
+}
+
+.progressBar-progress {
+  background: #fff;
+  width: 100px;
+  height: 15px;
+  border-radius: 3px 0 0 3px;
+}
+
+.progressBar-start {
+  position: absolute;
+  left: 0;
+  bottom: -51px;
+}
+
+.progressBar-end {
+  position: absolute;
+  right: 0;
+  bottom: -51px;
+}
+
+/**************** End Global ****************/
+
 /**************** TokenSaleHeader ****************/
+
+.TokenSaleHeader {
+  background-position: center -1px;
+  background-image: url('assets/images/use-cases.png');
+}
+
+.TokenSaleHeader-navbar {
+  background: #052e69;
+}
+
+.TokenSaleHeader-navbarContent {
+  background: #052e69;
+}
 
 .TokenSaleHeader-btn-announcement {
   background-color: #fff;
@@ -1049,7 +1070,7 @@ p {
 
 /**************** TokenSalePinakion ****************/
 
-.IICOPinakion {
+.TokenSalePinakion {
   padding-bottom: 134px;
 }
 
@@ -1081,7 +1102,6 @@ p {
 
 .TokenSaleStats-logo {
   height: 175px;
-  width: 175px;
 }
 
 .TokenSaleStats-getTokens {
@@ -1244,9 +1264,9 @@ p {
 
 /**************** End TokenDistribution ****************/
 
-/**************** Roadmap ****************/
+/**************** TokenSaleRoadmap ****************/
 
-.Roadmap {
+.TokenSaleRoadmap {
   justify-content: center;
   text-align: center;
   padding-left: 12.75%;
@@ -1256,18 +1276,18 @@ p {
   padding-bottom: 115px;
 }
 
-.Roadmap-title {
+.TokenSaleRoadmap-title {
   margin-bottom: 76px;
 }
 
-.Roadmap-subtitle {
+.TokenSaleRoadmap-subtitle {
   margin-bottom: 35px;
   font-size: 36px;
   font-weight: 500;
   color: #000000;
 }
 
-.Roadmap-paragraph {
+.TokenSaleRoadmap-paragraph {
   color: #000000;
   font-size: 20px;
   line-height: 36px;
@@ -1275,19 +1295,19 @@ p {
   text-align: justify;
 }
 
-.Roadmap-bonusParagraph {
+.TokenSaleRoadmap-bonusParagraph {
   margin-bottom: 192px;
 }
 
-.Roadmap-roundsParagraph {
+.TokenSaleRoadmap-roundsParagraph {
   margin-bottom: 125px;
 }
 
-.Roadmap-legalParagraph {
+.TokenSaleRoadmap-legalParagraph {
   margin-bottom: 111px;
 }
 
-.Roadmap-githubLink {
+.TokenSaleRoadmap-githubLink {
   color: #1a1b23;
   font-size: 20px;
   font-weight: 600;
@@ -1295,28 +1315,28 @@ p {
   margin-top: 15px;
 }
 
-.Roadmap-rounds {
+.TokenSaleRoadmap-rounds {
   margin-top: 13px;
   margin: 33px;
 }
 
-.Roadmap-milestonesTitle {
+.TokenSaleRoadmap-milestonesTitle {
   margin-bottom: 127px;
 }
 
-.Roadmap-timelineImage {
+.TokenSaleRoadmap-timelineImage {
   margin-bottom: 174px;
 }
 
-.Roadmap-legalTitle {
+.TokenSaleRoadmap-legalTitle {
   margin-bottom: 37px;
 }
 
-.Roadmap-expensesBlock {
+.TokenSaleRoadmap-expensesBlock {
   margin-top: 63px;
 }
 
-/**************** End Roadmap ****************/
+/**************** End TokenSaleRoadmap ****************/
 
 /**************** FAQ ****************/
 
@@ -1420,3 +1440,7 @@ p {
 }
 
 /**************** End GetToKnowTeam ****************/
+
+/********************************************/
+/**************** End Token Sale ****************/
+/********************************************/

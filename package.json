@@ -7,9 +7,14 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "commitmsg": "kleros-scripts commitmsg",
+    "cz": "kleros-scripts cz",
     "start": "webpack-dev-server --mode=development",
     "build": "webpack -p --mode=production",
-    "deploy": "yarn run build && gh-pages --branch master --dist public"
+    "deploy": "yarn run build && gh-pages --branch master --dist ./build"
+  },
+  "commitlint": {
+    "extends": ["@commitlint/config-conventional"]
   },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
@@ -20,7 +25,9 @@
     "file-loader": "^1.1.11",
     "gh-pages": "^1.1.0",
     "html-loader": "^0.5.5",
+    "husky": "^0.14.3",
     "i18n-webpack-plugin": "^1.0.0",
+    "kleros-scripts": "^0.5.0",
     "open-browser-webpack-plugin": "^0.0.5",
     "url-loader": "^1.0.1",
     "webpack": "^4.2.0",
