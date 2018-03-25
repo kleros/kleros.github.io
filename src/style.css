@@ -530,14 +530,14 @@ p {
   background-image: url('assets/images/use-cases.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   color: #fff;
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
-  padding-bottom: 318px;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-bottom: 375px;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   padding-top: 118px;
   text-align: center;
 }
