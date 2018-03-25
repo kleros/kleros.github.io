@@ -36,7 +36,7 @@ module.exports = [
               loader: 'html-loader',
               options: {
                 interpolate: true,
-                attrs: ['link:href', 'img:src']
+                attrs: ['link:href', 'img:src', 'object:data']
               }
             })
           },

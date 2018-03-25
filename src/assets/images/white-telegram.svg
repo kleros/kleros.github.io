@@ -33,4 +33,17 @@
             </g>
         </g>
     </g>
+    <style type="text/css">
+        svg {
+            cursor: pointer;
+        }
+
+        svg:hover use {
+            fill: black;
+        }
+
+        svg:hover path {
+            fill: #FFFFFF;
+        }
+    </style>
 </svg>
