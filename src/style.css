@@ -207,8 +207,8 @@ p {
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 278px;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   padding-top: 122px;
 }
 
@@ -474,8 +474,8 @@ p {
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 175px;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   text-align: center;
 }
 
@@ -530,7 +530,7 @@ p {
   background-image: url('assets/images/use-cases.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   color: #fff;
   justify-content: center;
   margin-left: -40px;
@@ -618,7 +618,7 @@ p {
   background-image: url('assets/images/security-2.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
@@ -1321,8 +1321,8 @@ p {
 .TokenSaleRoadmap {
   justify-content: center;
   text-align: center;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 13%;
+  padding-right: 13%;
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 115px;
@@ -1478,8 +1478,8 @@ p {
   background-size: cover;
   justify-content: center;
   text-align: center;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 8%;
+  padding-right: 8%;
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 168px;
