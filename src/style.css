@@ -1398,6 +1398,7 @@ p {
   margin-bottom: 174px;
   max-height: 240px;
   width: 100%;
+  width: 100vw;
 }
 
 .TokenSaleRoadmap-legalTitle {
