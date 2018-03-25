@@ -1029,9 +1029,9 @@ p {
   margin-top: 0;
 }
 
-.IICOInfo-readTheWhitepaper {
+.IICOInfo-buyTokens {
   background-color: #012c6b;
-  width: 285px !important;
+  width: initial !important;
 }
 
 .IICOInfo-step {
