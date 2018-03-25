@@ -110,7 +110,7 @@
       <a href="#" target="_blank" rel="noopener noreferrer" class="TokenSaleHeader-btn-buyTokens btn btn-lg">Buy tokens</a>
       <hr class="TokenSaleHeader-separator">
       <div class="row">
-        <div class="TokenSaleHeader-totalDistribution col-12 col-sm-6">
+        <!-- <div class="TokenSaleHeader-totalDistribution col-12 col-sm-6">
           <h5>Total distribution:</h5>
           <div class="progressBar">
             <div class="progressBar-progress"></div>
@@ -121,7 +121,7 @@
               <p>1,000,000,000 PNK</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-12 col-sm-6">
           <h5>Round 1 starts in:</h5>
           <div class="TokenSaleHeader-countDownBlocks CountDown-blocks col-12">
@@ -151,12 +151,10 @@
         <div class="IICOInfo-step col-12 col-lg-8">
           <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="assets/images/IICO.png" alt="Contract">
           <h3 class="HowKlerosWorks-title">Interactive Coin Offering</h3>
-          <h4 class="HowKlerosWorks-description">We are using the Interactive Coin offering created by Jason Teutsh (Truebit), Vitalik Buterin (Ethereum Foundation)
-            and Christopher Brown (Modular) as a better way to distribute our tokens over a longer time period ensuring better
-            network security throughout and a balanced spread of PNK.
+          <h4 class="HowKlerosWorks-description">Kleros token sale will use the new method recommended by Vitalik Buterin to distribute tokens in a fair way.
             <br>
-            <a href="#" target="_blank" rel="noopener noreferrer" class="IICOInfo-findOutMore">
-              Learn more about IICOs here
+            <a href="https://people.cs.uchicago.edu/~teutsch/papers/ico.pdf" target="_blank" rel="noopener noreferrer" class="IICOInfo-findOutMore">
+              Read Vitalik’s Interactive Coin Offering paper here.
               <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
             </a>
           </h4>
@@ -164,39 +162,24 @@
         <div class="IICOInfo-step col-12 col-lg-8 offset-lg-4">
           <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="assets/images/distribution.png" alt="Dispute">
           <h3 class="HowKlerosWorks-title">Distribution</h3>
-          <h4 class="HowKlerosWorks-description">1 billion PNK will be created and distributed in a fair manner using the IICO. They will be distributed fairly
-            between the participants according to the personal limits they choose.</h4>
+          <h4 class="HowKlerosWorks-description">1 billion PNK will be created and distributed in a fair manner using the IICO.</h4>
         </div>
         <div class="IICOInfo-step IICOInfo-lastStep col-12 col-lg-8">
           <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="assets/images/selection.svg" alt="Selection">
           <h3 class="HowKlerosWorks-title">KYC</h3>
-          <h4 class="HowKlerosWorks-description">We’ve partnered with Consensys to provide a secure, stable and efficient KYC process. It is essential we abide
-            by this regulation to work within the boundaries of our legal framework and co-operative entity. Certain rules
-            apply.
+          <h4 class="HowKlerosWorks-description">We’ve partnered with Consensys to provide a secure, stable and efficient KYC process.
             <br>
             <a href="#" target="_blank" rel="noopener noreferrer" class="IICOInfo-findOutMore">
-              Read more
+              Learn more about Kleros' token sale KYC rules.
               <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
             </a>
           </h4>
         </div>
       </div>
     </div>
-    <a href="/assets/whitepaper.pdf" target="_blank" rel="noopener noreferrer" class="IICOInfo-readTheWhitepaper btn btn-lg">Read the whitepaper</a>
+    <a href="#" target="_blank" rel="noopener noreferrer" class="IICOInfo-readTheWhitepaper btn btn-lg">I want to buy tokens now</a>
   </div>
   <!-- End IICOInfo -->
-
-  <!-- IICOVideo -->
-  <div class="IICOVideo Video row">
-    <h2 class="IICOVideo-title col-12">Click below to watch a working demo of our arbitration protocol.</h2>
-    <div class="Video-container col-8">
-      <iframe class="Video-iframe" src="https://www.youtube.com/embed/9K79ew2mHo0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
-        allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-    <h3 class="IICOVideo-description col-12 col-sm-8">As you can see by our video we’re already well on our way to a working system which will be scalable, secure and fair
-      for all.</h3>
-  </div>
-  <!-- End IICOVideo -->
 
   <!-- Pinakion -->
   <div class="TokenSalePinakion Pinakion row">
@@ -218,6 +201,17 @@
     </div>
   </div>
   <!-- End Pinakion -->
+
+  <!-- IICOVideo -->
+  <div class="IICOVideo Video row">
+    <h2 class="IICOVideo-title col-12">Click below to watch a working demo of our arbitration protocol.</h2>
+    <div class="Video-container col-8">
+      <iframe class="Video-iframe" src="https://www.youtube.com/embed/9K79ew2mHo0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+        allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <h3 class="IICOVideo-description col-12 col-sm-8">We’re well on our way to a working system which will be scalable, secure and fair for all.</h3>
+  </div>
+  <!-- End IICOVideo -->
 
   <!-- TokenSaleStats -->
   <div class="TokenSaleStats row">
@@ -308,52 +302,55 @@
 
   <!-- Roadmap -->
   <div class="TokenSaleRoadmap row">
-    <h2 class="TokenSaleRoadmap-title col-12">Interactive Coin Offering</h2>
-    <div class="TokenSaleRoadmap-subtitle col-12">Why an IICO?</div>
-    <div class="TokenSaleRoadmap-paragraph col-10">The interactive initial coin offering protocol allows participants to submit an ETH payment for tokens along with a personal
-      valuation cap.
+    <h2 class="TokenSaleRoadmap-title col-12">Token Sale Mechanics</h2>
+    <div class="TokenSaleRoadmap-subtitle col-12">What's an IICO?</div>
+    <div class="TokenSaleRoadmap-paragraph col-10">Interactive Coin Offering (IICO) is a new protocol advocated by Vitalik Buterin, Jason Teutsch and Christopher Brown
+      to make token sales more egalitarian.
       <br>
-      <br>There is no personal cap required but instead a Personal valuation cap. An indication by each participant that they
-      are willing to leave their token purchase in the sale as long as the maximum total sale valuation does not exceed their
-      personal valuation cap.
+      <br>Capped sales often sell out in minutes, leaving buyers disappointed. Uncapped sales also cause uncertainty over the
+      price that tokens will be valued.
       <br>
-      <br>If, at the very end of the sale, the total sale valuation is greater than their personal valuation cap, the participant’s
-      bid is refunded. If this is still a little confusing take a look at our explainer video below.
+      <br>The IICO lets each contributor choose an amount of tokens they’d like to purchase and a “Personal Cap”.
+      <br>
+      <br>The value of the token will be determined by the market following a number of rounds where participants will make bids
+      and adjust their valuations.
+      <br>
+      <br>Contrary to traditional token sales, the IICO provides participants certainty of participation and valuation. If you
+      try to enter the sale, you will succeed. At the same time you will receive confirmation of the maximum price you will
+      pay for tokens.
+      <br>
+      <br>The IICO is egalitarian in the sense that it treats equally small and big participants in token sales.
+      <br>
+      <br>The IICO is fair in the sense that participants having large amounts of capital or mining power cannot gain either
+      participation advantage or lower cost per percentage of total tokens.
     </div>
     <div class="TokenSaleRoadmap-subtitle col-12">How does it work?</div>
-    <div class="Video-container col-8">
+    <div class="TokenSaleRoadMap-videoContainer Video-container col-8">
       <iframe class="Video-iframe" src="https://www.youtube.com/embed/NuSps_2wMQ4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
         allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
-    <a href="https://github.com/kleros" target="_blank" rel="noopener noreferrer" class="TokenSaleRoadmap-githubLink col-12">
+    <!-- <a href="https://github.com/kleros" target="_blank" rel="noopener noreferrer" class="TokenSaleRoadmap-githubLink col-12">
       Github
       <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
-    </a>
+    </a> -->
     <div class="TokenSaleRoadmap-subtitle col-12">How can I get a bonus?</div>
     <div class="TokenSaleRoadmap-paragraph TokenSaleRoadmap-bonusParagraph col-10">
-      Kleros has not done a token pre-sale. The way to get discounted tokens is to participate early in the token sale. This mechanism
-      allows universal participation but at the same time rewards those who look to maximize their contribution to the sale.
+      Kleros has not done a token pre-sale nor sold tokens at discounted rate. However, as a way to incentivize price formation,
+      the Interactive Coin Offering rewards participants who make their contribution early in the sale. Buyers who purchase
+      tokens early will receive a 20% discount. The bonus decreases smoothly down to 10% at the beginning of the withdrawal
+      lock, and then goes to 0% by the end of the crowdsale.
     </div>
-    <div class="TokenSaleRoadmap-subtitle col-12">Why multiple rounds?</div>
-    <img src="assets/images/rounds.png" alt="TokenSaleRoadmap Rounds Timeline" class="TokenSaleRoadmap-rounds hidden-md-down">
-    <div class="TokenSaleRoadmap-paragraph TokenSaleRoadmap-roundsParagraph col-10">
-      Our method is inspired by the old method of funding startups through a number of rounds (series A, series B, etc.). Startup
-      teams get access to more resources as they prove they are making progress with their product.
-      <br>
-      <br>We're trying to bring this old, proven method into the crazy world of token models. We hope this brings peace of mind
-      to our participants that we will deliver the protocol in a timely fashion without the need to ask for huge amounts
-      of investment up front.
-    </div>
-    <h2 class="TokenSaleRoadmap-milestonesTitle col-12 hidden-md-down">Roadmap and Token Sale Milestones</h2>
+    <h2 class="TokenSaleRoadmap-milestonesTitle col-12 hidden-md-down">Roadmap</h2>
     <img class="TokenSaleRoadmap-timelineImage hidden-md-down" src="assets/images/token-sale-roadmap.png" alt="TokenSaleRoadmap Image">
     <h2 class="col-12 TokenSaleRoadmap-legalTitle">Legal</h2>
     <div class="TokenSaleRoadmap-paragraph TokenSaleRoadmap-legalParagraph col-10">
-      Our method is inspired by the old method of funding startups through a number of rounds (series A, series B, etc.). Startup
-      teams get access to more resources as they prove they are making progress with their product.
+      Kleros will be incorporated as a French type of social enterprise, called a "cooperative company of public interest” or SCIC
+      (sociétés coopératives d’intérêt collectif). This cooperative and community-oriented company operates under French
+      jurisdiction and makes it possible to share the governance of the project and avoid commercial buyout by another company
+      or a competitor.
       <br>
-      <br>We're trying to bring this old, proven method into the crazy world of token models. We hope this brings peace of mind
-      to our participants that we will deliver the protocol in a timely fashion without the need to ask for huge amounts
-      of investment up front.
+      <br>This legal entity makes sure that the totality of funds produced in the token sale will be used for the development
+      of the project. Founders are not legally allowed to distribute funds under the form of dividends.
     </div>
     <a href="/assets/legal-structure.pdf" target="_blank" rel="noopener noreferrer" class="TokenSaleRoadmap-legalStructure btn btn-lg">Legal structure</a>
     <h2 class="col-12">Expenses</h2>
