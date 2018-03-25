@@ -237,11 +237,11 @@
         </div>
       </div>
       <div class="TokenSaleStats-currentDistribution row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-xl-6">
           <div class="TokenSaleStats-currentDistributionText">Current PNK distribution:</div>
           <div class="TokenSaleStats-currentDistributionNumber">160,000,000</div>
         </div>
-        <div class="col-12 col-md-6 mt-3 mt-md-0">
+        <div class="col-12 col-xl-6 mt-3 mt-xl-0">
           <div class="TokenSaleStats-currentDistributionText">ETH received:</div>
           <div id="ethReceived" class="TokenSaleStats-currentDistributionNumber">0</div>
         </div>
@@ -594,8 +594,7 @@
 
     function updateProgressBars() {
       $ethReceived.text(0);
-      $progressBars[0].style.width = '0%';
-      $progressBars[1].style.width = '0%';
+      $progressBars.width('0%');
     }
 
     updateProgressBars()
