@@ -245,7 +245,7 @@ p {
   justify-content: flex-start;
   letter-spacing: 5px;
   margin-left: -40px;
-  padding-left: 18%;
+  padding-left: 12.75%;
 }
 
 .Header-navbarBrand:hover {
@@ -336,8 +336,16 @@ p {
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 92px;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
+}
+
+/* >= large */
+@media (min-width: 992px) {
+  .CountDown {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
 }
 
 .CountDown-title {
@@ -359,9 +367,9 @@ p {
   box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.09);
   display: flex;
   flex-direction: column;
-  height: 110px;
   justify-content: center;
-  width: 120px;
+  height: 91.67px;
+  width: 100px;
 }
 
 .CountDown-amount {
@@ -385,9 +393,17 @@ p {
   padding-right: 18%;
 }
 
+/* >= large */
+@media (min-width: 992px) {
+  .Video {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+}
+
 .Video-container {
   height: 0;
-  padding-bottom: 37.5%;
+  padding-bottom: 46.75%;
   position: relative;
 }
 
@@ -419,6 +435,14 @@ p {
   padding-top: 397px;
   position: relative;
   text-align: center;
+}
+
+/* >= large */
+@media (min-width: 992px) {
+  .Challenge {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
 }
 
 .Challenge-text {
@@ -453,6 +477,14 @@ p {
   text-align: center;
 }
 
+/* >= large */
+@media (min-width: 992px) {
+  .Solution {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+}
+
 .Solution-text {
   margin-top: 31px;
 }
@@ -477,6 +509,14 @@ p {
   padding-left: 12.75%;
   padding-right: 12.75%;
   text-align: center;
+}
+
+/* >= large */
+@media (min-width: 992px) {
+  .HowKlerosWorks {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 
 .HowKlerosWorks-steps {
@@ -581,6 +621,14 @@ p {
   text-align: center;
 }
 
+/* >= large */
+@media (min-width: 992px) {
+  .Pinakion {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
 .Pinakion-description {
   margin-top: 44px;
 }
@@ -627,6 +675,14 @@ p {
   padding-right: 18%;
   padding-top: 119px;
   text-align: center;
+}
+
+/* >= large */
+@media (min-width: 992px) {
+  .Security {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
 }
 
 .Security-description {
@@ -992,9 +1048,7 @@ p {
 
 .TokenSaleHeader-countDownBlock {
   background: #fff;
-  height: 91.67px;
   color: #1a1b23;
-  width: 100px;
 }
 
 .TokenSaleHeader-totalDistribution {
@@ -1096,6 +1150,14 @@ p {
   text-align: center;
 }
 
+/* >= large */
+@media (min-width: 992px) {
+  .IICOVideo {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+}
+
 .IICOVideo-title {
   font-size: 36px;
   margin-bottom: 37px;
@@ -1112,11 +1174,19 @@ p {
 .TokenSaleStats {
   justify-content: center;
   text-align: center;
-  padding-left: 18%;
-  padding-right: 18%;
+  padding-left: 12.75%;
+  padding-right: 12.75%;
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 185px;
+}
+
+/* >= large */
+@media (min-width: 992px) {
+  .TokenSaleStats {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
 }
 
 .TokenSaleStats-title {
@@ -1202,17 +1272,6 @@ p {
 .TokenSaleStats-countDownBlocks {
   justify-content: start;
   padding: 0;
-  margin: 0;
-}
-
-.TokenSaleStats-countDownBlock {
-  justify-content: start;
-  padding: 0;
-  margin: 0;
-  width: 120px;
-  height: 110px;
-  align-items: center;
-  justify-content: center;
 }
 
 /**************** End TokenSaleStats ****************/
@@ -1228,6 +1287,14 @@ p {
   margin-right: -40px;
   padding-bottom: 194px;
   position: relative;
+}
+
+/* >= large */
+@media (min-width: 992px) {
+  .TokenDistribution {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
 }
 
 .TokenDistribution:before {
@@ -1328,6 +1395,19 @@ p {
   padding-bottom: 115px;
 }
 
+/* >= large */
+@media (min-width: 992px) {
+  .TokenSaleRoadmap {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+
+  .TokenSaleRoadmap-timelineImageContainer {
+    margin-left: -32% !important;
+    margin-right: -32% !important;
+  }
+}
+
 .TokenSaleRoadmap-title {
   margin-bottom: 76px;
 }
@@ -1394,11 +1474,16 @@ p {
   margin-bottom: 127px;
 }
 
-.TokenSaleRoadmap-timelineImage {
-  margin-bottom: 174px;
-  max-height: 287px;
+.TokenSaleRoadmap-timelineImageContainer {
   width: 100%;
   width: 100vw;
+  margin-left: -13%;
+  margin-right: -13%;
+}
+
+.TokenSaleRoadmap-timelineImage {
+  margin-bottom: 174px;
+  max-width: 100%;
 }
 
 .TokenSaleRoadmap-legalTitle {
@@ -1440,6 +1525,14 @@ p {
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 143px;
+}
+
+/* >= large */
+@media (min-width: 992px) {
+  .FAQ {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
 }
 
 .FAQ-title {
@@ -1486,6 +1579,14 @@ p {
   padding-top: 104px;
 }
 
+/* >= large */
+@media (min-width: 992px) {
+  .CallToAction {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+}
+
 .CallToAction-title {
   font-size: 44px;
 }
@@ -1523,6 +1624,14 @@ p {
   padding-right: 18%;
   margin-left: -40px;
   margin-right: -40px;
+}
+
+/* >= large */
+@media (min-width: 992px) {
+  .GetToKnowTeam {
+    padding-left: 22%;
+    padding-right: 22%;
+  }
 }
 
 .GetToKnowTeam-section {
