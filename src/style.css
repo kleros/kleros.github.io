@@ -1478,12 +1478,31 @@ p {
   background-size: cover;
   justify-content: center;
   text-align: center;
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 18%;
+  padding-right: 18%;
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 168px;
   padding-top: 104px;
+}
+
+.CallToAction-title {
+  font-size: 44px;
+}
+
+/* < medium */
+@media (max-width: 767px) {
+  .CallToAction-title {
+    font-size: 32px;
+  }
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .CallToAction-title {
+    font-size: 20px;
+    line-height: 35px;
+  }
 }
 
 .CallToAction-getTokens {
