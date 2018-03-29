@@ -1328,37 +1328,35 @@ p {
 }
 
 .TokenDistribution-percentTagTag {
+  color: #ffffff;
   margin-right: 14px;
   height: 41.6px;
   line-height: 41.6px;
   width: 72.8px;
+  min-width: 72.8px;
   border-radius: 3px;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .TokenDistribution-percentTagTag--1 {
   background-color: #052e69;
-  color: #ffffff;
 }
 
 .TokenDistribution-percentTagTag--2 {
   background-color: #a4d0f2;
-  color: #000000;
 }
 
 .TokenDistribution-percentTagTag--3 {
   background-color: #dd042b;
-  color: #ffffff;
 }
 
 .TokenDistribution-percentTagTag--4 {
-  background-color: #d2d1ce;
-  color: #000000;
+  background-color: #fdc1b1;
 }
 
 .TokenDistribution-percentTagTag--5 {
-  background-color: #fdc1b1;
-  color: #000000;
+  background-color: #d2d1ce;
 }
 
 .TokenDistribution-percentTagText {
@@ -1376,7 +1374,7 @@ p {
 }
 
 .TokenDistribution-pieImage {
-  width: 100%;
+  max-width: 100%;
   max-height: 400px;
   margin-top: 25px;
 }
