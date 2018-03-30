@@ -20,7 +20,7 @@ module.exports = [
     return {
       entry: {
         index: './src/index.html',
-        'token-sale-2jEBjp8HD7xHPEB9': './src/token-sale-2jEBjp8HD7xHPEB9.html'
+        'token-sale': './src/token-sale.html'
       },
 
       output: {
