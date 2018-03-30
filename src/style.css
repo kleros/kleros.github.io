@@ -393,6 +393,14 @@ p {
   padding-right: 18%;
 }
 
+/* < small */
+@media (max-width: 576px) {
+  .Video {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
+}
+
 /* >= large */
 @media (min-width: 992px) {
   .Video {
@@ -437,6 +445,14 @@ p {
   text-align: center;
 }
 
+/* < small */
+@media (max-width: 576px) {
+  .Challenge {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
+}
+
 /* >= large */
 @media (min-width: 992px) {
   .Challenge {
@@ -475,6 +491,14 @@ p {
   padding-right: 18%;
   padding-top: 68px;
   text-align: center;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .Solution {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
 }
 
 /* >= large */
@@ -575,7 +599,7 @@ p {
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
-  padding-bottom: 375px;
+  padding-bottom: 380px;
   padding-left: 12.75%;
   padding-right: 12.75%;
   padding-top: 118px;
@@ -619,6 +643,14 @@ p {
   padding-right: 18%;
   padding-top: 82px;
   text-align: center;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .Pinakion {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
 }
 
 /* >= large */
@@ -677,6 +709,14 @@ p {
   text-align: center;
 }
 
+/* < small */
+@media (max-width: 576px) {
+  .Security {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
+}
+
 /* >= large */
 @media (min-width: 992px) {
   .Security {
@@ -701,6 +741,14 @@ p {
   padding-left: 18%;
   padding-right: 18%;
   text-align: center;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .Team {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
 }
 
 .Team-members {
@@ -1150,6 +1198,14 @@ p {
   text-align: center;
 }
 
+/* < small */
+@media (max-width: 576px) {
+  .IICOVideo {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
+}
+
 /* >= large */
 @media (min-width: 992px) {
   .IICOVideo {
@@ -1289,6 +1345,14 @@ p {
   position: relative;
 }
 
+/* < small */
+@media (max-width: 576px) {
+  .TokenDistribution {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
+}
+
 /* >= large */
 @media (min-width: 992px) {
   .TokenDistribution {
@@ -1322,7 +1386,7 @@ p {
 }
 
 .TokenDistribution-percentTag {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
 }
@@ -1371,6 +1435,13 @@ p {
   font-size: 16px;
   text-align: justify;
   line-height: 26px;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .TokenDistribution-infoText {
+    text-align: left;
+  }
 }
 
 .TokenDistribution-pieImage {
@@ -1423,6 +1494,13 @@ p {
   line-height: 36px;
   margin-bottom: 100px;
   text-align: justify;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .TokenSaleRoadmap-paragraph {
+    text-align: left;
+  }
 }
 
 .TokenSaleRoadmap-bonusParagraph {
@@ -1525,6 +1603,14 @@ p {
   padding-bottom: 143px;
 }
 
+/* < small */
+@media (max-width: 576px) {
+  .FAQ {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
+}
+
 /* >= large */
 @media (min-width: 992px) {
   .FAQ {
@@ -1550,12 +1636,26 @@ p {
   margin-bottom: 11px;
 }
 
+/* < small */
+@media (max-width: 576px) {
+  .FAQ-question {
+    text-align: left;
+  }
+}
+
 .FAQ-answer {
   font-size: 16px;
   line-height: 26px;
   color: #47525d;
   font-weight: 300;
   text-align: justify;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .FAQ-answer {
+    text-align: left;
+  }
 }
 
 /**************** End FAQ ****************/
@@ -1575,6 +1675,14 @@ p {
   margin-right: -40px;
   padding-bottom: 168px;
   padding-top: 104px;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .CallToAction {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
 }
 
 /* >= large */
@@ -1622,6 +1730,14 @@ p {
   padding-right: 18%;
   margin-left: -40px;
   margin-right: -40px;
+}
+
+/* < small */
+@media (max-width: 576px) {
+  .GetToKnowTeam {
+    padding-left: 12.75%;
+    padding-right: 12.75%;
+  }
 }
 
 /* >= large */
