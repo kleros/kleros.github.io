@@ -320,6 +320,10 @@ p {
   cursor: pointer;
 }
 
+.Header-navLink {
+  white-space: nowrap;
+}
+
 .Header-navLink-language {
   width: 120px;
 }
