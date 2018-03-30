@@ -1176,6 +1176,7 @@ p {
   display: inline-block;
   margin-top: 18px;
   color: #0059ab;
+  font-size: 16px;
 }
 
 .IICOInfo-findOutMore:hover {
