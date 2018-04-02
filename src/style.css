@@ -984,7 +984,7 @@ p {
 .Footer-end {
   color: #1a1b23;
   justify-content: space-around;
-  padding-bottom: 65px;
+  padding-bottom: 35px;
   padding-top: 35px;
 }
 
@@ -1008,6 +1008,15 @@ p {
 
 .Footer-copyright {
   text-align: right;
+}
+
+.Footer-contact {
+  color: #1a1b23;
+  font-weight: bold;
+}
+
+.Footer-contact:hover {
+  color: #1a1b23;
 }
 
 /**************** End Footer ****************/
