@@ -766,11 +766,6 @@ p {
   position: relative;
 }
 
-.Team-member--last {
-  opacity: 0;
-  visibility: hidden;
-}
-
 /* < small */
 @media (max-width: 576px) {
   .Team-member--last {
