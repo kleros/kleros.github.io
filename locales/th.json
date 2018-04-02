@@ -1,0 +1,113 @@
+{
+  "tagline": "The Blockchain Dispute Resolution Layer",
+
+  "NavBar.team": "Tim",
+  "NavBar.FAQ": "FAQ",
+  "NavBar.github": "Github",
+  "NavBar.documentation": "Dokumentasi",
+  "NavBar.telegram": "Telegram",
+  "NavBar.language": "Bahasa",
+  "NavBar.english": "English",
+  "NavBar.spanish": "Español",
+  "NavBar.thai": "ไทย",
+
+  "Header.klerosProvides":
+    "Kleros memberikan kecepatan, keamanan dan arbitrase terjangkau untuk semuanya",
+  "Header.letsConnect": "Mari bergabung.",
+
+  "CountDown.title": "Penjualan Token Dimulai Pada 15 Mei 2018.",
+
+  "Challenge.title": "Tantangan",
+  "Challenge.description":
+    "Sengketa pada pasar global, digital, dan ekonomi desentralisasi merupakan area yang tidak dapat diselesaikan oleh pengadilan serta metode resolusi persengketaan yang sudah ada.",
+
+  "Solution.title": "Solusi",
+  "Solution.description":
+    "Kleros menghubungkan pengguna yang membutuhkan bantuan untuk menyelesaikan sengketa dengan juri yang memiliki kemampuan untuk menyelesaikannya. Lapisan resolusi dari kami menggunakan teknologi blockchain dan <i>crowdsourcing</i> juri untuk memutuskan sengketa dengan cepat, aman serta lebih terjangkau.",
+
+  "HowKlerosWorks.title": "Bagaimana Cara Kerja Kleros?",
+  "HowKlerosWorks.contract.title": "Kontrak",
+  "HowKlerosWorks.contract.description":
+    "Pengguna membuat sebuah <i>smart contract</i> dan memilih Kleros sebagai protokol peradilannya.",
+  "HowKlerosWorks.dispute.title": "Sengketa",
+  "HowKlerosWorks.dispute.description":
+    "Informasi yang relevan dikirimkan ke Kleros.",
+  "HowKlerosWorks.selection.title": "Seleksi",
+  "HowKlerosWorks.selection.description":
+    "Seorang Tribunal (orang yang memiliki kewenangan untuk mengadili) akan diambil dari proses <i>crowdsourcing</i>. Juri-juri kemudian mengevaluasi bukti dan memberikan penilaiannya.",
+  "HowKlerosWorks.enforcement.title": "Pelaksanaan",
+  "HowKlerosWorks.enforcement.description":
+    "Keputusan diberlakukan dengan <i>smart contract</i>.",
+  "HowKlerosWorks.crowdsourcing":
+    "Crowdsourcing pencarian juri akan dilakukan secara global melalui perkumpulan juri. Blockchain akan menjamin integritas dan transparansi pada pemilihan juri. Teori yang dimainkan akan memberikan insentif kepada pengambil keputusan yang jujur.",
+
+  "UseCases.title": "Kasus Yang Ditangani",
+  "UseCases.arbitration.title": "Arbitrase",
+  "UseCases.arbitration.description":
+    "Pekerjaan seorang pekerja lepas adalah ketika dua orang bekerja antar benua dengan sebuah kontrak. Layanan yang diberikan tidak sesuai dengan standar kesepakatan dan seorang juri pengalaman akan menganalisa bukti-bukti, vote, and find a verdict.",
+  "UseCases.socialMedia.title": "Media Sosial",
+  "UseCases.socialMedia.description":
+    "Sebuah komentar tidak menyenangkan dikirimkan melalui platform media sosial terdesentralisasi dianggap menyalahi syarat dan ketentuan. Juri-juri Kleros memiliki hak dan kuasa untuk mengurangi reputasi pengguna.",
+  "UseCases.gaming.title": "Permainan",
+  "UseCases.gaming.description":
+    "Permainan daring mengalami pertumbuhan pasar dengan para pemain bintang. Pemain profesional membutuhkan kelompok juri dengan kemampuan terbaik untuk menyelesaikan perselisihan serta memberikan ruang yang aman untuk bermain.",
+  "UseCases.crowdfunding.title": "Penggalangan Dana",
+  "UseCases.crowdfunding.description":
+    "Startup memutuskan untuk mengembangkan bisnis dengan menggalang dana tetapi tidak bisa mewujudkan produk yang baik. Dana akan dikunci pada sebuah <i>smart contract</i> escrow yang diputuskan oleh Juri-juri Kleros. Jika startup gagal, dana akan dikembalikan kepada investor.",
+  "UseCases.eCommerce.title": "E-Commerce",
+  "UseCases.eCommerce.description":
+    "Produk yang dibeli secara online tidak sesuai dengan standar yang diiklankan. Para juri kleros akan membantu pembeli dan <i>smart contract</i> akan mengembalikan dana pembeli.",
+  "UseCases.oracles.title": "Oracle",
+  "UseCases.oracles.description":
+    "“Apakah hari ini akan hujan di Ulanbator?” Sebuah oracle menjembatani kesenjangan antara dunia luar dan blockchain yang memungkinkan <i>smart contract</i> untuk menggunakan data dunia nyata sebagai hasil mereka.",
+
+  "Pinakion.title": "Pinakion Token (PNK)",
+  "Pinakion.description":
+    "Pengguna yang memiliki keinginan untuk mendapatkan layanan juri-juri Kleros dengan dikenakan biaya arbitrase, yang akan diterima oleh juri sebagai intensif atas pekerjaannya.",
+  "Pinakion.info":
+    "Pinakion melindungi sisistem dari serangan Sybil, serta untuk memberikan insentif pada juri untuk memberikan suara, dengan membuat juri yang tidak sesuai dalam pengambilan putusan untuk membayar sebagian uangnya kepada para juri yang jujur.",
+  "Pinakion.readMore": "Bagaimana? Silakan baca <i>white paper</i>",
+
+  "Security.title": "Keamanan yang sama untuk juri dan pengguna",
+  "Security.description":
+    "Melalui desain yang cerdas kami menawarkan privasi pada para pengguna serta ketahanan terhadap penyuapan dan serangan lainnya. Kami memiliki tim yang berdedikasi tinggi dan berpengalaman dalam dunia kriptoekonomi untuk memastikan keamanan dalam protokol yang kami jalankan.",
+
+  "Team.title": "Tim",
+  "Team.CEO": "CO-FOUNDER, CEO",
+  "Team.CTO": "CO-FOUNDER, CTO",
+  "Team.web3Developer": "CO-FOUNDER, Pengembang WEB3",
+  "Team.DAPPDeveloper": "Pengembang DAPP",
+  "Team.designLead": "Pimpinan Desainer",
+  "Team.communicationsLead": "Pimpinan Komunikasi",
+  "Team.cryptoEconomicsResearcher": "Peneliti Kriptoekonomi",
+  "Team.PR": "PR",
+  "Team.communityManager": "Manager Komunitas",
+  "Team.join": "Bergabung dengan tim Kleros!",
+  "Team.advisors": "Penasihat",
+  "Team.legalAdvisor": "Penasihat Hukum",
+
+  "Media.title": "Kleros di Media",
+  "Media.date1": "23 Januari 2018",
+  "Media.date2": "6 Maret 2018",
+  "Media.date3": "5 Maret 2018",
+  "Media.readMore": "Baca selengkapnya",
+
+  "Footer.signUp": "Daftar untuk mendapatkan pembaruan kami!",
+  "Footer.quote":
+    "“Siapa pun dapat mengendalikan pengadilan, mengendalikan negara”. Aristotle.",
+  "Footer.signUpButton": "Daftar",
+  "Footer.privacy":
+    "Kami menghargai privasi Anda dan tidak akan pernah membagikan alamat email Anda pada pihak ketiga.",
+  "Footer.findOutMore": "Temukan kami.",
+  "Footer.FAQ": "FAQ",
+  "Footer.github": "Github",
+  "Footer.telegram": "Telegram",
+  "Footer.letsConnect": "Mari Bergabung.",
+
+  "Clock.day": "DAY",
+  "Clock.days": "DAYS",
+  "Clock.hour": "HOUR",
+  "Clock.hours": "HOURS",
+  "Clock.min": "MIN",
+  "Clock.mins": "MINS"
+}

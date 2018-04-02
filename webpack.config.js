@@ -8,7 +8,8 @@ const OpenBrowserPlugin = require('open-browser-webpack-plugin')
 
 const languages = {
   en: require('./locales/en.json'),
-  es: require('./locales/es.json')
+  es: require('./locales/es.json'),
+  th: require('./locales/th.json')
 }
 
 const buildDirPath = resolve(__dirname, 'build/')
