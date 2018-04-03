@@ -1,5 +1,6 @@
 {
   "tagline": "The Blockchain Dispute Resolution Layer",
+  "tokenSale": "Penjualan Token",
 
   "NavBar.team": "Tim",
   "NavBar.FAQ": "FAQ",
@@ -44,7 +45,7 @@
   "UseCases.title": "Kasus Yang Ditangani",
   "UseCases.arbitration.title": "Arbitrase",
   "UseCases.arbitration.description":
-    "Pekerjaan seorang pekerja lepas adalah ketika dua orang bekerja antar benua dengan sebuah kontrak. Layanan yang diberikan tidak sesuai dengan standar kesepakatan dan seorang juri pengalaman akan menganalisa bukti-bukti, vote, and find a verdict.",
+    "Pekerjaan seorang pekerja lepas adalah ketika dua orang bekerja antar benua dengan sebuah kontrak. Layanan yang diberikan tidak sesuai dengan standar kesepakatan dan seorang juri pengalaman akan menganalisa bukti-bukti, vote, dan pengambilan putusan.",
   "UseCases.socialMedia.title": "Media Sosial",
   "UseCases.socialMedia.description":
     "Sebuah komentar tidak menyenangkan dikirimkan melalui platform media sosial terdesentralisasi dianggap menyalahi syarat dan ketentuan. Juri-juri Kleros memiliki hak dan kuasa untuk mengurangi reputasi pengguna.",
@@ -65,7 +66,7 @@
   "Pinakion.description":
     "Pengguna yang memiliki keinginan untuk mendapatkan layanan juri-juri Kleros dengan dikenakan biaya arbitrase, yang akan diterima oleh juri sebagai intensif atas pekerjaannya.",
   "Pinakion.info":
-    "Pinakion melindungi sisistem dari serangan Sybil, serta untuk memberikan insentif pada juri untuk memberikan suara, dengan membuat juri yang tidak sesuai dalam pengambilan putusan untuk membayar sebagian uangnya kepada para juri yang jujur.",
+    "Pinakion melindungi sistem dari serangan Sybil, serta untuk memberikan insentif pada juri untuk memberikan suara, dengan membuat juri yang tidak sesuai dalam pengambilan putusan untuk membayar sebagian uangnya kepada para juri yang jujur.",
   "Pinakion.readMore": "Bagaimana? Silakan baca <i>white paper</i>",
 
   "Security.title": "Keamanan yang sama untuk juri dan pengguna",
@@ -106,10 +107,10 @@
   "Footer.telegram": "Telegram",
   "Footer.letsConnect": "Mari Bergabung.",
 
-  "Clock.day": "DAY",
-  "Clock.days": "DAYS",
-  "Clock.hour": "HOUR",
-  "Clock.hours": "HOURS",
-  "Clock.min": "MIN",
-  "Clock.mins": "MINS"
+  "Clock.day": "HARI",
+  "Clock.days": "HARI",
+  "Clock.hour": "JAM",
+  "Clock.hours": "JAM",
+  "Clock.min": "MENIT",
+  "Clock.mins": "MENIT"
 }
