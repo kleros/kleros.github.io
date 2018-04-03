@@ -385,6 +385,11 @@ p {
   font-size: 14px;
 }
 
+.CountDown-tokenSaleLink {
+  text-align: center;
+  margin-top: 31px;
+}
+
 /**************** End CountDown ****************/
 
 /**************** Video ****************/
