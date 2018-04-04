@@ -224,6 +224,7 @@ p {
   height: 84px;
   justify-content: center;
   position: fixed;
+  left: 0;
   top: 0;
   z-index: 100;
 }
@@ -420,7 +421,7 @@ p {
 
 .Video-container {
   height: 0;
-  padding-bottom: 46.75%;
+  padding-bottom: 56.25%;
   position: relative;
 }
 
