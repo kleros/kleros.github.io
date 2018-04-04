@@ -832,6 +832,19 @@ p {
   margin-top: 182px;
 }
 
+.Team-partners {
+  margin-top: 182px;
+  margin-bottom: 100px;
+}
+
+.Team-partnersRow {
+  justify-content: center;
+}
+
+.Team-partnersImage {
+  height: 100px;
+}
+
 /**************** End Team ****************/
 
 /**************** Media ****************/

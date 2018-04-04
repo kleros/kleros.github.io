@@ -17,6 +17,7 @@
   "Header.letsConnect": "En las redes.",
 
   "CountDown.title": "La venta de tokens comienza el 15 de Mayo del 2018.",
+  "CountDown.signUpForUpdates": "Subscríbete",
 
   "Challenge.title": "El Desafío",
   "Challenge.description":
@@ -87,11 +88,13 @@
   "Team.legalAdvisor": "CONSEJERO LEGAL",
   "Team.jeromeDeTychey":
     "PRESIDENT OF ASSETH AND KEY ACOUNT MANAGER @CONSENSYS",
+  "Team.partners": "Partners",
 
   "Media.title": "Kleros en la Prensa",
+  "Media.date4": "Abril 4, 2018",
+  "Media.date3": "Marzo 6, 2018",
+  "Media.date2": "Marzo 5, 2018",
   "Media.date1": "Enero 23, 2018",
-  "Media.date2": "Marzo 6, 2018",
-  "Media.date3": "Marzo 5, 2018",
   "Media.readMore": "Leer más",
 
   "Footer.signUp": "Suscríbete Para Recibir las Últimas Novedades",
