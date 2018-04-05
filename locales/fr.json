@@ -1,5 +1,6 @@
 {
-  "tagline": "Protocole de résolution extrajudiciaire des litiges sur la blockchain",
+  "tagline":
+    "Protocole de résolution extrajudiciaire des litiges sur la blockchain",
   "tokenSale": "Vente des crypto-actifs",
 
   "NavBar.team": "Équipe",
@@ -18,6 +19,7 @@
   "Header.letsConnect": "Rejoignez-nous",
 
   "CountDown.title": "La vente des crypto-actifs commencent le 15 mai 2018.",
+  "CountDown.signUpForUpdates": "Inscris-toi",
 
   "Challenge.title": "Le Défi",
   "Challenge.description":
@@ -84,7 +86,6 @@
   "Team.PR": "RP",
   "Team.communityManager": "COMMUNITY MANAGER",
   "Team.join": "REJOINDRE KLEROS!",
-
   "Team.advisors": "Conseillers",
   "Team.legalAdvisor": "CONSEILLER LÉGAL",
   "Team.jeromeDeTychey":
@@ -96,7 +97,8 @@
   "Media.date3": "5 Mars 2018",
   "Media.readMore": "Plus d'informations.",
 
-  "Footer.signUp": "Inscris-toi pour recevoir les dernières nouvelles de Kleros.",
+  "Footer.signUp":
+    "Inscris-toi pour recevoir les dernières nouvelles de Kleros.",
   "Footer.quote":
     "“Celui qui contrôle la Cour de Justice, contrôle l'État”. Aristote.",
   "Footer.signUpButton": "S'inscrire",
