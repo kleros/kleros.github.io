@@ -1,0 +1,117 @@
+{
+  "tagline": "Protocole de résolution extrajudiciaire des litiges sur la blockchain",
+  "tokenSale": "Vente des crypto-actifs",
+
+  "NavBar.team": "Équipe",
+  "NavBar.FAQ": "FAQ",
+  "NavBar.github": "Github",
+  "NavBar.documentation": "Documentation",
+  "NavBar.telegram": "Telegram",
+  "NavBar.language": "Langue",
+  "NavBar.english": "English",
+  "NavBar.spanish": "Español",
+  "NavBar.indonesian": "bahasa Indonesia",
+  "NavBar.french": "Français",
+
+  "Header.klerosProvides":
+    "Kleros propose un système d'arbitrage rapide, securisé et économique pour tous les litiges en ligne",
+  "Header.letsConnect": "Rejoignez-nous",
+
+  "CountDown.title": "La vente des crypto-actifs commencent le 15 mai 2018.",
+
+  "Challenge.title": "Le Défi",
+  "Challenge.description":
+    "La justice d'État et les méthodes d'arbitrage traditionelles ne permettent souvent pas de résoudre les litiges de manière rapide, sécurisée et à moindre coût principalement les différents sur internet et sur la blockchain.",
+
+  "Solution.title": "La Solution",
+  "Solution.description":
+    "Kleros rassemble des utilisateurs cherchant une solution pour résoudre leurs litiges avec des juges spécialisés par domaines de compétence. Notre protocole d'arbitrage de litige se base sur la blockchain et sur une foule de juges pour résoudre des litiges de mainière rapide, sécurisée et économique.",
+
+  "HowKlerosWorks.title": "Comment Ça Marche?",
+  "HowKlerosWorks.contract.title": "Le Contrat",
+  "HowKlerosWorks.contract.description":
+    "Les utilisateurs créent un <i>smart contract</i> et choisissent Kleros comme protocole de juridiction.",
+  "HowKlerosWorks.dispute.title": "Litige",
+  "HowKlerosWorks.dispute.description":
+    "Les informations pertinentes sont envoyées de manière sécurisée vers Kleros",
+  "HowKlerosWorks.selection.title": "Sélection",
+  "HowKlerosWorks.selection.description":
+    "Parmi la foule des juges, certains sont tirés au sort pour arbitrer le litige.",
+  "HowKlerosWorks.enforcement.title": "Éxécution",
+  "HowKlerosWorks.enforcement.description":
+    "Le décision est automatiquement exécutée par le <i>smart contract</i>.",
+  "HowKlerosWorks.crowdsourcing":
+    "Le tirage au sort des arbitres se fait parmi une grande foule de juges. La blockchain guarantit l'intégralité des preuves et la transparence de la sélection des juges. La théroie des jeux crée des incitations à être honête dans son jugement.",
+
+  "UseCases.title": "Cas d'Utilisations",
+  "UseCases.arbitration.title": "Arbitrage",
+  "UseCases.arbitration.description":
+    "Un <i>freelancer</i> réalise un contract avec un client sur un autre continent. Le service rendu ne correspond pas aux attentes du client. Le client fait appel à Kleros pour analyser les preuves, voter et donner le verdict.",
+  "UseCases.socialMedia.title": "Réseaux Sociaux",
+  "UseCases.socialMedia.description":
+    "Un commentaire déplacé est posté sur un réseau social décentralisé qui va à l'encontre des termes et conditions de la plateforme. Les juges de Kleros peuvent décider de supprimer ce contenu et de d'enlever des points de réputation à l'utilisateur à l'origine de ce contenu.",
+  "UseCases.gaming.title": "Jeux En Ligne",
+  "UseCases.gaming.description":
+    "Les jeux en ligne sont un marché en plein dévelopement. Les joueurs professionels ont besoins de juges hautement qualifiés pour résoudre leurs litiges, et pour trouver des lieux sures pour jouer.",
+  "UseCases.crowdfunding.title": "Investissement Participatif",
+  "UseCases.crowdfunding.description":
+    "Une startup n'a pas jamais réalisé son produit annoncé. Les fonds levés contenus dans le <i>smart contrat</i> peuvent être reversés aux investisseurs après l'arbitrage de Kleros.",
+  "UseCases.eCommerce.title": "E-Commerce",
+  "UseCases.eCommerce.description":
+    "Un produit acheté en ligne ne corespond pas à sa description. Kleros peut décider d'arbitrer en faveur de l'acheteur et de lui rembourser son achat.",
+  "UseCases.oracles.title": "Oracles",
+  "UseCases.oracles.description":
+    "“As-t-il plu en Ulaanbaatar aujourd'hui?” Un oracle fait le lien entre le monde réel et la blockchain. Il permet de prendre en compte des données issus du monde extérieur dans les résultats du <i>smart contract</i>.",
+
+  "Pinakion.title": "Pinakion Crypto-actifs (PNK)",
+  "Pinakion.description":
+    "Les utilisateurs ont un intérêt financier à utiliser Kleros comme arbitre pour son faible coût. En échange de ce service, les juges prélèvent des frais d'arbitrage via le <i>smart contract</i>.",
+  "Pinakion.info":
+    "Les crypto-actifs Pinakions permet de se prémunir contre les sybil attaque, tout en incitant les jurés à être honête. Les pinakions des juges qui ont votés de manière incohérente sont transférés aux juges qui ont votés de manière cohérente.",
+  "Pinakion.readMore": "Pour plus d'informations, voir le livre blanc.",
+
+  "Security.title": "Sécurité renforcée pour les utilisateurs et les juges",
+  "Security.description":
+    "Il résiste aux pots-de-vin et aux différentes attaques tout en offrant la confidentailité aux utilisateurs grâce à un fonctionnement intelligent. Nous avons une équipe dédiée à la recherche en cryptoéconomie pour garantir la sécurité de notre protocole.",
+
+  "Team.title": "Équipe",
+  "Team.CEO": "CO-FONDATEUR, PDG",
+  "Team.CTO": "CO-FONDATEUR, DIRECTEUR TECHNIQUE",
+  "Team.web3Developer": "CO-FONDATEUR, WEB3 DÉVELOPEUR",
+  "Team.DAPPDeveloper": "DAPP DÉVELOPEUR",
+  "Team.designLead": "DIRECTEUR ARTISTIQUE",
+  "Team.cryptoEconomicsResearcher": "CHERCHEUR EN CRYPTOECONOMIES",
+  "Team.PR": "RP",
+  "Team.communityManager": "COMMUNITY MANAGER",
+  "Team.join": "REJOINDRE KLEROS!",
+
+  "Team.advisors": "Conseillers",
+  "Team.legalAdvisor": "CONSEILLER LÉGAL",
+  "Team.jeromeDeTychey":
+    "PRESIDENT DE L'ASSETH ET RESPONSABLE GRANDS COMPTES CHEZ CONSENSYS",
+
+  "Media.title": "Kleros dans les médias",
+  "Media.date1": "23 Janvier 2018",
+  "Media.date2": "6 Mars, 2018",
+  "Media.date3": "5 Mars 2018",
+  "Media.readMore": "Plus d'informations.",
+
+  "Footer.signUp": "Inscris-toi pour recevoir les dernières nouvelles de Kleros.",
+  "Footer.quote":
+    "“Celui qui contrôle la Cour de Justice, contrôle l'État”. Aristote.",
+  "Footer.signUpButton": "Inscris-toi",
+  "Footer.privacy":
+    "Nous sommes attachés au respect des données personnelles et nous ne transmettrons pas votre mail à un service tierce.",
+  "Footer.findOutMore": "Plus d'informations.",
+  "Footer.FAQ": "FAQ",
+  "Footer.github": "Github",
+  "Footer.telegram": "Telegram",
+  "Footer.letsConnect": "Rejoignez-nous.",
+
+  "Clock.day": "JOUR",
+  "Clock.days": "JOURS",
+  "Clock.hour": "HEURE",
+  "Clock.hours": "HEURES",
+  "Clock.min": "MIN",
+  "Clock.mins": "MINS"
+}
