@@ -22,7 +22,8 @@ module.exports = [
     return {
       entry: {
         index: './src/index.html',
-        'token-sale': './src/token-sale.html'
+        'token-sale': './src/token-sale.html',
+        jurors: './src/jurors.html'
       },
 
       output: {
