@@ -8,6 +8,7 @@ const OpenBrowserPlugin = require('open-browser-webpack-plugin')
 
 const languages = {
   en: require('./locales/en.json'),
+  fr: require('./locales/fr.json'),
   es: require('./locales/es.json'),
   id: require('./locales/id.json')
 }
