@@ -18,6 +18,7 @@
   "Header.letsConnect": "Let's connect.",
 
   "CountDown.title": "Token sale starts on May 15th, 2018.",
+  "CountDown.signUpForUpdates": "Subscribe",
 
   "Challenge.title": "The Challenge",
   "Challenge.description":
@@ -88,11 +89,13 @@
   "Team.legalAdvisor": "LEGAL ADVISOR",
   "Team.jeromeDeTychey":
     "PRESIDENT OF ASSETH AND KEY ACOUNT MANAGER @CONSENSYS",
+  "Team.partners": "Partners",
 
   "Media.title": "Kleros in the Media",
+  "Media.date4": "April 4, 2018",
+  "Media.date3": "March 6, 2018",
+  "Media.date2": "March 5, 2018",
   "Media.date1": "January 23, 2018",
-  "Media.date2": "March 6, 2018",
-  "Media.date3": "March 5, 2018",
   "Media.readMore": "Read more",
 
   "Footer.signUp": "Sign Up to Receive Our Latest Updates",

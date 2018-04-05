@@ -18,6 +18,7 @@
   "Header.letsConnect": "Mari bergabung.",
 
   "CountDown.title": "Penjualan Token Dimulai Pada 15 Mei 2018.",
+  "CountDown.signUpForUpdates": "Subscribe",
 
   "Challenge.title": "Tantangan",
   "Challenge.description":
@@ -89,11 +90,13 @@
   "Team.legalAdvisor": "Penasihat Hukum",
   "Team.jeromeDeTychey":
     "PRESIDENT OF ASSETH AND KEY ACOUNT MANAGER @CONSENSYS",
+  "Team.partners": "Partners",
 
   "Media.title": "Kleros di Media",
+  "Media.date4": "4 April, 2018",
+  "Media.date3": "6 Maret 2018",
+  "Media.date2": "5 Maret 2018",
   "Media.date1": "23 Januari 2018",
-  "Media.date2": "6 Maret 2018",
-  "Media.date3": "5 Maret 2018",
   "Media.readMore": "Baca selengkapnya",
 
   "Footer.signUp": "Daftar untuk mendapatkan pembaruan kami!",

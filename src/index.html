@@ -156,6 +156,7 @@
     </div>
     <div class="col-12 CountDown-tokenSaleLink">
       <a href="/token-sale" class="btn btn-primary btn-lg">${__("tokenSale")}</a>
+      <a href="#sign-up" class="btn btn-primary btn-lg">${__("CountDown.signUpForUpdates")}</a>
     </div>
   </div>
   <!-- End CountDown -->
@@ -183,7 +184,6 @@
 
   <!-- Solution -->
   <div class="Solution row">
-    <div id="solution" class="anchor col-12"></div>
     <h2 class="col-12">${__("Solution.title")}</h2>
     <h4 class="Solution-text col-12 col-sm-8">${__("Solution.description")}</h4>
     <div class="col-12">
@@ -470,6 +470,21 @@
         </div>
       </div>
     </div>
+    <h2 class="Team-partners col-12">${__("Team.partners")}</h2>
+    <div class="col-12">
+      <div class="Team-partnersRow row">
+        <div class="col-12 col-sm-4 mb-5">
+          <a href="https://dether.io" target="_blank" rel="noopener noreferrer">
+            <img class="Team-partnersImage" src="assets/images/dether.jpeg" alt="Dether Logo">
+          </a>
+        </div>
+        <div class="col-12 col-sm-4">
+          <a href="https://paywithink.com" target="_blank" rel="noopener noreferrer">
+            <img class="Team-partnersImage" src="assets/images/ink-protocol.png" alt="Ink Protocol Logo">
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- End Team -->
 
@@ -480,10 +495,12 @@
     <div class="col-12">
       <div class="Media-cards row">
         <div class="Media-card col-12 col-sm-6 col-md-3">
-          <img class="Media-titleImage" src="assets/images/banking-tech.png" alt="Media Title Image">
-          <p>Featuring Kleros taking a chance, BitFlyer landing in Europe, and Nordea in the mood for banning.</p>
-          <h6 class="Media-date">${__("Media.date1")}</h6>
-          <a href="https://www.bankingtech.com/2018/01/blockchain-and-bitcoin-round-up-23-january-2018" target="_blank" rel="noopener noreferrer">
+          <img class="Media-titleImage" src="assets/images/forbes.png" alt="Media Title Image">
+          <p>In a world hurtling through one technological breakthrough after another, Federico Ast looked to the past for inspiration
+            when starting his company...</p>
+          <h6 class="Media-date">${__("Media.date4")}</h6>
+          <a href="https://www.forbes.com/sites/kimjay/2018/04/04/in-the-future-blockchain-will-solve-most-real-world-problems-even-arbitration/#7efe84c1bd2f"
+            target="_blank" rel="noopener noreferrer">
             <h6 class="Media-readMore">
               ${__("Media.readMore")}
               <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
@@ -494,7 +511,7 @@
           <img class="Media-titleImage" src="assets/images/international-business-times.jpg" alt="Media Title Image">
           <p>Kleros borrows from the way the ancient Greeks resolved disputes in a democratic manner, and adds game theoretical
             incentives via a blockchain token.</p>
-          <h6 class="Media-date">${__("Media.date2")}</h6>
+          <h6 class="Media-date">${__("Media.date3")}</h6>
           <a href="https://www.ibtimes.co.uk/kleros-ethereum-smart-contracts-meet-ancient-greek-legal-democracy-1665300" target="_blank"
             rel="noopener noreferrer">
             <h6 class="Media-readMore">
@@ -503,12 +520,25 @@
             </h6>
           </a>
         </div>
+      </div>
+      <div class="Media-cards row">
         <div class="Media-card col-12 col-sm-6 col-md-3">
           <img class="Media-titleImage" src="assets/images/bitcoin-news.png" alt="Media Title Image">
           <p>Get your popcorn at the ready as we prepare to chew over the highlights from This Week in Bitcoin, where courtroom
             drama held sway.</p>
-          <h6 class="Media-date">${__("Media.date3")}</h6>
+          <h6 class="Media-date">${__("Media.date2")}</h6>
           <a href="https://news.bitcoin.com/this-week-in-bitcoin-courtroom-drama" target="_blank" rel="noopener noreferrer">
+            <h6 class="Media-readMore">
+              ${__("Media.readMore")}
+              <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
+            </h6>
+          </a>
+        </div>
+        <div class="Media-card col-12 col-sm-6 col-md-3">
+          <img class="Media-titleImage" src="assets/images/banking-tech.png" alt="Media Title Image">
+          <p>Featuring Kleros taking a chance, BitFlyer landing in Europe, and Nordea in the mood for banning.</p>
+          <h6 class="Media-date">${__("Media.date1")}</h6>
+          <a href="https://www.bankingtech.com/2018/01/blockchain-and-bitcoin-round-up-23-january-2018" target="_blank" rel="noopener noreferrer">
             <h6 class="Media-readMore">
               ${__("Media.readMore")}
               <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
@@ -530,6 +560,7 @@
   <!-- Footer -->
 
   <div class="Footer row">
+    <div id="sign-up" class="anchor col-12"></div>
     <div class="col-12">
       <div class="Footer-callToAction row">
         <div class="Footer-signUpMessage col-12">${__("Footer.signUp")}</div>
