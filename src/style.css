@@ -857,8 +857,11 @@ p {
 
 .Media-cards {
   justify-content: center;
-  margin-top: 68px;
   text-align: left;
+}
+
+.Media-cards:first-child {
+  margin-top: 68px;
 }
 
 .Media-card {
