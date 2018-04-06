@@ -7,6 +7,7 @@
   "NavBar.github": "Github",
   "NavBar.documentation": "Documentation",
   "NavBar.telegram": "Telegram",
+  "Header.whitepaper": "whitepaper",
   "NavBar.language": "Language",
   "NavBar.english": "English",
   "NavBar.spanish": "Español",
@@ -15,6 +16,7 @@
   "Header.klerosProvides":
     "Kleros provides fast, secure and affordable arbitration for virtually everything.",
   "Header.letsConnect": "Let's connect.",
+  "Header.onePager": "One Pager",
 
   "CountDown.title": "Token sale starts on May 15th, 2018.",
 
