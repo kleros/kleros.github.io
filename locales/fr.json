@@ -1,13 +1,14 @@
 {
   "tagline":
     "Protocole de résolution extrajudiciaire des litiges sur la blockchain",
-  "tokenSale": "Vente des crypto-actifs",
+  "tokenSale": "Vente crypto-actifs",
 
   "NavBar.team": "Équipe",
   "NavBar.FAQ": "FAQ",
   "NavBar.github": "Github",
   "NavBar.documentation": "Documentation",
   "NavBar.telegram": "Telegram",
+  "Header.whitepaper": "Lire le Livre blanc",
   "NavBar.language": "Langue",
   "NavBar.english": "English",
   "NavBar.spanish": "Español",
@@ -17,9 +18,10 @@
   "Header.klerosProvides":
     "Kleros propose un système d'arbitrage rapide, securisé et économique pour tous les litiges en ligne",
   "Header.letsConnect": "Rejoignez-nous",
+  "Header.onePager": "Kleros en 3 pages",
 
   "CountDown.title": "La vente des crypto-actifs commencent le 15 mai 2018.",
-  "CountDown.signUpForUpdates": "Inscris-toi",
+  "CountDown.signUpForUpdates": "S'inscrire",
 
   "Challenge.title": "Le Défi",
   "Challenge.description":
@@ -89,7 +91,7 @@
   "Team.advisors": "Conseillers",
   "Team.legalAdvisor": "CONSEILLER LÉGAL",
   "Team.jeromeDeTychey":
-    "PRESIDENT DE L'ASSETH ET RESPONSABLE GRANDS COMPTES CHEZ CONSENSYS",
+    "PRÉSIDENT DE L'ASSETH ET RESPONSABLE GRANDS COMPTES CHEZ CONSENSYS",
 
   "Media.title": "Kleros dans les médias",
   "Media.date1": "23 Janvier 2018",
