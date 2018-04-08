@@ -7,17 +7,17 @@
   "NavBar.github": "Github",
   "NavBar.documentation": "Documentación",
   "NavBar.telegram": "Telegram",
-  "Header.whitepaper": "Read The Whitepaper",
   "NavBar.language": "Lenguaje",
   "NavBar.english": "English",
   "NavBar.spanish": "Español",
   "NavBar.indonesian": "bahasa Indonesia",
   "NavBar.french": "Français",
+  "Header.whitepaper": "Read The Whitepaper",
 
   "Header.klerosProvides":
     "Kleros ofrece arbitraje rápido, seguro y accesible para virtualmente cualquier situación.",
-  "Header.letsConnect": "En las redes.",
   "Header.onePager": "One Pager",
+  "Header.letsConnect": "En las redes.",
 
   "CountDown.title": "La venta de tokens comienza el 15 de Mayo del 2018.",
   "CountDown.signUpForUpdates": "Subscríbete",
