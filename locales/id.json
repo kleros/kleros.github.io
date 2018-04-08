@@ -7,6 +7,7 @@
   "NavBar.github": "Github",
   "NavBar.documentation": "Dokumentasi",
   "NavBar.telegram": "Telegram",
+  "Header.whitepaper": "Read the Whitepaper",
   "NavBar.language": "Bahasa",
   "NavBar.english": "English",
   "NavBar.spanish": "Español",
@@ -16,6 +17,7 @@
   "Header.klerosProvides":
     "Kleros memberikan kecepatan, keamanan dan arbitrase terjangkau untuk semuanya",
   "Header.letsConnect": "Mari bergabung.",
+  "Header.onePager": "One Pager",
 
   "CountDown.title": "Penjualan Token Dimulai Pada 15 Mei 2018.",
   "CountDown.signUpForUpdates": "Subscribe",
