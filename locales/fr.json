@@ -1,7 +1,7 @@
 {
   "tagline":
-    "Protocole de résolution extrajudiciaire des litiges sur la blockchain",
-  "tokenSale": "Vente crypto-actifs",
+    "Protocole de résolution des litiges sur la blockchain",
+  "tokenSale": "Vente des tokens",
 
   "NavBar.team": "Équipe",
   "NavBar.FAQ": "FAQ",
@@ -20,7 +20,7 @@
   "Header.onePager": "Kleros en 3 pages",
   "Header.letsConnect": "Rejoignez-nous",
 
-  "CountDown.title": "La vente des crypto-actifs commencent le 15 mai 2018.",
+  "CountDown.title": "La vente des tokens commencent le 15 mai 2018.",
   "CountDown.signUpForUpdates": "S'inscrire",
 
   "Challenge.title": "Le Défi",
@@ -29,7 +29,7 @@
 
   "Solution.title": "La Solution",
   "Solution.description":
-    "Kleros rassemble des utilisateurs cherchant une solution pour résoudre leurs litiges avec des juges spécialisés par domaines de compétence. Notre protocole d'arbitrage de litige se base sur la blockchain et sur une foule de juges pour résoudre des litiges de mainière rapide, sécurisée et économique.",
+    "Kleros rassemble des utilisateurs cherchant une solution pour résoudre leurs litiges avec des juges spécialisés par domaines de compétence. Notre protocole d'arbitrage de litige se base sur la blockchain et sur une foule de juges pour résoudre des litiges de manière rapide, sécurisée et économique.",
 
   "HowKlerosWorks.title": "Comment Ça Marche?",
   "HowKlerosWorks.contract.title": "Le Contrat",
@@ -45,7 +45,7 @@
   "HowKlerosWorks.enforcement.description":
     "Le décision est automatiquement exécutée par le <i>smart contract</i>.",
   "HowKlerosWorks.crowdsourcing":
-    "Le tirage au sort des arbitres se fait parmi une grande foule de juges. La blockchain guarantit l'intégralité des preuves et la transparence de la sélection des juges. La théroie des jeux crée des incitations à être honête dans son jugement.",
+    "Le tirage au sort des arbitres se fait parmi une grande foule de juges. La blockchain garantit l'intégralité des preuves et la transparence de la sélection des juges. La théorie des jeux crée des incitations à être honête dans son jugement.",
 
   "UseCases.title": "Cas d'Utilisations",
   "UseCases.arbitration.title": "Arbitrage",
@@ -92,6 +92,7 @@
   "Team.legalAdvisor": "CONSEILLER LÉGAL",
   "Team.jeromeDeTychey":
     "PRÉSIDENT DE L'ASSETH ET RESPONSABLE GRANDS COMPTES CHEZ CONSENSYS",
+  "Team.partners": "Partenaires",
 
   "Media.title": "Kleros dans les médias",
   "Media.date1": "23 Janvier 2018",
