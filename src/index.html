@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Privy Widget Code -->
+<script type='text/javascript'> var _d_site = _d_site || 'AE38414C1C914023A9A60FF4'; </script>
+<script src='//widget.privy.com/assets/widget.js'></script>
+<!-- Privy Widget Code -->
+
 <head>
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103362452-1"></script>
@@ -573,15 +578,13 @@
         <div class="Footer-signUpMessage col-12">${__("Footer.signUp")}</div>
         <h5 class="Footer-quote col-12">${__("Footer.quote")}</h5>
         <div class="Footer-signUpInput col-10 col-sm-8 col-md-6">
-          <form action="https://kleros.us16.list-manage.com/subscribe/post?u=bc4fd8a6129d3e3aec704aefd&amp;id=dbad57fc86" method="post"
-            name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener noreferrer" novalidate>
+          <form id="signUpForm">
             <div class="Footer-inputGroup input-group">
-              <input name="EMAIL" id="mce-EMAIL" required class="Footer-formControl form-control" type="email" placeholder="email">
+              <input name="Email" type="email" placeholder="email" required class="Footer-formControl form-control">
               <span class="input-group-btn">
                 <button class="btn-signUpButton btn btn-secondary" type="submit">${__("Footer.signUpButton")}</button>
               </span>
             </div>
-            <input type="hidden" name="b_bc4fd8a6129d3e3aec704aefd_dbad57fc86">
           </form>
         </div>
         <div class="Footer-signUpPrivacy col-12">${__("Footer.privacy")}</div>
@@ -674,7 +677,7 @@
 
     // Telegram button
     $('#telegramCloseButton').click(function () {
-      $('#telegramButton').hide()
+      $('#telegramButton').hide();
     });
 
     // Clock
@@ -706,8 +709,17 @@
       else $minsUnit.text('${__("Clock.mins")}');
     }
 
-    updateClock()
+    updateClock();
     window.setInterval(updateClock, 1000);
+
+    // Newsletter
+    $('#signUpForm').submit(function (event) {
+      event.preventDefault();
+      Privy.show(473601);
+      $('.privy-email-input').val(event.target[0].value);
+    });
+
+
   </script>
   <!-- End Scripts -->
 </body>
