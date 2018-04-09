@@ -1,6 +1,5 @@
 {
-  "tagline":
-    "Protocole de résolution des litiges sur la blockchain",
+  "tagline": "Protocole de résolution des litiges sur la blockchain",
   "tokenSale": "Vente des tokens",
 
   "NavBar.team": "Équipe",
@@ -10,9 +9,10 @@
   "NavBar.telegram": "Telegram",
   "NavBar.language": "Langue",
   "NavBar.english": "English",
-  "NavBar.spanish": "Español",
-  "NavBar.indonesian": "bahasa Indonesia",
   "NavBar.french": "Français",
+  "NavBar.spanish": "Español",
+  "NavBar.italian": "Italiano",
+  "NavBar.indonesian": "bahasa Indonesia",
   "NavBar.whitepaper": "Lire le Livre blanc",
 
   "Header.klerosProvides":
@@ -95,9 +95,10 @@
   "Team.partners": "Partenaires",
 
   "Media.title": "Kleros dans les médias",
-  "Media.date1": "23 Janvier 2018",
-  "Media.date2": "6 Mars, 2018",
-  "Media.date3": "5 Mars 2018",
+  "Media.date4": "April 4, 2018",
+  "Media.date3": "March 6, 2018",
+  "Media.date2": "March 5, 2018",
+  "Media.date1": "January 23, 2018",
   "Media.readMore": "Plus d'informations.",
 
   "Footer.signUp":

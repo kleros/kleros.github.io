@@ -10,6 +10,7 @@ const languages = {
   en: require('./locales/en.json'),
   fr: require('./locales/fr.json'),
   es: require('./locales/es.json'),
+  it: require('./locales/it.json'),
   id: require('./locales/id.json')
 }
 
