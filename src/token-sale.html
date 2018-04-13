@@ -69,7 +69,7 @@
 
   <!-- Header -->
   <div class="TokenSaleHeader Header row">
-    <nav id="#navbar" class="TokenSaleHeader-navbar Header-navbar navbar navbar-toggleable-md col-12">
+    <nav id="#navbar" class="TokenSaleHeader-navbar Header-navbar navbar navbar-toggleable-lg col-12">
       <button class="Header-navbarToggler navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent"
         aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="short-hline"></span>
@@ -83,33 +83,52 @@
       <div id="navbarContent" class="TokenSaleHeader-navbarContent Header-navbarContent collapse navbar-collapse">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="Header-navLink nav-link" href="/">Home</a>
+            <a class="Header-navLink nav-link" href="${__("URL.home")}">${__("NavBar.home")}</a>
           </li>
           <li class="nav-item">
-            <a class="Header-navLink nav-link" href="/#team">Team</a>
+            <a class="Header-navLink nav-link" href="${__("URL.home.team")}">${__("NavBar.team")}</a>
           </li>
           <li class="nav-item">
             <a class="Header-navLink nav-link" href="https://medium.com/kleros/kleros-frequently-asked-questions-about-peer-to-peer-justice-5a921cb76abe"
-              target="_blank" rel="noopener noreferrer">FAQ</a>
+              target="_blank" rel="noopener noreferrer">${__("NavBar.FAQ")}</a>
           </li>
           <li class="nav-item">
-            <a class="Header-navLink nav-link" href="https://github.com/kleros" target="_blank" rel="noopener noreferrer">Github</a>
+            <a class="Header-navLink nav-link" href="https://github.com/kleros" target="_blank" rel="noopener noreferrer
+  ">${__("NavBar.github")}</a>
           </li>
           <li class="nav-item">
-            <a class="Header-navLink nav-link" href="https://kleros.gitbooks.io/kleros-md/" target="_blank" rel="noopener noreferrer">Documentation</a>
+            <a class="Header-navLink nav-link" href="https://kleros.gitbooks.io/kleros-md/" target="_blank" rel="noopener
+              noreferrer">${__("NavBar.documentation")}</a>
           </li>
           <li class="nav-item">
-            <a class="Header-navLink nav-link" href="https://t.me/kleros" target="_blank" rel="noopener noreferrer">Telegram</a>
+            <a class="Header-navLink nav-link" href="https://t.me/kleros" target="_blank" rel="noopener noreferrer
+  ">${__("NavBar.telegram")}</a>
           </li>
-          <a href="/assets/whitepaper.pdf" target="_blank" rel="noopener noreferrer" class="Header-btn-readTheWhitepaper btn btn-secondary">Read the Whitepaper</a>
+          <li class="Header-navLink-language nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown
+  " aria-haspopup="true" aria-expanded="false">
+              ${__("NavBar.language")}
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="/token-sale">${__("NavBar.english")}</a>
+              <a class="dropdown-item" href="/fr/token-sale">${__("NavBar.french")}</a>
+              <a class="dropdown-item" href="/es/token-sale">${__("NavBar.spanish")}</a>
+              <a class="dropdown-item" href="/ru/token-sale">${__("NavBar.russian")}</a>
+              <a class="dropdown-item" href="/it/token-sale">${__("NavBar.italian")}</a>
+              <a class="dropdown-item" href="/id/token-sale">${__("NavBar.indonesian")}</a>
+            </div>
+          </li>
+          <a href="/assets/whitepaper.pdf" target="_blank" rel="noopener noreferrer" class="Header-btn-readTheWhitepaper
+              btn btn-secondary">${__("NavBar.whitepaper")}</a>
         </ul>
       </div>
     </nav>
 
     <div class="Header-banner col-12">
-      <h1 class="Header-title">Welcome to the
-        <br>Kleros Token Sale!</h1>
-      <a href="https://medium.com/kleros/announcing-kleros-token-sale-68670daf6bba" target="_blank" rel="noopener noreferrer" class="TokenSaleHeader-btn-announcement btn btn-lg">Announcement</a>
+      <h1 class="Header-title">${__("TokenSaleHeader.welcome")}
+        <br>${__("TokenSaleHeader.title")}</h1>
+      <a href="https://medium.com/kleros/announcing-kleros-token-sale-68670daf6bba" target="_blank" rel="noopener noreferrer
+  " class="TokenSaleHeader-btn-announcement btn btn-lg">${__("TokenSaleHeader.announcement")}</a>
       <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="TokenSaleHeader-btn-buyTokens btn btn-lg">Buy tokens</a> -->
       <hr class="TokenSaleHeader-separator">
       <div class="row">
@@ -126,7 +145,7 @@
           </div>
         </div> -->
         <div class="col-12 col-sm-6">
-          <h5>Token sale starts on May 15:</h5>
+          <h5>${__("TokenSaleHeader.startsOn")}</h5>
           <div class="TokenSaleHeader-countDownBlocks CountDown-blocks col-12">
             <div class="TokenSaleHeader-countDownBlock CountDown-block col-4 col-sm-3">
               <div class="countDownDays CountDown-amount">-</div>
@@ -149,17 +168,15 @@
 
   <!-- Pinakion -->
   <div class="TokenSalePinakion Pinakion row">
-    <h2 class="col-12">Pinakion Token (PNK)</h2>
-    <h4 class="Pinakion-description col-12 col-sm-8">Users have an economic interest in serving as Kleros jurors by collecting the arbitration fee that every juror receives
-      for their work.</h4>
+    <h2 class="col-12">${__("TokenSalePinakion.title")}</h2>
+    <h4 class="Pinakion-description col-12 col-sm-8">${__("TokenSalePinakion.description")}</h4>
     <div class="col-12">
       <div class="Pinakion-features row">
         <div class="Pinakion-feature col-12 col-md-8">
           <img class="Pinakion-featureImage" src="assets/images/pnk-cluster.svg" alt="Pinakion Feature">
-          <h4>Pinakion protects the system from sybil attacks, while also providing jurors an incentive to vote honestly by making
-            incoherent jurors pay part of their deposit to coherent jurors.</h4>
+          <h4>${__("TokenSalePinakion.info")}</h4>
           <a href="/assets/whitepaper.pdf" target="_blank" rel="noopener noreferrer" class="Pinakion-findOutMore">
-            How? Read the white paper
+            ${__("TokenSalePinakion.readMore")}
             <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
           </a>
         </div>
@@ -174,24 +191,25 @@
       <div class="IICOInfo-steps HowKlerosWorks-steps row">
         <div class="IICOInfo-step col-12 col-lg-8">
           <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="assets/images/IICO.png" alt="Contract">
-          <h3 class="HowKlerosWorks-title">Interactive Coin Offering</h3>
-          <h4 class="HowKlerosWorks-description">Kleros token sale will use the new method recommended by Vitalik Buterin to distribute tokens in a fair way.
+          <h3 class="HowKlerosWorks-title">${__("IICOInfo.title")}</h3>
+          <h4 class="HowKlerosWorks-description">${__("IICOInfo.description")}
             <br>
-            <a href="https://people.cs.uchicago.edu/~teutsch/papers/ico.pdf" target="_blank" rel="noopener noreferrer" class="IICOInfo-findOutMore">
-              Read Vitalik’s Interactive Coin Offering paper here.
+            <a href="https://people.cs.uchicago.edu/~teutsch/papers/ico.pdf" target="_blank" rel="noopener noreferrer
+  " class="IICOInfo-findOutMore">
+              ${__("IICOInfo.readThePaper")}
               <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
             </a>
           </h4>
         </div>
         <div class="IICOInfo-step col-12 col-lg-8 offset-lg-4">
           <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="assets/images/distribution.png" alt="Dispute">
-          <h3 class="HowKlerosWorks-title">Distribution</h3>
-          <h4 class="HowKlerosWorks-description">1 billion PNK will be created and distributed in a fair manner using the IICO.</h4>
+          <h3 class="HowKlerosWorks-title">${__("IICOInfo.distribution.title")}</h3>
+          <h4 class="HowKlerosWorks-description">${__("IICOInfo.distribution.description")}</h4>
         </div>
         <div class="IICOInfo-step IICOInfo-lastStep col-12 col-lg-8">
           <img class="HowKlerosWorks-icon mr-3 mr-sm-4" src="assets/images/selection.svg" alt="Selection">
-          <h3 class="HowKlerosWorks-title">KYC</h3>
-          <h4 class="HowKlerosWorks-description">We’ve partnered with Consensys to provide a secure, stable and efficient KYC process.
+          <h3 class="HowKlerosWorks-title">${__("IICOInfo.KYC.title")}</h3>
+          <h4 class="HowKlerosWorks-description">${__("IICOInfo.KYC.description")}
             <br>
             <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="IICOInfo-findOutMore">
               Learn more about Kleros' token sale KYC rules.
@@ -207,14 +225,14 @@
 
   <!-- IICOVideo -->
   <div class="IICOVideo Video row">
-    <h2 class="IICOVideo-title col-12">Click below to watch a working demo of our arbitration protocol.</h2>
+    <h2 class="IICOVideo-title col-12">${__("IICOVideo.title")}</h2>
     <div class="col-10">
       <div class="Video-container">
-        <iframe class="Video-iframe" src="https://www.youtube.com/embed/UZsOaCGvMv8?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
-          allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe class="Video-iframe" src="https://www.youtube.com/embed/UZsOaCGvMv8?rel=0&amp;controls=0&amp;showinfo=0
+  " frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
     </div>
-    <h3 class="IICOVideo-description col-12 col-sm-8">We’re well on our way to a working system which will be scalable, secure and fair for all.</h3>
+    <h3 class="IICOVideo-description col-12 col-sm-8">${__("IICOVideo.description")}</h3>
   </div>
   <!-- End IICOVideo -->
 
@@ -274,103 +292,95 @@
 
   <!-- TokenDistribution -->
   <div class="TokenDistribution row">
-    <h2 class="TokenDistribution-totalTokenSupply col-12">Total token supply:
-      <span class="TokenDistribution-totalTokenSupplyNumber">1,000,000,000 PNK</span>
+    <h2 class="TokenDistribution-totalTokenSupply col-12">${__("TokenDistribution.supply.label")}
+      <span class="TokenDistribution-totalTokenSupplyNumber">${__("TokenDistribution.supply.amount")}</span>
     </h2>
     <div class="TokenDistribution-info col-12 col-md-6">
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--2">15%-20%</div>
-        <div class="TokenDistribution-percentTagText">Team Members</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenDistribution.team")}</div>
       </div>
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--3">16%</div>
-        <div class="TokenDistribution-percentTagText">First Round of Token Sale</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenDistribution.firstRound")}</div>
       </div>
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--1">50%</div>
-        <div class="TokenDistribution-percentTagText">Subsequent Rounds and Juror Incentive Programs</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenDistribution.subsequentRounds")}</div>
       </div>
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--4">10%-15%</div>
-        <div class="TokenDistribution-percentTagText">Kleros Cooperative Development Reserve</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenDistribution.coop")}</div>
       </div>
-      <div class="TokenDistribution-infoText">Founders and early team members are unable to sell all of their token allocation until a three year period of working
-        with Kleros has passed.
+      <div class="TokenDistribution-infoText">${__("TokenDistribution.info.first")}
         <br>
-        <br>In the first token distribution event, 16% of tokens will be sold to the public. The other 50% will be sold in the
-        future as the team reaches milestones in project development and for juror incentive programs.</div>
+        <br>${__("TokenDistribution.info.second")}</div>
     </div>
     <div class="TokenDistribution-pie col-12 col-md-6">
-      <img class="TokenDistribution-pieImage" src="assets/images/token-distribution.png" alt="Token Distribution Pie Chart">
+      <img class="TokenDistribution-pieImage" src="assets/images/token-distribution.png" alt="Token Distribution Pie
+              Chart">
     </div>
   </div>
   <!-- End TokenDistribution -->
 
   <!-- Roadmap -->
   <div class="TokenSaleRoadmap row">
-    <h2 class="TokenSaleRoadmap-title col-12">Token Sale Mechanics</h2>
-    <div class="TokenSaleRoadmap-subtitle col-12">What's an IICO?</div>
-    <div class="TokenSaleRoadmap-paragraph col-10">The Interactive Coin Offering (IICO) is a new protocol advocated by Vitalik Buterin, Jason Teutsch and Christopher Brown
-      to make token sales more egalitarian. It lets each contributor choose an amount to bid and a “personal cap” on the
-      total valuation.
+    <h2 class="TokenSaleRoadmap-title col-12">${__("TokenSaleRoadmap.title")}</h2>
+    <div class="TokenSaleRoadmap-subtitle col-12">${__("TokenSaleRoadmap.whatIsAnIICO.title")}</div>
+    <div class="TokenSaleRoadmap-paragraph col-10">${__("TokenSaleRoadmap.whatIsAnIICO.info.first")}
       <br>
-      <br>The value of the token will be determined by the market, following a number of rounds where participants will make
-      bids and adjust their caps. This provides certainty of participation and valuation to all parties, no matter their
-      size.
+      <br>${__("TokenSaleRoadmap.whatIsAnIICO.info.second")}
     </div>
     <!-- <div class="TokenSaleRoadmap-subtitle col-12">How does it work?</div>
     <div class="col-10">
     <div class="TokenSaleRoadMap-videoContainer Video-container">
-      <iframe class="Video-iframe" src="https://www.youtube.com/embed/NuSps_2wMQ4?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0"
+      <iframe class="Video-iframe" src="https://www.youtube.com/embed/NuSps_2wMQ4?rel=0&amp;controls=0&amp;showinfo=0
+  " frameborder="0"
         allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div></div> -->
-    <!-- <a href="https://github.com/kleros" target="_blank" rel="noopener noreferrer" class="TokenSaleRoadmap-githubLink col-12">
+    <!-- <a href="https://github.com/kleros" target="_blank" rel="noopener noreferrer" class="TokenSaleRoadmap-githubLink
+              col-12">
       Github
       <img class="rightArrow" src="assets/images/arrow-right.svg" alt="Right Arrow">
     </a> -->
-    <div class="TokenSaleRoadmap-subtitle col-12">How can I get a bonus?</div>
+    <div class="TokenSaleRoadmap-subtitle col-12">${__("TokenSaleRoadmap.howCanIGetABonus.title")}</div>
     <div class="TokenSaleRoadmap-paragraph TokenSaleRoadmap-bonusParagraph col-10">
-      Kleros has not done a token pre-sale nor sold tokens at discounted rate. However, as a way to incentivize price formation,
-      the Interactive Coin Offering rewards participants who make their contribution early in the sale. Buyers who purchase
-      tokens early will receive a 20% bonus. The bonus decreases smoothly down to 10% at the beginning of the withdrawal
-      lock, and then goes to 0% by the end of the crowdsale.
+      ${__("TokenSaleRoadmap.howCanIGetABonus.info")}
     </div>
-    <h2 class="TokenSaleRoadmap-milestonesTitle col-12 hidden-sm-down">Roadmap</h2>
+    <h2 class="TokenSaleRoadmap-milestonesTitle col-12 hidden-sm-down">${__("TokenSaleRoadmap.roadmap.title")}</h2>
     <div class="TokenSaleRoadmap-timelineImageContainer">
-      <img class="TokenSaleRoadmap-timelineImage hidden-sm-down" src="assets/images/token-sale-roadmap.png" alt="TokenSaleRoadmap Image">
+      <img class="TokenSaleRoadmap-timelineImage hidden-sm-down" src="assets/images/token-sale-roadmap.png" alt="TokenSaleRoadmap
+              Image">
     </div>
-    <h2 class="col-12 TokenSaleRoadmap-legalTitle">Legal</h2>
+    <h2 class="col-12 TokenSaleRoadmap-legalTitle">${__("TokenSaleRoadmap.legal.title")}</h2>
     <div class="TokenSaleRoadmap-paragraph TokenSaleRoadmap-legalParagraph col-10">
-      Kleros will be incorporated as a French type of social enterprise, called a "cooperative company of public interest” or SCIC
-      (sociétés coopératives d’intérêt collectif). This cooperative and community-oriented company operates under French
-      jurisdiction and makes it possible to share the governance of the project and avoid commercial buyout by another company
-      or a competitor.
+      ${__("TokenSaleRoadmap.legal.info.first")}
       <br>
-      <br>This legal entity makes sure that the totality of funds produced in the token sale will be used for the development
-      of the project. Founders are not legally allowed to distribute funds under the form of dividends.
+      <br>${__("TokenSaleRoadmap.legal.info.second")}
     </div>
-    <a href="/assets/legal-structure.pdf" target="_blank" rel="noopener noreferrer" class="TokenSaleRoadmap-legalStructure btn btn-lg">Legal structure</a>
-    <h2 class="col-12">Expected Expenses</h2>
+    <a href="/assets/legal-structure.pdf" target="_blank" rel="noopener noreferrer" class="TokenSaleRoadmap-legalStructure
+              btn btn-lg">Legal structure</a>
+    <h2 class="col-12">${__("TokenSaleRoadmap.expenses.title")}</h2>
     <div class="TokenSaleRoadmap-expensesBlock TokenSaleRoadmap-expensesBlockTags TokenDistribution-info col-12 col-sm-6">
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--1">45%</div>
-        <div class="TokenDistribution-percentTagText">Product Development</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenSaleRoadmap.expenses.product")}</div>
       </div>
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--2">25%</div>
-        <div class="TokenDistribution-percentTagText">Research</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenSaleRoadmap.expenses.research")}</div>
       </div>
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--3">10%</div>
-        <div class="TokenDistribution-percentTagText">Ecosystem Development</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenSaleRoadmap.expenses.ecosystem")}</div>
       </div>
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--4">10%</div>
-        <div class="TokenDistribution-percentTagText">Communication</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenSaleRoadmap.expenses.communication")}</div>
       </div>
       <div class="TokenDistribution-percentTag">
         <div class="TokenDistribution-percentTagTag TokenDistribution-percentTagTag--5">10%</div>
-        <div class="TokenDistribution-percentTagText">Operations &amp; Legal</div>
+        <div class="TokenDistribution-percentTagText">${__("TokenSaleRoadmap.expenses.operations")}</div>
       </div>
     </div>
     <div class="TokenSaleRoadmap-expensesBlock TokenDistribution-pie col-12 col-sm-6">
@@ -415,7 +425,7 @@
 
   <!-- CallToAction -->
   <div class="CallToAction row">
-    <h2 class="CallToAction-title col-12">Kleros — The Blockchain Dispute Resolution Layer</h2>
+    <h2 class="CallToAction-title col-12">Kleros — ${__("tagline")}</h2>
     <!-- <a href="#" target="_blank" rel="noopener noreferrer" class="CallToAction-getTokens btn btn-lg">Buy tokens</a> -->
   </div>
   <!-- End CallToAction -->
@@ -423,8 +433,8 @@
   <!-- GetToKnowTeam -->
   <div class="GetToKnowTeam row">
     <div class="GetToKnowTeam-section col-12 col-sm-6">
-      <div class="GetToKnowTeam-title">Get to know our team.</div>
-      <div class="GetToKnowTeam-description">Ask questions and contribute to the development of Kleros.</div>
+      <div class="GetToKnowTeam-title">${__("GetToKnowTeam.title")}</div>
+      <div class="GetToKnowTeam-description">${__("GetToKnowTeam.description")}</div>
     </div>
     <div class="GetToKnowTeam-section GetToKnowTeam-socialSection col-12 col-sm-6">
       <div class="row">
@@ -439,7 +449,8 @@
               <img src="assets/images/white-facebook.svg" alt="Facebook" class="GetToKnowTeam-socialIcon Footer-socialIcon">
             </object>
           </a>
-          <a class="Footer-socialLink" href="https://www.linkedin.com/company/kleros" target="_blank" rel="noopener noreferrer">
+          <a class="Footer-socialLink" href="https://www.linkedin.com/company/kleros" target="_blank" rel="noopener
+              noreferrer">
             <object data="assets/images/white-linked-in.svg" type="image/svg+xml" class="GetToKnowTeam-socialIcon Footer-socialIcon">
               <img src="assets/images/white-linked-in.svg" alt="LinkedIn" class="GetToKnowTeam-socialIcon Footer-socialIcon">
             </object>
@@ -472,36 +483,39 @@
   <div class="Footer row">
     <div class="col-12">
       <div class="Footer-callToAction row">
-        <div class="Footer-signUpMessage col-12">Sign Up to Receive Our Latest Updates</div>
-        <h5 class="Footer-quote col-12">"Whoever controls the courts, controls the state". Aristotle.</h5>
+        <div class="Footer-signUpMessage col-12">${__("Footer.signUp")}</div>
+        <h5 class="Footer-quote col-12">${__("Footer.quote")}</h5>
         <div class="Footer-signUpInput col-10 col-sm-8 col-md-6">
-          <form action="https://kleros.us16.list-manage.com/subscribe/post?u=bc4fd8a6129d3e3aec704aefd&amp;id=dbad57fc86" method="post"
-            name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener noreferrer" novalidate>
+          <form action="https://kleros.us16.list-manage.com/subscribe/post?u=bc4fd8a6129d3e3aec704aefd&amp;id=dbad57fc86
+  " method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" rel="noopener noreferrer" novalidate>
             <div class="Footer-inputGroup input-group">
-              <input name="EMAIL" id="mce-EMAIL" required class="Footer-formControl form-control" type="email" placeholder="email">
+              <input name="EMAIL" id="mce-EMAIL" required class="Footer-formControl form-control" type="email
+  " placeholder="email">
               <span class="input-group-btn">
-                <button class="btn-signUpButton btn btn-secondary" type="submit">Sign Up</button>
+                <button class="btn-signUpButton btn btn-secondary" type="submit">${__("Footer.signUpButton")}</button>
               </span>
             </div>
             <input type="hidden" name="b_bc4fd8a6129d3e3aec704aefd_dbad57fc86">
           </form>
         </div>
-        <div class="Footer-signUpPrivacy col-12">We value your privacy and will never share your email with third parties.</div>
+        <div class="Footer-signUpPrivacy col-12">${__("Footer.privacy")}</div>
         <hr class="Footer-separator col-8">
         <div class="Footer-links col-10 col-sm-5">
           <h5 class="Footer-findOutMore row">
-            <div class="col-12">Find out more.</div>
+            <div class="col-12">${__("Footer.findOutMore")}</div>
           </h5>
           <div class="Footer-linksList row">
             <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://medium.com/kleros/kleros-frequently-asked-questions-about-peer-to-peer-justice-5a921cb76abe"
-              target="_blank" rel="noopener noreferrer">FAQ</a>
-            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://github.com/kleros" target="_blank" rel="noopener noreferrer">Github</a>
-            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://t.me/kleros" target="_blank" rel="noopener noreferrer">Telegram</a>
+              target="_blank" rel="noopener noreferrer">${__("Footer.FAQ")}</a>
+            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://github.com/kleros" target="_blank
+  " rel="noopener noreferrer">${__("Footer.github")}</a>
+            <a class="Header-navLink nav-link col-12 col-sm-4 col-md-2" href="https://t.me/kleros" target="_blank
+  " rel="noopener noreferrer">${__("Footer.telegram")}</a>
           </div>
         </div>
         <div class="col-12 col-sm-3 mt-5 mt-sm-0">
           <h5 class="row">
-            <div class="col-12">Let's connect.</div>
+            <div class="col-12">${__("Footer.letsConnect")}</div>
           </h5>
           <div class="row">
             <div class="col-12">
@@ -511,7 +525,8 @@
               <a class="Footer-socialLink" href="https://www.facebook.com/kleros.io" target="_blank" rel="noopener noreferrer">
                 <img src="assets/images/facebook.svg" alt="Facebook" class="Footer-socialIcon">
               </a>
-              <a class="Footer-socialLink" href="https://www.linkedin.com/company/kleros" target="_blank" rel="noopener noreferrer">
+              <a class="Footer-socialLink" href="https://www.linkedin.com/company/kleros" target="_blank" rel="noopener
+              noreferrer">
                 <img src="assets/images/linked-in.svg" alt="LinkedIn" class="Footer-socialIcon">
               </a>
               <a class="Footer-socialLink" href="https://medium.com/kleros" target="_blank" rel="noopener noreferrer">
@@ -593,18 +608,18 @@
 
       var days = Math.floor(time / 8.64e+7).toString();
       $days.text(days);
-      if (days === '1') $daysUnit.text('DAY');
-      else $daysUnit.text('DAYS');
+      if (days === '1') $daysUnit.text('${__("Clock.day")}');
+      else $daysUnit.text('${__("Clock.days")}');
 
       var hours = Math.floor((time % 8.64e+7) / 3.6e+6).toString();
       $hours.text(hours);
-      if (hours === '1') $hoursUnit.text('HOUR');
-      else $hoursUnit.text('HOURS');
+      if (hours === '1') $hoursUnit.text('${__("Clock.hour")}');
+      else $hoursUnit.text('${__("Clock.hours")}');
 
       var mins = Math.floor((time % 3.6e+6) / 60000).toString();
       $mins.text(mins);
-      if (mins === '1') $minsUnit.text('MIN');
-      else $minsUnit.text('MINS');
+      if (mins === '1') $minsUnit.text('${__("Clock.min")}');
+      else $minsUnit.text('${__("Clock.mins")}');
     }
 
     updateClocks()

@@ -48,7 +48,10 @@ module.exports = [
           {
             test: /\.css$/,
             use: [
-              'file-loader',
+              {
+                loader: 'file-loader',
+                options: { outputPath: './' }
+              },
               'extract-loader',
               'css-loader',
               {
@@ -61,7 +64,7 @@ module.exports = [
             test: /\.(png|jpe?g|svg|woff|woff2)$/,
             use: {
               loader: 'url-loader',
-              options: { limit: 8192 }
+              options: { limit: 8192, name: './[hash].[ext]' }
             }
           }
         ]
@@ -69,7 +72,7 @@ module.exports = [
 
       plugins: [
         new CleanWebpackPlugin(['./build/']),
-        new I18nPlugin(languages[language]),
+        new I18nPlugin(languages[language], { failOnMissing: true }),
         new ExtractTextPlugin('[name].html'),
         ...(isEnglish
           ? [
