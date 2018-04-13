@@ -24,7 +24,7 @@
 
   "Header.klerosProvides":
     "Kleros обеспечивает быстрый, безопасный и доступный арбитраж практически по любым вопросам.",
-  "Header.onePager": "One Pager",
+  "Header.onePager": "Одностраничный сайт",
   "Header.letsConnect": "Присоединяйтесь!",
 
   "CountDown.title": "Продажа токенов стартует 15 мая 2018.",
@@ -99,6 +99,7 @@
   "Team.legalAdvisor": "ЮРИДИЧЕСКИЙ КОНСУЛЬТАНТ",
   "Team.jeromeDeTychey":
     "ПРЕЗИДЕНТ АССОЦИАЦИИ ASSETH И КЛЮЧЕВОЙ МЕНЕДЖЕР ПО РАБОТЕ С КЛИЕНТАМИ, CONSENSYS",
+  "Team.mitchellLoureiro": "MARKETING ADVISOR",
   "Team.partners": "Партнеры",
 
   "Media.title": "Kleros в СМИ",
