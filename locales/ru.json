@@ -36,6 +36,7 @@
   "HowKlerosWorks.contract.title": "Создание контракта",
   "HowKlerosWorks.contract.description":
     "Пользователи создают интеллектуальный контракт и выбирают Kleros в качестве протокола по вынесению арбитражного решения.",
+  "HowKlerosWorks.dispute.title": "Возникновение спорной ситуации",
   "HowKlerosWorks.dispute.description":
     "Соответствующая информация в зашифрованном виде отправляется в Kleros..",
   "HowKlerosWorks.selection.title": "Выбор жюри",
