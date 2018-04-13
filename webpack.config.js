@@ -17,8 +17,8 @@ const languages = {
 
 const buildDirPath = resolve(__dirname, 'build/')
 
-module.exports = [
-  ...Object.keys(languages).map(language => {
+module.exports = env =>
+  Object.keys(languages).map(language => {
     const isEnglish = language === 'en'
 
     return {
@@ -50,7 +50,11 @@ module.exports = [
             use: [
               {
                 loader: 'file-loader',
-                options: { outputPath: './' }
+                options: {
+                  outputPath: `${
+                    isEnglish ? (env.production ? '' : '.') : '..'
+                  }/`
+                }
               },
               'extract-loader',
               'css-loader',
@@ -64,7 +68,10 @@ module.exports = [
             test: /\.(png|jpe?g|svg|woff|woff2)$/,
             use: {
               loader: 'url-loader',
-              options: { limit: 8192, name: './[hash].[ext]' }
+              options: {
+                limit: 8192,
+                name: `${isEnglish ? '' : '..'}/[hash].[ext]`
+              }
             }
           }
         ]
@@ -83,4 +90,3 @@ module.exports = [
       ]
     }
   })
-]

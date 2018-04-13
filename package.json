@@ -9,14 +9,12 @@
   "scripts": {
     "commitmsg": "kleros-scripts commitmsg",
     "cz": "kleros-scripts cz",
-    "start": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --env.development --mode=development",
+    "build": "webpack --env.production -p --mode=production",
     "deploy": "yarn run build && gh-pages --branch master --dist ./build"
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
+    "extends": ["@commitlint/config-conventional"]
   },
   "devDependencies": {
     "autoprefixer": "^8.2.0",

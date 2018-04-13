@@ -1,9 +1,4 @@
 {
-  "URL.home": "/",
-  "URL.home.team": "/#team",
-  "URL.tokenSale": "/token-sale",
-  "URL.onePager": "/assets/one-pager.pdf",
-
   "tagline": "The Blockchain Dispute Resolution Layer",
   "tokenSale": "Token Sale",
 

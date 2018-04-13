@@ -1,9 +1,4 @@
 {
-  "URL.home": "/id",
-  "URL.home.team": "/id#team",
-  "URL.tokenSale": "/id/token-sale",
-  "URL.onePager": "/id/assets/one-pager.pdf",
-
   "tagline": "The Blockchain Dispute Resolution Layer",
   "tokenSale": "Penjualan Token",
 
