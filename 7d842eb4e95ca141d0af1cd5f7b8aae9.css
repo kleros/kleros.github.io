@@ -115,7 +115,7 @@ p {
   font-weight: 700;
   height: 60px;
   padding: 17px 1.5rem;
-  width: 241px;
+  min-width: 241px;
 }
 
 .btn.btn-secondary {
@@ -614,8 +614,8 @@ p {
   margin-left: -40px;
   margin-right: -40px;
   padding-bottom: 380px;
-  padding-left: 12.75%;
-  padding-right: 12.75%;
+  padding-left: 9.5%;
+  padding-right: 9.5%;
   padding-top: 118px;
   text-align: center;
 }
