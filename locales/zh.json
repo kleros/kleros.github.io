@@ -19,11 +19,11 @@
   "NavBar.whitepaper": "阅读白皮书",
 
   "Header.klerosProvides":
-    " Kleros基本上为所有问题提供快速、安全、可负担的仲裁。",
+    "Kleros 基本上为所有问题提供快速、安全、可负担的仲裁。",
   "Header.onePager": "单页",
   "Header.letsConnect": "让我们连接吧",
 
-  "CountDown.title": " 出售代币（Token Sale）始于2018年5月15日。",
+  "CountDown.title": "出售代币（Token Sale）始于2018年5月15日。",
   "CountDown.signUpForUpdates": "签名",
 
   "Challenge.title": "挑战",
@@ -32,9 +32,9 @@
 
   "Solution.title": "解决",
   "Solution.description":
-    " Kleros沟通需要解决纠纷的用户与拥有解决问题技能的陪审员。解决层使用区块链技术和众包陪审员，以快速、安全、可负担的方式裁决各种争端。",
+    "Kleros沟通需要解决纠纷的用户与拥有解决问题技能的陪审员。解决层使用区块链技术和众包陪审员，以快速、安全、可负担的方式裁决各种争端。",
 
-  "HowKlerosWorks.title": " Kleros如何运作？",
+  "HowKlerosWorks.title": "Kleros 如何运作？",
   "HowKlerosWorks.contract.title": "合约",
   "HowKlerosWorks.contract.description":
     "使用者创立智能合约，选择Kleros作为其裁决协议。",
@@ -72,7 +72,7 @@
   "Pinakion.description":
     "用户担任Kleros陪审员有经济收益，他们在每个陪审团工作中收到相应仲裁费。",
   "Pinakion.info":
-    " Pinakion保护系统免受“女巫攻击”，也激励陪审员诚实投票，让条理混乱的陪审员支付部分其保证金给条例清晰的陪审员。",
+    "Pinakion保护系统免受“女巫攻击”，也激励陪审员诚实投票，让条理混乱的陪审员支付部分其保证金给条例清晰的陪审员。",
   "Pinakion.readMore": "怎样进行？请阅读白皮书",
 
   "Security.title": "用户与陪审员一样的安全",
@@ -80,10 +80,10 @@
     "行贿、攻击、通过智能设计提供用户隐私。对此我们投入一个专门团队进行加密经济学实验，保证我们协议安全。",
 
   "Team.title": "团队",
-  "Team.CEO": "共同创办人，CEO ",
-  "Team.CTO": "共同创办人，CTO ",
+  "Team.CEO": "共同创办人，CEO",
+  "Team.CTO": "共同创办人，CTO",
   "Team.web3Developer": "共同创办人，WEB3开发者",
-  "Team.DAPPDeveloper": " DAPP开发者",
+  "Team.DAPPDeveloper": "DAPP开发者",
   "Team.designLead": "专案",
   "Team.cryptoEconomicsResearcher": "加密经济学研究员",
   "Team.PR": "公共关系",
@@ -91,11 +91,11 @@
   "Team.join": "加入KLEROS团队吧！",
   "Team.advisors": "顾问",
   "Team.legalAdvisor": "法律顾问",
-  "Team.jeromeDeTychey": " ASSETH总裁兼客户经理@CONSENSYS ",
+  "Team.jeromeDeTychey": "ASSETH总裁兼客户经理@CONSENSYS",
   "Team.mitchellLoureiro": "MARKETING ADVISOR",
   "Team.partners": "合作伙伴",
 
-  "Media.title": " Kleros媒体宣传",
+  "Media.title": "Kleros媒体宣传",
   "Media.date4": "2018年4月4日",
   "Media.date3": "2018年3月6日",
   "Media.date2": "2018年3月5日",
@@ -109,7 +109,7 @@
   "Footer.findOutMore": "查找更多。",
   "Footer.FAQ": "快速问答",
   "Footer.github": "Github平台",
-  "Footer.telegram": " Telegram平台",
+  "Footer.telegram": "Telegram平台",
   "Footer.letsConnect": "让我们连接吧",
 
   "Clock.day": "日期",
