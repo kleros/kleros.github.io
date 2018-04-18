@@ -1,0 +1,195 @@
+{
+  "tagline": "A Camada de Resolução de Litígios da Cadeia de Blocos",
+  "tokenSale": "Venda de Tokens",
+
+  "NavBar.home": "Home",
+  "NavBar.team": "Equipa",
+  "NavBar.FAQ": "FAQ",
+  "NavBar.github": "Github",
+  "NavBar.documentation": "Documentação",
+  "NavBar.telegram": "Telegram",
+  "NavBar.language": "Língua",
+  "NavBar.english": "English",
+  "NavBar.french": "Français",
+  "NavBar.spanish": "Español",
+  "NavBar.russian": "Pусский",
+  "NavBar.chinese": "中文",
+  "NavBar.portuguese": "Português",
+  "NavBar.italian": "Italiano",
+  "NavBar.indonesian": "bahasa Indonesia",
+  "NavBar.whitepaper": "Ler o Relatório Técnico",
+
+  "Header.klerosProvides":
+    "A Kleros oferece uma arbitragem rápida, segura e acessível para praticamente tudo.",
+  "Header.onePager": "One Pager",
+  "Header.letsConnect": "Vamos conectar.",
+
+  "CountDown.title": "A venda de Tokens inicia-se a 15 de Março de 2018.",
+  "CountDown.signUpForUpdates": "Subscribe",
+
+  "Challenge.title": "O desafio",
+  "Challenge.description":
+    "Disputas na economia global, digital e descentralizada ocorrem em áreas onde elas não podem ser resolvidas pelos tribunais estatais e pelos métodos existentes de resolução de disputas.",
+
+  "Solution.title": "A Solução",
+  "Solution.description":
+    "O Kleros conecta utilizadores que necessitam de resolver disputas com jurados que tenhas a habilidade de resolvê-las de forma justa. A nossa camada de disputa usa a tecnologia da cadeia de blocos e os jurados de financiamento público para julgar as disputas de maneira rápida, segura e acessível.",
+
+  "HowKlerosWorks.title": "Como funciona o Kleros?",
+  "HowKlerosWorks.contract.title": "Contrato",
+  "HowKlerosWorks.contract.description":
+    "Os utilizadores criam um contrato inteligente e escolhem o Kleros como seu protocolo de adjudicação.",
+  "HowKlerosWorks.dispute.title": "Disputa",
+  "HowKlerosWorks.dispute.description":
+    "A informação relevante é enviada de forma segura para Kleros.",
+  "HowKlerosWorks.selection.title": "Seleção",
+  "HowKlerosWorks.selection.description":
+    "Um tribunal é sorteado da multidão. Os jurados avaliam as evidências e votam.",
+  "HowKlerosWorks.enforcement.title": "Cumprimento",
+  "HowKlerosWorks.enforcement.description":
+    "A decisão é imposta pelo contrato inteligente.",
+  "HowKlerosWorks.crowdsourcing":
+    "O financiamento colaborativo transforma-se num grupo global de jurados.A cadeia de blocos garante integridade e transparência na seleção do júri. A teoria dos jogos fornece incentivos para decisões honestas.",
+
+  "UseCases.title": "Casos de aplicação",
+  "UseCases.arbitration.title": "Arbitragem",
+  "UseCases.arbitration.description":
+    "Um trabalho freelancer é contratado entre duas pessoas que trabalham em continentes cruzados. O serviço não é prestado a um nível satisfatório e um júri de especialistas analisa as evidências, vota, e encontra um veredicto.",
+  "UseCases.socialMedia.title": "Média Social",
+  "UseCases.socialMedia.description":
+    "Um comentário desagradável postado em uma plataforma de média social descentralizada é considerado como tendo quebrado os termos e condições. Os jurados da Kleros decidem deduzir pontos de reputação do utilizador.",
+  "UseCases.gaming.title": "Jogos",
+  "UseCases.gaming.description":
+    "O jogo online é um mercado em crescimento com jogadores estrela. Profissionais exigirão que um grupo altamente qualificado de jurados arbitre disputas, e para a provisão de espaços seguros para jogar.",
+  "UseCases.crowdfunding.title": "Financiamento colaborativo",
+  "UseCases.crowdfunding.description":
+    "Uma startup apoiada por financiamento colaborativo nunca materializa um produto viável. Os fundos são trancados num contrato inteligente de custódia, julgado pelos jurados de Kleros, e são devolvidos aos investidores.",
+  "UseCases.eCommerce.title": "Comércio eletrónico",
+  "UseCases.eCommerce.description":
+    "Um produto comprado on-line não atende ao padrão anunciado. Kleros julga a favor do comprador e um contrato inteligente devolve os fundos.",
+  "UseCases.oracles.title": "Oráculos",
+  "UseCases.oracles.description":
+    "“Choveu em Ulaanbaatar hoje?” Um oráculo preenche a lacuna entre o mundo externo e a cadeia de blocos, permitindo que os contratos inteligentes usem dados do mundo real nos seus resultados.",
+
+  "Pinakion.title": "Token Pinakion (PNK)",
+  "Pinakion.description":
+    "Os utilizadores têm um interesse económico em servir como jurados de Kleros, cobrando a taxa de arbitragem que todo jurado recebe por seu trabalho.",
+  "Pinakion.info":
+    "Pinakion protege o sistema contra ataques 'sybil', enquanto também proporciona aos jurados um incentivo para votar honestamente, fazendo com que os jurados incoerentes paguem parte de seu depósito aos jurados coerentes..",
+  "Pinakion.readMore": "Como? Leia o relatório técnico",
+
+  "Security.title": "Segurança igual para Utilizadores e Jurados",
+  "Security.description":
+    "Resistente a ataques e subornos, oferecendo privacidade ao utilizador através do design inteligente. Temos uma equipe dedicada conduzindo experiência criptográficas para garantir a segurança do nosso protocolo.",
+
+  "Team.title": "Equipa",
+  "Team.CEO": "CO-FUNDADOR, CEO",
+  "Team.CTO": "CO-FUNDADOR, CTO",
+  "Team.web3Developer": "CO-FUNDADOR, DESENVOLVEDOR WEB3",
+  "Team.DAPPDeveloper": "DESENVOLVEDOR DAPP",
+  "Team.designLead": "CHEFE DE DESIGN",
+  "Team.cryptoEconomicsResearcher": "INVESTIGADOR DE ECONOMIA CRYPTO",
+  "Team.PR": "PR",
+  "Team.communityManager": "GESTOR DA COMUNIDADE",
+  "Team.join": "JUNTE-SE À EQUIPA DA KLEROS!",
+  "Team.advisors": "Conselheiros",
+  "Team.legalAdvisor": "CONSELHEIRO JURÍDICO",
+  "Team.jeromeDeTychey":
+    "PRESIDENT OF ASSETH AND KEY ACOUNT MANAGER @CONSENSYS",
+  "Team.mitchellLoureiro": "CONSELHEIRO DE MARKETING",
+  "Team.partners": "Parceiros",
+
+  "Media.title": "Kleros nos Média",
+  "Media.date5": "16 de Abril, 2018",
+  "Media.date4": "4 de Abril, 2018",
+  "Media.date3": "6 de Março, 2018",
+  "Media.date2": "5 de Março, 2018",
+  "Media.date1": "23 de Janeiro, 2018",
+  "Media.readMore": "Ler mais",
+
+  "Footer.signUp": "Increva-se para receber as nossas últimas atualizações",
+  "Footer.quote":
+    "“Quem controla os tribunais, controla o estado”. Aristóteles.",
+  "Footer.signUpButton": "Inscrever-se",
+  "Footer.privacy":
+    "Valorizamos sua privacidade e nunca compartilharemos seu email com terceiros.",
+  "Footer.findOutMore": "Descubra mais.",
+  "Footer.FAQ": "FAQ",
+  "Footer.github": "Github",
+  "Footer.telegram": "Telegram",
+  "Footer.letsConnect": "Vamo-nos conectar.",
+
+  "Clock.day": "DIA",
+  "Clock.days": "DIAS",
+  "Clock.hour": "HORA",
+  "Clock.hours": "HORAS",
+  "Clock.min": "MIN",
+  "Clock.mins": "MINS",
+
+  "TokenSaleHeader.welcome": "Bem-vindo à",
+  "TokenSaleHeader.title": "venda de Token Kleros!",
+  "TokenSaleHeader.announcement": "Anúncio",
+  "TokenSaleHeader.startsOn": "Venda de Tokens começa a 15 de Maio:",
+
+  "TokenSalePinakion.title": "Token Pinakion (PNK)",
+  "TokenSalePinakion.description":
+    "Os utilizadores têm um interesse econômico em servir como jurados de Kleros, cobrando a taxas de arbitragem que todos os jurados receben pelo seu trabalho.",
+  "TokenSalePinakion.info":
+    "Pinakion protege o sistema contra ataques 'sybil', ao mesmo tempo que proporciona aos jurados um incentivo para votar honestamente, fazendo com que os jurados incoerentes paguem parte de seu depósito a jurados coerentes.",
+  "TokenSalePinakion.readMore": "Como? Leia o relatório técnico",
+
+  "IICOInfo.title": "Oferta de Moedas Interactiva",
+  "IICOInfo.description":
+    "A venda de tokens da Kleros usará o novo método recomendado pela Vitalik Buterin para distribuir tokens de maneira justa.",
+  "IICOInfo.readThePaper":
+    "Leia o artigo sobre a Oferta Interativa de Moedas da Vitalik aqui.",
+  "IICOInfo.distribution.title": "Distribuição",
+  "IICOInfo.distribution.description":
+    "1 bilhão de PNK será criado e distribuído de maneira justa usando a OIM (IICO).",
+  "IICOInfo.KYC.title": "KYC (Conheça o seu cliente)",
+  "IICOInfo.KYC.description":
+    "Fizemos uma parceria com a Consensys para fornecer um processo KYC (conheça o seu cliente) seguro, estável e eficiente.",
+
+  "IICOVideo.title":
+    "Clique abaixo para assistir a uma demonstração funcional do nosso protocolo de arbitragem.",
+  "IICOVideo.description":
+    "Estamos a caminho de um sistema de trabalho escalável, seguro e justo para todos.",
+
+  "TokenDistribution.supply.label": "Fornecimento de tokens total:",
+  "TokenDistribution.supply.amount": "1,000,000,000 PNK",
+  "TokenDistribution.team": "Membros da Equipa",
+  "TokenDistribution.firstRound": "Primeira ronda de venda do Token",
+  "TokenDistribution.subsequentRounds":
+    "Rondas subsequentes e programas de incentivo a jurados",
+  "TokenDistribution.coop": "Reserva Kleros para desenvolvimento cooperativo",
+  "TokenDistribution.info.first":
+    "Os fundadores e os primeiros membros da equipa não podem vender todas as suas atribuições de token até que um período de três anos de trabalho com a Kleros tenha passado.",
+  "TokenDistribution.info.second":
+    "No primeiro evento de distribuição do token, 16% dos tokens serão vendidos ao público. Os outros 50% serão vendidos no futuro, conforme a equipa atinja os marcos do desenvolvimento do projeto e para programas de incentivo aos jurados.",
+
+  "TokenSaleRoadmap.title": "Mecânica da venda de Token",
+  "TokenSaleRoadmap.whatIsAnIICO.title": "O que é uma OIM (IICO)?",
+  "TokenSaleRoadmap.whatIsAnIICO.info.first":
+    "A Oferta Interactiva de Moeda (OIM) é um novo protocolo defendido por Vitalik Buterin, Jason Teutsch e Christopher Brown para tornar as vendas de Tokens mais igualitárias. Permite que cada colaborador escolha um valor para licitar e um “limite pessoal” no total da valoração.",
+  "TokenSaleRoadmap.whatIsAnIICO.info.second":
+    "O valor do token será determinado pelo mercado, após várias rondas em que os participantes farão lances e ajustarão as suas ofertas. Isso proporciona certeza de participação e valoração para todas as partes, independentemente do tamanho.",
+  "TokenSaleRoadmap.howCanIGetABonus.title": "Como posso obter um Bónus?",
+  "TokenSaleRoadmap.howCanIGetABonus.info":
+    "A Kleros não fez uma pré-venda de tokens nem vendeu tokens com taxa de desconto. No entanto, como forma de incentivar a formação de preços, a Oferta Interativa de Moedas premeia os participantes que fazem sua contribuição no início da venda. Os compradores que comprarem Tokens mais cedo receberão um bónus de 20%. O bónus diminui suavemente para 10% no início do bloqueio de levantamento e depois para 0% no fim da venda pública.",
+  "TokenSaleRoadmap.roadmap.title": "Roteiro",
+  "TokenSaleRoadmap.legal.title": "Jurídico",
+  "TokenSaleRoadmap.legal.info.first":
+    "Kleros será incorporado como um tipo de empresa social francesa, chamado de \"empresa cooperativa de interesse público\" or SCIC (sociétés coopératives d’intérêt collectif). Esta empresa cooperativa e direcionada para a comunidade opera sob a jurisdição francesa e permite partilhar a gestão do projeto e evitar a compra comercial por outra empresa ou concorrente.",
+  "TokenSaleRoadmap.legal.info.second":
+    "Esta entidade jurídica garante que a totalidade dos fundos produzidos na venda de tokens será utilizada para o desenvolvimento do projeto. Os fundadores não estão legalmente autorizados a distribuir fundos sob a forma de dividendos.",
+  "TokenSaleRoadmap.expenses.title": "Despesas esperadas",
+  "TokenSaleRoadmap.expenses.product": "Desenvolvimento do Produto",
+  "TokenSaleRoadmap.expenses.research": "Pesquisa",
+  "TokenSaleRoadmap.expenses.ecosystem": "Desenvolvimento do ecosistema",
+  "TokenSaleRoadmap.expenses.communication": "Comunicação",
+  "TokenSaleRoadmap.expenses.operations": "Operações &amp; Jurídico",
+
+  "GetToKnowTeam.title": "Conheça a nossa equipa.",
+  "GetToKnowTeam.description":
+    "Faça-nos perguntas e colabore no desenvolvimento da Kleros."
+}
