@@ -26,7 +26,8 @@ module.exports = env =>
       entry: {
         index: './src/index.html',
         'token-sale': './src/token-sale.html',
-        jurors: './src/jurors.html'
+        jurors: './src/jurors.html',
+        cooperative: './src/cooperative.html'
       },
 
       output: {
