@@ -21,7 +21,7 @@
 
   "Header.klerosProvides":
     "A Kleros oferece uma arbitragem rápida, segura e acessível para praticamente tudo.",
-  "Header.onePager": "One Pager",
+  "Header.onePager": "One Paper",
   "Header.letsConnect": "Vamos conectar.",
 
   "CountDown.title": "A venda de Tokens inicia-se a 15 de Março de 2018.",
@@ -73,7 +73,7 @@
 
   "Pinakion.title": "Token Pinakion (PNK)",
   "Pinakion.description":
-    "Os utilizadores têm um interesse económico em servir como jurados de Kleros, cobrando a taxa de arbitragem que todo jurado recebe por seu trabalho.",
+    "Os utilizadores têm interesse económico em servir como jurados de Kleros, cobrando a taxa de arbitragem que todo jurado recebe por seu trabalho.",
   "Pinakion.info":
     "Pinakion protege o sistema contra ataques 'sybil', enquanto também proporciona aos jurados um incentivo para votar honestamente, fazendo com que os jurados incoerentes paguem parte de seu depósito aos jurados coerentes..",
   "Pinakion.readMore": "Como? Leia o relatório técnico",
@@ -133,7 +133,7 @@
 
   "TokenSalePinakion.title": "Token Pinakion (PNK)",
   "TokenSalePinakion.description":
-    "Os utilizadores têm um interesse econômico em servir como jurados de Kleros, cobrando a taxas de arbitragem que todos os jurados receben pelo seu trabalho.",
+    "Os utilizadores tem interesse económico em servir como jurados de Kleros, cobrando a taxas de arbitragem que todos os jurados recebem pelo seu trabalho.",
   "TokenSalePinakion.info":
     "Pinakion protege o sistema contra ataques 'sybil', ao mesmo tempo que proporciona aos jurados um incentivo para votar honestamente, fazendo com que os jurados incoerentes paguem parte de seu depósito a jurados coerentes.",
   "TokenSalePinakion.readMore": "Como? Leia o relatório técnico",
@@ -155,7 +155,7 @@
   "IICOVideo.description":
     "Estamos a caminho de um sistema de trabalho escalável, seguro e justo para todos.",
 
-  "TokenDistribution.supply.label": "Fornecimento de tokens total:",
+  "TokenDistribution.supply.label": "Fornecimento total de tokens:",
   "TokenDistribution.supply.amount": "1,000,000,000 PNK",
   "TokenDistribution.team": "Membros da Equipa",
   "TokenDistribution.firstRound": "Primeira ronda de venda do Token",

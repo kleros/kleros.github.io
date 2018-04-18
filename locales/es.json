@@ -133,9 +133,9 @@
 
   "TokenSalePinakion.title": "Pinakion Token (PNK)",
   "TokenSalePinakion.description":
-    "Users have an economic interest in serving as Kleros jurors by collecting the arbitration fee that every juror receives for their work.",
+    "PNK provides jurors an incentive to vote honestly. Users trying to game the system will lose money.",
   "TokenSalePinakion.info":
-    "Pinakion protects the system from sybil attacks, while also providing jurors an incentive to vote honestly by making incoherent jurors pay part of their deposit to coherent jurors.",
+    "Pinakion protects the system from sybil attacks, while also providing jurors an incentive to vote honestly.",
   "TokenSalePinakion.readMore": "How? Read the white paper",
 
   "IICOInfo.title": "Interactive Coin Offering",
