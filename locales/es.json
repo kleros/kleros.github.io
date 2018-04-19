@@ -126,70 +126,70 @@
   "Clock.min": "MIN",
   "Clock.mins": "MINS",
 
-  "TokenSaleHeader.welcome": "Welcome to the",
-  "TokenSaleHeader.title": "Kleros Token Sale!",
-  "TokenSaleHeader.announcement": "Announcement",
-  "TokenSaleHeader.startsOn": "Token sale starts on May 15:",
+  "TokenSaleHeader.welcome": "Bienvenidos al",
+  "TokenSaleHeader.title": "sitio de venta de tokens de Kleros!",
+  "TokenSaleHeader.announcement": "Anuncio",
+  "TokenSaleHeader.startsOn": "La venta de tokens comienza el 15 de mayo:",
 
-  "TokenSalePinakion.title": "Pinakion Token (PNK)",
+  "TokenSalePinakion.title": "Token Pinakion (PNK)",
   "TokenSalePinakion.description":
-    "PNK provides jurors an incentive to vote honestly. Users trying to game the system will lose money.",
+    "Los usuarios tienen un interés económico en actuar como jurados en Kleros: ganar los honorarios de arbitraje que cada jurado recibe por su trabajo.",
   "TokenSalePinakion.info":
-    "Pinakion protects the system from sybil attacks, while also providing jurors an incentive to vote honestly.",
-  "TokenSalePinakion.readMore": "How? Read the white paper",
+    "El PNK protege al sistema del ataque sybil, al mismo tiempo que ofrece a los jurados un incentivo a votar honestamente.",
+  "TokenSalePinakion.readMore": "Como? Lee el white paper",
 
-  "IICOInfo.title": "Interactive Coin Offering",
+  "IICOInfo.title": "Oferta de Tokens Interactiva",
   "IICOInfo.description":
-    "Kleros token sale will use the new method recommended by Vitalik Buterin to distribute tokens in a fair way.",
+    "La venta pública de Kleros utilizará el nuevo método recomendado por Vitalik Buterin para distribuir los tokens de una manera egalitaria.",
   "IICOInfo.readThePaper":
-    "Read Vitalik’s Interactive Coin Offering paper here.",
+    "Lee el paper de Vitalik del Interactive Coin Offering aquí.",
   "IICOInfo.distribution.title": "Distribution",
   "IICOInfo.distribution.description":
-    "1 billion PNK will be created and distributed in a fair manner using the IICO.",
+    "1000 millones de PNK serán distribuidos de manera egalitaria a través del IICO.",
   "IICOInfo.KYC.title": "KYC",
   "IICOInfo.KYC.description":
-    "We’ve partnered with Consensys to provide a secure, stable and efficient KYC process.",
+    "Nos hemos asociado con Consensys para desarrollar un proceso de KYC seguro, estable y eficiente.",
 
   "IICOVideo.title":
-    "Click below to watch a working demo of our arbitration protocol.",
+    "Mira una demo de nuestro protocolo de arbitraje.",
   "IICOVideo.description":
-    "We’re well on our way to a working system which will be scalable, secure and fair for all.",
+    "Estamos avanzando en la construcción de un sistema seguro, escalable y justo para todos.",
 
   "TokenDistribution.supply.label": "Total token supply:",
   "TokenDistribution.supply.amount": "1,000,000,000 PNK",
-  "TokenDistribution.team": "Team Members",
-  "TokenDistribution.firstRound": "First Round of Token Sale",
+  "TokenDistribution.team": "Miembros del Equipo",
+  "TokenDistribution.firstRound": "Primera Ronda de la Venta de Tokens",
   "TokenDistribution.subsequentRounds":
-    "Subsequent Rounds and Juror Incentive Programs",
-  "TokenDistribution.coop": "Kleros Cooperative Development Reserve",
+    "Siguientes Rondas y Programa de Incentivo de Jurados",
+  "TokenDistribution.coop": "Fondo de Desarrollo para la Cooperativa Kleros",
   "TokenDistribution.info.first":
-    "Founders and early team members are unable to sell all of their token allocation until a three year period of working with Kleros has passed.",
+    "Los fundadores y miembros iniciales del equipo no pueden vender la totalidad de su asignación de tokens hasta después de tres años de comenzado su trabajo en Kleros.",
   "TokenDistribution.info.second":
-    "In the first token distribution event, 16% of tokens will be sold to the public. The other 50% will be sold in the future as the team reaches milestones in project development and for juror incentive programs.",
+    "En la primera venta pública, será vendido al público el 16% de los tokens. El restante 50% será vendido en el futuro a medida que el equipo alcanza metas en el desarrollo del proyecto, y también será utilizado en el Programa de Incentivo de Jurados.",
 
-  "TokenSaleRoadmap.title": "Token Sale Mechanics",
-  "TokenSaleRoadmap.whatIsAnIICO.title": "What's an IICO?",
+  "TokenSaleRoadmap.title": "Mecánica de la Venta Pública",
+  "TokenSaleRoadmap.whatIsAnIICO.title": "¿Qué es un IICO?",
   "TokenSaleRoadmap.whatIsAnIICO.info.first":
-    "The Interactive Coin Offering (IICO) is a new protocol advocated by Vitalik Buterin, Jason Teutsch and Christopher Brown to make token sales more egalitarian. It lets each contributor choose an amount to bid and a “personal cap” on the total valuation.",
+    "La Oferta de Tokens Interactiva (IICO) es un nuevo protocolo desarrollado por Vitalik Buterin, Jason Teutsch y Christopher Brown para hacer que las ventas de tokens sean más equitativas. Permite a cada participante elegir su oferta y establecer un límite personal a la valuación total.",
   "TokenSaleRoadmap.whatIsAnIICO.info.second":
-    "The value of the token will be determined by the market, following a number of rounds where participants will make bids and adjust their caps. This provides certainty of participation and valuation to all parties, no matter their size.",
-  "TokenSaleRoadmap.howCanIGetABonus.title": "How can I get a bonus?",
+    "El valor del token es determinado por el mercado, siguiendo una serie de rondas donde los participantes realizan ofertas y ajustan sus límites personales. Esto provee certeza de participación y valuación a todos los participantes, sin importar su tamaño.",
+  "TokenSaleRoadmap.howCanIGetABonus.title": "¿Cómo puedo obtener un bonus?",
   "TokenSaleRoadmap.howCanIGetABonus.info":
-    "Kleros has not done a token pre-sale nor sold tokens at discounted rate. However, as a way to incentivize price formation, the Interactive Coin Offering rewards participants who make their contribution early in the sale. Buyers who purchase tokens early will receive a 20% bonus. The bonus decreases smoothly down to 10% at the beginning of the withdrawal lock, and then goes to 0% by the end of the crowdsale.",
+    "Kleros no desarrolló preventa ni vendió tokens con descuento a compradores privados. Sin embargo, como una forma de incentivar la formación de precios, la Oferta de Tokens Interactiva recompensa a quienes participan en una etapa temprana de la venta. Los compradores que participen al comienzo reciben un bonus del 20%. El bonus decrece suavemente hasta 10% al comienzo del período de bloqueo, y llega a 0% al final de la venta.",
   "TokenSaleRoadmap.roadmap.title": "Roadmap",
   "TokenSaleRoadmap.legal.title": "Legal",
   "TokenSaleRoadmap.legal.info.first":
-    "Kleros will be incorporated as a French type of social enterprise, called a \"cooperative company of public interest\" or SCIC (sociétés coopératives d’intérêt collectif). This cooperative and community-oriented company operates under French jurisdiction and makes it possible to share the governance of the project and avoid commercial buyout by another company or a competitor.",
+    "Kleros está incorporada como un tipo de empresa social bajo jurisdicción francesa llamada Sociétés Coopératives d’Intérêt Collectif. Esta estructura jurídica permite compartir el gobierno del proyecto con la comunidad.",
   "TokenSaleRoadmap.legal.info.second":
-    "This legal entity makes sure that the totality of funds produced in the token sale will be used for the development of the project. Founders are not legally allowed to distribute funds under the form of dividends.",
-  "TokenSaleRoadmap.expenses.title": "Expected Expenses",
-  "TokenSaleRoadmap.expenses.product": "Product Development",
-  "TokenSaleRoadmap.expenses.research": "Research",
-  "TokenSaleRoadmap.expenses.ecosystem": "Ecosystem Development",
-  "TokenSaleRoadmap.expenses.communication": "Communication",
-  "TokenSaleRoadmap.expenses.operations": "Operations &amp; Legal",
+    "También garantiza que la totalidad de los fondos producto de la venta pública sean utilizados para el desarrollo del proyecto. Los fundadores no tienen la autoridad legal de distribuir los fondos bajo la forma de dividendos.",
+  "TokenSaleRoadmap.expenses.title": "Gastos Esperados",
+  "TokenSaleRoadmap.expenses.product": "Desarrollo de Producto",
+  "TokenSaleRoadmap.expenses.research": "Investigación",
+  "TokenSaleRoadmap.expenses.ecosystem": "Desarrollo del Ecosistema",
+  "TokenSaleRoadmap.expenses.communication": "Comunicación",
+  "TokenSaleRoadmap.expenses.operations": "Operaciones &amp; Legal",
 
-  "GetToKnowTeam.title": "Get to know our team.",
+  "GetToKnowTeam.title": "Conoce nuestro equipo.",
   "GetToKnowTeam.description":
-    "Ask questions and contribute to the development of Kleros."
+    "Preguntanos algo y contribuye al desarrollo de Kleros."
 }
