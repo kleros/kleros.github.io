@@ -1,0 +1,192 @@
+{
+  "tagline": "블록체인 논쟁 결의 단계",
+  "tokenSale": "토큰 세일",
+
+  "NavBar.home": "홈",
+  "NavBar.team": "팀",
+  "NavBar.FAQ": "FAQ",
+  "NavBar.github": "Github",
+  "NavBar.documentation": "문서",
+  "NavBar.telegram": "텔레그램",
+  "NavBar.language": "언어",
+  "NavBar.english": "English",
+  "NavBar.french": "Français",
+  "NavBar.spanish": "Español",
+  "NavBar.russian": "Pусский",
+  "NavBar.chinese": "中文",
+  "NavBar.korean": "한국어",
+  "NavBar.portuguese": "Português",
+  "NavBar.italian": "Italiano",
+  "NavBar.indonesian": "bahasa Indonesia",
+  "NavBar.whitepaper": "백서 읽기",
+
+  "Header.klerosProvides":
+    "Kleros는 사실상 모든 것을 위해 빠르고 안전하며 합리적인 중재를 제공합니다.",
+  "Header.onePager": "One Pager",
+  "Header.letsConnect": "연결해봅시다.",
+
+  "CountDown.title": "토큰 세일은 2018년 5월 15일에 시작됩니다.",
+  "CountDown.signUpForUpdates": "구독",
+
+  "Challenge.title": "도전",
+  "Challenge.description":
+    "글로벌, 디지털, 분산형 경제의 논쟁은 주법원과 기존 논쟁 해결 방법으로는 해결할 수 없는 영역에서 발생합니다.",
+
+  "Solution.title": "솔루션",
+  "Solution.description":
+    "Kleros는 분쟁을 해결해야 하는 사용자와 공정하게 해결할 수 있는 기술을 가지고 있는 배심원과 연결합니다. 우리의 해결 계층은 빠르고 안전하며 합리적인 방법으로 블록체인 기술과 크라우드소스 배심원을 사용하여 분쟁을 판정합니다.",
+
+  "HowKlerosWorks.title": "Kleros는 어떻게 작동하나요?",
+  "HowKlerosWorks.contract.title": "컨트랙트",
+  "HowKlerosWorks.contract.description":
+    "사용자는 스마트 컨트랙트를 만들고 중재 프로토콜로 Kleros를 선택합니다.",
+  "HowKlerosWorks.dispute.title": "분쟁",
+  "HowKlerosWorks.dispute.description":
+    "관련 정보는 Kleros에 안전하게 전송되었습니다.",
+  "HowKlerosWorks.selection.title": "선택",
+  "HowKlerosWorks.selection.description":
+    "재판소는 크라우드에서 가져옵니다. 배심원은 증거를 평가하고 투표를 던집니다.",
+  "HowKlerosWorks.enforcement.title": "시행",
+  "HowKlerosWorks.enforcement.description":
+    "이 결정은 스마트 컨트랙트로 시행됩니다.",
+  "HowKlerosWorks.crowdsourcing":
+    "크라우드소싱은 배심원의 글로벌 풀에 다가갑니다. 블록체인은 배심원 선정 시 증거의 완전성과 투명성을 보장합니다. 게임 이론은 정직한 판결에 인센티브를 제공합니다.",
+
+  "UseCases.title": "유스 케이스",
+  "UseCases.arbitration.title": "중재",
+  "UseCases.arbitration.description":
+    "프리랜서 일은 대륙을 가로질러서 일하는 두 사람 사이의 계약으로 이루어집니다. 이러한 서비스는 만족스러운 표준으로 제공되지 않으므로 전문 심사위원이 증거와 투표를 분석하고 평결을 찾습니다.",
+  "UseCases.socialMedia.title": "소셜 미디어",
+  "UseCases.socialMedia.description":
+    "분산형 소셜 미디어 플랫폼에 게시된 불쾌한 의견은 이용 약관을 위반한 것으로 간주됩니다. Kleros 배심원은 사용자의 평판 포인트를 차감합니다.",
+  "UseCases.gaming.title": "게이밍",
+  "UseCases.gaming.description":
+    "온라인 게이밍은 슈퍼스타 플레이어와 함께 성장하는 시장입니다. 전문가들은 분쟁을 중재하고 게임을 할 수 있는 안전한 공간을 준비하기 하기 위해 고도로 숙련된 배심원단을 필요로 합니다.",
+  "UseCases.crowdfunding.title": "크라우드펀딩",
+  "UseCases.crowdfunding.description":
+    "크라우드펀딩에 의해 뒷받침되는 신생 회사는 실행 가능한 제품을 절대 구현하지 않습니다. 펀드는 Kleros 배심원에 의해 판결된 스마트 컨트랙트 에스크로에 고정되어 투자자에게 반환됩니다.",
+  "UseCases.eCommerce.title": "전자 상거래",
+  "UseCases.eCommerce.description":
+    "온라인으로 구입한 제품은 광고된 표준을 충족하지 않습니다. Kleros는 구매자에게 유리하게 판결을 내리며 스마트 컨트랙트는 자금을 반환합니다.",
+  "UseCases.oracles.title": "오라클",
+  "UseCases.oracles.description":
+    "\"오늘 울란바토르에 비가 내렸나요?\" 오라클(oracle)은 바깥 세상과 블록체인 사이 간에 틈을 연결하며, 스마트 컨트랙트를 이들의 결과에 있는 실제 세계 데이터로 사용합니다.",
+
+  "Pinakion.title": "Pinakion 토큰 (PNK)",
+  "Pinakion.description":
+    "사용자는 모든 배심원이 이들의 업무로 받는 중재 수수료를 수집하여 Kleros 배심원의 역할을 하는 것에서 경제적 이익을 얻습니다.",
+  "Pinakion.info":
+    "Pinakion은 시스템을 Sybil 공격으로부터 보호하면서, 일관성 없는 배심원에게 이들의 예치금 중 일부를 일관성 있는 배심원에게 지불하게 함으로써 정직하게 투표하도록 배심원에게 인센티브를 제공합니다.",
+  "Pinakion.readMore": "방법이 궁금한가요? 백서를 읽어보세요.",
+
+  "Security.title": "사용자와 배심원에게 동등한 보안",
+  "Security.description":
+    "뇌물 및 공격에 저항하면서 지능형 디자인을 통해 사용자의 개인 정보 보호를 제공합니다. 우리는 프로토콜의 안전성을 보장하기 위해 암호 경제 실험을 수행하는 전담팀을 운영하고 있습니다.",
+
+  "Team.title": "팀",
+  "Team.CEO": "공동 설립자, CEO",
+  "Team.CTO": "공동 설립자, CTO",
+  "Team.web3Developer": "공동 설립자, WEB3 개발자",
+  "Team.DAPPDeveloper": "DAPP 개발자",
+  "Team.designLead": "디자인 리드",
+  "Team.cryptoEconomicsResearcher": "암호 경제 연구원",
+  "Team.PR": "PR",
+  "Team.communityManager": "커뮤니티 관리자",
+  "Team.join": "KLEROS 팀에 참여하세요!",
+  "Team.advisors": "고문",
+  "Team.legalAdvisor": "법률 고문",
+  "Team.jeromeDeTychey": "자산 대표 및 주요 계정 담당자 @CONSENSYS",
+  "Team.mitchellLoureiro": "마케팅 고문",
+  "Team.partners": "파트너",
+
+  "Media.title": "미디어의 Kleros",
+  "Media.date5": "2018년 4월 16일",
+  "Media.date4": "2018년 4월 4일",
+  "Media.date3": "2018년 3월 6일",
+  "Media.date2": "2018년 5월 5일",
+  "Media.date1": "2018년 1월 23일",
+  "Media.readMore": "더 읽기",
+
+  "Footer.signUp": "우리의 최신 업데이트를 받으려면 가입하세요",
+  "Footer.quote": "“법정을 통제하는 사람이 주를 통제한다”. 아리스토텔레스.",
+  "Footer.signUpButton": "가입",
+  "Footer.privacy":
+    "우리는 귀하의 개인 정보를 귀중하게 여기며 제3자와 이메일을 절대 공유하지 않습니다.",
+  "Footer.findOutMore": "더 알아보기.",
+  "Footer.FAQ": "FAQ",
+  "Footer.github": "Github",
+  "Footer.telegram": "텔레그램",
+  "Footer.letsConnect": "연결해봅시다.",
+
+  "Clock.day": "일",
+  "Clock.days": "일",
+  "Clock.hour": "시",
+  "Clock.hours": "시",
+  "Clock.min": "분",
+  "Clock.mins": "분",
+
+  "TokenSaleHeader.welcome": "Kleros 토큰 세일에",
+  "TokenSaleHeader.title": "오신 걸 환영합니다!",
+  "TokenSaleHeader.announcement": "공고",
+  "TokenSaleHeader.startsOn": "토큰 세일은 5월 15일에 시작합니다:",
+
+  "TokenSalePinakion.title": "Pinakion 토큰 (PNK)",
+  "TokenSalePinakion.description":
+    "사용자는 모든 배심원이 자신의 업무로 받는 중재 수수료를 수집하여 Kleros 배심원의 역할을 하는 것으로 경제적 이익을 얻습니다.",
+  "TokenSalePinakion.info":
+    "Pinakion은 시스템을 Sybil 공격으로부터 보호하고 배심원들에게 일관성 있는 배심원에게 보증금의 일부를 지불함으로써 정직하게 표결에 대한 인센티브를 제공합니다.",
+  "TokenSalePinakion.readMore": "방법이 궁금한가요? 백서를 읽어보세요.",
+
+  "IICOInfo.title": "상호적인 코인 제의",
+  "IICOInfo.description":
+    "Kleros 토큰 판매는 공정한 방법으로 토큰을 배포하기 위해 Vitalik Buterin이 권장하는 새로운 방법을 사용합니다.",
+  "IICOInfo.readThePaper":
+    "여기에서 Vitalik의 상호적인 코인 제의 페이퍼를 읽어보세요.",
+  "IICOInfo.distribution.title": "분포",
+  "IICOInfo.distribution.description":
+    "10억 개의 PNK가 IICO를 사용하여 공정한 방식으로 생성 및 배포됩니다.",
+  "IICOInfo.KYC.title": "KYC",
+  "IICOInfo.KYC.description":
+    "우리는 안전하고 안정적이며 효율적인 KYC 프로세스를 제공하기 위해 Consensys와 파트너십을 맺었습니다.",
+
+  "IICOVideo.title": "아래를 클릭하여 중재 프로토콜의 데모를 시청하세요.",
+  "IICOVideo.description":
+    "우리는 확장성, 안전성 및 모든 사람에게 공정한 작업 시스템으로 나아가고 있습니다.",
+
+  "TokenDistribution.supply.label": "총 토큰 공급량:",
+  "TokenDistribution.supply.amount": "1,000,000,000 PNK",
+  "TokenDistribution.team": "팀원",
+  "TokenDistribution.firstRound": "토큰 판매의 첫 라운드",
+  "TokenDistribution.subsequentRounds":
+    "후속 라운드 및 배심원 인센티브 프로그램",
+  "TokenDistribution.coop": "Kleros 협동 개발 리저브",
+  "TokenDistribution.info.first":
+    "창립자와 초기 팀원은 Kleros와의 3년간의 작업이 끝날 때까지 이들의 모든 토큰 할당을 판매할 수 없습니다.",
+  "TokenDistribution.info.second":
+    "첫 토큰 배포 이벤트에서 토큰 중 16%는 일반인에게 판매됩니다. 나머지 50%는 프로젝트 개발 및 배심원 인센티브 프로그램에 있는 이정표를 달성함에 따라 향후에 판매될 예정됩니다.",
+
+  "TokenSaleRoadmap.title": "토큰 판매 매커닉",
+  "TokenSaleRoadmap.whatIsAnIICO.title": "IICO가 무엇인가요?",
+  "TokenSaleRoadmap.whatIsAnIICO.info.first":
+    "상호적인 코인 제의(IICO)는 Vitalik Buterin, Jason Teutsch 및 Christopher Brown이 지지하는 새로운 프로토콜이며 토큰 판매를 더욱 평등하게 합니다. 이는 각 참여자가 입찰할 가격과 전체 가격에 \"개인 캡\"을 선택하게 합니다.",
+  "TokenSaleRoadmap.whatIsAnIICO.info.second":
+    "토큰값은 참가자가 입찰하고 캡을 조정하는 라운드 횟수에 따라 시장에 의해 결정됩니다. 이는 규모에 상관없이 모든 당사자에게 참여와 평가의 확실성을 제공합니다.",
+  "TokenSaleRoadmap.howCanIGetABonus.title": "보너스는 어떻게 받나요?",
+  "TokenSaleRoadmap.howCanIGetABonus.info":
+    "Kleros는 토큰 사전 판매를 하지 않았으며 토큰을 할인된 가격으로 판매하지도 않았습니다. 하지만, 가격 형성을 장려하는 방법으로 상호적인 코인 오퍼링은 판매 초기에 기여한 참가자에게 보상을 제공합니다. 토큰을 일찍 구매한 구매자는 20%의 보너스가 지급됩니다. 보너스는 인출 시작 시 10%로 부드럽게 줄어들며, 크라우드 세일이 끝날 때까지 0%가 됩니다.",
+  "TokenSaleRoadmap.roadmap.title": "로드맵",
+  "TokenSaleRoadmap.legal.title": "법률",
+  "TokenSaleRoadmap.legal.info.first":
+    "Kleros는 \"공익의 협동 조합\" 또는 SCIC (sociétés coopératives d’intérêt collectif)라고 불리는 프랑스의 사회적 기업으로 통합될 것입니다. 이 협업 및 커뮤니티 지향 회사는 프랑스 관할 하에 운영되며 프로젝트의 관리를 공유하고 다른 회사 또는 경쟁 업체가 상업적 매수를 피할 수 있게 합니다.",
+  "TokenSaleRoadmap.legal.info.second":
+    "이 법인은 토큰 매매에 생산된 자금의 총액이 프로젝트 개발에 사용될 것임을 확신합니다. 창업자는 합법적으로 배당금 형태로 자금을 분배할 수 없습니다.",
+  "TokenSaleRoadmap.expenses.title": "예상 비용",
+  "TokenSaleRoadmap.expenses.product": "제품 개발",
+  "TokenSaleRoadmap.expenses.research": "연구",
+  "TokenSaleRoadmap.expenses.ecosystem": "에코시스템 개발",
+  "TokenSaleRoadmap.expenses.communication": "커뮤니케이션",
+  "TokenSaleRoadmap.expenses.operations": "운영 &amp; 법률",
+
+  "GetToKnowTeam.title": "우리 팀에 대해 알아보세요.",
+  "GetToKnowTeam.description": "Kleros에 관해 질문하고 개발에 기여하세요."
+}
