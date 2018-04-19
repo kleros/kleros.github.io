@@ -1094,6 +1094,11 @@ p {
   background: #052e69;
 }
 
+.TokenSaleHeader-bannerRow {
+  align-items: center;
+  justify-content: space-between;
+}
+
 .TokenSaleHeader-btn-announcement {
   background-color: #fff;
   border: none;
