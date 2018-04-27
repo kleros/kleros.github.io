@@ -161,6 +161,7 @@
   "TokenDistribution.supply.amount": "1 000 000 000 PNK",
   "TokenDistribution.team": "Участники команды",
   "TokenDistribution.firstRound": "Первый этап продажи токенов",
+  "TokenDistribution.airdrop": "Airdrop",
   "TokenDistribution.subsequentRounds":
     "Последующие этапы инвестирования и программа поощрения участников жюри",
   "TokenDistribution.coop": "Кооперативный девелоперский резерв Kleros",

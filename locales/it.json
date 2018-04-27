@@ -161,6 +161,7 @@
   "TokenDistribution.supply.amount": "1,000,000,000 PNK",
   "TokenDistribution.team": "Team Members",
   "TokenDistribution.firstRound": "First Round of Token Sale",
+  "TokenDistribution.airdrop": "Airdrop",
   "TokenDistribution.subsequentRounds":
     "Subsequent Rounds and Juror Incentive Programs",
   "TokenDistribution.coop": "Kleros Cooperative Development Reserve",

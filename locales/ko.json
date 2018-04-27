@@ -157,6 +157,7 @@
   "TokenDistribution.supply.amount": "1,000,000,000 PNK",
   "TokenDistribution.team": "팀원",
   "TokenDistribution.firstRound": "토큰 판매의 첫 라운드",
+  "TokenDistribution.airdrop": "Airdrop",
   "TokenDistribution.subsequentRounds":
     "후속 라운드 및 배심원 인센티브 프로그램",
   "TokenDistribution.coop": "Kleros 협동 개발 리저브",

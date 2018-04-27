@@ -1464,6 +1464,10 @@ p {
   background-color: #d2d1ce;
 }
 
+.TokenDistribution-percentTagTag--airdrop {
+  background-color: #303133;
+}
+
 .TokenDistribution-percentTagText {
   font-size: 18px;
   font-weight: 300;
