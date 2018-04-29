@@ -815,6 +815,17 @@ p {
   width: 30px;
 }
 
+.Team-memberGithub {
+  bottom: 0;
+  display: block;
+  right: 72px;
+  bottom: -10px;
+  position: absolute;
+  width: 30px;
+  background: #fff;
+  border-radius: 50%;
+}
+
 .Team-memberName {
   font-weight: 700;
   margin-top: 21px;
