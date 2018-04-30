@@ -8,7 +8,7 @@
   "NavBar.github": "Github平台",
   "NavBar.documentation": "凭证",
   "NavBar.telegram": "Telegram平台",
-  "NavBar.language": "Language",
+  "NavBar.language": "语言",
   "NavBar.english": "English",
   "NavBar.french": "Français",
   "NavBar.spanish": "Español",
@@ -21,11 +21,11 @@
   "NavBar.whitepaper": "阅读白皮书",
 
   "Header.klerosProvides":
-    "Kleros 基本上为所有问题提供快速、安全、可负担的仲裁。",
+    "Kleros基本上为所有问题提供快速、安全、可负担的仲裁。",
   "Header.onePager": "单页",
   "Header.letsConnect": "让我们连接吧",
 
-  "CountDown.title": "出售代币（Token Sale）始于2018年5月15日。",
+  "CountDown.title": "2018年5月15日起出售代币",
   "CountDown.signUpForUpdates": "签名",
 
   "Challenge.title": "挑战",
@@ -36,7 +36,7 @@
   "Solution.description":
     "Kleros沟通需要解决纠纷的用户与拥有解决问题技能的陪审员。解决层使用区块链技术和众包陪审员，以快速、安全、可负担的方式裁决各种争端。",
 
-  "HowKlerosWorks.title": "Kleros 如何运作？",
+  "HowKlerosWorks.title": "Kleros如何运作？",
   "HowKlerosWorks.contract.title": "合约",
   "HowKlerosWorks.contract.description":
     "使用者创立智能合约，选择Kleros作为其裁决协议。",
@@ -79,7 +79,7 @@
 
   "Security.title": "用户与陪审员一样的安全",
   "Security.description":
-    "行贿、攻击、通过智能设计提供用户隐私。对此我们投入一个专门团队进行加密经济学实验，保证我们协议安全。",
+    "行贿、攻击、通过智能设计提供用户隐私。对此我们投入专门团队进行加密经济学实验，保证我们协议安全。",
 
   "Team.title": "团队",
   "Team.CEO": "共同创办人，CEO",
@@ -98,95 +98,91 @@
   "Team.partners": "合作伙伴",
 
   "Media.title": "Kleros媒体宣传",
-  "Media.date5": "April 16, 2018",
+  "Media.date5": "2018年4月16日",
   "Media.date4": "2018年4月4日",
   "Media.date3": "2018年3月6日",
   "Media.date2": "2018年3月5日",
   "Media.date1": "2018年1月23日",
   "Media.readMore": "阅读更多",
 
-  "Footer.signUp": "注册获取我们最新信息",
-  "Footer.quote": "“谁拥有法律，谁拥有国家。”亚里士多德。",
+  "Footer.signUp": "注册获取最新信息",
+  "Footer.quote":
+    "“Whoever controls the courts, controls the state”.亚里士多德",
   "Footer.signUpButton": "注册",
-  "Footer.privacy": "我们珍视您的隐私，绝不与第三方共享您的邮件。",
-  "Footer.findOutMore": "查找更多。",
+  "Footer.privacy": "我们珍视您的隐私，绝不与第三方共享您的邮件",
+  "Footer.findOutMore": "查找更多",
   "Footer.FAQ": "快速问答",
   "Footer.github": "Github平台",
   "Footer.telegram": "Telegram平台",
   "Footer.letsConnect": "让我们连接吧",
 
   "Clock.day": "日期",
-  "Clock.days": "多个日期",
+  "Clock.days": "剩余天数",
   "Clock.hour": "小时",
-  "Clock.hours": "多个小时",
+  "Clock.hours": "剩余小时",
   "Clock.min": "分钟",
-  "Clock.mins": "几分钟",
+  "Clock.mins": "剩余分钟",
 
-  "TokenSaleHeader.welcome": "Welcome to the",
+  "TokenSaleHeader.welcome": "欢迎来到",
   "TokenSaleHeader.title": "Kleros Token Sale!",
-  "TokenSaleHeader.announcement": "Announcement",
-  "TokenSaleHeader.startsOn": "Token sale starts on May 15:",
+  "TokenSaleHeader.announcement": "公告",
+  "TokenSaleHeader.startsOn": "5月15日起开始发售代币：",
 
   "TokenSalePinakion.title": "Pinakion Token (PNK)",
   "TokenSalePinakion.description":
-    "PNK provides jurors an incentive to vote honestly. Users trying to game the system will lose money.",
+    "PNK为陪审员提供诚信投票的激励。试图将系统当作游戏的用户将会赔钱。",
   "TokenSalePinakion.info":
-    "Pinakion protects the system from sybil attacks, while also providing jurors an incentive to vote honestly.",
-  "TokenSalePinakion.readMore": "How? Read the white paper",
+    "Pinakion保护系统免受“女巫攻击”，也给陪审员提供诚实投票的激励。",
+  "TokenSalePinakion.readMore": "如何做到？请阅读白皮书",
 
-  "IICOInfo.title": "Interactive Coin Offering",
+  "IICOInfo.title": "交互式代币发行（Interactive Coin Offering）",
   "IICOInfo.description":
-    "Kleros token sale will use the new method recommended by Vitalik Buterin to distribute tokens in a fair way.",
-  "IICOInfo.readThePaper":
-    "Read Vitalik’s Interactive Coin Offering paper here.",
-  "IICOInfo.distribution.title": "Distribution",
-  "IICOInfo.distribution.description":
-    "1 billion PNK will be created and distributed in a fair manner using the IICO.",
+    "Kleros代币发行将使用Vitalik Buterin 介绍的新方法，使代币的分配公平化。",
+  "IICOInfo.readThePaper": "在这里阅读Vitalik“交互式代币发行”的文件。",
+  "IICOInfo.distribution.title": "分配",
+  "IICOInfo.distribution.description": "使用IICO公平分配和创造10亿PNK",
   "IICOInfo.KYC.title": "KYC",
   "IICOInfo.KYC.description":
-    "We’ve partnered with Consensys to provide a secure, stable and efficient KYC process.",
+    "我们与Consensys区块链软件公司合作，提供安全、稳定和有效的客户认知（KYC）过程。",
 
-  "IICOVideo.title":
-    "Click below to watch a working demo of our arbitration protocol.",
+  "IICOVideo.title": "点击观看我们的仲裁协议样例。",
   "IICOVideo.description":
-    "We’re well on our way to a working system which will be scalable, secure and fair for all.",
+    "我们正在朝着建立可扩展、安全性和公平化工作系统的方向努力。",
 
-  "TokenDistribution.supply.label": "Total token supply:",
+  "TokenDistribution.supply.label": "完全代币支持：",
   "TokenDistribution.supply.amount": "1,000,000,000 PNK",
-  "TokenDistribution.team": "Team Members",
-  "TokenDistribution.firstRound": "First Round of Token Sale",
+  "TokenDistribution.team": "团队成员",
+  "TokenDistribution.firstRound": "第一轮代币发行",
   "TokenDistribution.airdrop": "Airdrop",
-  "TokenDistribution.subsequentRounds":
-    "Subsequent Rounds and Juror Incentive Programs",
-  "TokenDistribution.coop": "Kleros Cooperative Development Reserve",
+  "TokenDistribution.subsequentRounds": "第二轮和陪审员激励计划",
+  "TokenDistribution.coop": "Kleros合作开发储备",
   "TokenDistribution.info.first":
-    "Founders and early team members are unable to sell all of their token allocation until a three year period of working with Kleros has passed.",
+    "创始人和早期团队成员不能全部卖出他们的代币分配，直至Kleros三年合作期满。",
   "TokenDistribution.info.second":
-    "In the first token distribution event, 16% of tokens will be sold to the public. The other 50% will be sold in the future as the team reaches milestones in project development and for juror incentive programs.",
+    "第一批代币分配中，16%的代币将对公众出售。另外50%的代币将在团队完成阶段性开发计划后及用于陪审团激励计划时出售。",
 
-  "TokenSaleRoadmap.title": "Token Sale Mechanics",
-  "TokenSaleRoadmap.whatIsAnIICO.title": "What's an IICO?",
+  "TokenSaleRoadmap.title": "代币出售技巧",
+  "TokenSaleRoadmap.whatIsAnIICO.title": "什么是IICO?",
   "TokenSaleRoadmap.whatIsAnIICO.info.first":
-    "The Interactive Coin Offering (IICO) is a new protocol advocated by Vitalik Buterin, Jason Teutsch and Christopher Brown to make token sales more egalitarian. It lets each contributor choose an amount to bid and a “personal cap” on the total valuation.",
+    "交互式代币 (IICO) 是由Vitalik Buterin、Jason Teutsch和Christopher Brown为使代币发行更加公平而提出的新型协议。每个投资者可以在总估价中选择投资金额和“个人容忍上线（personal cap）”。",
   "TokenSaleRoadmap.whatIsAnIICO.info.second":
-    "The value of the token will be determined by the market, following a number of rounds where participants will make bids and adjust their caps. This provides certainty of participation and valuation to all parties, no matter their size.",
-  "TokenSaleRoadmap.howCanIGetABonus.title": "How can I get a bonus?",
+    "代币的价值将由市场决定，参与者经过若干回合将出价并调整上线。无论大小如何，这为所有缔结者提供了参与和评估的确定性。",
+  "TokenSaleRoadmap.howCanIGetABonus.title": "我如何获得分红?",
   "TokenSaleRoadmap.howCanIGetABonus.info":
-    "Kleros has not done a token pre-sale nor sold tokens at discounted rate. However, as a way to incentivize price formation, the Interactive Coin Offering rewards participants who make their contribution early in the sale. Buyers who purchase tokens early will receive a 20% bonus. The bonus decreases smoothly down to 10% at the beginning of the withdrawal lock, and then goes to 0% by the end of the crowdsale.",
-  "TokenSaleRoadmap.roadmap.title": "Roadmap",
-  "TokenSaleRoadmap.legal.title": "Legal",
+    "Kleros 没有进行代币预售或打折销售。但作为形成激励价格的方法，交互式代币将给早期投资构建的参与者奖励。早期代币购买者将收到20%的分红。，分红将平缓减少至10%直到取款开始上锁。接下来直到众筹结束为止，分红将逐渐减少至0%.",
+  "TokenSaleRoadmap.roadmap.title": "开发计划",
+  "TokenSaleRoadmap.legal.title": "法律相关",
   "TokenSaleRoadmap.legal.info.first":
-    "Kleros will be incorporated as a French type of social enterprise, called a \"cooperative company of public interest\" or SCIC (sociétés coopératives d’intérêt collectif). This cooperative and community-oriented company operates under French jurisdiction and makes it possible to share the governance of the project and avoid commercial buyout by another company or a competitor.",
+    "Kleros将以法国社会企业的形式组成合作公司，称作 \"公共利益合作公司\"或 SCIC (sociétés coopératives d’intérêt collectif)。这一合作和社区导向的公司按照法国司法运作，使其可以共享此计划的管理，并避免其它公司或竞争者商业化买断",
   "TokenSaleRoadmap.legal.info.second":
-    "This legal entity makes sure that the totality of funds produced in the token sale will be used for the development of the project. Founders are not legally allowed to distribute funds under the form of dividends.",
-  "TokenSaleRoadmap.expenses.title": "Expected Expenses",
-  "TokenSaleRoadmap.expenses.product": "Product Development",
-  "TokenSaleRoadmap.expenses.research": "Research",
-  "TokenSaleRoadmap.expenses.ecosystem": "Ecosystem Development",
-  "TokenSaleRoadmap.expenses.communication": "Communication",
-  "TokenSaleRoadmap.expenses.operations": "Operations &amp; Legal",
+    "此法律实体确保发行代币的全部资金将用于开发此项目。创办者在法律上不允许以红利的形式分配资金。",
+  "TokenSaleRoadmap.expenses.title": "预期支出",
+  "TokenSaleRoadmap.expenses.product": "产品发展",
+  "TokenSaleRoadmap.expenses.research": "研究调查",
+  "TokenSaleRoadmap.expenses.ecosystem": "生态系统开发",
+  "TokenSaleRoadmap.expenses.communication": "交流",
+  "TokenSaleRoadmap.expenses.operations": "操作 &amp; 法律",
 
-  "GetToKnowTeam.title": "Get to know our team.",
-  "GetToKnowTeam.description":
-    "Ask questions and contribute to the development of Kleros."
+  "GetToKnowTeam.title": "认识我们的团队",
+  "GetToKnowTeam.description": "提问并为Kleros开发做出贡献。"
 }
