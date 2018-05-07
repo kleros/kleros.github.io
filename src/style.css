@@ -1000,6 +1000,7 @@ p {
   font-weight: 300;
 }
 
+.Footer-socialLink,
 .Footer-socialLink:hover {
   text-decoration: none !important;
 }
