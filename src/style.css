@@ -858,6 +858,12 @@ p {
   height: 100px;
 }
 
+.Team-partnersImage--incubator {
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
 /**************** End Team ****************/
 
 /**************** Media ****************/
