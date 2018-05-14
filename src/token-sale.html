@@ -146,8 +146,10 @@
             <br>${__("TokenSaleHeader.title")}</h1>
           <a href="https://medium.com/kleros/announcing-kleros-token-sale-68670daf6bba" target="_blank" rel="noopener noreferrer
       " class="TokenSaleHeader-btn-announcement btn btn-lg">${__("TokenSaleHeader.announcement")}</a>
-      <a href="/kyc" target="_blank" rel="noopener noreferrer
-      " class="TokenSaleHeader-btn-announcement btn btn-lg">KYC Registration</a>
+          <a href="/kyc" target="_blank" rel="noopener noreferrer
+          " class="TokenSaleHeader-btn-announcement btn btn-lg">KYC Registration</a>
+          <a href="https://sale.kleros.io/0xac43300F2D0c345B716F36853eCeb497576E0F67" target="_blank" rel="noopener noreferrer
+          " class="TokenSaleHeader-btn-announcement btn btn-lg">Buy Tokens</a>
           <hr class="TokenSaleHeader-separator">
         </div>
         <div class="col-10 col-lg-5">
@@ -602,7 +604,7 @@
     var $minsUnit = $('.countDownMinsUnit');
 
     function updateClocks() {
-      var time = 1526342400671 - Date.now();
+      var time = 1526398200000 - Date.now();
 
       var days = Math.floor(time / 8.64e+7).toString();
       $days.text(days);
