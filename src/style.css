@@ -325,6 +325,10 @@ p {
   white-space: nowrap;
 }
 
+.Header-navLink-demo {
+  width: 80px;
+}
+
 .Header-navLink-language {
   width: 120px;
 }
