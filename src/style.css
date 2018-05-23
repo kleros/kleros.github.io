@@ -1253,8 +1253,9 @@ p {
   font-weight: 300;
 }
 
-.showOnBuyTokens {
-  display: none;
+.TokenSaleHeader-saleCardRowQRCodeContainer {
+  display: flex;
+  align-items: center;
 }
 
 .TokenSaleHeader-saleCardRowQRCode {
@@ -1294,6 +1295,10 @@ p {
 .TokenSaleHeader-saleCardLink:hover {
   color: #A4D0F2;
   text-decoration: none !important;
+}
+
+.showOnBuyTokens {
+  display: none;
 }
 
 /**************** End TokenSaleHeader ****************/
