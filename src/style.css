@@ -1262,9 +1262,29 @@ p {
   height: 150px;
 }
 
+.TokenSaleHeader-list {
+  counter-reset: my-counter;
+}
+
 .TokenSaleHeader-listItem {
-  margin-left: 10px;
   margin-top: 16px;
+  list-style: none;
+  position: relative;
+}
+
+.TokenSaleHeader-listItem::before {
+  content: counter(my-counter);
+  counter-increment: my-counter;
+  position: absolute;
+  left: -25px;
+  height: 16px;
+  width: 16px;
+  background: #fff;
+  border-radius: 10px;
+  color: #1A1B23;
+  text-align: center;
+  line-height: 16px;
+  font-size: 10px;
 }
 
 .TokenSaleHeader-saleCardLink {
