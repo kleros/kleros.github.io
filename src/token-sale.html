@@ -141,32 +141,80 @@
 
     <div class="Header-banner col-12">
       <div class="TokenSaleHeader-bannerRow row">
-        <div class="col-12 col-lg-6">
-          <h1 class="Header-title">${__("TokenSaleHeader.welcome")}
-            <br>${__("TokenSaleHeader.title")}</h1>
-          <a href="https://medium.com/kleros/announcing-kleros-token-sale-68670daf6bba" target="_blank" rel="noopener noreferrer
-      " class="TokenSaleHeader-btn-announcement btn btn-lg">${__("TokenSaleHeader.announcement")}</a>
-          <a href="/kyc" target="_blank" rel="noopener noreferrer
-          " class="TokenSaleHeader-btn-announcement btn btn-lg">KYC Registration</a>
-          <a id="countDownBuyTokens" href="https://sale.kleros.io/0xac43300F2D0c345B716F36853eCeb497576E0F67" target="_blank" rel="noopener noreferrer
-          " class="TokenSaleHeader-btn-announcement btn btn-lg">Buy Tokens</a>
-          <hr class="TokenSaleHeader-separator">
+        <div class="TokenSaleHeader-saleCard col-12 col-md-6">
+          <div class="TokenSaleHeader-saleCardRow TokenSaleHeader-saleCardRow--1">
+            <a target="_blank" rel="noopener noreferrer" href="https://etherscan.io/address/0xac43300f2d0c345b716f36853eceb497576e0f67">
+              <img src="assets/images/identicon.png" alt="Contract Identicon" class="TokenSaleHeader-saleCardRowIdenticon">
+            </a>
+            Pinakion Token (PNK)
+          </div>
+          <div class="TokenSaleHeader-saleCardRow hideOnBuyTokens">
+            <div>
+              Token Symbol
+              <br>
+              <span class="TokenSaleHeader-saleCardRowBold">PNK</span>
+            </div>
+            <div>
+              Type
+              <br>
+              <span class="TokenSaleHeader-saleCardRowBold">ERC20</span>
+            </div>
+          </div>
+          <div class="TokenSaleHeader-saleCardRow hideOnBuyTokens">
+            <div>Payment</div>
+            <div>ETH</div>
+          </div>
+          <div class="TokenSaleHeader-saleCardRow hideOnBuyTokens">
+            <div>Decimals</div>
+            <div>18</div>
+          </div>
+          <div class="TokenSaleHeader-saleCardRow showOnBuyTokens">
+            <b>To purchase PNK send your ETH to</b>
+            <img class="TokenSaleHeader-saleCardRowQRCode" src="assets/images/qr-code.png" alt="Contract QR Code">
+          </div>
+          <div class="TokenSaleHeader-saleCardRow">
+            <div>
+              Contract Address
+              <div id="address" class="TokenSaleHeader-saleCardRowContractAddress">0xac43300F2D0c345B716F36853eCeb497576E0F67</div>
+              <div id="copyAddress" class="btn btn-primary" data-clipboard-target="#address">Copy address</div>
+            </div>
+          </div>
+          <div class="TokenSaleHeader-saleCardRow TokenSaleHeader-saleCardRow--last">
+            <div>
+              <small>Need Help?</small>
+            </div>
+            <div>
+              <a href="mailto:contact@kleros.io" class="TokenSaleHeader-saleCardLink">contact@kleros.io</a>
+            </div>
+          </div>
+          <div class="TokenSaleHeader-exchangeWarning">
+            <img src="assets/images/warning-icon.png" alt="Warning Icon" class="TokenSaleHeader-exchangeWarningIcon">
+            <div>DON'T SEND YOUR TRANSACTION FROM AN EXCHANGE OR YOUR FUNDS WILL BE LOST.</div>
+          </div>
         </div>
-        <div class="col-10 col-lg-5">
-          <h5>${__("TokenSaleHeader.startsOn")}</h5>
-          <div class="TokenSaleHeader-countDownBlocks CountDown-blocks col-12">
-            <div class="TokenSaleHeader-countDownBlock CountDown-block col-4 col-sm-3">
-              <div class="countDownDays CountDown-amount">-</div>
-              <div class="countDownDaysUnit CountDown-unit">-</div>
-            </div>
-            <div class="TokenSaleHeader-countDownBlock CountDown-block col-4 col-sm-3">
-              <div class="countDownHours CountDown-amount">-</div>
-              <div class="countDownHoursUnit CountDown-unit">-</div>
-            </div>
-            <div class="TokenSaleHeader-countDownBlock CountDown-block col-4 col-sm-3">
-              <div class="countDownMins CountDown-amount">-</div>
-              <div class="countDownMinsUnit CountDown-unit">-</div>
-            </div>
+        <div class="TokenSaleHeader-rightSection col-12 col-md-6 pl-md-5 mt-4 mt-md-0">
+          <div class="TokenSaleHeader-rightSectionTitle hideOnBuyTokens">Kleros' Token Sale is Live!</div>
+          <div id="buyTokens" class="TokenSaleHeader-buyTokens hideOnBuyTokens">Buy Tokens</div>
+          <div class="TokenSaleHeader-smallText hideOnBuyTokens">Token Sale <a target="_blank" rel="noopener noreferrer" href="https://kleros.io/assets/token-sale-tos.pdf" class="TokenSaleHeader-link">Terms and Conditions</a></div>
+          <hr class="TokenSaleHeader-separator hideOnBuyTokens">
+          <div class="TokenSaleHeader-text hideOnBuyTokens">Have you been whitelisted yet?</div>
+          <a target="_blank" rel="noopener noreferrer" href="https://kleros.io/kyc" class="TokenSaleHeader-link hideOnBuyTokens">Submit your KYC application</a>
+          <hr class="TokenSaleHeader-separator hideOnBuyTokens">
+          <div class="TokenSaleHeader-text hideOnBuyTokens">Got questions?</div>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.reddit.com/r/Kleros/comments/8jh7s9/kleros_token_sale_faq" class="TokenSaleHeader-link hideOnBuyTokens">Read our FAQ</a>
+          <hr class="TokenSaleHeader-separator showOnBuyTokens">
+          <div class="TokenSaleHeader-text showOnBuyTokens">Guarantee sending a successful transaction by completing the following steps:</div>
+          <ol class="TokenSaleHeader-smallText showOnBuyTokens">
+            <li class="TokenSaleHeader-listItem">Complete the KYC registration form with the address you intend to send from and wait for approval.</li>
+            <li class="TokenSaleHeader-listItem">Set the transaction’s gas limit to a MINIMUM OF 300,000.</li>
+            <li class="TokenSaleHeader-listItem">Verify you are sending to the correct contract address.</li>
+          </ol>
+          <hr class="TokenSaleHeader-separator showOnBuyTokens">
+          <div class="TokenSaleHeader-text showOnBuyTokens">Have you tried out the interactive bidding dashboard?</div>
+          <a class="showOnBuyTokens TokenSaleHeader-interactiveLink" target="_blank" rel="noopener noreferrer" href="https://sale.kleros.io"><div class="TokenSaleHeader-buyTokens">Interactive Bid</div></a>
+          <div class="TokenSaleHeader-smallText showOnBuyTokens">The interactive dashboard lets you place sophisticated bids with personal caps on the maximum valuation that you are still willing to participate with.
+            <br>
+            <a target="_blank" rel="noopener noreferrer" href="https://medium.com/kleros/how-interactive-coin-offerings-iicos-work-beed401ce526" class="TokenSaleHeader-link">Here is an article explaining it in more detail.</a>
           </div>
         </div>
       </div>
@@ -580,6 +628,7 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
     crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
   <script>
     // Sticky scroll
     var $nav = $('#navbar');
@@ -639,6 +688,15 @@
 
     updateProgressBars();
     window.setInterval(updateProgressBars, 5000);
+
+    // Copy address to clipboard
+    new ClipboardJS('#copyAddress');
+
+    // Buy tokens
+    $('#buyTokens').click(function () {
+      $('.hideOnBuyTokens').hide();
+      $('.showOnBuyTokens').show();
+    });
   </script>
   <!-- End Scripts -->
 </body>

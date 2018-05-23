@@ -307,7 +307,7 @@ p {
 }
 
 .Header-btn-learnMore {
-  margin-bottom: 73px;
+  margin-bottom: 50px;
 }
 
 .Header-social {
@@ -1100,6 +1100,7 @@ p {
 .TokenSaleHeader {
   background-position: center -1px;
   background-image: url('assets/images/use-cases.png');
+  padding-top: 73px;
 }
 
 .TokenSaleHeader-navbar {
@@ -1111,51 +1112,164 @@ p {
 }
 
 .TokenSaleHeader-bannerRow {
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
-.TokenSaleHeader-btn-announcement {
-  background-color: #fff;
-  border: none;
-  color: #012c6b !important;
-  margin-top: 29px;
-  margin-right: 10.5px;
+.TokenSaleHeader-saleCard {
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  padding: 30px 50px;
 }
 
-.TokenSaleHeader-btn-buyTokens {
-  background: transparent;
-  border: 1px solid #fff;
-  margin-top: 29px;
+.TokenSaleHeader-saleCardRow {
+  border-bottom: 1px solid #D2D1CE;
+  color: #47525D;
+  padding: 15px 6px;
+  display: flex;
+  justify-content: space-between;
+  word-break: break-word;
+}
+
+.TokenSaleHeader-saleCardRow--1 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 0 6px 20px;
+  display: block;
+}
+
+.TokenSaleHeader-saleCardRowIdenticon {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.TokenSaleHeader-saleCardRowBold {
+  color: #1A1B23;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.TokenSaleHeader-saleCardRow--last {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.TokenSaleHeader-saleCardRowContractAddress {
+  margin: 12px 0 11px;
+}
+
+#address {
+  font-size: 14px;
+}
+
+#copyAddress {
+  cursor: pointer;
+  height: 30px;
+  line-height: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #012C6B;
+  box-shadow: 0 2px 0 0 #052E69;
+  border-color: rgb(2, 19, 46);
+}
+
+#copyAddress:active {
+  background-color: rgb(66, 96, 141);
+}
+
+.TokenSaleHeader-exchangeWarning {
+  align-items: center;
+  background-color: #1A1B23;
+  border-radius: 0 0 4px 4px;
+  display: flex;
+  margin: 23px -50px -30px;
+  padding: 26px;
+}
+
+.TokenSaleHeader-exchangeWarningIcon {
+  width: 22px;
+  height: 22px;
+  margin-right: 15px;
+}
+
+.TokenSaleHeader-rightSectionTitle {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.TokenSaleHeader-buyTokens {
+  cursor: pointer;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 0 0 #052E69;
+  color: #1A1B23;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 60px;
+  height: 60px;
+  width: 241px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px 0;
+  text-decoration: none !important;
+}
+
+.TokenSaleHeader-interactiveLink, .TokenSaleHeader-interactiveLink:hover, .TokenSaleHeader-interactiveLink:active, .TokenSaleHeader-interactiveLink:visited, .TokenSaleHeader-interactiveLink:focus {
+  text-decoration: none !important;
+}
+
+.TokenSaleHeader-smallText {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.TokenSaleHeader-link {
+  color: #A4D0F2;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.TokenSaleHeader-link:hover {
+  text-decoration: none !important;
 }
 
 .TokenSaleHeader-separator {
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgba(255, 255, 255, 0.75),
-    rgba(255, 255, 255, 0)
-  );
-  border: none;
+  border: 0.5px solid #D2D1CE;
+  opacity: 0.3;
   width: 100%;
-  height: 2px;
-  opacity: 0.42;
-  margin-top: 50px;
-  margin-bottom: 44px;
-}
-
-.TokenSaleHeader-countDownBlocks {
-  justify-content: start;
-  padding: 0;
-}
-
-.TokenSaleHeader-countDownBlock {
   background: #fff;
-  color: #1a1b23;
+  margin-bottom: 24px;
+  margin-top: 24px;
 }
 
-.TokenSaleHeader-totalDistribution {
-  padding-right: 50px;
+.TokenSaleHeader-text {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.showOnBuyTokens {
+  display: none;
+}
+
+.TokenSaleHeader-saleCardRowQRCode {
+  width: 150px;
+  height: 150px;
+}
+
+.TokenSaleHeader-listItem {
+  margin-left: 10px;
+  margin-top: 16px;
+}
+
+.TokenSaleHeader-saleCardLink {
+  color: rgb(23, 62, 119);
+}
+
+.TokenSaleHeader-saleCardLink:hover {
+  color: #A4D0F2;
+  text-decoration: none !important;
 }
 
 /**************** End TokenSaleHeader ****************/
