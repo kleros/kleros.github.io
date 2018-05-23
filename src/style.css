@@ -72,6 +72,10 @@ a:hover {
   text-decoration: underline !important;
 }
 
+b {
+  font-weight: bold;
+}
+
 h1 {
   font-size: 50px;
   font-weight: 700;
