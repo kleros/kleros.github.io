@@ -1234,7 +1234,7 @@ p {
   font-size: 14px;
 }
 
-.TokenSaleHeader-link:hover {
+.TokenSaleHeader-link, .TokenSaleHeader-link:hover, .TokenSaleHeader-link:active, .TokenSaleHeader-link:visited, .TokenSaleHeader-link:focus {
   text-decoration: none !important;
 }
 
@@ -1292,7 +1292,7 @@ p {
   color: rgb(23, 62, 119);
 }
 
-.TokenSaleHeader-saleCardLink:hover {
+.TokenSaleHeader-saleCardLink, .TokenSaleHeader-saleCardLink:hover, .TokenSaleHeader-saleCardLink:active, .TokenSaleHeader-saleCardLink:visited, .TokenSaleHeader-saleCardLink:focus {
   color: #A4D0F2;
   text-decoration: none !important;
 }
