@@ -1161,7 +1161,7 @@ p {
 }
 
 .TokenSaleHeader-saleCardRowContractAddress {
-  margin: 12px 0 11px;
+  margin: 5px 0 11px;
 }
 
 #address {
@@ -1236,6 +1236,7 @@ p {
 
 .TokenSaleHeader-link, .TokenSaleHeader-link:hover, .TokenSaleHeader-link:active, .TokenSaleHeader-link:visited, .TokenSaleHeader-link:focus {
   text-decoration: none !important;
+  color: #A4D0F2;
 }
 
 .TokenSaleHeader-separator {
