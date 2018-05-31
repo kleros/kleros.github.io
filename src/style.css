@@ -1993,3 +1993,51 @@ p {
 /********************************************/
 /**************** End Token Sale ****************/
 /********************************************/
+
+/********************************************/
+/**************** Start Media ****************/
+/********************************************/
+
+/**************** Start MediaHeader ****************/
+
+.MediaHeader {
+  background: none;
+  padding: 0;
+}
+
+/**************** End MediaHeader ****************/
+
+/**************** Start MediaMedia ****************/
+
+.MediaMedia-tabs {
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 0;
+  margin-top: 68px;
+}
+
+.MediaMedia-tabsTab {
+  cursor: pointer;
+  flex: 1;
+}
+
+.MediaMedia-tabsTab:hover {
+  border-bottom: 2.5px solid #052E69;
+}
+
+.MediaMedia-tabsTab.is-active {
+  border-bottom: 5px solid #052E69;
+}
+
+#allList { display: none; }
+
+#eventsAndPodcastsList { display: none; }
+
+/**************** End MediaMedia ****************/
+
+/********************************************/
+/**************** End Media ****************/
+/********************************************/

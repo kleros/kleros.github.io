@@ -27,6 +27,7 @@ module.exports = env =>
     return {
       entry: {
         index: './src/index.html',
+        media: './src/media.html',
         'token-sale': './src/token-sale.html',
         jurors: './src/jurors.html',
         cooperative: './src/cooperative.html',

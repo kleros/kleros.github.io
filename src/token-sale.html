@@ -2,6 +2,11 @@
 <html lang="en">
 
 <head>
+  <!-- Privy Widget Code -->
+  <script type='text/javascript'> var _d_site = _d_site || 'AE38414C1C914023A9A60FF4'; </script>
+  <script src='//widget.privy.com/assets/widget.js'></script>
+  <!-- Privy Widget Code -->
+
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-103362452-1"></script>
   <script>
@@ -114,6 +119,9 @@
             <a class="Header-navLink nav-link" href=".">${__("NavBar.home")}</a>
           </li>
           <li class="nav-item">
+            <a class="Header-navLink nav-link" href="media">Media</a>
+          </li>
+          <li class="nav-item">
             <a class="Header-navLink nav-link" href=".#team">${__("NavBar.team")}</a>
           </li>
           <li class="nav-item">
@@ -124,10 +132,6 @@
             <a class="Header-navLink nav-link" href="https://github.com/kleros" target="_blank" rel="noopener noreferrer">${__("NavBar.github")}</a>
           </li>
           <li class="nav-item">
-            <a class="Header-navLink nav-link" href="https://kleros.gitbooks.io/kleros-md/" target="_blank" rel="noopener
-              noreferrer">${__("NavBar.documentation")}</a>
-          </li>
-          <li class="nav-item">
             <a class="Header-navLink nav-link" href="https://t.me/kleros" target="_blank" rel="noopener noreferrer">${__("NavBar.telegram")}</a>
           </li>
           <li class="Header-navLink-language nav-item dropdown">
@@ -135,7 +139,7 @@
               ${__("NavBar.language")}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="/token-sale">${__("NavBar.english")}</a>
+              <a class="dropdown-item" href="token-sale">${__("NavBar.english")}</a>
               <a class="dropdown-item" href="/fr/token-sale">${__("NavBar.french")}</a>
               <a class="dropdown-item" href="/es/token-sale">${__("NavBar.spanish")}</a>
               <a class="dropdown-item" href="/ru/token-sale">${__("NavBar.russian")}</a>
@@ -694,18 +698,6 @@
 
     updateClocks()
     window.setInterval(updateClocks, 1000);
-
-    // Progress bars
-    var $ethReceived = $('#ethReceived');
-    var $progressBars = $('.progressBar-progress');
-
-    function updateProgressBars() {
-      $ethReceived.text(0);
-      $progressBars.width('0%');
-    }
-
-    updateProgressBars();
-    window.setInterval(updateProgressBars, 5000);
 
     // Copy address to clipboard
     new ClipboardJS('#copyAddress');
