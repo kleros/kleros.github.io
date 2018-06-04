@@ -892,13 +892,15 @@ p {
   border-radius: 4px;
   box-shadow: 0 2px 1px 0 #d2d1ce;
   margin: 38px 15px;
-  padding: 40px 30px 112px;
+  padding: 110px 30px 100px;
+  position: relative;
 }
 
 .Media-titleImage {
   max-height: 45px;
-  margin-bottom: 35px;
   max-width: 200px;
+  position: absolute;
+  top: 40px;
 }
 
 .Media-date {
@@ -2033,9 +2035,7 @@ p {
   border-bottom: 5px solid #052E69;
 }
 
-#allList { display: none; }
-
-#eventsAndPodcastsList { display: none; }
+#allList, #eventsAndPodcastsList, #mediumList { display: none; }
 
 /**************** End MediaMedia ****************/
 
