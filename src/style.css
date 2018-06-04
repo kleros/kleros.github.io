@@ -2020,6 +2020,7 @@ p {
   border-bottom: 1px solid #DDDDDD;
   padding: 0;
   margin-top: 68px;
+  flex-wrap: wrap;
 }
 
 .MediaMedia-tabsTab {
