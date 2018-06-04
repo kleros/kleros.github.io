@@ -2013,7 +2013,6 @@ p {
 /**************** Start MediaMedia ****************/
 
 .MediaMedia-tabs {
-  height: 66px;
   display: flex;
   justify-content: space-between;
   font-size: 22px;
