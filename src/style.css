@@ -892,7 +892,7 @@ p {
   border-radius: 4px;
   box-shadow: 0 2px 1px 0 #d2d1ce;
   margin: 38px 15px;
-  padding: 110px 30px 100px;
+  padding: 110px 30px 70px;
   position: relative;
 }
 
@@ -906,6 +906,9 @@ p {
 .Media-date {
   color: #9b9b9b;
   font-weight: normal;
+  position: absolute;
+  top: 5px;
+  right: 10px;
 }
 
 .Media-readMore {
