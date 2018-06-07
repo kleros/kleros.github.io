@@ -1263,11 +1263,17 @@ p {
 .TokenSaleHeader-saleCardRowQRCodeContainer {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .TokenSaleHeader-saleCardRowQRCode {
   width: 150px;
   height: 150px;
+}
+
+.TokenSaleHeader-saleCardRowQRCodeInstruction {
+  flex: 1 1 120px;
 }
 
 .TokenSaleHeader-list {
@@ -1293,6 +1299,74 @@ p {
   text-align: center;
   line-height: 16px;
   font-size: 10px;
+}
+
+.TokenSaleHeader-checkKYCLevelAndBids {
+  margin-top: 24.5px;
+  margin-bottom: 31.5px;
+  position: relative;
+}
+
+.TokenSaleHeader-checkKYCLevelAndBidsInput {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px 0 0 5px !important;
+  background-color: #052E69;
+  box-shadow: 0 2px 0 0 #052E69;
+}
+
+.TokenSaleHeader-checkKYCLevelAndBidsButton {
+  background-color: #A4D0F2;
+  border-radius: 0 5px 5px 0 !important;
+  box-shadow: 0 2px 0 0 #052E69;
+  cursor: pointer;
+}
+
+.TokenSaleHeader-checkKYCLevelAndBidsFeedback {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+  font-size: 10px;
+  color: #ff4500;
+  display: none;
+}
+
+#checkKYCLevelAndBidsModalLabel {
+  overflow-wrap: break-word;
+  width: 100%;
+}
+
+#checkKYCLevelAndBidsModalContent {
+  display: none;
+  padding: 20px 0;
+}
+
+#checkKYCLevelAndBidsModalError {
+  display: none;
+}
+
+.CheckKYCLevelAndBidsModalContentKYCLevel {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.CheckKYCLevelAndBidsModalContentKYCLevelValue {
+  margin-left: 8px;
+  padding: 10px;
+  color: #fff;
+  background: #012C6B;
+  border-radius: 5px;
+}
+
+#checkKYCLevelAndBidsModalContentKYCLevelExplanation {
+  margin-top: 15px;
+}
+
+.CheckKYCLevelAndBidsModalContentBidsTitle {
+  margin-top: 71px;
+}
+
+.CheckKYCLevelAndBidsModalContentBidsTable {
+  overflow-x: scroll;
 }
 
 .TokenSaleHeader-saleCardLink {
