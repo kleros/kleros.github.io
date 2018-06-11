@@ -792,7 +792,8 @@
       // Load data
       $.ajax({
         type: 'GET',
-        url: 'https://xuhamcqsqh.execute-api.us-east-1.amazonaws.com/production/fetchKYCLevelAndBids?address=' + address,
+        url: 'https://xuhamcqsqh.execute-api.us-east-1.amazonaws.com/production/fetchKYCLevelAndBids',
+        data: { address: address },
         xhr: function () {
           var xhr = new window.XMLHttpRequest();
           var progress = 0;
@@ -825,7 +826,7 @@
               $checkKYCLevelAndBidsModalContentBids.html('');
               for (var i = 0; i < data.bids.length; i++) {
                 var bid = data.bids[i];
-                $checkKYCLevelAndBidsModalContentBids.append('<tr><th scope="row">' + (i + 1) + '</th><td>' + bid.contrib + ' ETH</td><td>' + (bid.bonus * 100) + '%</td><td>' + (b.maxValuation >= 1.157920892373162e59 ? '∞' : b.maxValuation) + ' ETH</td></tr>');
+                $checkKYCLevelAndBidsModalContentBids.append('<tr><th scope="row">' + (i + 1) + '</th><td>' + bid.contrib + ' ETH</td><td>' + (bid.bonus * 100) + '%</td><td>' + (bid.maxValuation >= 1.157920892373162e59 ? '∞' : bid.maxValuation) + ' ETH</td></tr>');
               }
             }
 
