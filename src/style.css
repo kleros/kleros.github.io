@@ -97,6 +97,8 @@ h3 {
 h4 {
   font-size: 20px;
   line-height: 32px;
+  font-weight: 100;
+  line-height: 1.3em;
 }
 
 h5 {
@@ -114,18 +116,28 @@ p {
   line-height: 24px;
 }
 
+.no-text-decoration {
+  text-decoration: none !important;
+}
+
+.no-text-decoration:hover {
+  text-decoration: none !important;
+}
+
 .btn.btn-lg {
   font-size: 20px;
   font-weight: 700;
   height: 60px;
   padding: 17px 1.5rem;
   min-width: 241px;
+  text-decoration: none;
 }
 
 .btn.btn-secondary {
   color: #1b1b1b;
   font-size: 15px;
   font-weight: 700;
+  text-decoration: none;
 }
 
 /* For smooth scroll-to */
@@ -504,10 +516,9 @@ p {
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
-  padding-bottom: 205px;
+  padding-bottom: 105px;
   padding-left: 18%;
   padding-right: 18%;
-  padding-top: 68px;
   text-align: center;
 }
 
@@ -532,7 +543,7 @@ p {
 }
 
 .Solution-image {
-  width: 87.5%;
+  width: 100%;
 }
 
 /**************** End Solution ****************/
@@ -659,7 +670,6 @@ p {
   padding-bottom: 161px;
   padding-left: 18%;
   padding-right: 18%;
-  padding-top: 82px;
   text-align: center;
 }
 
@@ -696,7 +706,6 @@ p {
 .Pinakion-featureImage {
   align-self: center;
   margin-bottom: 40px;
-  margin-top: 108px;
   width: 301px;
 }
 
@@ -755,7 +764,7 @@ p {
   justify-content: center;
   margin-left: -40px;
   margin-right: -40px;
-  padding-bottom: 182px;
+  padding-bottom: 3em;
   padding-left: 18%;
   padding-right: 18%;
   text-align: center;
@@ -771,7 +780,6 @@ p {
 
 .Team-members {
   justify-content: space-around;
-  margin-top: 15%;
 }
 
 .Team-member {
@@ -846,11 +854,11 @@ p {
 }
 
 .Team-advisors {
-  margin-top: 182px;
+  margin-top: 2em;
 }
 
 .Team-partners {
-  margin-top: 182px;
+  margin-top: 2em;
   margin-bottom: 100px;
 }
 
@@ -874,7 +882,7 @@ p {
 
 .Media {
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 3em;
   text-align: center;
 }
 
@@ -927,7 +935,7 @@ p {
 
 .Media-ship {
   height: 288px;
-  margin-top: 200px;
+  margin-top: 3em;
   position: relative;
   top: 13px;
 }
