@@ -188,7 +188,14 @@
           <div class="TokenSaleHeader-saleCardRow TokenSaleHeader-saleCardRow--last showOnBuyTokens">
             <div class="TokenSaleHeader-saleCardRowQRCodeContainer">
               <img class="TokenSaleHeader-saleCardRowQRCode" src="assets/images/qr-code.png" alt="Contract QR Code">
-              <div class="TokenSaleHeader-saleCardRowQRCodeInstruction"><b>Purchase PNK by sending ETH to the contract address below from the address you used in the <a target="_blank" rel="noopener noreferrer" href="https://kleros.io/kyc" class="TokenSaleHeader-saleCardLink">KYC</a>.</b></div>
+              <div class="TokenSaleHeader-saleCardRowQRCodeInstruction">
+                <b>
+                  Purchase PNK by sending ETH to the contract address below from the address you used in the <a target="_blank" rel="noopener noreferrer" href="https://kleros.io/kyc" class="TokenSaleHeader-saleCardLink">KYC</a>.
+                </b>
+                <div class="TokenSaleHeader-saleCardRowQRCodeInstructionGasLimit">
+                  <b>GAS LIMIT MINIMUM: 300000 units</b>
+                </div>
+              </div>
             </div>
           </div>
           <div class="TokenSaleHeader-saleCardRow">
@@ -237,7 +244,7 @@
                 <div id="checkKYCLevelAndBidsFeedback" class="TokenSaleHeader-checkKYCLevelAndBidsFeedback">Please enter a valid Ethereum Address.</div>
               </form>
             </li>
-            <li class="TokenSaleHeader-listItem">Set the transaction’s gas limit to a <b>MINIMUM OF 300,000</b>.</li>
+            <li class="TokenSaleHeader-listItem text-red"><b>Set the transaction's gas limit to a minimum of 300000 units.</b></li>
             <li class="TokenSaleHeader-listItem">Verify you are sending to the correct contract address.</li>
           </ol>
           <hr class="TokenSaleHeader-separator showOnBuyTokens">

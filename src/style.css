@@ -140,6 +140,10 @@ p {
   text-decoration: none;
 }
 
+.text-red {
+  color: red;
+}
+
 /* For smooth scroll-to */
 .anchor {
   height: 0;
@@ -1282,6 +1286,12 @@ p {
 
 .TokenSaleHeader-saleCardRowQRCodeInstruction {
   flex: 1 1 120px;
+}
+
+.TokenSaleHeader-saleCardRowQRCodeInstructionGasLimit {
+  margin-top: 1em;
+  padding: 2px 4px;
+  border: 1px solid gray;
 }
 
 .TokenSaleHeader-list {
