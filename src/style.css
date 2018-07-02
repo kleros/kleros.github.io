@@ -140,6 +140,15 @@ p {
   text-decoration: none;
 }
 
+.btn.btn-primary.btn-primary-light {
+  color: #1b1b1b;
+  background: #fff;
+}
+
+.btn.btn-primary.btn-primary-light:hover {
+  color: #0275d8;
+}
+
 .text-red {
   color: red;
 }
@@ -330,11 +339,20 @@ p {
   margin-bottom: 50px;
 }
 
+.Header-letsConnect {
+  line-height: 57px;
+}
+
 .Header-social {
-  align-items: center;
   display: flex;
-  font-weight: 500;
-  line-height: 19px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.Header-socialIcons {
+  display: flex;
+  flex-direction: row;
 }
 
 .Header-socialIcon {
@@ -351,6 +369,52 @@ p {
 
 .dropdown-menu {
   float: right;
+}
+
+.Header-socialIcon-hexagon {
+  position: relative;
+  width: 50px;
+  height: 28.87px;
+  background-color: #f3f5fb;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 110%;
+  margin: 14.43px 10px;
+}
+
+.Header-socialIcon-hexagon:before,
+.Header-socialIcon-hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+}
+
+.Header-socialIcon-hexagon:before {
+  bottom: 100%;
+  border-bottom: 14.43px solid #f3f5fb;
+}
+
+.Header-socialIcon-hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 14.43px solid #f3f5fb;
+}
+
+.Header-socialIcon-hexagon-twitter {
+  margin-left: 30px;
+  background-image: url(assets/images/twitter.svg);
+  background-size: 160%;
+}
+
+.Header-socialIcon-hexagon-medium {
+  background-image: url(assets/images/medium.svg);
+}
+
+.Header-socialIcon-hexagon-telegram {
+  background-image: url(assets/images/telegram.svg);
+  background-size: 95%;
 }
 
 /**************** End Header ****************/
