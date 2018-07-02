@@ -339,12 +339,20 @@ p {
   margin-bottom: 50px;
 }
 
+.Header-letsConnect {
+  line-height: 57px;
+}
+
 .Header-social {
-  margin-top: 2em;
-  align-items: center;
   display: flex;
-  font-weight: 500;
-  line-height: 19px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+.Header-socialIcons {
+  display: flex;
+  flex-direction: row;
 }
 
 .Header-socialIcon {
