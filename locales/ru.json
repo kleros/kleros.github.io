@@ -22,11 +22,10 @@
 
   "Header.klerosProvides":
     "Kleros обеспечивает быстрый, безопасный и доступный арбитраж практически по любым вопросам.",
+  "Header.saleOver": "Sale is over. Thanks to all!",
+  "Header.signUpPilot": "Sign Up for Juror Pilot",
   "Header.onePager": "Одностраничный сайт",
   "Header.letsConnect": "Присоединяйтесь!",
-
-  "CountDown.title": "Token sale ends July 15th, 2018.",
-  "CountDown.signUpForUpdates": "Подписаться",
 
   "Challenge.title": "Проблема",
   "Challenge.description":

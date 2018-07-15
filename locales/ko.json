@@ -22,11 +22,10 @@
 
   "Header.klerosProvides":
     "Kleros는 사실상 모든 것을 위해 빠르고 안전하며 합리적인 중재를 제공합니다.",
+  "Header.saleOver": "Sale is over. Thanks to all!",
+  "Header.signUpPilot": "Sign Up for Juror Pilot",
   "Header.onePager": "One Pager",
   "Header.letsConnect": "연결해봅시다.",
-
-  "CountDown.title": "Token sale ends July 15th, 2018.",
-  "CountDown.signUpForUpdates": "구독",
 
   "Challenge.title": "도전",
   "Challenge.description":

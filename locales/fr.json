@@ -22,11 +22,10 @@
 
   "Header.klerosProvides":
     "Kleros propose un système d'arbitrage rapide, securisé et économique pour tous les litiges en ligne",
+  "Header.saleOver": "La vente est terminée. Merci pour votre participation!",
+  "Header.signUpPilot": "S'inscrire au pilote",
   "Header.onePager": "Kleros en 3 pages",
   "Header.letsConnect": "Rejoignez-nous",
-
-  "CountDown.title": "Token sale ends July 15th, 2018.",
-  "CountDown.signUpForUpdates": "S'inscrire",
 
   "Challenge.title": "Le Défi",
   "Challenge.description":

@@ -417,69 +417,24 @@ p {
   background-size: 95%;
 }
 
-/**************** End Header ****************/
-
-/**************** CountDown ****************/
-
-.CountDown {
-  margin-left: -40px;
-  margin-right: -40px;
-  padding-bottom: 92px;
-  padding-left: 12.75%;
-  padding-right: 12.75%;
-}
-
-/* >= large */
-@media (min-width: 992px) {
-  .CountDown {
-    padding-left: 22%;
-    padding-right: 22%;
-  }
-}
-
-.CountDown-title {
-  color: #1a1b23;
+.Header-titleSale {
+  color: #fff;
   margin-bottom: 0;
-  text-align: center;
+  font-weight: 400;
 }
 
-.CountDown-blocks {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 31px;
+.Header-Link {
+  margin: 20px 0 20px 0;
 }
 
-.CountDown-block {
-  align-items: center;
-  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.09);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 91.67px;
-  width: 100px;
+.Header-doge {
+  float: left;
+  position: relative;
+  top: -20px;
+  height: 50px;
 }
 
-.CountDown-amount {
-  color: #1a1b23;
-  font-size: 32px;
-}
-
-.CountDown-unit {
-  font-size: 14px;
-}
-
-.CountDown-tokenSaleLinks {
-  justify-content: center;
-  margin-top: 31px;
-}
-
-.CountDown-tokenSaleLink {
-  text-align: center;
-}
-
-/**************** End CountDown ****************/
+/**************** End Header ****************/
 
 /**************** Video ****************/
 

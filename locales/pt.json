@@ -22,11 +22,10 @@
 
   "Header.klerosProvides":
     "A Kleros oferece uma arbitragem rápida, segura e acessível para praticamente tudo.",
+  "Header.saleOver": "Sale is over. Thanks to all!",
+  "Header.signUpPilot": "Sign Up for Juror Pilot",
   "Header.onePager": "One Paper",
   "Header.letsConnect": "Vamos conectar.",
-
-  "CountDown.title": "Token sale ends July 15th, 2018.",
-  "CountDown.signUpForUpdates": "Subscribe",
 
   "Challenge.title": "O desafio",
   "Challenge.description":

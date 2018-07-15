@@ -22,11 +22,10 @@
 
   "Header.klerosProvides":
     "Kleros基本上为所有问题提供快速、安全、可负担的仲裁。",
+  "Header.saleOver": "Sale is over. Thanks to all!",
+  "Header.signUpPilot": "Sign Up for Juror Pilot",
   "Header.onePager": "单页",
   "Header.letsConnect": "让我们连接吧",
-
-  "CountDown.title": "Token sale ends July 15th, 2018.",
-  "CountDown.signUpForUpdates": "签名",
 
   "Challenge.title": "挑战",
   "Challenge.description":
