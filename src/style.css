@@ -278,8 +278,9 @@ p {
   padding-left: 12.75%;
 }
 
-.Header-navbarBrand:hover {
+.Header-navbarBrand:hover, .Header-navbarBrand:visited, .Header-navbarBrand:link, .Header-navbarBrand:active {
   text-decoration: none !important;
+  color: #fff;
 }
 
 /* < medium */
@@ -1076,9 +1077,9 @@ p {
   letter-spacing: 5px;
 }
 
-.Footer-brand:hover {
-  color: #1a1b23;
+.Footer-brand:hover, .Footer-brand:visited, .Footer-brand:link, .Footer-brand:active {
   text-decoration: none !important;
+  color: #1a1b23;
 }
 
 .Footer-logo {
