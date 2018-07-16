@@ -116,11 +116,7 @@ p {
   line-height: 24px;
 }
 
-.no-text-decoration {
-  text-decoration: none !important;
-}
-
-.no-text-decoration:hover {
+.no-text-decoration, .no-text-decoration:hover, .no-text-decoration:visited, .no-text-decoration:link, .no-text-decoration:active {
   text-decoration: none !important;
 }
 
@@ -366,6 +362,10 @@ p {
 
 .Header-navLink-language {
   width: 120px;
+}
+
+.Header-navLink:hover, .Header-navLink:visited, .Header-navLink:link, .Header-navLink:active {
+  color: #fff;
 }
 
 .dropdown-menu {
