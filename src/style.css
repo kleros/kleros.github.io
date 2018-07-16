@@ -424,13 +424,14 @@ p {
 }
 
 .Header-Link {
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
 }
 
 .Header-doge {
   float: left;
   position: relative;
-  top: -20px;
+  top: -12px;
+  left: -10px;
   height: 50px;
 }
 
