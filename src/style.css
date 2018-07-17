@@ -1090,12 +1090,6 @@ p {
   margin: 0 -20px -28px 0;
 }
 
-/* Only for mobile */
-.hidden-lg-up .Footer-logo{
-  width: 50px;
-  margin: 0 10px 0 0;
-}
-
 .Footer-copyright {
   text-align: right;
 }
