@@ -288,7 +288,8 @@ p {
 }
 
 .Header-logo {
-  margin-right: 8px;
+  width: 100px;
+  margin: 0 -20px -28px 0;
 }
 
 .Header-navbarContent {
@@ -894,7 +895,7 @@ p {
 }
 
 .Team-partnersImage {
-  height: 100px;
+  height: 50px;
 }
 
 .Team-partnersImage--incubator {
@@ -1085,7 +1086,8 @@ p {
 }
 
 .Footer-logo {
-  margin-right: 8px;
+  width: 100px;
+  margin: 0 -20px -28px 0;
 }
 
 .Footer-copyright {
