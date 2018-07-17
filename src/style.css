@@ -539,8 +539,10 @@ p {
 .Solution {
   align-content: flex-start;
   justify-content: center;
+  margin-top: -90px;
   margin-left: -40px;
   margin-right: -40px;
+  padding-top: 90px;
   padding-bottom: 105px;
   padding-left: 18%;
   padding-right: 18%;
