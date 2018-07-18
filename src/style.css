@@ -288,8 +288,8 @@ p {
 }
 
 .Header-logo {
-  width: 100px;
-  margin: 0 -20px -28px 0;
+  width: 34px;
+  margin-right: 10px;
 }
 
 .Header-navbarContent {
@@ -1086,8 +1086,8 @@ p {
 }
 
 .Footer-logo {
-  width: 100px;
-  margin: 0 -20px -28px 0;
+  width: 34px;
+  margin-right: 10px;
 }
 
 /* Only for mobile */
