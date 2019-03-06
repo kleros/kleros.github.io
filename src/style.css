@@ -365,6 +365,10 @@ p {
   width: 120px;
 }
 
+.Header-navLink-book {
+  width: 65px;
+}
+
 .Header-navLink:hover, .Header-navLink:visited, .Header-navLink:link, .Header-navLink:active {
   color: #fff;
 }
