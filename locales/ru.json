@@ -3,6 +3,7 @@
 
   "NavBar.home": "Home",
   "NavBar.team": "Команда",
+  "NavBar.governance": "Governance",
   "NavBar.FAQ": "Часто задаваемые вопросы",
   "NavBar.github": "Github",
   "NavBar.documentation": "Документация",
