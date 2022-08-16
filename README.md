@@ -9,7 +9,7 @@
   <a href="http://commitizen.github.io/cz-cli/"><img src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" alt="Commitizen Friendly"></a>
 </p>
 
-## Get Started
+## Get Started Here
 
 1.  Clone this repo.
 2.  Run `yarn` to install dependencies and then `yarn start` to start the dev server.
